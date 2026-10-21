@@ -1,0 +1,42 @@
+row_type,item,value
+statistic,n_tissue_entries,120
+statistic,n_detected_level_ge_1,109
+statistic,n_not_detected_level_minus1,11
+statistic,n_level_ge_3,80
+statistic,n_level_4_or_5,49
+statistic,median_tpm_all_entries,834.0
+statistic,mean_tpm_all_entries,1510.6
+statistic,max_tpm,14497.0
+statistic,max_tpm_tissue,alternatively activated macrophage
+statistic,min_tpm,0.0
+selected_tissue,lung,rna_tpm=1682.5; level_bin=4; protein_reliable=True; protein_level=2
+selected_tissue,bronchus,rna_tpm=0.0; level_bin=-1; protein_reliable=True; protein_level=2
+selected_tissue,heart,rna_tpm=2465.0; level_bin=4; protein_reliable=False; protein_level=-1
+selected_tissue,heart left ventricle,rna_tpm=2858.5; level_bin=4; protein_reliable=False; protein_level=-1
+selected_tissue,liver,rna_tpm=2925.0; level_bin=4; protein_reliable=True; protein_level=2
+selected_tissue,kidney,rna_tpm=794.5; level_bin=3; protein_reliable=True; protein_level=1
+selected_tissue,brain,rna_tpm=1538.5; level_bin=4; protein_reliable=False; protein_level=-1
+selected_tissue,cerebellum,rna_tpm=598.0; level_bin=3; protein_reliable=True; protein_level=1
+selected_tissue,pancreas,rna_tpm=1772.0; level_bin=4; protein_reliable=True; protein_level=2
+selected_tissue,adrenal gland,rna_tpm=4092.0; level_bin=4; protein_reliable=True; protein_level=2
+selected_tissue,stomach,rna_tpm=1711.5; level_bin=4; protein_reliable=True; protein_level=2
+selected_tissue,colon,rna_tpm=1450.0; level_bin=4; protein_reliable=True; protein_level=2
+selected_tissue,zone of skin,rna_tpm=2306.5; level_bin=4; protein_reliable=True; protein_level=2
+selected_tissue,skeletal muscle tissue,rna_tpm=1512.5; level_bin=4; protein_reliable=True; protein_level=0
+selected_tissue,smooth muscle tissue,rna_tpm=4181.0; level_bin=4; protein_reliable=True; protein_level=0
+selected_tissue,blood,rna_tpm=114.5; level_bin=2; protein_reliable=False; protein_level=-1
+selected_tissue,bone marrow,rna_tpm=31.0; level_bin=1; protein_reliable=True; protein_level=1
+selected_tissue,lymph node,rna_tpm=596.5; level_bin=3; protein_reliable=True; protein_level=2
+selected_tissue,spleen,rna_tpm=1043.0; level_bin=3; protein_reliable=True; protein_level=1
+selected_tissue,"CD4-positive, alpha-beta T cell",rna_tpm=13.0; level_bin=1; protein_reliable=False; protein_level=-1
+selected_tissue,"CD8-positive, alpha-beta T cell",rna_tpm=15.5; level_bin=1; protein_reliable=False; protein_level=-1
+selected_tissue,regulatory T cell,rna_tpm=3.0; level_bin=-1; protein_reliable=False; protein_level=-1
+selected_tissue,macrophage,rna_tpm=9455.5; level_bin=5; protein_reliable=False; protein_level=-1
+selected_tissue,inflammatory macrophage,rna_tpm=11950.0; level_bin=5; protein_reliable=False; protein_level=-1
+selected_tissue,alternatively activated macrophage,rna_tpm=14497.0; level_bin=5; protein_reliable=False; protein_level=-1
+selected_tissue,conventional dendritic cell,rna_tpm=1559.0; level_bin=4; protein_reliable=False; protein_level=-1
+selected_tissue,mature neutrophil,rna_tpm=70.0; level_bin=2; protein_reliable=False; protein_level=-1
+selected_tissue,placenta,rna_tpm=5914.0; level_bin=4; protein_reliable=True; protein_level=2
+selected_tissue,testis,rna_tpm=560.0; level_bin=3; protein_reliable=True; protein_level=2
+selected_tissue,uterus,rna_tpm=2451.5; level_bin=4; protein_reliable=False; protein_level=-1
+selected_tissue,prostate gland,rna_tpm=2228.0; level_bin=4; protein_reliable=True; protein_level=3

@@ -1,0 +1,1196 @@
+{
+  "success": true,
+  "total_count": 6,
+  "trials": [
+    {
+      "nctId": "NCT07126665",
+      "orgStudyId": "MHB088C-E-102",
+      "secondaryIds": [],
+      "briefTitle": "A Study of MHB088C Combined With MHB039A in Patients With Advanced Malignant Solid Tumors",
+      "officialTitle": "An Open-label Phase I/II Clinical Study of MHB088C for Injection Combined With MHB039A for Injection in Patients With Advanced Malignant Solid Tumors",
+      "acronym": null,
+      "overallStatus": "RECRUITING",
+      "statusVerifiedDate": "2026-10",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2025-09-18",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2029-08",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2031-08",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2025-08-11",
+      "studyFirstPostDate": "2025-08-17",
+      "lastUpdateSubmitDate": "2026-10-07",
+      "lastUpdatePostDate": "2026-10-09",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 116,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "This is a first-in-human, open-label, multicenter Phase I/II study of MHB088C combined with MHB039A in patients with advanced malignant solid tumors. The study was designed to evaluate the safety, tolerability, pharmacokinetics (PK), and preliminary efficacy of MHB088C and MHB039A combination therapy.",
+      "detailedDescription": "This first-in-human clinical trial of MHB088C and MHB039A combination therapy comprises two parts: a dose escalation phase and indication expansion phase. The dose escalation phase is an open-label, multicenter study including dose escalation and PK expansion cohorts. The primary objectives are to evaluate the safety, tolerability, pharmacokinetics, and preliminary antitumor activity of MHB088C combined with MHB039A in patients with advanced solid tumors, and to determine the maximum tolerated dose (MTD). Additional patients may be enrolled in the PK expansion part at dose levels that have completed DLT (dose-limiting toxicity) evaluation.\n\nBased on the safety, PK, and preliminary efficacy data from the completed DLT-evaluated dose levels, the sponsor will initiate the indication expansion phase to further evaluate the safety and efficacy of MHB088C and MHB039A combination therapy in patients with specific types of advanced solid tumors.",
+      "conditions": [
+        "Advanced Malignant Solid Tumor"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "MHB088C for Injection",
+          "description": "Intravenous administration",
+          "armGroupLabels": [
+            "Dose escalation phase: cohort 1",
+            "Dose escalation phase: cohort 2",
+            "Indication expansion phase: cohort 3",
+            "Indication expansion phase: cohort 4"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "MHB039A for Injection",
+          "description": "Intravenous administration",
+          "armGroupLabels": [
+            "Dose escalation phase: cohort 1",
+            "Dose escalation phase: cohort 2",
+            "Indication expansion phase: cohort 3",
+            "Indication expansion phase: cohort 4"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Dose escalation phase: cohort 1",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects will receive MHB088C Q2W in combination with MHB039A Q2W by intravenous administration.",
+          "interventionNames": [
+            "Drug: MHB088C for Injection",
+            "Drug: MHB039A for Injection"
+          ]
+        },
+        {
+          "label": "Dose escalation phase: cohort 2",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects will receive MHB088C Q2W in combination with MHB039A Q2W by intravenous administration.",
+          "interventionNames": [
+            "Drug: MHB088C for Injection",
+            "Drug: MHB039A for Injection"
+          ]
+        },
+        {
+          "label": "Indication expansion phase: cohort 3",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects will receive MHB088C Q2W in combination with MHB039A Q2W by intravenous administration.",
+          "interventionNames": [
+            "Drug: MHB088C for Injection",
+            "Drug: MHB039A for Injection"
+          ]
+        },
+        {
+          "label": "Indication expansion phase: cohort 4",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects will receive MHB088C Q2W in combination with MHB039A Q2W by intravenous administration.",
+          "interventionNames": [
+            "Drug: MHB088C for Injection",
+            "Drug: MHB039A for Injection"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "(Dose-Escalation Stage): Dose-Limiting Toxicity (DLT) and Maximum tolerated dose (MTD) for MHB088C and MHB039A combination therapy",
+          "description": "To determine the MTD for further evaluation of IV administration of MHB088C and MHB039A combination therapy in subjects with advanced solid tumors.",
+          "timeFrame": "Up to day 21 from the first dose for Q3W administration, or up to day 28 from the first dose for Q2W administration."
+        },
+        {
+          "measure": "(Dose-Expansion Stage): Objective tumor response (ORR) determined by investigators according to RECIST v1.1",
+          "description": "Objective tumor response for target lesions will be assessed by imaging/measurement compared with the overall tumor burden at baseline (Day -28 to -1). ORR is evaluated by the number of participants with best overall response of CR and PR (Confirmed CR/PR assessment require at least 1 repeat).",
+          "timeFrame": "Baseline up until documented progressive disease, death, lost to follow-up, or withdrawal by the participant, up to approximately 5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence and severity of adverse events (AEs)",
+          "description": "AE assessed by investigator exclusively related to subject's underlying disease or medical condition \\[graded according to the NCI Common Terminology Criteria for Adverse Events (CTCAE), Version 5.0\\].",
+          "timeFrame": "Baseline up until documented progressive disease, death, lost to follow-up, or withdrawal by the participant, up to approximately 5 years."
+        },
+        {
+          "measure": "Pharmacokinetic (PK) parameters of total antibody, ADC, and free toxin at various time points",
+          "description": "The PK parameters at different time points include:Area Under the Concentration-Time Curve (AUC)",
+          "timeFrame": "From pre-dose to 22 days after the first dose"
+        },
+        {
+          "measure": "Pharmacokinetic (PK) parameters of total antibody, ADC, and free toxin at various time points",
+          "description": "The PK parameters at different time points include:Maximum Plasma Concentration (Cmax)",
+          "timeFrame": "From pre-dose to 22 days after the first dose"
+        },
+        {
+          "measure": "Duration of response (DOR) determined by investigators according to RECIST v1.1",
+          "description": "DoR was defined as the period from the first occurrence of CR or PR to PD or death from any cause. If no PD or death after CR/PR, the cut-off date of progression-free survival (PFS) would be used \\[Confirmed CR/PR assessment require at least one repeat (\u22654 weeks)\\].",
+          "timeFrame": "Baseline up until documented progressive disease, death, lost to follow-up, or withdrawal by the participant, up to approximately 5 years"
+        },
+        {
+          "measure": "Disease control rate (DCR) determined by investigators according to RECIST v1.1",
+          "description": "Objective tumor response for target lesions will be assessed by imaging/measurement compared with the overall tumor burden at baseline (Day -28 to -1). DCR was evaluated by the number of participants with best overall response of CR, PR and stable disease (SD) \\[Confirmed CR/PR assessment require at least one repeat (\u22654 weeks); SD shall be assessed at least 5 weeks after the first dose\\].",
+          "timeFrame": "Baseline up until documented progressive disease, death, lost to follow-up, or withdrawal by the participant, up to approximately 5 years"
+        },
+        {
+          "measure": "Progression-free survival (PFS) determined by investigators according to RECIST v1.1",
+          "description": "Objective tumor response for target lesions will be assessed by imaging/measurement compared with the overall tumor burden at baseline (Day -28 to -1). PFS was defined as the time from random assignment (dose expansion stage) or first dose (dose escalation stage) to PD or death from any cause.",
+          "timeFrame": "Baseline up until documented progressive disease, death, lost to follow-up, or withdrawal by the participant, up to approximately 5 years"
+        },
+        {
+          "measure": "Overall survival (OS)",
+          "description": "OS was defined as the time from random assignment or first dose to death from any cause.",
+          "timeFrame": "Baseline up until death up to approximately 5 years"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Voluntarily agrees to participate in the study and signs the informed consent form.\n2. Age \u2265 18 years, no restriction on gender.\n3. Eastern Cooperative Oncology Group (ECOG) performance status of 0-1.\n4. Estimated life expectancy \u2265 3 months.\n5. For the dose escalation stage: Histologically or cytologically confirmed advanced solid tumors that are refractory to standard therapy, intolerant to standard therapy, or have no standard treatment options.\n6. For the dose expansion stage: Histologically or cytologically confirmed locally advanced or metastatic advanced solid tumors, not suitable for radical surgery and/or radical concurrent/sequential radiotherapy and chemotherapy.\n7. At least one measurable lesion per RECIST v1.1 criteria.\n8. Adequate bone marrow reserve and organ function.\n9. Eligible participants of childbearing potential (males and females) must agree to take highly reliable contraceptive measures with their partners during the study and within at least 12 weeks after the last dose.\n\nExclusion Criteria:\n\n1. History of \u22652 primary malignancies within 5 years prior to informed consent.\n2. Received chemotherapy within 3 weeks, radiotherapy within 4 weeks, or biologic, endocrine, or immunotherapy within 4 weeks before dosing.\n3. Medication of other unmarketed investigational drugs or therapies within 4 weeks before dosing.\n4. Brain metastases, leptomeningeal disease, brainstem metastases, or spinal cord compression.\n5. Underwent major organ surgery (excluding biopsy) or significant trauma within 4 weeks before the first dose of investigational drug or requiring elective surgery during the study.\n6. Previous or concurrent gastrointestinal perforation, surgical procedures and wound healing complications, as well as bleeding events.\n7. Received intravenous thrombolysis treatment within 2 weeks, except for preventive anticoagulation and antiplatelet therapy.\n8. Vaccinated within 4 weeks before dosing.\n9. Treated with systemic corticosteroids within 14 days before dosing.\n10. Severe lung disease affecting pulmonary function.\n11. Active systemic infection requiring treatment within 7 days before dosing.\n12. Uncontrolled third-space effusion.\n13. Serious cardiovascular or cerebrovascular diseases.\n14. Known hypersensitivity or delayed allergic reaction to the investigational product or its components.\n15. Drug abuse or other medical/psychiatric condition that may interfere with study participation or results.\n16. Known alcohol or drug dependence.\n17. Pregnant or breastfeeding women, or individuals planning to conceive.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Minghui Pharmaceutical (Hangzhou) Ltd",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Ethics Committee of Shanghai East Hospital",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "201419",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ],
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [],
+      "interventionMeshTerms": [
+        {
+          "id": "D007267",
+          "term": "Injections"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT06954246",
+      "orgStudyId": "MHB088C-P-301",
+      "secondaryIds": [],
+      "briefTitle": "A Study of MHB088C Injection Versus Treatment of Physician's Choice in Subjects With Relapsed Small Cell Lung Cancer",
+      "officialTitle": "A Phase 3, Multicenter, Randomized, Open-label Study of MHB088C for Injection Versus Treatment of Physician's Choice (TPC) in Comparing the Efficacy and Safety in Subjects With Relapsed Small Cell Lung Cancer (SCLC)",
+      "acronym": null,
+      "overallStatus": "RECRUITING",
+      "statusVerifiedDate": "2025-04",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2025-06-04",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2027-05",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2028-04",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2025-04-18",
+      "studyFirstPostDate": "2025-05-01",
+      "lastUpdateSubmitDate": "2025-06-15",
+      "lastUpdatePostDate": "2025-06-18",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 450,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "This study was designed to compare the efficacy and safety of MHB088C for Injection with treatment of physician's choice (TPC) in participants with relapsed small cell lung cancer (SCLC).",
+      "detailedDescription": "The primary objective of this study is to assess whether treatment with MHB088C for Injection improves prolongs overall survival (OS) compared with treatment of physician's choice among participants with relapsed SCLC.\n\nThe secondary objectives of the study are to further evaluate the efficacy/safety of MHB088C for Injection, immunogenicity of MHB088C, and characterize the pharmacokinetics of MHB088C.",
+      "conditions": [
+        "Small Cell Lung Cancer Extensive Stage"
+      ],
+      "keywords": [
+        "MHB088C",
+        "B7H3",
+        "Small Cell Lung Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "MHB088C for Injection",
+          "description": "2 mg/kg intravenous dose on Day 1 and Day 15 of each 28-day cycle",
+          "armGroupLabels": [
+            "MHB088C for Injection"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Topotecan",
+          "description": "1.25 mg/m\\^2 intravenous dose on Day 1 to Day 5 of each 21-day cycle",
+          "armGroupLabels": [
+            "Treatment of Physician's Chioce (TPC)"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Irinotecan",
+          "description": "65 mg/m\\^2 intravenous dose on Day 1 and Day 8 of each 21-day cycle",
+          "armGroupLabels": [
+            "Treatment of Physician's Chioce (TPC)"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "135 mg/m\\^2 intravenous dose on Day 1 of each 21-day cycle",
+          "armGroupLabels": [
+            "Treatment of Physician's Chioce (TPC)"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "MHB088C for Injection",
+          "type": "EXPERIMENTAL",
+          "description": "Participants randomized to receive 2 mg/kg MHB088C monotherapy on Day 1 and Day 15 of each 28-day cycle until unacceptable toxicity, progressive disease (PD), or withdrawal of consent as specified in the protocol.",
+          "interventionNames": [
+            "Drug: MHB088C for Injection"
+          ]
+        },
+        {
+          "label": "Treatment of Physician's Chioce (TPC)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants randomized to receive topotecan, irinotecan, or paclitaxel, as per investigator's choice and per approved label (indicated dose and frequency), until a treatment discontinuation criterion is met as specified in the protocol.",
+          "interventionNames": [
+            "Drug: Topotecan",
+            "Drug: Irinotecan",
+            "Drug: Paclitaxel"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Overall Survival",
+          "description": null,
+          "timeFrame": "From the date of randomization to the date of death due to any cause, up to approximately 5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants With Objective Response Rate Assessed by Investigator",
+          "description": "Confirmed objective response rate (ORR) is defined as the sum of the complete response (CR) rate and partial response (PR) rate based on investigator by Response Evaluation Criteria In Solid Tumors (RECIST) v1.1.",
+          "timeFrame": "Baseline up until documented progressive disease, death, lost to follow-up, or withdrawal by the participant, up to approximately 5 years"
+        },
+        {
+          "measure": "Progression-free Survival As Assessed by Investigator",
+          "description": "PFS is defined as the time interval from the date of randomization to the date of disease progression as per investigator assessment or death due to any cause.",
+          "timeFrame": "Baseline up until documented progressive disease, death, lost to follow-up, or withdrawal by the participant, up to approximately 5 years"
+        },
+        {
+          "measure": "Duration of Response As Assessed by Investigator",
+          "description": "Duration of response (DoR) is defined as the time from the date of the first documentation of objective response (complete response \\[CR\\] or partial response \\[PR\\]) to the date of the first documentation of progressive disease (PD) or death. The DoR will be calculated for responding participants (PR or CR) only.",
+          "timeFrame": "From the date of first documentation of confirmed response (CR or PR) to the first documentation of objective progression or to death due to any cause, whichever occurs first, up to approximately 5 years"
+        },
+        {
+          "measure": "Disease Control Rate As Assessed by Investigator",
+          "description": "Disease control rate is defined as the proportion of participants who have achieved a best overall response of confirmed CR, confirmed PR, or SD (or non-CR/non-PD) by investigator assessment per RECIST v1.1.",
+          "timeFrame": "Baseline up until documented progressive disease, death, lost to follow-up, or withdrawal by the participant, up to approximately 5 years"
+        },
+        {
+          "measure": "Incidence and severity of adverse events (AEs), serious adverse events (SAEs), AEs leading to treatment interruption, and AEs leading to treatment discontinuation.",
+          "description": "Assessed based on NCI CTCAE v5.0",
+          "timeFrame": "Baseline up to 5 years"
+        },
+        {
+          "measure": "Pharmacokinetic Parameter Maximum Concentration for MHB088C, Total Anti-B7-H3 Antibody, and MH30010008",
+          "description": "Maximum concentration (Cmax) will be assessed using non-compartmental methods in participants randomized to the MHB088C group.",
+          "timeFrame": "Day 1 and 15 of Cycle 1 before infusion (BI), end of infusion (EOI), and 5 hours after completion of infusion; Day 1 of Cycle 2 to Cycle 5, BI and EOI; Day 1 of Cycle 6 and every 3 cycles thereafter up to 5 years and EOT visit, BI (each cycle is 28 days)"
+        },
+        {
+          "measure": "Pharmacokinetic Parameter Time to Maximum Concentration for MHB088C, Total Anti-B7-H3 Antibody, and MH30010008",
+          "description": "Pharmacokinetic Parameter Time to Maximum Concentration for MHB088C, Total Anti-B7-H3 Antibody, and MH30010008.",
+          "timeFrame": "Day 1 and 15 of Cycle 1 before infusion (BI), end of infusion (EOI), and 5 hours after completion of infusion; Day 1 of Cycle 2 to Cycle 5, BI and EOI; Day 1 of Cycle 6 and every 3 cycles thereafter up to 5 years and EOT visit, BI (each cycle is 28 days)"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\nParticipants must meet all the following criteria to be eligible for randomization into the study:\n\n1. Voluntarily consent to participate in this study and sign the informed consent form.\n2. Adults \u226518 years, regardless of gender.\n3. ECOG performance status score of 0-1.\n4. Estimated survival time of more than 3 months.\n5. Capable of understanding trial requirements, willing and able to comply with trial and follow-up procedures.\n6. Has histologically or cytologically documented small cell lung cancer (SCLC).\n7. Extensive-stage SCLC with disease progression after at least two cycles of platinum-based and PD-1/L1 systemic therapy, with no more than two prior lines of therapy. Prior PD-1/L1 systemic therapy was allowed to use with or without platinum-based regimens.\n8. Agrees to provide pre-treatment tumor tissue samples for retrospective analysis of B7-H3 expression and other biomarkers.\n9. Has at least 1 measurable lesion according to RECIST v1.1 as assessed by the investigator.\n10. Sufficient bone marrow and organ function.\n\nExclusion Criteria:\n\nParticipants who meet any of the following criteria will be disqualified from entering the study:\n\n1. Diagnosis of other primary malignancies within 5 years prior to signing the informed consent form.\n2. Prior pathological diagnosis of combined SCLC, or any transformed non-small cell lung cancer or transformed SCLC.\n3. Receipt of chemotherapy within 4 weeks prior to the first administration of study drug, or receipt of radiotherapy, biologics, endocrine therapy, immunotherapy, or other anti-tumor therapy within 4 weeks prior to the first dose.\n4. Previous or ongoing treatment with topoisomerase I inhibitors, including antibody-drug conjugates (ADCs) containing topoisomerase I inhibitor payloads.\n5. Brain metastases (unless asymptomatic and stable for more than 4 weeks prior to randomization); presence of leptomeningeal metastases or brainstem metastases; spinal cord compression (identified via imaging, regardless of symptoms).\n6. Bone marrow metastasis.\n7. Prior B7-H3-targeted therapy.\n8. Has uncontrolled or significant cardiovascular disease.\n9. Moderate-to-severe pulmonary disease significantly impairing lung function, including idiopathic pulmonary fibrosis, autoimmune/connective tissue disorders with lung involvement, or prior pneumonectomy.\n10. Has history of (non-infectious) interstitial lung disease (ILD)/pneumonitis that required corticosteroids, current ILD/pneumonitis, or suspected ILD/pneumonitis that cannot be ruled out by imaging at Screening.\n11. Moderate or severe pulmonary diseases severely affecting lung function.\n12. Active tuberculosis, autoimmune diseases not in clinical remission, other acquired or congenital immunodeficiency diseases, or history of allogeneic stem cell, bone marrow, or organ transplantation.\n13. Serious infections within 4 weeks before the first dose, including but not limited to those requiring systemic antibiotic therapy, bacteremia, or severe pneumonia.\n14. Clinically uncontrolled third-space effusion requiring intervention, including pleural or peritoneal effusions.\n15. Known hypersensitivity to investigational product components, analogues, or control drugs (e.g., topotecan, irinotecan, paclitaxel).\n16. Pregnant or lactating women, or women/men intending to conceive.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Qilu Pharmaceutical Co., Ltd.",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Shanghai East Hospital",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": null,
+          "zip": null,
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ],
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D055752",
+          "term": "Small Cell Lung Carcinoma"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "D007267",
+          "term": "Injections"
+        },
+        {
+          "id": "D019772",
+          "term": "Topotecan"
+        },
+        {
+          "id": "D000077146",
+          "term": "Irinotecan"
+        },
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT06951243",
+      "orgStudyId": "MHB088C-CGOG2024",
+      "secondaryIds": [],
+      "briefTitle": "A Trial of MHB088C in Advanced Extrapulmonary Neuroendocrine Cancer",
+      "officialTitle": "An Open, Single-Arm, Single-Centre Efficacy and Safety Study of MHB088C for Injection in Patients With Advanced Extrapulmonary Neuroendocrine Cancer",
+      "acronym": null,
+      "overallStatus": "NOT_YET_RECRUITING",
+      "statusVerifiedDate": "2025-04",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2025-05-06",
+      "startDateType": "ESTIMATED",
+      "primaryCompletionDate": "2026-05-06",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2028-05-06",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2025-04-14",
+      "studyFirstPostDate": "2025-04-30",
+      "lastUpdateSubmitDate": "2025-04-22",
+      "lastUpdatePostDate": "2025-04-30",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 40,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "This study is an Open, Single-Arm, Single-Centre Efficacy and Safety Study of MHB088C for Injection in Patients with Advanced Extrapulmonary Neuroendocrine Cancer which cannot undergo surgical resection after failuer of standard treatment with platinum-contained or are unable to receive standard treatment with platinum-contained (including patients who are intolerant to standard treatment, deemed unsuitable for standard treatment by investigators, or refuse to receive standard treatment).\n\nParticipants will receive MHB088C intravenously at a dose of 2.0 mg/kg every 2 weeks (Q2W) until disease progression, with drawal from the study, or death.\n\nDuring the study period, all participants will undergo tumor assessments every 2 treatment cycles (\u00b17 days) in the first half-year after the first dose, and every 4 treatment cycles (\u00b17 days) thereafter until disease progression, withdrawal from the study, or death. The schedule of tumor assessment related examinations is adjusted according to the administration time.After the end of treatment, all participants will receive a safety follow-up 30 days after the last dose,followed by survival follow-ups every 3 months until death, loss to follow-up, withdrawal of informed consent, or study termination by the institution.Biomarker analysis will be also performed on tumor samples collected from participants to explore their relationship with drug efficacy.\n\nThe primary endpoint is ORR (RECIST v1.1).The secondary endpoints include DCR\u3001DoR\u3001PFS\u3001OS (RECIST v1.1) and the safety of MHB088C.",
+      "detailedDescription": null,
+      "conditions": [
+        "Advanced Extrapulmonary Neuroendocrine Cancer"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "MHB088C for Injection (B7-H3 ADC)",
+          "description": "MHB088C for Injection, an antibody drug-conjugated molecule (ADC), is conjugated from a humanized monoclonal antibody targeting the B7-H3 molecule and a DNA topoisomerase I inhibitor (TOP1i) via protease-hydrolyzable linkers.The intervention will be administered intravenously at a dose of 2.0 mg/kg every 2 weeks (Q2W) until disease progression, withdrawal from the study, or death.",
+          "armGroupLabels": [
+            "MHB088C (B7-H3 ADC)"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "MHB088C (B7-H3 ADC)",
+          "type": "EXPERIMENTAL",
+          "description": null,
+          "interventionNames": [
+            "Drug: MHB088C for Injection (B7-H3 ADC)"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Evaluate the Objective Response Rate (ORR) of MHB088C in Participants with Advanced Extrapulmonary Neuroendocrine Cancer after failuer of systematic treatment with platinum-contained (RECIST v1.1)",
+          "description": null,
+          "timeFrame": "From the first dose until disease progression, withdrawal from the study, or death from any cause (whichever occurs first), assessed up to 24 months"
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Voluntary Consent: Subjects voluntarily agree to participate in the study and sign the informed consent form.\n2. Age: 18 years \u2264 age \u2264 80 years, regardless of gender.\n3. ECOG Performance Status: ECOG performance status score of 0 or 1.\n4. Life Expectancy\\*\\*: Expected survival time of at least 3 months.\n5. Contraception Requirements:\n\n   * Fertile subjects (male and female) must agree to use reliable contraceptive methods (e.g., hormonal, barrier, or absolute abstinence) with their partners during the trial and for at least 90 days after the last dose.\n   * Female subjects of childbearing potential must have a negative blood pregnancy test within 7 days prior to the first dose of the study drug and must not be breastfeeding.\n   * Subjects must agree not to retrieve, freeze, or donate sperm or eggs from the screening period, throughout the study, and for at least 3 months after the final dose of the study drug.\n6. Compliance: Ability to understand trial requirements and willingness/ability to comply with trial and follow-up procedures.\n7. Diagnosis: Histologically or cytologically confirmed unresectable or metastatic extrapulmonary neuroendocrine carcinoma.\n8. Prior Treatment:\n\n   * Failure of at least one prior platinum-based standard therapy (disease progression or intolerable toxicity), or\n   * Inability to receive platinum-based standard therapy (including intolerance, investigator-determined unsuitability, or refusal).\n9. Measurable Lesion: At least one measurable tumor lesion per RECIST v1.1 criteria (lesions in previously irradiated or locally treated areas are generally excluded unless progression is confirmed or persistent for \u22653 months post-radiotherapy).\n10. Adequate Bone Marrow Function\\*\\* (no transfusion or colony-stimulating factors within 7 days prior to screening):\n\n    * Absolute neutrophil count (ANC) \u22651.5\u00d710\u2079/L;\n    * Platelet count \u2265100\u00d710\u2079/L;\n    * Hemoglobin \u22659.0 g/dL.\n11. Adequate Liver Function\\*\\* (based on clinical trial center reference ranges):\n\n    * Total bilirubin (TBIL) \u22641.5\u00d7ULN (\u22642\u00d7ULN for Gilbert's syndrome; \u22643\u00d7ULN if direct bilirubin suggests extrahepatic obstruction);\n    * AST and ALT \u22643\u00d7ULN (for non-hepatic tumors/metastases) or \u22645\u00d7ULN (for hepatic tumors/metastases).\n12. Adequate Renal Function\\*\\* (based on clinical trial center reference ranges):\n\n    * Serum creatinine (Cr) \u22641.5\u00d7ULN \\*\\*and\\*\\* creatinine clearance (Ccr) \u226550 mL/min (calculated via Cockcroft-Gault formula).\n13. Adequate Coagulation:\n\n    * Activated partial thromboplastin time (APTT) \u22641.5\u00d7ULN;\n    * International normalized ratio (INR) \u22641.5\u00d7ULN.\n14. Adequate Cardiac Function:\n\n    * Left ventricular ejection fraction (LVEF) \u226550% by echocardiography within 28 days prior to enrollment;\n    * New York Heart Association (NYHA) class \\<3.\n\nExclusion Criteria:\n\n1. History of multiple primary malignancies: Diagnosis of more than two primary malignancies within 5 years prior to signing the informed consent form, except for effectively treated non-melanoma skin cancer, carcinoma \\*in situ\\* of the cervix, or other malignancies deemed cured.\n2. Prior anticancer therapies:\n\n   * Received chemotherapy within 3 weeks before the first administration of the study drug.\n   * Received radiotherapy, radioactive seed implantation (except palliative bone radiotherapy or local radiotherapy within 2 weeks before the first dose), biologic therapy, endocrine therapy, immunotherapy, or other anticancer therapies within 4 weeks prior to the first dose. Specific exceptions include:\n   * Nitrosourea or mitomycin C within 6 weeks before the first dose.\n   * Oral fluoropyrimidines or small-molecule targeted agents within 5 half-lives before the first dose.\n   * Traditional Chinese medicine with anticancer indications within 2 weeks before the first dose.\n3. Recent investigational treatment: Participation in other non-marketed clinical trials or receipt of investigational drugs/therapies within 4 weeks prior to the first dose of the study drug.\n4. Central nervous system (CNS) involvement:\n\n   * Brain metastasis\\*\\* (except for asymptomatic cases with no significant peritumoral edema on imaging, no progression confirmed by imaging \u22654 weeks prior to the first dose, and stable steroid therapy \\[\u226410 mg/day prednisone or equivalent\\] for \u226514 days before the first dose and during the trial).\n   * Leptomeningeal metastasis, brainstem metastasis, or spinal cord compression\\*\\* (radiographically confirmed, regardless of symptoms).\n5. Previously received B7-H3-targeted therapy.\n6. Adverse reactions from previous anti-tumor treatments have not recovered to CTCAE v5.0 grade \u22641 (except for toxicities deemed by the investigator to pose no safety risk, such as alopecia, hypothyroidism stabilized with hormone replacement therapy, etc.).\n7. Has underwent major organ surgery (excluding biopsy) or significant trauma within 4 weeks before the first dose of investigational drug or requiring elective surgery during the study.\n8. Has underwent major organ surgery (excluding biopsy) or significant trauma within 4 weeks before the first dose of investigational drug or requiring elective surgery during the study.\n9. Has mucosal or internal bleeding for non-traumatic reason within 4 weeks before the first dose of investigational drug.\n10. Has received treatment with systemic corticosteroids (prednisone at \\>10 mg/day, or similar drugs at equivalent dose) or other immunosuppressive agents within 14 days before the first dose of investigational drug, with the following exceptions:\n\n    * Treatment with topical, ocular, intra-articular, intranasal, and inhaled corticosteroids;\n    * Short-term use of glucocorticoids for prophylaxis (e.g., prevention of contrast media allergy).\n11. Has pulmonary disease that severely impact pulmonary function, including, but not limited to, potential pulmonary disease, any autoimmune diseases, connective tissue disease, or inflammatory diseases involving the pulmonary, or pneumonectomy.\n12. Has history of non-infectious interstitial lung disease (ILD)/pneumonitis that required steroids, has current ILD/pneumonia, or where suspected ILD/pneumonia that cannot be excluded by imaging examination at screening.\n13. Has active pulmonary tuberculosis.\n14. Has active infection requiring systemic therapy.\n15. Has positive results in virus serology tests (participants receiving antiviral prophylaxis other than interferon are allowed to be enrolled):\n\n    * Positive result of HIV antibody;\n    * Or, positive for both HBsAg and HBV-DNA (i.e., HBV DNA \u2265 LLOD);\n    * Or, positive for HCV Ab (except HCV-RNA \\< LLOD).\n16. Medical history of serious cardiovascular and cerebrovascular diseases, including but not limited to:\n\n    * Severe arrhythmia or conduction abnormalities, such as ventricular arrhythmia requiring clinical intervention, or atrioventricular block \u2161\\~\u2162 degree;\n    * Fridericia-corrected QT interval (QTcF) prolongation to\\> 450 ms for males and \\> 470 ms for females;\n    * Acute coronary syndrome, aortic dissection, stroke or transient ischemic attack (TIA) within 6 months before the first dose;\n    * New myocardial infarction or unstable angina within 6 months before first dose;\n    * Clinically uncontrolled hypertension;\n17. Has clinically uncontrolled effusion in third spacing, deemed as inappropriate for enrollment by the investigator.\n18. Has hypersensitivity or delayed hypersensitivity to certain components or analogues of the investigational drug.\n19. Has drug abuse or any other medical conditions, such as clinically significant psychological conditions that may interfere with study participation or the results of the clinical study as per the discretion of investigator.\n20. Has alcohol or drug dependence.\n21. Females who are pregnant or breastfeeding, or males/females who plan to father a child/get pregnant.\n22. Poor compliance as per investigator discretion, has history of other serious systemic diseases, or unsuitable to participate this clinical study for some reasons.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Beijing GoBroad Hospital",
+      "leadSponsorClass": "OTHER",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [],
+      "interventionMeshTerms": [
+        {
+          "id": "D007267",
+          "term": "Injections"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT07102004",
+      "orgStudyId": "MHB088C-CP001CN",
+      "secondaryIds": [],
+      "briefTitle": "Study of MHB088C for Patients With Advanced Solid Malignant Tumors",
+      "officialTitle": "A Phase I/II Study of MHB088C for Patients With Advanced Malignant Solid Tumors",
+      "acronym": null,
+      "overallStatus": "RECRUITING",
+      "statusVerifiedDate": "2025-07",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2023-06-20",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2026-07",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2027-07",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2025-07-28",
+      "studyFirstPostDate": "2025-08-03",
+      "lastUpdateSubmitDate": "2025-07-28",
+      "lastUpdatePostDate": "2025-08-03",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 515,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "This is a Phase I/II, multicenter, open-label clinical trial with dose escalation/dose expansion/efficacy expansion phases, designed to evaluate the safety/tolerability, pharmacokinetics, immunogenicity and preliminary efficacy of MHB088C in participants with advanced solid tumors",
+      "detailedDescription": null,
+      "conditions": [
+        "Advanced/Metastatic Solid Tumors"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "MHB088C for Injection",
+          "description": "MHB088C for Injection, an antibody drug-conjugated molecule (ADC) MHB088C will be administered intravenously at a frequency of once every 2 weeks (Q2W) or every 3 week (Q3W).",
+          "armGroupLabels": [
+            "MHB088C administered"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "MHB088C administered",
+          "type": "EXPERIMENTAL",
+          "description": "If needed, additional descriptive information (including which interventions are administered in each arm) to differentiate each arm from other arms in the clinical trial.\n\nPhase Ia:\n\nParticipants with advanced solid tumor.\n\nPhase Ib:\n\nParticipants with advanced solid tumor\n\nPhase II:\n\nParticipants with advanced SCLC",
+          "interventionNames": [
+            "Drug: MHB088C for Injection"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Adverse event (AE) and Serious adverse event (SAE) (Phase Ia)",
+          "description": "Incidence and severity of adverse events (AEs) and serious adverse events (SAEs)",
+          "timeFrame": "After first administration of study drug until 30 days after last dose of study drug. Through phase Ia completion, an average of 1 year."
+        },
+        {
+          "measure": "Dose limited toxicity (DLT) (Phase Ia)",
+          "description": "The DLTs of MHB088C will be determined.",
+          "timeFrame": "Cycle 1 (28 days for subjects receiving a dosing frequency of every 2 weeks, or 21 days for subjects receiving a dosing frequency of every 3 weeks)"
+        },
+        {
+          "measure": "Maximum tolerated dose (MTD) (Phase Ia)",
+          "description": "The maximum tolerated dose (MTD) of MHB088C will be evaluated on the first cycle.",
+          "timeFrame": "Cycle 1 (28 days for subjects receiving a dosing frequency of every 2 weeks, or 21 days for subjects receiving a dosing frequency of every 3 weeks)."
+        },
+        {
+          "measure": "Recommended phase II dose (RP2D) (Phase Ib)",
+          "description": "RP2D will be selected upon safety, PK and efficacy data.",
+          "timeFrame": "Through phase Ib completion, an average of 1 year."
+        },
+        {
+          "measure": "Objective response rate (ORR) (phase II)",
+          "description": "The ORR is defined as the proportion of subjects with confirmed complete response (CR) or confirmed partial response (PR), based on RECIST Version 1.1",
+          "timeFrame": "Approximately 48 months."
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Agree to follow the experimental treatment plan and visit plan, join the group voluntarily, and sign a written informed consent form;\n* Age \u2265 18 years old when signing the informed consent form;\n* The Eastern Cooperative Oncology Group's physical status scoring standard (ECOG) is 0\\~1;\n* The expected survival time is at least 3 months;\n* Eligible participants of childbearing potential must agree to take highly reliable contraceptive measures with their partners during the study and within at least 90 days after the last dose and agree not to retrieve, freeze or donate sperm or ova from screening to at least 3 months after the last dose of investigational drug; female participants of childbearing potential must have a negative results of blood pregnancy test before the first dose of investigational drug, and must be non-lactating.\n* Understand study requirements, willing and able to comply with study and follow-up procedures.\n\nNeoplasm-related criteria\n\n* Phase Ia: Histologically or cytologically confirmed unresectable advanced or metastatic malignant solid tumors, that is progressed or intolerant with standard of care (SOC), or for which no SOC regimens are available.\n* Phase Ib: Histologically or cytologically confirmed unresectable advanced or metastatic malignant solid tumors, that is relapsed or progressed following systemic treatment or no SOC is available;\n* Phase II: Histologically or cytologically documented unresectable advanced or metastatic SCLC and previous progressed during or after platinum-contained chemotherapy and immune-checkpoint inhibitors (ICIs).\n\nExclusion Criteria:\n\n* Has more than 2 primary malignancies before signing of Informed Consent Form.\n* Has received anti-tumor treatment before the first dose of investigational product; Medication of traditional Chinese medicine before the first dose of investigational drug.\n* Medication of other unmarketed investigational drugs or therapies before the first dose of investigational drug.\n* Presence of unstable brain metastases and/or leptomeningeal carcinomatosis.\n* Has adverse reactions from previous anti-tumor treatment that have not recovered to \u2264 CTCAE 5.0 Grade 1;\n* Has underwent major organ surgery or significant trauma before the first dose of investigational drug or requiring elective surgery during the study.\n* Has vaccinated with attenuated live vaccines before the first dose of investigational drug.\n* Has mucosal or internal bleeding for non-traumatic reason before the first dose of investigational drug.\n* Has received treatment with systemic corticosteroids or other immunosuppressive agents before the first dose of investigational drug.\n* Has pulmonary disease that severely impact pulmonary function.\n* Has history of non-infectious interstitial lung disease (ILD)/pneumonitis that required steroids, or current ILD/pneumonia, or suspected ILD/pneumonia that cannot be excluded by imaging examination at screening.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Qilu Pharmaceutical Co., Ltd.",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Beijing Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": null,
+          "zip": null,
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [],
+      "interventionMeshTerms": [
+        {
+          "id": "D007267",
+          "term": "Injections"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT05652855",
+      "orgStudyId": "MHB088C-CP001EN",
+      "secondaryIds": [],
+      "briefTitle": "Study of MHB088C in Participants With Advanced or Metastatic Solid Tumors",
+      "officialTitle": "Phase 1/2, Two-Part, Multi-center, Open-label, Dose Escalation and Dose Expansion First-In-Human Study to Evaluate the Safety/Tolerability, Pharmacokinetics and Efficacy of MHB088C in Participants With Advanced or Metastatic Solid Tumors",
+      "acronym": null,
+      "overallStatus": "UNKNOWN",
+      "statusVerifiedDate": "2023-01",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "whyStopped": null,
+      "startDate": "2023-01-23",
+      "startDateType": "ESTIMATED",
+      "primaryCompletionDate": "2026-01-31",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2026-07-31",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2022-11-30",
+      "studyFirstPostDate": "2022-12-15",
+      "lastUpdateSubmitDate": "2023-01-05",
+      "lastUpdatePostDate": "2023-01-09",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Single group contains two study parts",
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 48,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "This study will evaluate the safety/tolerability, pharmacokinetics and efficacy of MHB088C in participants with advanced or metastatic solid tumors.",
+      "detailedDescription": "This study is the first-in-human (FIH) trial of MHB088C, which contains two parts: dose escalation (part one) and dose expansion (part two).\n\nPart one: Dose Escalation Study of MHB088C Monotherapy in Participants with Advanced or Metastatic Malignant Solid Tumors The dose escalation part is an open-label, multi-center study in which the eligible participants with advanced or metastatic solid tumors will be enrolled to receive MHB088C monotherapy to assess the safety and tolerability of MHB088C in participants with advanced or metastatic solid tumors, to determine the maximum tolerated dose (MTD) of MHB088C, and to assess its pharmacokinetic profile and preliminary efficacy.\n\nThe dose expansion part is an open-label, multi-center, multi-cohort expansion study in which participants with advanced or metastatic solid tumors of some predefined cancer types will be enrolled to receive MHB088C monotherapy. Participants with same types of solid tumors will be randomised into different selected dose groups and will be treated with the corresponding dose. This study is designed to assess the preliminary efficacy and safety of MHB088C monotherapy in participants with some types of advanced or metastatic solid tumors, so as to determine the recommended phase 2 dose (RP2D); and to assess the immunogenicity and pharmacokinetic profiles of MHB088C.",
+      "conditions": [
+        "Advanced or Metastatic Solid Tumors"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "MHB088C for Injection",
+          "description": "MHB088C for Injection, an antibody drug-conjugated molecule (ADC)",
+          "armGroupLabels": [
+            "MHB088C administered"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "MHB088C administered",
+          "type": "EXPERIMENTAL",
+          "description": "MHB088C will be administered intravenously at a frequency of once every 2 weeks (Q2W).",
+          "interventionNames": [
+            "Drug: MHB088C for Injection"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Evaluate the incidence of adverse events (AEs)",
+          "description": "Adverse events was assessed by investigator(s) according to NCI-CTCAE v5.0",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Evaluate the incidence of dose-limiting toxicities (DLTs)",
+          "description": "Dose-limiting toxicities are defined as side effects of a drug or other treatment that are serious enough to prevent an increase in dose or level of that treatment",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Determine the recommended Phase 2 dose (RP2D) of MHB088C",
+          "description": "The recommended phase 2 dose (RP2D) is determined traditionally by dose-limiting toxicities.",
+          "timeFrame": "through study completion, an average of 1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pharmacokinetics (PK) parameter: Maximum concentration (Cmax)",
+          "description": "MHB088C, total antibody, free toxin MH30010008",
+          "timeFrame": "Within 5 cycles (each cycle is 28 days)"
+        },
+        {
+          "measure": "PK parameter: Time to maximum concentration (Tmax)",
+          "description": "MHB088C, total antibody, free toxin MH30010008",
+          "timeFrame": "Within 5 cycles (each cycle is 28 days)"
+        },
+        {
+          "measure": "PK parameter: Area under the concentration-time curve (AUC)",
+          "description": "MHB088C, total antibody, free toxin MH30010008",
+          "timeFrame": "Within 5 cycles (each cycle is 28 days)"
+        },
+        {
+          "measure": "PK parameter: Trough concentration (Ctrough)",
+          "description": "MHB088C, total antibody, free toxin MH30010008",
+          "timeFrame": "Within 5 cycles (each cycle is 28 days)"
+        },
+        {
+          "measure": "PK parameter: Terminal or apparent terminal half-life (t1/2)",
+          "description": "MHB088C, total antibody, free toxin MH30010008",
+          "timeFrame": "Within 5 cycles (each cycle is 28 days)"
+        },
+        {
+          "measure": "PK parameter: Systemic clearance (CL)",
+          "description": "MHB088C, total antibody, free toxin MH30010008",
+          "timeFrame": "Within 5 cycles (each cycle is 28 days)"
+        },
+        {
+          "measure": "Immunogenicity Assessment",
+          "description": "Assessment of anti-drug antibody (ADA)",
+          "timeFrame": "Within 5 cycles (each cycle is 28 days)"
+        },
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "description": "Objective Response Rate was defined as the percentage of participants with a complete response (CR) or partial response (PR)",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Duration of Response (DOR)",
+          "description": "DOR was defined as the time from first assessment of PR or CR until disease progression.",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Disease Control Rate (DCR)",
+          "description": "DCR was defined as the proportion of participants with a complete response (CR), partial response (PR) or stable disease (SD).",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Progression Free Survival (PFS)",
+          "description": "Progression-free Survival (PFS) (median) was determined using the number of months measured from the initial date of treatment to the date of documented progression, or the date of death (in the absence of progression) of participants. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.",
+          "timeFrame": "through study completion, an average of 1 year"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n\\-\n\nParticipants enrolled must meet all of the following criteria:\n\nGeneral conditions\n\n1. Participants voluntarily agree to participate in the study and sign the Informed Consent Form.\n2. Aged \u226518years, without gender limitation.\n3. Has an Eastern Cooperative Oncology Group Performance score (ECOG) 0 \\~ 1.\n4. Has a life expectancy of \u2265 3 months.\n5. Eligible participants of childbearing potential (males and females) must agree to take highly reliable contraceptive measures (hormone or barrier method, or absolute abstinence, etc.) with their partners during the study and within at least 90 days after the last dose and agree not to retrieve, freeze or donate sperm or ova from screening to at least 3 months after the last dose of investigational drug; female participants of childbearing potential must have a negative results of blood pregnancy test within 7 days before the first dose of investigational drug, and must be non-lactating.\n6. Understand study requirements, willing and able to comply with study and follow-up procedures.\n\n   Neoplasm-related criteria\n7. Part one: Histologically or cytologically confirmed unresectable advanced or metastatic malignant solid tumors, that is progressed or intolerant with standard of care (SOC), or for which no SOC regimens are available;\n8. Part two: Histologically or cytologically confirmed unresectable advanced or metastatic malignant solid tumors, that is relapsed or progressed following systemic treatment or no standard of care is available, including but not limited to the following types: non-small cell lung cancer (NSCLC); small cell lung cancer (SCLC); esophageal squamous cell carcinoma (ESCC); castration-resistant prostate cancer (CRPC); melanoma (MEL); colorectal cancer (CRC); pancreatic ductal adenocarcinoma (PDAC); head and neck squamous cell carcinoma (HNSCC); hepatocellular carcinoma (HCC); ovarian cancer (OC); endometrial cancer (EC); thyroid cancer (TC); and sarcoma (SARC).\n\n   1. Additional inclusion criteria for participants with NSCLC:\n\n      Histologically or cytologically documented unresectable advanced or metastatic NSCLC and previous progressed during or after systematic treatment with platinum-contained doublet regimens chemotherapy and immune-checkpoint inhibitors (ICIs); refractory, intolerant or not suitable to the target therapy as per investigator discretion for participants with driver gene mutation.\n   2. Additional inclusion criteria for participants with SCLC:\n\n      Histologically or cytologically documented unresectable advanced or metastatic SCLC and previous progressed during or after \u22651 lines of systematic treatment with platinum-based, doublet regimens chemotherapy and ICIs.\n   3. Additional inclusion criteria for participants with ESCC:\n\n      Histologically or cytologically documented unresectable advanced or metastatic ESCC previous progressed during or after\u22651 line platinum-based of systemic treatment.\n   4. Additional inclusion criteria for participants with CRPC:\n\n      Histologically or cytologically documented CRPC without neuroendocrine differentiation or small cell elements; Underwent surgical or medical castration, with testosterone levels below 50 ng/dL; Objective progression as determined by radiographic after androgen deprivation therapy; Relapsed or progressed during or after at least one of the following medicines: abiraterone, enzalutamide, apalutamide, or darolutamide; Relapsed or progressed during or after\u2265 1 line of docetaxel/mitoxantrone-based cytotoxic chemotherapy regimens for metastatic CRPC; With at least 1 documented lesion confirmed by either a bone scan or a CT/MRI scan.\n   5. Additional inclusion criteria for participants with MEL:\n\n      Histologically or cytologically documented unresectable advanced or metastatic MEL and previous progressed during or after \u22651 line of systemic therapy including ICIs\n   6. Additional inclusion criteria for participants with CRC:\n\n      Histologically or cytologically documented unresectable advanced or metastatic CRC and previous progressed during or after systematic chemotherapy containing oxaliplatin, irinotecan, fluorouracil and immunotherapy (for participants with MSI-H/dMMR).\n   7. Additional inclusion criteria for participants with PDAC:\n\n      Histologically or cytologically documented unresectable advanced or metastatic PDAC and previous progressed during or after \u2265 1 line of systemic therapy in neoadjuvant, adjuvant, locally advanced or metastatic setting.\n   8. Additional inclusion criteria for participants with HNSCC:\n\n      Histologically or cytologically documented unresectable advanced or metastatic HNSCC and previous progressed during or after \u2265 1 line of systemic therapy, including platinum-based chemotherapy and ICIs (combined or sequential therapy).\n   9. Additional inclusion criteria for participants with HCC:\n\n      Histologically or cytologically documented unresectable advanced or metastatic HCC and previously progressed during or after \u2265 1 line of systemic therapy, including anti-vascular therapy and/or ICI therapy.\n   10. Additional inclusion criteria for participants with OC:\n\n       Histologically or cytologically documented unresectable advanced or metastatic OC including less-common histology per National Comprehensive Cancer Network (NCCN) of epithelial ovarian cancer as well as fallopian tube cancer and primary peritoneal cancer and have relapsed or progressed during or after \u2265 1 line of platinum-based systemic chemotherapy treatment.\n   11. Additional inclusion criteria for participants with EC:\n\n       Histologically or cytologically documented unresectable advanced or metastatic EC and recurrence after radical therapy, and previously treated and progressed during or after \u2265 1 line of standard systemic therapy.\n   12. Additional inclusion criteria for participants with TC:\n\n       Histologically or cytologically documented unresectable advanced or metastatic TC and previous progressed during or after \u2265 1 line of systemic therapy including platinum-based chemotherapy or targeted therapy.\n   13. Additional inclusion criteria for participants with SARC:\n\n   Histologically or cytologically documented unresectable advanced or metastatic SARC and previous progressed during or after \u2265 1 prior line of systemic therapy including doxorubicin-based chemotherapy.\n9. Agree to provide the pre-existing diagnostic tumor samples for retrospective testing of target expression and other biomarkers (participants who agree but are unable to provide pre-existing tumor sample may also be enrolled). There is no minimum target expression level required for inclusion.\n10. Has at least one measurable tumor lesion as per RECIST v1.1(generally, previously irradiated areas or locoregionally treated sites will not be considered as measurable lesions, unless these lesions have clearly progressed or still exist three months after radiotherapy); for participants with CRPC, evaluable lesions as defined by PCWG3 criteria or at least one measurable soft tissue tumor lesion as per RECIST v1.1 are required.\n\n    Adequate bone marrow reserve and organ functions:\n11. Adequate bone marrow reserve (without transfusion or colony-stimulating factor or equivalent within7 days before the screening period testing); Absolute neutrophil count (ANC) \u2265 1.5 \u00d7 10\\^9/L; Platelet count \u2265 100 \u00d7 10\\^9/L; Hemoglobin \u2265 9.0 g/dL.\n12. Adequate hepatic function (with reference to normal values specified by the clinical study site):\n\n    Total bilirubin (TBIL) \u2264 1.5 \u00d7 upper limit of normal (ULN); TBIL \u2264 2 \u00d7 ULN if Gilbert's syndrome is present; TBIL \u2264 3.0 \u00d7 ULN is permitted if direct bilirubin (DBIL) suggests extrahepatic obstruction.\n\n    Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) shall be \u2264 3 \u00d7 ULN with non-hepatic tumors and without hepatic metastasis; AST and ALT shall be \u2264 5.0 \u00d7 ULN with hepatic tumors or hepatic metastasis;\n13. Adequate renal function (with reference to normal values specified by the clinical study site):\n\n    Creatinine (Cr) \u2264 1.5 \u00d7 ULN; when Cr \\> 1.5 \u00d7 ULN, only participants with creatinine clearance (Ccr) \u2265 50 mL/min can be enrolled (using Cockcroft-Gault formula);\n14. Adequate coagulation function:\n\n    Activated partial thromboplastin time (APTT) \u2264 1.5 \u00d7 ULN, and international normalized ratio (INR) \u2264 1.5 \u00d7 ULN.\n15. Adequate cardiac function:\n\nLeft ventricular ejection fraction (LVEF) \u2265 50% by echocardiogram within 28 days before enrollment; New York Heart Association (NYHA) Class \\< grade 3.\n\nExclusion Criteria:\n\n\\-\n\nParticipants will be not enrolled if they meet any of the following exclusion criteria:\n\nNeoplasm-related criteria:\n\n1. Has more than 2 primary malignancies (except curatively treated non-melanoma skin cancer, in situ disease, and other curatively malignancies have considered cured) within 5 years before signing of Informed Consent Form.\n2. Has received chemotherapy within 3 weeks, or have received anti-tumor treatment including radiation therapy, biologic therapy, endocrine therapy, immunotherapy, etc. within 4 weeks before the first dose of investigational product; or participants with the following conditions:\n\n   Medication of nitrosourea or mitomycin C within 6 weeks before the first dose of investigational drug; Medication of oral fluoropyrimidines and small molecule targeted agents within 5 half-lives before the first dose of investigational drug; Medication of traditional Chinese medicine with anti-tumor indication within 2 weeks before the first dose of investigational drug.\n3. Medication of other unmarketed investigational drugs or therapies within 4 weeks before the first dose of investigational drug.\n4. Presence of brain metastases and/or leptomeningeal carcinomatosis. Participants previously treated for brain metastases may be considered to be enrolled in this study, provided they have been in stable condition for at least 1 month, have no progression confirmed by radiographic examination within 4 weeks before the first dose of study treatment, all neurological symptoms have stabled, there is no evidence of new or enlarging brain metastases, and radiation or surgical therapy is discontinued for at least 28 days before the first dose of study treatment and steroid therapy at the dose of \u226410 mg/day or similar drugs at equivalent dose within 14 days before the first dose and during the study. This exception does not include carcinomatous meningitis, which should be excluded regardless of clinical stability.\n5. Has previously received same target therapy.\n6. Has adverse reactions from previous anti-tumor treatment that have not recovered to \u2264 CTCAE 5.0 Grade 1 (except for toxicities without safety risks as determined by the investigator, such as alopecia, hypothyroidism stably managed by hormone replacement therapy, etc.).\n\n   General conditions:\n7. Has underwent major organ surgery (excluding biopsy) or significant trauma within 4 weeks before the first dose of investigational drug or requiring elective surgery during the study.\n8. Has vaccinated with attenuated live vaccines (except for SARS-CoV-2 vaccination) within 4 weeks before the first dose of investigational drug.\n9. Has mucosal or internal bleeding for non-traumatic reason within 4 weeks before the first dose of investigational drug.\n10. Has received treatment with systemic corticosteroids (prednisone at \\>10 mg/day, or similar drugs at equivalent dose) or other immunosuppressive agents within 14 days before the first dose of investigational drug, with the following exceptions:\n\n    Treatment with topical, ocular, intra-articular, intranasal, and inhaled corticosteroids; Short-term use of glucocorticoids for prophylaxis (e.g., prevention of contrast media allergy).\n11. Has pulmonary disease that severely impact pulmonary function, including, but not limited to, potential pulmonary disease, any autoimmune diseases, connective tissue diseases, or inflammatory diseases involving the pulmonary, or pneumonectomy.\n12. Has history of non-infectious interstitial lung disease (ILD)/pneumonitis that required steroids, or current ILD/pneumonia, or suspected ILD/pneumonia that cannot be excluded by imaging examination at screening.\n13. Has active pulmonary tuberculosis.\n14. Has active infection requiring systemic therapy.\n15. Has positive results in virus serology tests (participants receiving antiviral prophylaxis other than interferon are allowed to be enrolled):\n\n    Positive result of HIV antibody; Or, positive for both HBsAg and HBV-DNA (i.e., HBV DNA \u2265LLOD); Or, positive for HCV Ab (except HCV-RNA \\< LLOD).\n16. Has positive result for covid-19 nucleic acid test.\n17. Medical history of serious cardiovascular and cerebrovascular diseases, including but not limited to:\n\n    Severe arrhythmia or conduction abnormalities, such as ventricular arrhythmia requiring clinical intervention, or atrioventricular block \u2161\\~\u2162 degree; Fridericia-corrected QT interval (QTcF) prolongation to \\>450 milisecond (ms) for males and \\> 470 ms for females; Acute coronary syndrome, aortic dissection, stroke or transient ischemic attack (TIA) within 6 months before the first dose; New myocardial infarction or unstable angina within 6 months before the first dost; Clinically uncontrolled hypertension;\n18. Has clinically uncontrolled effusion in third spacing, deemed as inappropriate for enrollment by the investigator.\n19. Hypersensitivity or delayed hypersensitivity to certain components or analogues of the investigational drug.\n20. Has drug abuse or any other medical conditions, such as clinically significant psychological conditions that may interfere with study participation or the results of the clinical study as per investigator discretion.\n21. Has alcohol or drug dependence.\n22. Females who are pregnant or breastfeeding, or males/females who plan to father a child/get pregnant.\n23. Poor compliance as per investigator discretion, has history of other serious systemic diseases, or unsuitable to participate this clinical study for some reasons.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Minghui Pharmaceutical Pty Ltd",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Pindara Private Hospital",
+          "status": null,
+          "city": "Gold Coast",
+          "state": "Queensland",
+          "zip": "4217",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -28.00029,
+            "lon": 153.43088
+          }
+        },
+        {
+          "facility": "Southern Oncology Clinical Research Unit",
+          "status": null,
+          "city": "Adelaide",
+          "state": "South Australia",
+          "zip": "5042",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Cabrini Health",
+          "status": null,
+          "city": "Melbourne",
+          "state": "Victoria",
+          "zip": "3144",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        }
+      ],
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "UNDECIDED",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [],
+      "interventionMeshTerms": [
+        {
+          "id": "D007267",
+          "term": "Injections"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT07256782",
+      "orgStudyId": "QLC5508-201",
+      "secondaryIds": [],
+      "briefTitle": "A Study of QLC5508 Combinations in Patients With Advanced Solid Tumors",
+      "officialTitle": "A Phase Ib/II, Open-label, Multi-center Study to Evaluate Safety, Tolerability, Pharmacokinetics and Efficacy of Intravenous Administration of QLC5508 in Combination With Other Anti-tumor Agents in Patients With Advanced Solid Tumors",
+      "acronym": null,
+      "overallStatus": "RECRUITING",
+      "statusVerifiedDate": "2025-09",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2025-10-24",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2026-10",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2028-05",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2025-09-28",
+      "studyFirstPostDate": "2025-12-01",
+      "lastUpdateSubmitDate": "2025-11-25",
+      "lastUpdatePostDate": "2025-12-01",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 444,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "QLC5508 is a fully humanized IgG1 antibody-drug conjugate (ADC) which specifically binds to B7-H3, a target wildly expressed on solid tumor cells. The objectives of this study are to investigate the safety, tolerability, pharmacokinetics and anti-tumor activity of QLC5508 in combination with other anti-cancer agents in patients with advanced solid tumor patients.",
+      "detailedDescription": "This is a phase Ib/II, open-label, multi-center, dose-escalation and expansion in Chinese subjects with advanced solid tumors. This study is in design allowing assessment of safety, tolerability, pharmacokinetics and anti-tumor activity of QLC5508 in combination with other anti-cancer agents.\n\nThe target population of dose escalation part is patients have progressed on or intolerant to available standard therapies, and the dose expansion part will enroll patients who have not received prior treatment for advanced/metastatic disease.",
+      "conditions": [
+        "Advanced Solid Tumor"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "QLC5508",
+          "description": "2.4 mg/kg and 2.0 mg/kg, Q3W/Q2W,administered as an IV infusion",
+          "armGroupLabels": [
+            "QLC5508 and QL1706",
+            "QLC5508 and QL2107",
+            "QLC5508, Oxaliplatin, 5-fluorouracil (5-FU) and leucovorin",
+            "QLC5508, QL1706 and Cisplatin/ Carboplatin",
+            "QLC5508, QL2107 and 5-fluorouracil (5-FU)",
+            "QLC5508, QL2107 and Paclitaxel"
+          ],
+          "otherNames": [
+            "MHB088C"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "QL1706",
+          "description": "5 mg/kg ,Q3W,administered as an IV infusion",
+          "armGroupLabels": [
+            "QLC5508 and QL1706",
+            "QLC5508, QL1706 and Cisplatin/ Carboplatin"
+          ],
+          "otherNames": [
+            "Iparomlimab and Tuvonralimab\uff0cPSB205"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cisplatin/ Carboplatin",
+          "description": "Cisplatin(75 mg/m2; Q3W) / Carboplatin\uff08AUC 5 mg/mL/min; Q3W\uff09,administered as an IV infusion",
+          "armGroupLabels": [
+            "QLC5508, QL1706 and Cisplatin/ Carboplatin"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "QL2107",
+          "description": "200 mg, Q3W,administered as an IV infusion",
+          "armGroupLabels": [
+            "QLC5508 and QL2107",
+            "QLC5508, QL2107 and 5-fluorouracil (5-FU)",
+            "QLC5508, QL2107 and Paclitaxel"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "175 mg/m2, Q3W,administered as an IV infusion",
+          "armGroupLabels": [
+            "QLC5508, QL2107 and Paclitaxel"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "5-fluorouracil (5-FU)",
+          "description": "800 mg/m2,Q3W(arm:QLC5508, QL2107 and 5-FU),administered as an IV infusion;1200 mg/m2, Q2W(arm:QLC5508, Oxaliplatin, 5-FU,and leucovorin),administered as an IV infusion",
+          "armGroupLabels": [
+            "QLC5508, Oxaliplatin, 5-fluorouracil (5-FU) and leucovorin",
+            "QLC5508, QL2107 and 5-fluorouracil (5-FU)"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Oxaliplatin",
+          "description": "30 mg/m2, Q2W,administered as an IV infusion",
+          "armGroupLabels": [
+            "QLC5508, Oxaliplatin, 5-fluorouracil (5-FU) and leucovorin"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "QLC5508 and QL1706",
+          "type": "EXPERIMENTAL",
+          "description": null,
+          "interventionNames": [
+            "Drug: QLC5508",
+            "Drug: QL1706"
+          ]
+        },
+        {
+          "label": "QLC5508, QL1706 and Cisplatin/ Carboplatin",
+          "type": "EXPERIMENTAL",
+          "description": null,
+          "interventionNames": [
+            "Drug: QLC5508",
+            "Drug: QL1706",
+            "Drug: Cisplatin/ Carboplatin"
+          ]
+        },
+        {
+          "label": "QLC5508 and QL2107",
+          "type": "EXPERIMENTAL",
+          "description": null,
+          "interventionNames": [
+            "Drug: QLC5508",
+            "Drug: QL2107"
+          ]
+        },
+        {
+          "label": "QLC5508, QL2107 and 5-fluorouracil (5-FU)",
+          "type": "EXPERIMENTAL",
+          "description": null,
+          "interventionNames": [
+            "Drug: QLC5508",
+            "Drug: QL2107",
+            "Drug: 5-fluorouracil (5-FU)"
+          ]
+        },
+        {
+          "label": "QLC5508, QL2107 and Paclitaxel",
+          "type": "EXPERIMENTAL",
+          "description": null,
+          "interventionNames": [
+            "Drug: QLC5508",
+            "Drug: QL2107",
+            "Drug: Paclitaxel"
+          ]
+        },
+        {
+          "label": "QLC5508, Oxaliplatin, 5-fluorouracil (5-FU) and leucovorin",
+          "type": "EXPERIMENTAL",
+          "description": null,
+          "interventionNames": [
+            "Drug: QLC5508",
+            "Drug: 5-fluorouracil (5-FU)",
+            "Drug: Oxaliplatin"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Maximum tolerated dose (MTD) for combination-treatments (Phase Ib)",
+          "description": "To determine the MTD for further evaluation of QLC5508 with other anti-cancer agents in participants with advanced solid tumors",
+          "timeFrame": "Up to day 21 (Q3W combination) or day 28 (Q2W combination) from the first dose"
+        },
+        {
+          "measure": "Recommended Phase II Dose (RP2D) for combination-treatments (Phase Ib)",
+          "description": "To determine the RP2D for further evaluation of QLC5508 with other anti-tumor agents in participants with advanced solid tumors",
+          "timeFrame": "Up to day 21 (Q3W combination) or day 28 (Q2W combination) from the first dose"
+        },
+        {
+          "measure": "Objective response rate (ORR) determined by investigators (Phase II)",
+          "description": "ORR is defined as proportion of participants with best overall response of complete response (CR) and partial response (PR) \\[Confirmed CR/PR assessment require at least one repeat (4-6 weeks)\\] evaluated by investigator according to RECIST v1.1",
+          "timeFrame": "Approximately 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "ORR determined by investigators (Phase Ib)",
+          "description": "ORR is defined as proportion of participants with best overall response of CR and PR \\[Confirmed CR/PR assessment require at least one repeat (4-6 weeks)\\] evaluated by investigator according to RECIST v1.1",
+          "timeFrame": "Approximately 12 months"
+        },
+        {
+          "measure": "Disease control rate (DCR) determined by investigators (Phase Ib and II)",
+          "description": "DCR is defined as proportion of participants with best overall response of CR, PR and stable disease (SD) evaluated by investigator according to RECIST v1.1 \\[Confirmed CR/PR assessment require at least one repeat (4-6 weeks)\\]",
+          "timeFrame": "Approximately 12 months"
+        },
+        {
+          "measure": "Duration of response (DOR) determined by investigators (Phase Ib and II)",
+          "description": "DOR is defined as the period from the first occurrence of CR or PR to PD or death from any cause \\[Confirmed CR/PR assessment require at least one repeat (4-6 weeks)\\]",
+          "timeFrame": "Approximately 12 months"
+        },
+        {
+          "measure": "Progression-free survival (PFS) determined by investigators (Phase Ib and II)",
+          "description": "PFS is defined as the time from the first dose to PD or death from any cause.",
+          "timeFrame": "Approximately 12 months"
+        },
+        {
+          "measure": "Overall survival (OS) (Phase Ib and II)",
+          "description": "OS is defined as the time from the first dose to death from any cause",
+          "timeFrame": "Approximately 24 months"
+        },
+        {
+          "measure": "Incidence and severity of adverse events (AEs) (Phase II)",
+          "description": "Any untoward medical occurrence in a clinical study participant, which may manifest as symptoms, signs, diseases, or laboratory abnormalities, are assessed by investigator according to the NCI Common Terminology Criteria for Adverse Events (CTCAE), v5.0",
+          "timeFrame": "From the first dose through 90 days post end of treatment"
+        },
+        {
+          "measure": "Observed maximum plasma concentration (Cmax) of QLC5508 in advanced solid tumor (Phase Ib and II)",
+          "description": "Cmax will be obtained after administration of the first dose of QLC5508",
+          "timeFrame": "From pre-dose to study completion, approximately 24 months"
+        },
+        {
+          "measure": "Time to reach maximum plasma concentration (Tmax) of QLC5508 (Phase Ib)",
+          "description": "Tmax will be obtained after administration of the first dose of QLC5508",
+          "timeFrame": "From pre-dose to study completion, approximately 24 months"
+        },
+        {
+          "measure": "Area under plasma concentration versus time curve from zero to last sampling time (AUC0-t) following the first dose of QLC5508 (Phase Ib)",
+          "description": "Area under the plasma concentration versus time curve from time zero to the last sampling time when the concentration was no less than the lower limit of quantification (LLQ). AUC0-t was calculated according to the mixed log-linear trapezoidal rule.",
+          "timeFrame": "From pre-dose to study completion, approximately 24 months]"
+        },
+        {
+          "measure": "Observed maximum plasma concentration (Cmax) of QL1706 in advanced solid tumor (Phase Ib and II)",
+          "description": "Cmax will be obtained after administration of the first dose of QL1706",
+          "timeFrame": "From pre-dose to study completion, approximately 24 months"
+        },
+        {
+          "measure": "Observed maximum plasma concentration (Cmax) of QL2107 in advanced solid tumor (Phase Ib and II)",
+          "description": "Cmax will be obtained after administration of the first dose of QL2107",
+          "timeFrame": "From pre-dose to study completion, approximately 24 months"
+        },
+        {
+          "measure": "Percentage of participants with antibodies to QLC5508 in serum (Phase Ib and II)",
+          "description": "Serum samples were collected for the determination of anti-drug antibody (ADA) at designated time points.",
+          "timeFrame": "From pre-dose to study completion, approximately 24 months"
+        },
+        {
+          "measure": "Percentage of participants with antibodies to QL1706 in serum (Phase Ib and II)",
+          "description": "Serum samples were collected for the determination of ADA at designated time points",
+          "timeFrame": "From pre-dose to study completion, approximately 24 months"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* At least 18 years of age at screening;\n* Histologically or cytologically confirmed advanced solid tumors:\n\nDose escalation part will enroll participants who have progressed on or are intolerant to available standard therapies.\n\nDose expansion part will enroll participants who have not received prior treatment for advanced/metastatic diseases.\n\n* At least one measurable target lesion according to RECIST v1.1\n* Eastern Cooperative Oncology Group (ECOG) Performance Status of 0\\~1\n* Life expectancy \u226512 weeks\n* Female or male participants should be willing to use appropriate contraceptive measures throughout the study;\n* Female participants should have a negative blood pregnancy test within 7 days prior to the first dose or have evidence of non-childbearing potential;\n* A signed written Informed Consent Form\n\nExclusion Criteria:\n\n* . Received or undergoing any of the following treatment:\n\n  1. Previous or current treatment with B7-H3 targeted therapy\n  2. Previous or current treatment with topoisomerase I inhibitors\n  3. Previous treatment with cytotoxic chemotherapy, investigational agents, traditional Chinese medicine with an anti-tumor indication and antitumor drugs within 14 days prior to the first dose\n  4. Previous treatment with macromolecular antitumor drugs within 28 days prior to the first dose\n\n  f. Radiotherapy with a limited field of radiation within 2 weeks prior to the first dose; or more than 30% of the bone marrow irradiation, or large-scale radiotherapy within 4 weeks prior to the first dose e. Pleural effusion or ascites requiring clinical intervention; or presence of pericardial effusion f. Major surgery within 4 weeks prior to the first dose g. Brain metastases; leptomeningeal or brainstem metastases; or spinal cord compression\n* Unresolved AEs \u2265 Grade 2 (CTCAE v5.0) from prior therapy except for alopecia and residual neuropathy\n* Previous or concurrent primary malignancies\n* Inadequate bone marrow reserve or organ dysfunction\n* Evidence of cardiovascular risk\n* Evidence of current severe or uncontrolled systemic diseases\n* Severe infection within 4 weeks prior to the first dose; or uncontrolled active infection at screening\n* Known or suspected interstitial lung disease; or other moderate to severe pulmonary diseases that significantly impair respiratory function and may interfere with the detection or management of drug-related pulmonary toxicity\n* High risk of gastrointestinal or abdominal bleeding 10. Gastrointestinal diseases of clinical significance within 3 months prior to the first dose\n* History of severe neuropathy or mental disorders\n* History of severe hypersensitivity reaction, severe infusion reaction or idiosyncrasy to drugs chemically related to QLC5508 or any of the components of QLC5508\n* Unlikely to comply with study procedures and requirements in the opinion of the investigator\n* Any disease or condition that, in the opinion of the investigator, would compromise participant safety or interfere with study assessments",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Qilu Pharmaceutical Co., Ltd.",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Shanghai East Hospital",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": null,
+          "zip": null,
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [],
+      "interventionMeshTerms": [
+        {
+          "id": "D002945",
+          "term": "Cisplatin"
+        },
+        {
+          "id": "D016190",
+          "term": "Carboplatin"
+        },
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        },
+        {
+          "id": "D005472",
+          "term": "Fluorouracil"
+        },
+        {
+          "id": "D000077150",
+          "term": "Oxaliplatin"
+        }
+      ],
+      "hasResults": false
+    }
+  ],
+  "trials_returned": 6,
+  "query_params": {
+    "query.intr": "MHB088C",
+    "countTotal": "true"
+  },
+  "pages_fetched": 1
+}

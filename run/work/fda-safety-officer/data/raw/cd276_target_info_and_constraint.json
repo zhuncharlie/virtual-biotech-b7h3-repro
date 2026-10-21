@@ -1,0 +1,43 @@
+{
+  "query": {
+    "tool": "mcp__target__get_target_info",
+    "target_id": "ENSG00000103855",
+    "retrieved_utc": "2026-10-20"
+  },
+  "approvedSymbol": "CD276",
+  "approvedName": "CD276 molecule",
+  "synonyms": ["B7-H3", "B7H3", "4Ig-B7-H3", "B7RP-2", "PSEC0249", "CD276 antigen"],
+  "biotype": "protein_coding",
+  "chromosome": "15",
+  "genomicLocation": {"chromosome": "15", "start": 73683966, "end": 73714514, "strand": 1},
+  "targetClass": [{"id": 9, "label": "Surface antigen", "level": "l1"}],
+  "subcellularLocations": [
+    {"location": "Membrane", "source": "uniprot"},
+    {"location": "Vesicles", "source": "HPA_main"}
+  ],
+  "functionDescriptions": [
+    "May participate in the regulation of T-cell-mediated immune response. May play a protective role in tumor cells by inhibiting natural-killer mediated cell lysis as well as a role of marker for detection of neuroblastoma cells."
+  ],
+  "constraint": {
+    "synonymous": {"score": 1.2778, "exp": 316.72, "obs": 275, "oe": 0.86827, "oeLower": 0.786, "oeUpper": 0.959},
+    "missense": {"score": 1.3232, "exp": 732.03, "obs": 634, "oe": 0.86609, "oeLower": 0.811, "oeUpper": 0.925},
+    "lof": {"score": 4.2878e-08, "exp": 51.002, "obs": 34, "oe": 0.66664, "oeLower": 0.506, "oeUpper": 0.888, "upperRank": 7792, "upperBin": 4, "upperBin6": 2},
+    "pLI_note": "No pLI value returned by this source; LoF o/e and upperBin reported instead."
+  },
+  "tractability": {
+    "antibody": {"Advanced Clinical": true, "Approved Drug": false, "Phase 1 Clinical": false},
+    "small_molecule": {"Approved Drug": false, "Advanced Clinical": false}
+  },
+  "orthologues_from_target_info": [
+    {"species": "Chimpanzee", "symbol": "CD276", "query_pct_identity": 98.8764, "target_pct_identity": 98.8764, "homology": "ortholog_one2one", "high_confidence": "1"},
+    {"species": "Macaque", "symbol": "CD276", "query_pct_identity": 94.5693, "target_pct_identity": 82.3817, "homology": "ortholog_one2one", "high_confidence": "1"},
+    {"species": "Mouse", "symbol": "Cd276", "ensembl": "ENSMUSG00000035914", "query_pct_identity": 52.4345, "target_pct_identity": 88.6076, "homology": "ortholog_one2one", "high_confidence": "1"},
+    {"species": "Rat", "symbol": "Cd276", "query_pct_identity": 52.809, "target_pct_identity": 54.6512, "homology": "ortholog_one2one", "high_confidence": "1"}
+  ],
+  "companion_queries_zero_results": {
+    "mcp__target__get_target_safety_profile": {"target_id": "ENSG00000103855", "count": 0, "message": "No adverse event data for this target"},
+    "mcp__target__get_mouse_phenotype": {"target_id": "ENSG00000103855", "count": 0, "message": "No mouse phenotype data for this target"},
+    "mcp__target__get_pharmacogenomics": {"target_id": "ENSG00000103855", "count": 0, "message": "No pharmacogenomics data found"}
+  },
+  "dbXrefs": {"HGNC": "19137", "ChEMBL_target": "CHEMBL3712879", "DrugBank": "DB15635"}
+}

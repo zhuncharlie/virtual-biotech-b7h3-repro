@@ -1,0 +1,1086 @@
+{
+  "success": true,
+  "total_count": 2,
+  "trials": [
+    {
+      "nctId": "NCT03595059",
+      "orgStudyId": "M16-573",
+      "secondaryIds": [
+        {
+          "id": "2020-002495-12",
+          "type": "EUDRACT_NUMBER",
+          "link": null
+        }
+      ],
+      "briefTitle": "A Study With ABBV-155 Alone and in Combination With Taxane Therapy in Adults With Relapsed and/or Refractory Solid Tumors",
+      "officialTitle": "A Phase 1 First-in-Human Study With ABBV-155 Alone and in Combination With Taxane Therapy in Adults With Relapsed and/or Refractory Solid Tumors",
+      "acronym": null,
+      "overallStatus": "COMPLETED",
+      "statusVerifiedDate": "2025-12",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2018-07-13",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2025-09-12",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2025-09-12",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2018-07-12",
+      "studyFirstPostDate": "2018-07-23",
+      "lastUpdateSubmitDate": "2025-12-04",
+      "lastUpdatePostDate": "2025-12-10",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 168,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "An open-label, dose-escalation (Part 1), dose-expansion (Part 2) study to assess the safety, pharmacokinetics (PK), and preliminary efficacy of ABBV-155 alone and in combination with paclitaxel or docetaxel.\n\nIn Part 1 (dose escalation), participants will receive escalating doses of ABBV-155 monotherapy (Part 1a) or ABBV-155 in combination with paclitaxel or docetaxel (Part 1b).\n\nIn Part 2 (dose expansion), participants will receive ABBV-155 monotherapy or in combination therapy. The ABBV-155 monotherapy cohort will enroll participants with relapsed or refractory (R/R) small cell lung cancer (SCLC) (Part 2a); the ABBV-155 plus a taxane (paclitaxel or docetaxel) combination cohort will enroll participants with R/R non-small cell lung cancer (NSCLC) and breast cancer (Part 2b).",
+      "detailedDescription": "The Escalation cohorts (Part 1) have been completed. The expansion cohorts (Part 2) are open to enrollment.",
+      "conditions": [
+        "Advanced Solid Tumors"
+      ],
+      "keywords": [
+        "Cancer",
+        "Advanced Solid Tumors",
+        "Relapsed and/or Refractory Solid Tumors",
+        "ABBV-155",
+        "Taxane",
+        "Paclitaxel",
+        "Docetaxel",
+        "breast cancer",
+        "non-small cell lung cancer (NSCLC)",
+        "small cell lung cancer (SCLC)"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "ABBV-155",
+          "description": "Intravenous (IV) Infusion",
+          "armGroupLabels": [
+            "Escalation 1a: ABBV-155",
+            "Escalation 1b: ABBV-155 + paclitaxel or docetaxel",
+            "Expansion 2a: ABBV-155 in SCLC",
+            "Expansion 2b: ABBV-155 + docetaxel in NSCLC",
+            "Expansion 2b: ABBV-155 + paclitaxel in Breast Cancer"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "Intravenous (IV) Infusion",
+          "armGroupLabels": [
+            "Escalation 1b: ABBV-155 + paclitaxel or docetaxel",
+            "Expansion 2b: ABBV-155 + paclitaxel in Breast Cancer"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Docetaxel",
+          "description": "Intravenous (IV) Infusion",
+          "armGroupLabels": [
+            "Escalation 1b: ABBV-155 + paclitaxel or docetaxel",
+            "Expansion 2b: ABBV-155 + docetaxel in NSCLC"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Escalation 1a: ABBV-155",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be administered ABBV-155 (various doses).",
+          "interventionNames": [
+            "Drug: ABBV-155"
+          ]
+        },
+        {
+          "label": "Escalation 1b: ABBV-155 + paclitaxel or docetaxel",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be administered ABBV-155 (various doses) in combination with paclitaxel or docetaxel .",
+          "interventionNames": [
+            "Drug: ABBV-155",
+            "Drug: Paclitaxel",
+            "Drug: Docetaxel"
+          ]
+        },
+        {
+          "label": "Expansion 2a: ABBV-155 in SCLC",
+          "type": "EXPERIMENTAL",
+          "description": "Description: Participants with small cell lung cancer (SCLC) will administer ABBV-155 (at the recommended Phase 2 dose).",
+          "interventionNames": [
+            "Drug: ABBV-155"
+          ]
+        },
+        {
+          "label": "Expansion 2b: ABBV-155 + paclitaxel in Breast Cancer",
+          "type": "EXPERIMENTAL",
+          "description": "Participants with breast cancer will be administered ABBV-155 (at the recommended Phase 2 dose identified for combination with paclitaxel in part 1b) in combination with paclitaxel.",
+          "interventionNames": [
+            "Drug: ABBV-155",
+            "Drug: Paclitaxel"
+          ]
+        },
+        {
+          "label": "Expansion 2b: ABBV-155 + docetaxel in NSCLC",
+          "type": "EXPERIMENTAL",
+          "description": "Participants with non-small cell lung cancer (NSCLC) will be administered ABBV-155 (at or near the recommended Phase 2 dose identified for combination with paclitaxel in part 1b) in combination with docetaxel.",
+          "interventionNames": [
+            "Drug: ABBV-155",
+            "Drug: Docetaxel"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "MTD and/or RPTD of ABBV-155",
+          "description": "The Maximum Tolerated Dose (MTD) and/or the Recommended Phase Two Dose (RPTD) of ABBV-155 will be determined during the dose escalation phase (Part 1).",
+          "timeFrame": "Up to approximately 21 days after initial dose of study drug"
+        },
+        {
+          "measure": "Overall Response Rate (ORR)",
+          "description": "ORR is defined as the percentage of participants with documented best response partial response (PR) or better according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1.",
+          "timeFrame": "Up to approximately 2 to 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants with Adverse Events (AE)",
+          "description": "An AE is defined as any untoward medical occurrence in a subject or clinical investigation participant administered a pharmaceutical product and which does not necessarily have a causal relationship with this treatment.",
+          "timeFrame": "Up to approximately 12 months"
+        },
+        {
+          "measure": "Duration of Response (DOR)",
+          "description": "DOR is defined as the number of days from the date of first documented response (PR or better) to the date of the first documented disease progression (PD) or death due to disease, whichever occurs first.",
+          "timeFrame": "Up to approximately 12 months"
+        },
+        {
+          "measure": "Rate of Complete Response (CR)",
+          "description": "CR is defined as the percentage of participants with documented best response CR according to RECIST version 1.1",
+          "timeFrame": "Up to approximately 2 to 6 months"
+        },
+        {
+          "measure": "Progression-Free Survival (PFS)",
+          "description": "PFS is defined as the number of days from the date of first dose of study drug to the date of the first documented PD or death due to any cause, whichever occurs first.",
+          "timeFrame": "Up to approximately 12 months"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS is defined as the number of days from the date of first study drug to the date of death due to any cause.",
+          "timeFrame": "Up to approximately 12 months after last dose of study drug"
+        },
+        {
+          "measure": "Cmax of ABBV-155",
+          "description": "Maximum plasma concentration (Cmax).",
+          "timeFrame": "Up to approximately 48 days"
+        },
+        {
+          "measure": "Tmax of ABBV-155",
+          "description": "Time to maximum plasma concentration (Tmax).",
+          "timeFrame": "Up to approximately 48 days"
+        },
+        {
+          "measure": "Terminal Phase Elimination Rate constant of ABBV-155",
+          "description": "Terminal phase elimination rate constant of ABBV-155",
+          "timeFrame": "Up to approximately 48 days"
+        },
+        {
+          "measure": "AUCt of ABBV-155",
+          "description": "Area under the plasma concentration versus time curve (AUC) from time 0 to the time of the last measurable concentration (AUCt).",
+          "timeFrame": "Up to approximately 48 days"
+        },
+        {
+          "measure": "AUCinf of ABBV-155",
+          "description": "AUC from time 0 to infinite time (AUCinf).",
+          "timeFrame": "Up to approximately 48 days"
+        },
+        {
+          "measure": "QTcF Change from Baseline",
+          "description": "QT interval measurement corrected by Fridericia's formula (QTcF) mean change from baseline by dose level of ABBV-155 Monotherapy.",
+          "timeFrame": "Up to approximately 8 days"
+        },
+        {
+          "measure": "t1/2 of ABBV-155",
+          "description": "Terminal elimination half-life (t1/2).",
+          "timeFrame": "Up to approximately 48 days"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Has a histologic or cytologic diagnosis of a malignant solid tumor.\n* Participants enrolled in Part 2a (monotherapy, dose expansion) must have small cell lung cancer (SCLC) diagnosis; participants enrolled to Part 2b (combination therapy, dose expansion) must have either NSCLC or HR-positive/HER2-negative breast cancer.\n* Measurable disease defined by Response Evaluation Criteria in Solid Tumors (RECIST) criteria.\n* An Eastern Cooperative Oncology Group (ECOG) performance status less than or equal to 2.\n* Failure of at least 1 prior systemic chemotherapy including all available standard therapies for participants in the dose-escalation phase (Parts 1a and 1b) including the safety lead-in phase (Japan only).\n* All participants with breast cancer for subjects in the dose-expansion phase (Part 2b only) must have the following:\n\n  * Locally advanced or metastatic HR-positive/HER2-negative breast cancer after failing cyclin-dependent kinase (CDK)4/6 inhibitor-based therapy.\n  * HR-positivity and HER-2-negativity should be confirmed based on American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) criteria.\n* All participants with non-small cell lung cancer (NSCLC) for participants in the dose-expansion phase (Part 2b only) must have R/R NSCLC after at least 1 line of therapy. Participants with activating mutations in EGFR, ALK/ROS1, BRAF genes, or with positive expression of PD-L1 must have been treated with the appropriate targeted therapies.\n* All participants with SCLC in the dose-expansion phase (Part 2a only) must have R/R SCLC from at least 1 line of therapy which includes a platinum-based therapy with or without an anti-PD-1/PD-L1 therapy.\n* All participants with either breast cancer or NSCLC must have the following if exposed to prior taxane-based therapy:\n\n  * No history of taxane allergy (Part 1b and Part 2b only).\n  * Disease that has relapsed or progressed at least 2 months after most recent exposure to any taxane-based therapy.\n* Available tumor tissue suitable for immunohistochemistry testing.\n* Adequate kidney, liver, and hematologic laboratory values as described in the protocol.\n\nExclusion Criteria:\n\n* Untreated brain or meningeal metastases (participants with a history of metastases may be eligible based on details described in the protocol).\n* Grade 2 or higher peripheral neuropathy (only applies to participants who would receive taxane therapy).\n* Unresolved Grade 2 or higher toxicities related to previous anticancer therapy except alopecia.\n* Known active infection of hepatitis B, hepatitis C, or human immunodeficiency virus with exceptions as described in the protocol.\n* Recent history (within 6 months) of congestive heart failure (defined in the protocol), ischemic cardiovascular event, cardiac arrhythmia requiring pharmacological or surgical intervention, pericardial effusion, or pericarditis.\n* Any history of hypersensitivity to any ingredients of ABBV-155 will be excluded. For combination therapy only (Parts 1b and 2b), no history of serious allergic reaction to any taxane or any ingredients used in taxane formulation (e.g., cremaphor).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "AbbVie",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "University of Alabama at Birmingham - Main /ID# 214024",
+          "status": null,
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35233",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Highlands Oncology Group, PA /ID# 201568",
+          "status": null,
+          "city": "Springdale",
+          "state": "Arkansas",
+          "zip": "72762",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.18674,
+            "lon": -94.12881
+          }
+        },
+        {
+          "facility": "UC Irvine Medical Center - Chao Family Comprehensive Cancer Center /ID# 206105",
+          "status": null,
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868-3201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        },
+        {
+          "facility": "Duplicate_Cedars-Sinai Medical Center-West Hollywood /ID# 204267",
+          "status": null,
+          "city": "West Hollywood",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.09001,
+            "lon": -118.36174
+          }
+        },
+        {
+          "facility": "Univ of Colorado Cancer Center /ID# 208365",
+          "status": null,
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Yale University, Yale Cancer Center /ID# 201542",
+          "status": null,
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06510-3206",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "AdventHealth Orlando /ID# 227242",
+          "status": null,
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Northwestern University Feinberg School of Medicine /ID# 201563",
+          "status": null,
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611-2927",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Duplicate_Johns Hopkins Bayview Med Cnt /ID# 215095",
+          "status": null,
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Johns Hopkins Hospital /ID# 201320",
+          "status": null,
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute /ID# 201564",
+          "status": null,
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Duplicate_Henry Ford Hospital /ID# 226852",
+          "status": null,
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Northwell Health - Marcus Ave /ID# 204376",
+          "status": null,
+          "city": "New Hyde Park",
+          "state": "New York",
+          "zip": "11042-2060",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.7351,
+            "lon": -73.68791
+          }
+        },
+        {
+          "facility": "Carolina BioOncology Institute /ID# 201577",
+          "status": null,
+          "city": "Huntersville",
+          "state": "North Carolina",
+          "zip": "28078",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.41069,
+            "lon": -80.84285
+          }
+        },
+        {
+          "facility": "Univ Hosp Cleveland /ID# 201567",
+          "status": null,
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "University of Oklahoma, Stephenson Cancer Center /ID# 206820",
+          "status": null,
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104-5418",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Lifespan Cancer Institute at Rhode Island Hospital /ID# 204256",
+          "status": null,
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02903-4923",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "Vanderbilt Ingram Cancer Center /ID# 201575",
+          "status": null,
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232-0021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Mary Crowley Cancer Research /ID# 214168",
+          "status": null,
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75230",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "MD Anderson Cancer Center /ID# 201558",
+          "status": null,
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "NEXT Oncology /ID# 204893",
+          "status": null,
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Peter MacCallum Cancer Center /ID# 241676",
+          "status": null,
+          "city": "Melbourne",
+          "state": "New South Wales",
+          "zip": "3000",
+          "country": "Australia",
+          "geoPoint": null
+        },
+        {
+          "facility": "Duplicate_Cross Cancer Institute /ID# 213838",
+          "status": null,
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 1Z2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "University Health Network_Princess Margaret Cancer Centre /ID# 204539",
+          "status": null,
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 2M9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "The Chaim Sheba Medical Center /ID# 230812",
+          "status": null,
+          "city": "Ramat Gan",
+          "state": "Tel Aviv",
+          "zip": "5265601",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08227,
+            "lon": 34.81065
+          }
+        },
+        {
+          "facility": "Rambam Health Care Campus /ID# 230813",
+          "status": null,
+          "city": "Haifa",
+          "state": null,
+          "zip": "3109601",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "National Cancer Center Hospital East /ID# 215130",
+          "status": null,
+          "city": "Kashiwa-shi",
+          "state": "Chiba",
+          "zip": "277-8577",
+          "country": "Japan",
+          "geoPoint": null
+        },
+        {
+          "facility": "National Cancer Center Hospital /ID# 215003",
+          "status": null,
+          "city": "Chuo-ku",
+          "state": "Tokyo",
+          "zip": "104-0045",
+          "country": "Japan",
+          "geoPoint": null
+        },
+        {
+          "facility": "Maastricht Universitair Medisch Centrum /ID# 225220",
+          "status": null,
+          "city": "Maastricht",
+          "state": "Limburg",
+          "zip": "6229 HX",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 50.84833,
+            "lon": 5.68889
+          }
+        },
+        {
+          "facility": "Antoni van Leeuwenhoek /ID# 222260",
+          "status": null,
+          "city": "Amsterdam",
+          "state": "North Holland",
+          "zip": "1066 CX",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Erasmus Medisch Centrum /ID# 222341",
+          "status": null,
+          "city": "Rotterdam",
+          "state": "South Holland",
+          "zip": "3015 CE",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "Universitair Medisch Centrum Utrecht /ID# 222357",
+          "status": null,
+          "city": "Utrecht",
+          "state": null,
+          "zip": "3584 CX",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.09083,
+            "lon": 5.12222
+          }
+        },
+        {
+          "facility": "Pan American Center for Oncology Trials, LLC /ID# 232128",
+          "status": null,
+          "city": "Rio Piedras",
+          "state": null,
+          "zip": "00935",
+          "country": "Puerto Rico",
+          "geoPoint": {
+            "lat": 18.39745,
+            "lon": -66.04989
+          }
+        },
+        {
+          "facility": "National Cancer Center /ID# 241095",
+          "status": null,
+          "city": "Goyang-si",
+          "state": "Gyeonggido",
+          "zip": "10408",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.65639,
+            "lon": 126.835
+          }
+        },
+        {
+          "facility": "Yonsei University Health System Severance Hospital /ID# 240648",
+          "status": null,
+          "city": "Seoul",
+          "state": null,
+          "zip": "03722",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Hospital Universitario Fundacion Jimenez Diaz /ID# 239997",
+          "status": null,
+          "city": "Madrid",
+          "state": null,
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario 12 de Octubre /ID# 239999",
+          "status": null,
+          "city": "Madrid",
+          "state": null,
+          "zip": "28041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "National Taiwan University Hospital /ID# 205673",
+          "status": null,
+          "city": "Taipei City",
+          "state": "Taipei",
+          "zip": "100",
+          "country": "Taiwan",
+          "geoPoint": null
+        },
+        {
+          "facility": "China Medical University Hospital /ID# 214062",
+          "status": null,
+          "city": "Taichung",
+          "state": null,
+          "zip": "40447",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.1469,
+            "lon": 120.6839
+          }
+        },
+        {
+          "facility": "National Cheng Kung University Hospital /ID# 206304",
+          "status": null,
+          "city": "Tainan",
+          "state": null,
+          "zip": "704",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 22.99259,
+            "lon": 120.20507
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D055752",
+          "term": "Small Cell Lung Carcinoma"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        },
+        {
+          "id": "D000077143",
+          "term": "Docetaxel"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT06934889",
+      "orgStudyId": "24-409",
+      "secondaryIds": [],
+      "briefTitle": "Study of ABBV-637 or ABBV-155 With ERAS-801 for People With Glioblastoma",
+      "officialTitle": "Phase Ib Trial of ABBV-637 or ABBV-155 in Combination With ERAS-801 for Glioblastoma With Amplification of the Epidermal Growth Factor Receptor",
+      "acronym": null,
+      "overallStatus": "RECRUITING",
+      "statusVerifiedDate": "2026-09",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2025-04-07",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2028-04",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2028-04",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2025-04-11",
+      "studyFirstPostDate": "2025-04-18",
+      "lastUpdateSubmitDate": "2026-09-08",
+      "lastUpdatePostDate": "2026-09-09",
+      "expandedAccess": null,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Phase Ib Trial of ABBV-637 or ABBV-155 in Combination with ERAS-801. The first eight patients were randomized 1:1 to: ABBV-637 or ABBV-155 (6 to cohorts A/B and 2 to cohorts C/D) using the Randomization Module in the Clinical Research Database (CRDB). Due to drug viability and impending expiration dates, the trial will no longer use randomization going forward beginning with patient 9. Participants will be assigned.",
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 60,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "The researchers are doing this study to find out whether the drugs ABBV-637 and ABBV-155 are safe treatments that cause few or mild side effects when given alone or in combination with ERAS-801 in people with recurrent GBM.",
+      "detailedDescription": "Stage 1 will run first, during which patients will be randomized to either Cohort A or B if recurrent GBM, and Cohort C or D if newly diagnosed. After these 4 cohorts are complete, and if the combinations have been safe and tolerable, the combination will be further evaluated in Stage 2.",
+      "conditions": [
+        "Glioblastoma",
+        "Gliosarcoma"
+      ],
+      "keywords": [
+        "WHO grade IV",
+        "ABBV-637",
+        "ABBV-155",
+        "ERAS-801",
+        "24-409"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "ERAS-801",
+          "description": "will be administered orally at the assigned dose once daily starting on Cycle 1 Day 1.",
+          "armGroupLabels": [
+            "Cohort A (Recurrent)",
+            "Cohort B (Recurrent)"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "ABBV-637",
+          "description": "will be administered intravenously over one hour (+/- 10 min) once every 28 days on the first day of the new cycle.",
+          "armGroupLabels": [
+            "Cohort A (Recurrent)",
+            "Cohort C (Newly Diagnosed)"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "ABBV-155",
+          "description": "will be administered intravenously over at least 30 minutes once every 21 days on the first day of the new cycle.",
+          "armGroupLabels": [
+            "Cohort B (Recurrent)",
+            "Cohort D (Newly Diagnosed)"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Temozolomide",
+          "description": "Temozolomide will be continued for 6 cycles after radiation.",
+          "armGroupLabels": [
+            "Cohort C (Newly Diagnosed)",
+            "Cohort D (Newly Diagnosed)"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "RADIATION",
+          "name": "Radiotherapy",
+          "description": "will be given as per standard of care radiation for GBM",
+          "armGroupLabels": [
+            "Cohort C (Newly Diagnosed)",
+            "Cohort D (Newly Diagnosed)"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Cohort A (Recurrent)",
+          "type": "EXPERIMENTAL",
+          "description": "will receive ABBV-637 before standard surgery, followed by ABBV-637 and ERAS-801 after standard surgery.",
+          "interventionNames": [
+            "Drug: ERAS-801",
+            "Drug: ABBV-637"
+          ]
+        },
+        {
+          "label": "Cohort B (Recurrent)",
+          "type": "EXPERIMENTAL",
+          "description": "will receive ABBV-155 before standard surgery, followed by ABBV-155 and ERAS-801 after standard surgery",
+          "interventionNames": [
+            "Drug: ERAS-801",
+            "Drug: ABBV-155"
+          ]
+        },
+        {
+          "label": "Cohort C (Newly Diagnosed)",
+          "type": "EXPERIMENTAL",
+          "description": "will receive ABBV-637 in combination with standard radiation and chemotherapy drug temozolomide.",
+          "interventionNames": [
+            "Drug: ABBV-637",
+            "Drug: Temozolomide",
+            "Radiation: Radiotherapy"
+          ]
+        },
+        {
+          "label": "Cohort D (Newly Diagnosed)",
+          "type": "EXPERIMENTAL",
+          "description": "will receive ABBV-155 in combination with standard radiation and chemotherapy drug temozolomide",
+          "interventionNames": [
+            "Drug: ABBV-155",
+            "Drug: Temozolomide",
+            "Radiation: Radiotherapy"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Dose limiting toxicity (DLT)",
+          "description": "All patients who receive a single dose of investigational drug will be included in the primary endpoint analysis. Will be measured descriptively using CTCAE v5.0",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival",
+          "description": "Overall survival will be defined from pre-surgical treatment start date to date of death due to any cause.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Progression-free survival (PFS)",
+          "description": "Progression-free survival will be defined from pre-surgical treatment start date to date of progression or death due to any cause.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must be 18 years of age or older at the time of consent signing.\n* All Patients must have WHO Grade IV Glioblastoma/Gliosarcoma using WHO 2021 criteria and include the diagnosis of molecular GBM, recurrent patients must be progressive or recurrent following radiation therapy +/- chemotherapy\n* Patients must be IDH wild type by CLIA-certified laboratory assay available at time of consent.\n* Patients must have evidence of EGFR gene amplification by CLIA-certified laboratory assay at time of consent.\n* Patients must have measurable disease as per RANO criteria pre-operatively (there is no requirement for post-operative disease to be present or absent). \\[cohort A/B only\\]\n* Patients must be able to tolerate MRIs\n* Patients may have no more than 2 prior therapy regimens. \\[cohort A/B only\\]\n* Patients must have recovered from severe toxicity of prior therapy. The following intervals from previous treatments are required to be eligible:\n\n  1. 12 weeks from the completion of radiation\n  2. 6 weeks from a nitrosourea chemotherapy\n  3. 3 weeks from a non-nitrosourea chemotherapy\n  4. 4 weeks from any investigational (not FDA-approved) agents\n  5. 6 months from the last treatment with bevacizumab\n  6. 2 weeks or 5 half-lives from administration of a non-cytotoxic, Chemotherapies other than bevacizumab, whichever is shorter\n* Patients must be undergoing surgery that is clinically indicated as determined by their care providers. \\[cohort A/B only\\] Patients must be eligible for surgical resection according to the following criteria:\n\n  a. Expectation that the surgeon is able to resect at least 500 mg of tumor from enhancing tumor with low risk of inducing neurological injury.\n* Paraffin embedded tissue must be available from initial surgical resection at diagnosis (prior to any treatment). The following amount of tissue is requested: 1 formalin-fixed, paraffin embedded (FFPE) tissue block (preferred) or 10 FFPE unstained slides (5\u00b5m thick).\n* Patients must have a Karnofsky Performance Status (KPS) \u226560% (i.e. the patient must be able to care for himself/herself with occasional help from others).\n* Patients must have the following organ and marrow function:\n\n  1. Absolute neutrophil count \\>1,200/mcL\n  2. Platelets \\>100,000/mcL\n  3. Hemoglobin \\> 9 g/dL .\n  4. Total bilirubin \u2264 institutional upper limit of normal, or \u2264 3.0 mg/dL for subjects with Gilbert's syndrome\n  5. AST (SGOT) and ALT (SGPT) \u2264 3 \u00d7 institutional upper limit of normal\n  6. Creatinine \u2264 institutional upper limit of normal OR Creatinine clearance \\>60 ml/min/1.73m2 for patients with creatinine levels above institutional normal\n  7. APTT/PTT \u2264 1.5 x institutional upper limit of normal\n* Echocardiogram with ejection fraction \u2265 50% and no other clinically significant finding that, in the opinion of the investigator, would increase the subject's susceptibility to cardiac toxicity.\n\n  a. If ECHO cannot be performed for structural or safety reasons, a MUGA may be obtained instead after discussion with treating investigator.\n* Patients must have a 12-lead electrocardiogram performed within 2 weeks of treatment start with QT interval corrected for heart rate (QTc) \\< 450 msec (using Fridericia's correction), and no clinically significant abnormalities. (Cohorts A, B, E \\& F only)\n* Women of childbearing potential must have a negative serum pregnancy test prior to study entry. Women of childbearing potential and men treated or enrolled on this protocol must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry, for the duration of study participation, and for 4 months after completion of treatment administration. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.\n* A negative serum pregnancy test for all female subjects (except postmenopausal) at the screening visit and a negative urine pregnancy test for all female subjects (except postmenopausal) at baseline before the first dose of study drug.\n* If female, subject must be either postmenopausal, OR permanently surgically sterile OR, for women of childbearing potential, practicing at least 1 protocol-specified method of birth control that is effective from study Day 1 through at least 4 months after the last dose of study drug.\n* If male, and subject is sexually active with female partner(s) of childbearing potential, he must agree from study Day 1 through 4 months after the last dose of study drug to practice the protocol-specified contraception.\n* If female, subject must not be pregnant, breastfeeding, or considering becoming pregnant during the study while receiving study drug and for at least 4 months after the last dose of study drug.\n* If male, subject must not be considering fathering a child or donating sperm during the study or for 4 months after the last dose of study drug.\n* No known active viral hepatitis infection (including hepatitis B and C) or human immunodeficiency virus (HIV) with the following exceptions:\n\n  * Subjects with a history of hepatitis B that is considered cured may be enrolled at the discretion of the treating investigator.\n  * Subjects with a history of hepatitis C that is considered cured with definitive therapy may be enrolled at the discretion of the treating investigator.\n  * Subjects with HIV and undetectable viral load, so long as ongoing antiretroviral therapy does not pose risk of adverse drug-drug interactions, at the discretion of the treating investigator.\n* Patients must have no concurrent malignancy that requires active therapy.\n* Patients must be able to swallow medication by mouth, either tablets or dispersed in solution.\n\nExclusion Criteria:\n\n* Patients may not be receiving any other investigational agents.\n* Patients with a history of allergic reactions attributed to compounds of similar chemical or biologic composition to any of the investigational agents are ineligible.\n* Patients with prior therapy with EGFR targeting agents are ineligible because treatment with EGFR kinase inhibitors or other EGFR-targeted agents has the potential to deplete the tumor of EGFR-amplified or EGFR mutant cell populations and confound the evaluation of the investigational regimen. Patients would only be eligible if surgery on a recurrence after the EGFR-targeted therapy confirmed persistence of an EGFR alteration.\n* Patients on enzyme-inducing anti-epileptic drugs (EIAED) are not eligible for treatment on this protocol. Patients may be on non-enzyme inducing anti-epileptic drugs or not be taking any anti-epileptic drugs. Patients previously treated with EIAED may be enrolled if they have been off the EIAED for 10 days or more prior to the first dose of study drug(s).\n* Patients must not have evidence of significant hematologic, renal, or hepatic dysfunctioPatients must not have evidence of significant intracranial hemorrhage (For example, in the recurrent setting, circumstances where the intracranial hemorrhage would obscure the amount and quality of tissue obtained at the time of the on-treatment surgery).\n* Patients with uncontrolled intercurrent illness including, but not limited to, hypertension, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/ social situations that would limit compliance with study requirements, are ineligible.\n* Participants with clinically significant cardiovascular disease including, but not limited to:\n\n  * No recent history (within 6 months) of congestive heart failure (defined as New York Heart Association, Class 2 or higher), ischemic cardiovascular event, cardiac arrhythmia requiring pharmacological or surgical intervention, pericardial effusion, or pericarditis.\n  * Any clinically important abnormalities in rhythm, conduction, or morphology of resting ECG, e.g., complete left bundle branch block, second- or third-degree heart block, PR-interval \\> 250 ms.\n  * Any factors that increase the risk of QTc prolongation or risk of arrhythmic events such as heart failure, hypokalemia, congenital long QT syndrome, or any concomitant medication know to prolong the QT interval.\n* No history of clinically significant medical and/or psychiatric conditions or any other reason that, in the opinion of the investigator, would interfere with the subject's participation in this study or would make the subject an unsuitable candidate to receive study drug\n* Pregnant women are excluded from this study because the investigational regimens have potential for teratogenic or abortifacients effects. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother, breastfeeding should be discontinued if the mother is treated on this study.\n* HIV-positive patients on strong CYP3A4 inducers or inhibitors are ineligible because of the potential for pharmacokinetic interactions.\n* Patients who have acute or currently active/requiring anti-viral therapy hepatic or biliary disease are ineligible (with the exception of patients with Gilbert's syndrome, asymptomatic gallstones, liver metastases from the primary brain tumor, or stable chronic liver disease per investigator assessment).\n* Patients receiving P-gp inhibitors/P-gp substrates with narrow therapeutic index are ineligible.\n* Patients who are receiving a drug that has a risk of QTc prolongation with known risk of if QTc is \u2265 460 msec. are ineligible. (Temozolomide is allowed for cohorts C,D, E and F)\n* Subject must not have systemically used known moderate or strong cytochrome P450 (CYP)3A inhibitors within 10 days before the first dose of study drug and throughout the study. Subjects may be approved to start within 7 days of discontinuation of known moderate or strong herbal supplements cytochrome P450 (CYP)3A inhibitors with PI approval. Note: Herbal supplements; oregano, black seed, dandelion, and soursop have been approved for 7 day washout.\n* Subject must not have received any live vaccine within 2 weeks before the first dose of study drug, or be expected to need a live vaccination during study participation including at least 4 weeks after the last dose of study drug.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Memorial Sloan Kettering Cancer Center",
+      "leadSponsorClass": "OTHER",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "University of California, Los Angeles (Data Collection Only)",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90095",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "University of Miami (Data collection only)",
+          "status": "RECRUITING",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Indiana University (Data Collection Only)",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Basking Ridge (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Basking Ridge",
+          "state": "New Jersey",
+          "zip": "07920",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.70621,
+            "lon": -74.54932
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Monmouth (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Middletown",
+          "state": "New Jersey",
+          "zip": "07748",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.39428,
+            "lon": -74.11709
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Bergen (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Montvale",
+          "state": "New Jersey",
+          "zip": "07645",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.04676,
+            "lon": -74.02292
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Suffolk - Commack (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Commack",
+          "state": "New York",
+          "zip": "11725",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84288,
+            "lon": -73.29289
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Westchester (All Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Harrison",
+          "state": "New York",
+          "zip": "10604",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.96899,
+            "lon": -73.71263
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center (All Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Nassau (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Rockville Centre",
+          "state": "New York",
+          "zip": "11553",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.65871,
+            "lon": -73.64124
+          }
+        },
+        {
+          "facility": "University of Vermont Medical Center",
+          "status": "RECRUITING",
+          "city": "Burlington",
+          "state": "Vermont",
+          "zip": "05401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.47588,
+            "lon": -73.21207
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "YES",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D005909",
+          "term": "Glioblastoma"
+        },
+        {
+          "id": "D018316",
+          "term": "Gliosarcoma"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "D000077204",
+          "term": "Temozolomide"
+        },
+        {
+          "id": "D011878",
+          "term": "Radiotherapy"
+        }
+      ],
+      "hasResults": false
+    }
+  ],
+  "trials_returned": 2,
+  "query_params": {
+    "query.intr": "ABBV-155",
+    "countTotal": "true"
+  },
+  "pages_fetched": 1
+}

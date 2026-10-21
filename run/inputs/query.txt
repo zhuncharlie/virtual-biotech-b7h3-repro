@@ -1,0 +1,2 @@
+--- turn 1 ---
+Evaluate the therapeutic candidacy of B7-H3 (CD276) in lung cancer. Scope the disease strictly to lung adenocarcinoma (LUAD) and small cell lung cancer (SCLC) -- not NSCLC broadly, not other lung histologies. General web search and web scraping are disabled for this study; use only the configured database MCP servers (Open Targets, CELLxGENE Census, etc.) and your own prior knowledge, clearly labeled as such when you rely on it. Spatial transcriptomics / Visium analysis is out of scope for this pass.

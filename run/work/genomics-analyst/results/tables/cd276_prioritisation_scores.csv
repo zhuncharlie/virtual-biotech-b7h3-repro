@@ -1,0 +1,2 @@
+targetId,isInMembrane,isSecreted,hasSafetyEvent,hasPocket,hasLigand,hasSmallMoleculeBinder,geneticConstraint,paralogMaxIdentityPercentage,mouseOrthologMaxIdentityPercentage,isCancerDriverGene,hasTEP,mouseKOScore,hasHighQualityChemicalProbes,maxClinicalTrialPhase,tissueSpecificity,tissueDistribution,note
+ENSG00000103855,0,0,,0,0,0,-0.14043022614451184,0,0,,,-0.19362923273754773,,0.5,-1,0,Single global record; the tool returns no disease-stratified prioritisation for EFO_0000571 or EFO_0000702.

@@ -1,0 +1,6 @@
+nct_id,indication,agent,cohort,endpoint,result,comparator,additional,source
+NCT06227546,"SCLC (ES-SCLC, R/R)",MGC018,"Single arm, n=9",ORR (primary),0/9 (0%),None,SAEs: atrial fibrillation 3/9; lung infection 1/9; sepsis 1/9; respiratory failure 1/9,ClinicalTrials.gov results module; fetched 2026-10-20
+NCT02475213,NSCLC (context; not LUAD-specific),Enoblituzumab + pembrolizumab,"PD-1/PD-L1-naive, n=15",ORR,33.3% (5/15; 95% CI 11.8-61.6),None (single arm),mPFS 5.1 mo; mOS 10.3 mo,ClinicalTrials.gov results module; fetched 2026-10-20
+NCT02475213,NSCLC (context; not LUAD-specific),Enoblituzumab + pembrolizumab,"PD-1/PD-L1-experienced, n=19",ORR,10.5% (2/19; 95% CI 1.3-33.1),None (single arm),mPFS 3.5 mo; mOS 6.0 mo,ClinicalTrials.gov results module; fetched 2026-10-20
+NCT03729596,NSCLC (context; not LUAD-specific),MGC018,"NSCLC expansion, 20 evaluable",ORR,15.0% (3/20; 95% CI 3.2-37.9),None (single arm),mPFS 4.0 mo; mOS 7.0 mo; trial terminated for business decision,ClinicalTrials.gov results module; saved raw record; fetched 2026-10-20
+NCT05551117,SCLC-eligible Part 2 mixed cohort,MGC018,"Part 2, n=4",ORR (primary for Part 2),0/4 (0%),None,No SCLC-specific breakdown; terminated for business reasons,ClinicalTrials.gov results module via MCP server implementation; fetched 2026-10-20

@@ -1,0 +1,644 @@
+{
+  "counts": [
+    {
+      "label": "term:B7-H3",
+      "query": {
+        "term": "B7-H3"
+      },
+      "result": {
+        "success": true,
+        "total_count": 144,
+        "query_params": {
+          "query.term": "B7-H3",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "term:B7H3",
+      "query": {
+        "term": "B7H3"
+      },
+      "result": {
+        "success": true,
+        "total_count": 48,
+        "query_params": {
+          "query.term": "B7H3",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "term:CD276",
+      "query": {
+        "term": "CD276"
+      },
+      "result": {
+        "success": true,
+        "total_count": 37,
+        "query_params": {
+          "query.term": "CD276",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "term:B7-H3 ADC",
+      "query": {
+        "term": "B7-H3 ADC"
+      },
+      "result": {
+        "success": true,
+        "total_count": 39,
+        "query_params": {
+          "query.term": "B7-H3 ADC",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "term:B7-H3 CAR",
+      "query": {
+        "term": "B7-H3 CAR"
+      },
+      "result": {
+        "success": true,
+        "total_count": 54,
+        "query_params": {
+          "query.term": "B7-H3 CAR",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "term:B7-H3 bispecific",
+      "query": {
+        "term": "B7-H3 bispecific"
+      },
+      "result": {
+        "success": true,
+        "total_count": 9,
+        "query_params": {
+          "query.term": "B7-H3 bispecific",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "condition:small cell lung cancer+term:B7-H3",
+      "query": {
+        "condition": "small cell lung cancer",
+        "term": "B7-H3"
+      },
+      "result": {
+        "success": true,
+        "total_count": 26,
+        "query_params": {
+          "query.cond": "small cell lung cancer",
+          "query.term": "B7-H3",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "condition:small cell lung cancer+term:CD276",
+      "query": {
+        "condition": "small cell lung cancer",
+        "term": "CD276"
+      },
+      "result": {
+        "success": true,
+        "total_count": 2,
+        "query_params": {
+          "query.cond": "small cell lung cancer",
+          "query.term": "CD276",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "condition:lung adenocarcinoma+term:B7-H3",
+      "query": {
+        "condition": "lung adenocarcinoma",
+        "term": "B7-H3"
+      },
+      "result": {
+        "success": true,
+        "total_count": 6,
+        "query_params": {
+          "query.cond": "lung adenocarcinoma",
+          "query.term": "B7-H3",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "condition:lung adenocarcinoma+term:CD276",
+      "query": {
+        "condition": "lung adenocarcinoma",
+        "term": "CD276"
+      },
+      "result": {
+        "success": true,
+        "total_count": 1,
+        "query_params": {
+          "query.cond": "lung adenocarcinoma",
+          "query.term": "CD276",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "condition:non-small cell lung cancer+term:B7-H3",
+      "query": {
+        "condition": "non-small cell lung cancer",
+        "term": "B7-H3"
+      },
+      "result": {
+        "success": true,
+        "total_count": 15,
+        "query_params": {
+          "query.cond": "non-small cell lung cancer",
+          "query.term": "B7-H3",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "condition:non-small cell lung cancer+term:CD276",
+      "query": {
+        "condition": "non-small cell lung cancer",
+        "term": "CD276"
+      },
+      "result": {
+        "success": true,
+        "total_count": 1,
+        "query_params": {
+          "query.cond": "non-small cell lung cancer",
+          "query.term": "CD276",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:ifinatamab deruxtecan",
+      "query": {
+        "intervention": "ifinatamab deruxtecan"
+      },
+      "result": {
+        "success": true,
+        "total_count": 18,
+        "query_params": {
+          "query.intr": "ifinatamab deruxtecan",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:DS-7300",
+      "query": {
+        "intervention": "DS-7300"
+      },
+      "result": {
+        "success": true,
+        "total_count": 0,
+        "query_params": {
+          "query.intr": "DS-7300",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:vobramitamab duocarmazine",
+      "query": {
+        "intervention": "vobramitamab duocarmazine"
+      },
+      "result": {
+        "success": true,
+        "total_count": 3,
+        "query_params": {
+          "query.intr": "vobramitamab duocarmazine",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:MGC018",
+      "query": {
+        "intervention": "MGC018"
+      },
+      "result": {
+        "success": true,
+        "total_count": 4,
+        "query_params": {
+          "query.intr": "MGC018",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:enoblituzumab",
+      "query": {
+        "intervention": "enoblituzumab"
+      },
+      "result": {
+        "success": true,
+        "total_count": 9,
+        "query_params": {
+          "query.intr": "enoblituzumab",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:MGA271",
+      "query": {
+        "intervention": "MGA271"
+      },
+      "result": {
+        "success": true,
+        "total_count": 10,
+        "query_params": {
+          "query.intr": "MGA271",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:MGD009",
+      "query": {
+        "intervention": "MGD009"
+      },
+      "result": {
+        "success": true,
+        "total_count": 2,
+        "query_params": {
+          "query.intr": "MGD009",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:orlotamab",
+      "query": {
+        "intervention": "orlotamab"
+      },
+      "result": {
+        "success": true,
+        "total_count": 1,
+        "query_params": {
+          "query.intr": "orlotamab",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:ABBV-155",
+      "query": {
+        "intervention": "ABBV-155"
+      },
+      "result": {
+        "success": true,
+        "total_count": 2,
+        "query_params": {
+          "query.intr": "ABBV-155",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:HS-20093",
+      "query": {
+        "intervention": "HS-20093"
+      },
+      "result": {
+        "success": true,
+        "total_count": 25,
+        "query_params": {
+          "query.intr": "HS-20093",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:DS-5573a",
+      "query": {
+        "intervention": "DS-5573a"
+      },
+      "result": {
+        "success": true,
+        "total_count": 1,
+        "query_params": {
+          "query.intr": "DS-5573a",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:DB-1311",
+      "query": {
+        "intervention": "DB-1311"
+      },
+      "result": {
+        "success": true,
+        "total_count": 4,
+        "query_params": {
+          "query.intr": "DB-1311",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:BNT324",
+      "query": {
+        "intervention": "BNT324"
+      },
+      "result": {
+        "success": true,
+        "total_count": 4,
+        "query_params": {
+          "query.intr": "BNT324",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:MHB088C",
+      "query": {
+        "intervention": "MHB088C"
+      },
+      "result": {
+        "success": true,
+        "total_count": 6,
+        "query_params": {
+          "query.intr": "MHB088C",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:omburtamab",
+      "query": {
+        "intervention": "omburtamab"
+      },
+      "result": {
+        "success": true,
+        "total_count": 10,
+        "query_params": {
+          "query.intr": "omburtamab",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    },
+    {
+      "label": "intervention:8H9",
+      "query": {
+        "intervention": "8H9"
+      },
+      "result": {
+        "success": true,
+        "total_count": 5,
+        "query_params": {
+          "query.intr": "8H9",
+          "countTotal": "true",
+          "pageSize": 1
+        }
+      }
+    }
+  ],
+  "searches": [
+    {
+      "label": "term:B7-H3",
+      "query": {
+        "term": "B7-H3"
+      },
+      "total": 144,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_term_B7-H3.json"
+    },
+    {
+      "label": "term:B7H3",
+      "query": {
+        "term": "B7H3"
+      },
+      "total": 48,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_term_B7H3.json"
+    },
+    {
+      "label": "term:CD276",
+      "query": {
+        "term": "CD276"
+      },
+      "total": 37,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_term_CD276.json"
+    },
+    {
+      "label": "term:B7-H3__condition:small cell lung cancer",
+      "query": {
+        "condition": "small cell lung cancer",
+        "term": "B7-H3"
+      },
+      "total": 26,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_term_B7-H3__condition_small_cell_lung_cancer.json"
+    },
+    {
+      "label": "term:CD276__condition:small cell lung cancer",
+      "query": {
+        "condition": "small cell lung cancer",
+        "term": "CD276"
+      },
+      "total": 2,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_term_CD276__condition_small_cell_lung_cancer.json"
+    },
+    {
+      "label": "term:B7-H3__condition:lung adenocarcinoma",
+      "query": {
+        "condition": "lung adenocarcinoma",
+        "term": "B7-H3"
+      },
+      "total": 6,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_term_B7-H3__condition_lung_adenocarcinoma.json"
+    },
+    {
+      "label": "term:CD276__condition:lung adenocarcinoma",
+      "query": {
+        "condition": "lung adenocarcinoma",
+        "term": "CD276"
+      },
+      "total": 1,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_term_CD276__condition_lung_adenocarcinoma.json"
+    },
+    {
+      "label": "term:B7-H3__condition:non-small cell lung cancer",
+      "query": {
+        "condition": "non-small cell lung cancer",
+        "term": "B7-H3"
+      },
+      "total": 15,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_term_B7-H3__condition_non-small_cell_lung_cancer.json"
+    },
+    {
+      "label": "term:CD276__condition:non-small cell lung cancer",
+      "query": {
+        "condition": "non-small cell lung cancer",
+        "term": "CD276"
+      },
+      "total": 1,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_term_CD276__condition_non-small_cell_lung_cancer.json"
+    },
+    {
+      "label": "intervention:ifinatamab deruxtecan",
+      "query": {
+        "intervention": "ifinatamab deruxtecan"
+      },
+      "total": 18,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_ifinatamab_deruxtecan.json"
+    },
+    {
+      "label": "intervention:DS-7300",
+      "query": {
+        "intervention": "DS-7300"
+      },
+      "total": 0,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_DS-7300.json"
+    },
+    {
+      "label": "intervention:vobramitamab duocarmazine",
+      "query": {
+        "intervention": "vobramitamab duocarmazine"
+      },
+      "total": 3,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_vobramitamab_duocarmazine.json"
+    },
+    {
+      "label": "intervention:MGC018",
+      "query": {
+        "intervention": "MGC018"
+      },
+      "total": 4,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_MGC018.json"
+    },
+    {
+      "label": "intervention:enoblituzumab",
+      "query": {
+        "intervention": "enoblituzumab"
+      },
+      "total": 9,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_enoblituzumab.json"
+    },
+    {
+      "label": "intervention:MGA271",
+      "query": {
+        "intervention": "MGA271"
+      },
+      "total": 10,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_MGA271.json"
+    },
+    {
+      "label": "intervention:MGD009",
+      "query": {
+        "intervention": "MGD009"
+      },
+      "total": 2,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_MGD009.json"
+    },
+    {
+      "label": "intervention:orlotamab",
+      "query": {
+        "intervention": "orlotamab"
+      },
+      "total": 1,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_orlotamab.json"
+    },
+    {
+      "label": "intervention:ABBV-155",
+      "query": {
+        "intervention": "ABBV-155"
+      },
+      "total": 2,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_ABBV-155.json"
+    },
+    {
+      "label": "intervention:HS-20093",
+      "query": {
+        "intervention": "HS-20093"
+      },
+      "total": 25,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_HS-20093.json"
+    },
+    {
+      "label": "intervention:DS-5573a",
+      "query": {
+        "intervention": "DS-5573a"
+      },
+      "total": 1,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_DS-5573a.json"
+    },
+    {
+      "label": "intervention:DB-1311",
+      "query": {
+        "intervention": "DB-1311"
+      },
+      "total": 4,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_DB-1311.json"
+    },
+    {
+      "label": "intervention:BNT324",
+      "query": {
+        "intervention": "BNT324"
+      },
+      "total": 4,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_BNT324.json"
+    },
+    {
+      "label": "intervention:MHB088C",
+      "query": {
+        "intervention": "MHB088C"
+      },
+      "total": 6,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_MHB088C.json"
+    },
+    {
+      "label": "intervention:omburtamab",
+      "query": {
+        "intervention": "omburtamab"
+      },
+      "total": 10,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_omburtamab.json"
+    },
+    {
+      "label": "intervention:8H9",
+      "query": {
+        "intervention": "8H9"
+      },
+      "total": 5,
+      "file": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/clinical-trialist/data/raw/ctgov_search_intervention_8H9.json"
+    }
+  ]
+}

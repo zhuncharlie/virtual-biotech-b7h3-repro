@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "total_count": 0,
+  "trials": [],
+  "trials_returned": 0,
+  "query_params": {
+    "query.intr": "DS-7300",
+    "countTotal": "true"
+  },
+  "pages_fetched": 1
+}

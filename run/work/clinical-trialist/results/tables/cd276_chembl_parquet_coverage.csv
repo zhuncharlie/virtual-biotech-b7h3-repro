@@ -1,0 +1,7 @@
+metric,value
+total parquet rows,488361
+CD276 rows,9
+distinct CD276 NCTs,7
+CD276 lung-related rows,0
+CD276 distinct drugs,2
+as_of_date,2026-10-20

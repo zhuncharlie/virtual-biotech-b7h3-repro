@@ -1,0 +1,38 @@
+{
+  "purpose": "Test whether Tahoe-100M contains perturbations that modulate CD276 expression and whether B7-H3-targeted agents are represented.",
+  "data_source_attempted": "MCP functional_genomics (Tahoe-100M pseudobulk backend)",
+  "status": "NOT ESTABLISHED - data source unavailable in this run",
+  "checked_at": "2026-10-20",
+  "environment_diagnostic": {
+    "TAHOE_DATA_PATH": null,
+    "error_from_every_call": "Query failed: TAHOE_DATA_PATH not set in environment. Set it to the directory containing Tahoe pseudobulk parquet files.",
+    "prepared_data_search": "No prepared Tahoe pseudobulk directory or parquet shard was found. Only tools/prepare_tahoe.py and docs/TAHOE_SETUP.md exist; prior run 20261020-084506 documented the same failure.",
+    "interpretation": "Server-level configuration gap. Cannot be fixed from this agent because the MCP server process environment is fixed at launch and no prepared dataset exists to point it at."
+  },
+  "attempts": [
+    {
+      "tool": "mcp__functional_genomics__find_drugs_affecting_gene",
+      "arguments": {"gene_name": "CD276", "min_abs_log2fc": 0.5, "max_padj": 0.1, "top_n": 20},
+      "result": "tool_error",
+      "error": "Query failed: TAHOE_DATA_PATH not set in environment."
+    },
+    {
+      "tool": "mcp__functional_genomics__query_drug_perturbation",
+      "arguments": {"drug_name": "Enoblituzumab", "top_n": 10},
+      "result": "tool_error",
+      "error": "Query failed: TAHOE_DATA_PATH not set in environment."
+    },
+    {
+      "tool": "mcp__functional_genomics__query_drug_perturbation",
+      "arguments": {"drug_name": "Ifinatamab deruxtecan", "top_n": 10},
+      "result": "tool_error",
+      "error": "Query failed: TAHOE_DATA_PATH not set in environment."
+    }
+  ],
+  "conclusions": {
+    "perturbation_effects_on_CD276": "NOT ASSESSED - tool unavailable",
+    "B7-H3_agent_representation": "UNKNOWN - tool unavailable; this is not evidence of absence",
+    "alternative_sources_used": "None. Web search/scraping is disabled in this run; no local Tahoe parquet data exists.",
+    "effect_on_therapeutic_assessment": "No negative or positive claim about CD276 modulatability or B7-H3-agent coverage in Tahoe-100M can be made. The DepMap essentiality conclusion is independent of Tahoe and stands."
+  }
+}

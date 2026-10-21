@@ -1,0 +1,4 @@
+qtl_type,n_loci_with_feature,n_loci_clpp_gt_0.01,max_clpp,n_loci_h4_gt_0.6,max_h4,top_locus_study_id,top_locus_trait,top_locus_is_luad_or_sclc
+eQTL,67,56,0.2685760259628296,37,0.9975929260253906,GCST90019497,Aspartate aminotransferase levels,False
+pQTL,67,16,0.2939538359642029,7,0.9978543519973755,GCST90019498,AST/ALT ratio,False
+sQTL,67,54,0.28130629658699036,36,0.9976722598075867,GCST90475159,Body mass index,False

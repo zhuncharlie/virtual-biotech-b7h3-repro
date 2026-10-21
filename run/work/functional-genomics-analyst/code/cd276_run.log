@@ -1,0 +1,35 @@
+/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/functional-genomics-analyst/code/scripts/cd276_depmap_analysis.py:277: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  bp = axes[0].boxplot(data_a, labels=plot_groups, showfliers=False, patch_artist=True,
+/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/functional-genomics-analyst/code/scripts/cd276_depmap_analysis.py:295: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  bp2 = axes[1].boxplot(data_b, labels=plot_groups, showfliers=False, patch_artist=True,
+Curated lines not present in DepMap extract: ['Calu-3']
+Duplicate cell-line names: 0
+
+Disease comparator ranks:
+      depmap_disease_label  n  mean_gene_effect  essential_fraction  rank_most_essential
+Non-Small Cell Lung Cancer 98         -0.234618            0.030612                   30
+ Lung Neuroendocrine Tumor 26         -0.209627            0.000000                   40
+
+=== GROUP SUMMARY ===
+         histology_group    n  mean_gene_effect  median_gene_effect       sd       min       q25       q75       max  frac_essential_lt_-0.5  frac_strong_lt_-0.7  mean_expression  median_expression  expression_min  expression_max  frac_expression_gt_4  frac_expression_gt_5
+                    LUAD   46         -0.230341           -0.244609 0.139091 -0.540188 -0.313996 -0.149723  0.107261                0.021739             0.000000         5.460950           5.568805        3.138980        7.623391              0.931818              0.681818
+                    SCLC   25         -0.203976           -0.181303 0.118469 -0.481802 -0.264855 -0.123427 -0.035115                0.000000             0.000000         5.389474           5.325059        4.077593        6.226983              1.000000              0.800000
+             Other NSCLC   52         -0.238402           -0.246530 0.137240 -0.508809 -0.323697 -0.161688  0.119952                0.038462             0.000000         5.683536           5.760955        4.278512        7.567043              1.000000              0.745098
+  Other lung (carcinoid)    1         -0.350899           -0.350899      NaN -0.350899 -0.350899 -0.350899 -0.350899                0.000000             0.000000         6.657693           6.657693        6.657693        6.657693              1.000000              1.000000
+Other lung (SMARCA4-dUT)    2         -0.231627           -0.231627 0.006655 -0.236333 -0.233980 -0.229274 -0.226921                0.000000             0.000000         5.774813           5.774813        5.684855        5.864770              1.000000              1.000000
+          Other lineages 1041         -0.220980           -0.212492 0.144261 -0.962598 -0.304024 -0.134504  0.298168                0.033622             0.003842         5.229780           5.656459        0.000000        9.677605              0.853759              0.713697
+           Non-cancerous   16         -0.163260           -0.142390 0.081957 -0.322084 -0.220322 -0.099724 -0.038818                0.000000             0.000000         5.912854           6.075357        2.283883        6.874170              0.928571              0.928571
+
+=== COMPARISONS ===
+group_a        group_b  n_a  n_b    mean_a    mean_b  mean_difference_a_minus_b  cohens_d  welch_p  mannwhitney_p
+   LUAD    Other NSCLC   46   52 -0.230341 -0.238402                   0.008061  0.058365 0.773895       0.833669
+   LUAD Other lineages   46 1041 -0.230341 -0.220980                  -0.009361 -0.064984 0.657560       0.427456
+   SCLC Other lineages   25 1041 -0.203976 -0.220980                   0.017003  0.118302 0.487026       0.330596
+   SCLC    Other NSCLC   25   52 -0.203976 -0.238402                   0.034425  0.261739 0.262294       0.108584
+   LUAD           SCLC   46   25 -0.230341 -0.203976                  -0.026364 -0.199303 0.403704       0.245348
+
+=== ESSENTIAL-FRACTION CHECK (LUAD/SCLC) ===
+LUAD n= 46 min= -0.54 lines < -0.5: ['NCI-H1573']
+SCLC n= 25 min= -0.482 lines < -0.5: []
+
+Wrote outputs to /mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/functional-genomics-analyst/results/tables and /mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/functional-genomics-analyst/results/figures

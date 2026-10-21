@@ -1,0 +1,436 @@
+{
+  "success": true,
+  "total_count": 1,
+  "trials": [
+    {
+      "nctId": "NCT02628535",
+      "orgStudyId": "CP-MGD009-01",
+      "secondaryIds": [],
+      "briefTitle": "Safety Study of MGD009 in B7-H3-expressing Tumors",
+      "officialTitle": "Phase 1, First-in-Human, Open Label, Dose Escalation Study of MGD009, A Humanized B7-H3 x CD3 Dual-Affinity Re-Targeting (DART) Protein in Patients With Unresectable or Metastatic B7-H3-Expressing Neoplasms",
+      "acronym": null,
+      "overallStatus": "TERMINATED",
+      "statusVerifiedDate": "2022-02",
+      "lastKnownStatus": null,
+      "whyStopped": "Business decision (not for safety reasons)",
+      "startDate": "2015-09",
+      "startDateType": null,
+      "primaryCompletionDate": "2019-11-25",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2019-11-25",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2015-11-20",
+      "studyFirstPostDate": "2015-12-11",
+      "lastUpdateSubmitDate": "2022-02-04",
+      "lastUpdatePostDate": "2022-02-08",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 67,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "The purpose of this study is to evaluate the safety of MGD009 when given to patients with B7-H3-expressing tumors. The study will also evaluate what is the highest dose of MGD009 that can be given safely. Assessments will be done to see how the drug acts in the body (pharmacokinetics (PK), pharmacodynamics (PD) and to evaluate potential anti-tumor activity of MGD009.",
+      "detailedDescription": "This study is a Phase 1 open-label, dose escalation, cohort expansion, and efficacy follow-up study of MGD009 administered intravenously (IV) on an every-other-week schedule for up to one year (14 cycles).\n\nThe dose escalation phase is designed to characterize the safety and tolerability of MGD009 and to define the maximum tolerated or maximum administered dose (MTD/MAD). This phase will enroll patients with mesothelioma, bladder cancer, melanoma, squamous cell carcinoma of the head and neck (SCCHN), non-small cell lung cancer (NSCLC), clear cell renal cell carcinoma (ccRCC), ovarian cancer, thyroid cancer, triple-negative breast cancer (TNBC), pancreatic cancer, colon cancer, soft tissue sarcoma, or prostate cancer.\n\nIn the cohort expansion phase, 6 cohorts of 16 patients each will be enrolled to further evaluate the safety and potential efficacy of MGD009 administered at the MTD/MAD dose in patients with mesothelioma, bladder cancer, melanoma, SCCHN, NSCLC, or other specific tumors that express high levels of B7-H3. Pre- and on-study biopsies are required for melanoma patients in the cohort expansion phase. Two additional cohorts (up to15 patients each) will evaluate the use of prophylaxis therapies to mitigate toxicity.\n\nThe survival follow-up phase consists of the 2-year period after the final dose of study drug.\n\nAll tumor evaluations will be carried out by both Response Evaluation Criteria in Solid Tumors (RECIST) and immune-related response criteria (irRC).",
+      "conditions": [
+        "Mesothelioma",
+        "Bladder Cancer",
+        "Melanoma",
+        "Squamous Cell Carcinoma of the Head and Neck",
+        "Non Small Cell Lung Cancer",
+        "Clear Cell Renal Cell Carcinoma",
+        "Ovarian Cancer",
+        "Thyroid Cancer",
+        "Breast Cancer",
+        "Pancreatic Cancer",
+        "Prostate Cancer",
+        "Colon Cancer",
+        "Soft Tissue Sarcoma"
+      ],
+      "keywords": [
+        "B7-H3-expressing neoplasms"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "MGD009",
+          "description": "B7-H3 x CD3 DART protein",
+          "armGroupLabels": [
+            "MGD009"
+          ],
+          "otherNames": [
+            "orlotamab"
+          ]
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "MGD009",
+          "type": "EXPERIMENTAL",
+          "description": "Orlotamab; Humanized B7-H3 x CD3 Dual-Affinity Re-Targeting (DART\u00ae) Protein",
+          "interventionNames": [
+            "Biological: MGD009"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participants with adverse events",
+          "description": "adverse events, serious adverse events",
+          "timeFrame": "28 days after last dose of study drug"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Peak plasma concentration",
+          "description": "PK of MGD009",
+          "timeFrame": "8 days"
+        },
+        {
+          "measure": "Number of participants that develop anti-drug antibodies",
+          "description": "Proportion of patients who develop anti-MGD0009 antibodies, immunogenicity",
+          "timeFrame": "first dose through 28 days after last dose of study drug"
+        },
+        {
+          "measure": "Change in tumor volume",
+          "description": "Anti-tumor activity of MGD009 using both conventional RECIST 1.1 and immune-related RECIST criteria.",
+          "timeFrame": "Weeks 6, 15, 24, 33, 42, 51, 60, 69, 78, 87, 96, 105"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically and/or cytologically proven unresectable locally advanced or metastatic tumors that express B7-H3 on the membrane or vasculature. The requirement for previous systemic therapy may be waived if a person was intolerant of standard front-line therapy\n* Dose escalation phase prior systemic treatment requirements:\n* pleural mesothelioma, pancreatic cancer: 1-3 prior treatments\n* urothelial, SCHNN, prostate, soft tissue sarcoma, prostate cancer, TNBC, ccRCC, NSCLC: 1-5 prior treatments\n* ovarian cancer: 2-4 prior treatments\n* colon cancer: 2-4 prior treatments\n* cutaneous melanoma: at least 1 prior treatment (including immunotherapy).\n* Patients with prior immune checkpoint inhibitors must have related toxicities reduced to Grade 0, 1, or baseline\n* Measurable disease per RECIST 1.1 criteria\n* Easter Cooperative Oncology Group (ECOG) performance status 0 or 1\n* Acceptable laboratory parameters and adequate organ reserve.\n\nExclusion Criteria:\n\n* Patients with central nervous system (CNS) involvement must have been treated, be asymptomatic, do not exhibit progression of CNS metastases on MRI or CT within 28 days, and do not have concurrent leptomeningeal disease or cord compression.\n* Clinically significant pulmonary compromise within 28 days of first dose, including pneumonia, pneumonitis, requirement for supplemental oxygen). use to maintain adequate oxygenation, or pleural effusion sufficient to warrant pleurocentesis or any history of \u2265 Grade 3 drug induced or radiation pneumonitis.\n* History of autoimmune disease with certain exceptions such as vitiligo, resolved childhood atopic dermatitis, psoriasis not requiring systemic therapy within the past 2 years, patients with history of Hashimoto's or Grave's disease that are now euthyroid clinically and by lab testing\n* History of clinically-significant cardiovascular disease, or cardiac arrhythmias, including atrial fibrillation at screening or day of treatment\n* History of clinically-significant gastrointestinal (GI) disease; GI perforation within 1 year; GI bleeding or acute pancreatitis within 3 months; or diverticulitis within 4 weeks of first study drug administration\n* Active viral, bacterial, or systemic fungal infection requiring parenteral treatment within 7 days of first study drug administration\n* Known history of hepatitis B or C infection or known positive test for hepatitis B surface antigen or core antigen, or hepatitis C polymerase chain reaction (PCR)\n* Known positive testing for human immunodeficiency virus or history of acquired immune deficiency syndrome\n* History of allogeneic bone marrow, stem cell, or solid organ transplant\n* Treatment with systemic cancer therapy or investigational therapy within 3 weeks of first study drug administration; radiation within 2 weeks; corticosteroids (greater than or equal to 10 mg prednisone or equivalent per day) or other immune suppressive drugs within 2 weeks of first study drug administration\n* Trauma or major surgery within 4 weeks of first study drug administration\n* Known hypersensitivity to recombinant proteins, polysorbate 80, or any excipient contained in the drug or vehicle formulation for MGD009",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "MacroGenics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "UCLA",
+          "status": null,
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90095",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Stanford University School of Medicine",
+          "status": null,
+          "city": "Palo Alto",
+          "state": "California",
+          "zip": "94304",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          }
+        },
+        {
+          "facility": "University of California - San Francisco",
+          "status": null,
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Georgetown University",
+          "status": null,
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": null,
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana Farber Cancer Institute",
+          "status": null,
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "New York University",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Columbia University Medical Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Carolina BioOncology Institute",
+          "status": null,
+          "city": "Huntersville",
+          "state": "North Carolina",
+          "zip": "28078",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.41069,
+            "lon": -80.84285
+          }
+        },
+        {
+          "facility": "Penn Presbyterian Medical Center",
+          "status": null,
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Henry-Joyce Cancer Center",
+          "status": null,
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Mary Crowley Cancer Research Center",
+          "status": null,
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75230",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "South Texas Accelerated Research Therapeutics, LLC",
+          "status": null,
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Virginia Cancer Specialists",
+          "status": null,
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22034",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "Chris O'Brien Lifehouse",
+          "status": null,
+          "city": "Camperdown",
+          "state": "New South Wales",
+          "zip": "2050",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.88965,
+            "lon": 151.17642
+          }
+        },
+        {
+          "facility": "Saint Vincent's Hospital Sydney",
+          "status": null,
+          "city": "Darlinghurst",
+          "state": "New South Wales",
+          "zip": "2010",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.87939,
+            "lon": 151.21925
+          }
+        },
+        {
+          "facility": "Princess Alexandra Hospital",
+          "status": null,
+          "city": "Woolloongabba",
+          "state": "Queensland",
+          "zip": "4102",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.48855,
+            "lon": 153.03655
+          }
+        },
+        {
+          "facility": "Austin Health",
+          "status": null,
+          "city": "Heidelberg",
+          "state": "Victoria",
+          "zip": "3084",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.75,
+            "lon": 145.06667
+          }
+        },
+        {
+          "facility": "Linear Clinical Research",
+          "status": null,
+          "city": "Nedlands",
+          "state": "Western Australia",
+          "zip": "6009",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.98184,
+            "lon": 115.8073
+          }
+        },
+        {
+          "facility": "Princess Margaret Cancer Centre",
+          "status": null,
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G1Z5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        }
+      ],
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": null,
+      "isFdaRegulatedDevice": null,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D008654",
+          "term": "Mesothelioma"
+        },
+        {
+          "id": "D001749",
+          "term": "Urinary Bladder Neoplasms"
+        },
+        {
+          "id": "D008545",
+          "term": "Melanoma"
+        },
+        {
+          "id": "D000077195",
+          "term": "Squamous Cell Carcinoma of Head and Neck"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D002292",
+          "term": "Carcinoma, Renal Cell"
+        },
+        {
+          "id": "D010051",
+          "term": "Ovarian Neoplasms"
+        },
+        {
+          "id": "D013964",
+          "term": "Thyroid Neoplasms"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D010190",
+          "term": "Pancreatic Neoplasms"
+        },
+        {
+          "id": "D011471",
+          "term": "Prostatic Neoplasms"
+        },
+        {
+          "id": "D003110",
+          "term": "Colonic Neoplasms"
+        },
+        {
+          "id": "D012509",
+          "term": "Sarcoma"
+        }
+      ],
+      "interventionMeshTerms": [],
+      "hasResults": false
+    }
+  ],
+  "trials_returned": 1,
+  "query_params": {
+    "query.intr": "orlotamab",
+    "countTotal": "true"
+  },
+  "pages_fetched": 1
+}

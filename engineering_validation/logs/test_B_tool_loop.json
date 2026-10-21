@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "stdout": "{\"ok\": true, \"tool_called\": \"get_server_time\", \"tool_input\": {}, \"final_text\": \"The tool returned, verbatim:\\n\\n```\\nTEST-TIMESTAMP-1738000000\\n```\", \"fixed_value_echoed\": true, \"response_model_field_turn1\": \"claude-sonnet-4-5-20250929\", \"response_model_field_turn2\": \"claude-sonnet-4-5-20250929\"}",
+  "stderr": "",
+  "_recorded_at": "2026-10-19T04:56:59-0500"
+}

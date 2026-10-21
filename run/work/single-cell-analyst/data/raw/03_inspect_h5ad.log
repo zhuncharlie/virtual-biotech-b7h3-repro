@@ -1,0 +1,79 @@
+
+=== luad_ds1e6a_lymphoid_cd276.h5ad: (275475, 3) ===
+var_names: ['0', '1', '2'] | var cols: ['soma_joinid', 'feature_id', 'feature_name', 'feature_type', 'feature_length', 'nnz', 'n_measured_obs']
+obs cols: ['dataset_id', 'donor_id', 'cell_type', 'tissue', 'disease', 'assay', 'is_primary_data']
+X dtype: float32 | min/max: 0.0 0.014298439025878906
+X type: csr_matrix
+  dataset_id: {'1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1': 275475}
+  disease: {'lung adenocarcinoma': 275475}
+  tissue: {'lung': 275475}
+  cell types: 6 | donors: 109
+  sample noninteger frac: 0.23933333333333334 | nnz frac: 0.23933333333333334
+
+=== luad_ds1e6a_myeloid_cd276.h5ad: (182954, 3) ===
+var_names: ['0', '1', '2'] | var cols: ['soma_joinid', 'feature_id', 'feature_name', 'feature_type', 'feature_length', 'nnz', 'n_measured_obs']
+obs cols: ['dataset_id', 'donor_id', 'cell_type', 'tissue', 'disease', 'assay', 'is_primary_data']
+X dtype: float32 | min/max: 0.0 0.013270139694213867
+X type: csr_matrix
+  dataset_id: {'1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1': 182954}
+  disease: {'lung adenocarcinoma': 182954}
+  tissue: {'lung': 182954}
+  cell types: 11 | donors: 103
+  sample noninteger frac: 0.2881666666666667 | nnz frac: 0.2881666666666667
+
+=== luad_ds1e6a_epithelial_stromal_cd276.h5ad: (90028, 3) ===
+var_names: ['0', '1', '2'] | var cols: ['soma_joinid', 'feature_id', 'feature_name', 'feature_type', 'feature_length', 'nnz', 'n_measured_obs']
+obs cols: ['dataset_id', 'donor_id', 'cell_type', 'tissue', 'disease', 'assay', 'is_primary_data']
+X dtype: float32 | min/max: 0.0 0.016649246215820312
+X type: csr_matrix
+  dataset_id: {'1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1': 90028}
+  disease: {'lung adenocarcinoma': 90028}
+  tissue: {'lung': 90028}
+  cell types: 16 | donors: 99
+  sample noninteger frac: 0.06983333333333333 | nnz frac: 0.06983333333333333
+
+=== luad_other_datasets_cd276.h5ad: (87541, 3) ===
+var_names: ['0', '1', '2'] | var cols: ['soma_joinid', 'feature_id', 'feature_name', 'feature_type', 'feature_length', 'nnz', 'n_measured_obs']
+obs cols: ['dataset_id', 'donor_id', 'cell_type', 'tissue', 'disease', 'assay', 'is_primary_data']
+X dtype: float32 | min/max: 0.0 0.02325582504272461
+X type: csr_matrix
+  dataset_id: {'576f193c-75d0-4a11-bd25-8676587e6dc2': 46529, '9f222629-9e39-47d0-b83f-e08d610c7479': 41012}
+  disease: {'lung adenocarcinoma': 87541}
+  tissue: {'lung': 87541}
+  cell types: 47 | donors: 19
+  cell_type counts: {'T cell': 23818, 'unknown': 14774, 'CD8-positive, alpha-beta T cell': 9258, 'B cell': 6254, 'epithelial cell': 5270, 'CD4-positive, alpha-beta T cell': 4451, 'fibroblast': 3979, 'macrophage': 3499, 'endothelial cell': 2349, 'alveolar macrophage': 2013, 'dendritic cell': 1801, 'mast cell': 1367, 'plasma cell': 1328, 'natural killer cell': 903, 'capillary endothelial cell': 796, 'pulmonary alveolar type 2 cell': 787, 'pulmonary alveolar type 1 cell': 661, 'CD1c-positive myeloid dendritic cell': 605, 'elicited macrophage': 548, 'classical monocyte': 430, 'brush cell of tracheobronchial tree': 406, 'neutrophil': 346, 'respiratory basal cell': 230, 'club cell': 188, 'non-classical monocyte': 175, 'alveolar type 1 fibroblast cell': 174, 'vein endothelial cell': 160, 'multiciliated columnar cell of tracheobronchial tree': 119, 'tracheobronchial smooth muscle cell': 119, 'pulmonary artery endothelial cell': 104, 'nasal mucosa goblet cell': 98, 'bronchus fibroblast of lung': 90, 'lung macrophage': 89, 'lung pericyte': 81, 'endothelial cell of lymphatic vessel': 60, 'plasmacytoid dendritic cell': 55, 'erythrocyte': 46, 'alveolar adventitial fibroblast': 44, 'conventional dendritic cell': 32, 'epithelial cell of lower respiratory tract': 13, 'respiratory tract hillock cell': 7, 'multiciliated epithelial cell': 4, 'myofibroblast cell': 4, 'pulmonary alveolar epithelial cell': 2, 'ionocyte': 2, 'mesothelial cell': 1, 'tracheobronchial goblet cell': 1}
+  sample noninteger frac: 0.23633333333333334 | nnz frac: 0.23633333333333334
+
+=== sclc_cd276.h5ad: (31540, 3) ===
+var_names: ['0', '1', '2'] | var cols: ['soma_joinid', 'feature_id', 'feature_name', 'feature_type', 'feature_length', 'nnz', 'n_measured_obs']
+obs cols: ['dataset_id', 'donor_id', 'cell_type', 'tissue', 'disease', 'assay', 'is_primary_data']
+X dtype: float32 | min/max: 0.0 0.021276473999023438
+X type: csr_matrix
+  dataset_id: {'576f193c-75d0-4a11-bd25-8676587e6dc2': 31540}
+  disease: {'small cell lung carcinoma': 31540}
+  tissue: {'lung': 31540}
+  cell types: 10 | donors: 9
+  sample noninteger frac: 0.34 | nnz frac: 0.34
+
+=== normal_lung_matched_cd276.h5ad: (12315, 3) ===
+var_names: ['0', '1', '2'] | var cols: ['soma_joinid', 'feature_id', 'feature_name', 'feature_type', 'feature_length', 'nnz', 'n_measured_obs']
+obs cols: ['dataset_id', 'donor_id', 'cell_type', 'tissue', 'disease', 'assay', 'is_primary_data']
+X dtype: float32 | min/max: 0.0 0.015999794006347656
+X type: csr_matrix
+  dataset_id: {'576f193c-75d0-4a11-bd25-8676587e6dc2': 12315}
+  disease: {'normal': 12315}
+  tissue: {'lung': 12315}
+  cell types: 10 | donors: 4
+  cell_type counts: {'T cell': 6630, 'macrophage': 3334, 'dendritic cell': 1032, 'epithelial cell': 851, 'mast cell': 191, 'B cell': 127, 'endothelial cell': 90, 'fibroblast': 37, 'neutrophil': 21, 'plasma cell': 2}
+  sample noninteger frac: 0.2946666666666667 | nnz frac: 0.2946666666666667
+
+=== normal_blood_cd276.h5ad: (342712, 1) ===
+var_names: ['0'] | var cols: ['soma_joinid', 'feature_id', 'feature_name', 'feature_type', 'feature_length', 'nnz', 'n_measured_obs']
+obs cols: ['dataset_id', 'donor_id', 'cell_type', 'tissue', 'disease', 'assay', 'is_primary_data']
+X dtype: float32 | min/max: 0.0 0.002695441246032715
+X type: csr_matrix
+  dataset_id: {'d9f3a82c-24bb-4277-b715-8ec92a33dd32': 342712}
+  disease: {'normal': 342712}
+  tissue: {'blood': 342712}
+  cell types: 9 | donors: 90
+  sample noninteger frac: 0.0 | nnz frac: 0.0

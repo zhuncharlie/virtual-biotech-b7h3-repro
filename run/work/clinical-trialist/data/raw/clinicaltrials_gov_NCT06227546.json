@@ -1,0 +1,147 @@
+{
+  "nctId": "NCT06227546",
+  "orgStudyId": "STUDY00007316",
+  "secondaryIds": [],
+  "briefTitle": "MGC018 in Patients With Relapsed or Refractory Extensive-Stage Small-Cell Lung Cancer",
+  "officialTitle": "A Phase II Study of MGC018 in Patients With Relapsed or Refractory Extensive-Stage Small-Cell Lung Cancer (ES-SCLC)",
+  "acronym": "MGC018-SCLC",
+  "overallStatus": "ACTIVE_NOT_RECRUITING",
+  "statusVerifiedDate": "2026-06",
+  "lastKnownStatus": null,
+  "whyStopped": null,
+  "startDate": "2024-04-15",
+  "startDateType": "ACTUAL",
+  "primaryCompletionDate": "2025-03-28",
+  "primaryCompletionDateType": "ACTUAL",
+  "completionDate": "2027-04",
+  "completionDateType": "ESTIMATED",
+  "studyFirstSubmitDate": "2024-01-18",
+  "studyFirstPostDate": "2024-01-29",
+  "lastUpdateSubmitDate": "2026-06-08",
+  "lastUpdatePostDate": "2026-06-25",
+  "expandedAccess": false,
+  "studyType": "INTERVENTIONAL",
+  "phases": [
+    "PHASE2"
+  ],
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "interventionModelDescription": null,
+  "primaryPurpose": "TREATMENT",
+  "masking": "NONE",
+  "maskingDescription": null,
+  "whoMasked": [],
+  "enrollmentCount": 9,
+  "enrollmentType": "ACTUAL",
+  "briefSummary": "The goal of this clinical trial is to test MGC018 in patients with relapsed or refractory Extensive-Stage Small-Cell Lung Cancer (ES-SCLC). The main question it aims to answer is:\n\n\u2022 Does the administration of MGC018 achieve a clinically meaningful response rate of 25% in patients with relapsed or refractory ES-SCLC?\n\nParticipants enrolled in the trial will receive MGC018 through an intravenous (IV) infusion, every 28 days until disease progression or unacceptable toxicity. Tumor assessment will be done every 2 cycles (28 day cycles). Blood samples will be taken for biomarker analysis before treatment, on cycle 3 day 1, and at progression. A pretreatment biopsies will be done.",
+  "detailedDescription": null,
+  "conditions": [
+    "Extensive-stage Small-cell Lung Cancer"
+  ],
+  "keywords": [],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "MGC018",
+      "description": "Intravenous (IV) Infusion, 2.7 mg/kg on Day 1 of each 28 day cycle",
+      "armGroupLabels": [
+        "MCG018"
+      ],
+      "otherNames": []
+    }
+  ],
+  "armGroups": [
+    {
+      "label": "MCG018",
+      "type": "EXPERIMENTAL",
+      "description": null,
+      "interventionNames": [
+        "Drug: MGC018"
+      ]
+    }
+  ],
+  "primaryOutcomes": [
+    {
+      "measure": "Objective Response Rate (ORR)",
+      "description": "Investigator-Assessed ORR per Response Evaluation Criteria In Solid Tumors (RECIST v1.1) for target lesions as assessed by CT or magnetic resonance imaging (MRI) scans (with IV contrast unless contraindicated) of the chest, abdomen, and pelvis every 2 cycles (each cycle is a 28 day cycle). Reported as the number of patients with a complete response (CR) or partial response (PR); ORR = CR+PR; CR = Disappearance of all target lesions.Any pathological lymph nodes (whether target ornon-target) must have reduction in short axis to\\<10 mm. PR= At least a 30% decrease in the sum ofdiameters of target lesions, taking as reference the baseline sum diameters.",
+      "timeFrame": "1 year"
+    }
+  ],
+  "secondaryOutcomes": [
+    {
+      "measure": "Incidence of Adverse Events",
+      "description": "Number of participants with Investigator assessed treatment emergent adverse events per Common terminology criteria for adverse effects (CTCAE) version 5.0",
+      "timeFrame": "from start of treatment through 60 days after last treatment, approximately 1 year"
+    },
+    {
+      "measure": "Duration of Response (DOR)",
+      "description": "Defined as the time from response to disease progression or death in patients who achieve complete or partial response.",
+      "timeFrame": "1 year"
+    },
+    {
+      "measure": "Progression-free Survival (PFS) Median",
+      "description": "Defined as the time from study drug initiation until progression event or death as assessed using the Kaplan-Meier method.",
+      "timeFrame": "1 year"
+    },
+    {
+      "measure": "Progression-free Survival (PFS) 6 Months",
+      "description": "Defined as the time from study drug initiation until progression event or death as assessed using the Kaplan-Meier method.",
+      "timeFrame": "6 months"
+    },
+    {
+      "measure": "Overall Survival (OS)",
+      "description": "Defined as time from study drug initiation to death as assessed using the Kaplan-Meier method.",
+      "timeFrame": "3 years"
+    }
+  ],
+  "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age greater than or equal to 18 years at time of signing Informed consent form (ICF)\n2. Ability to comply with the study protocol, in the investigator's judgment.\n3. Histologically or cytologically confirmed advanced small cell lung cancer that is not amenable to definitive therapy. Patients with epidermal growth factor receptor (EGFR)-mutant Non Small Cell Lung Cancer (NSCLC) that has transformed to Small Cell Lung Cancer (SCLC) will be allowed if their SCLC has progressed following treatment with platinum-based chemotherapy.\n4. Disease progression during or following treatment with platinum-based chemotherapy.\n\n   a) Patients could have received any number of therapies for relapsed or progressive disease.\n5. Measurable disease per RECIST v1.1\n6. Eastern Cooperative Oncology Group (ECOG) Performance Status of 0-2\n7. Adequate hematologic and end-organ function, defined by the following laboratory test results, obtained within 14 days prior to initiation of study treatment:\n\n   1. Absolute Neutrophil Count (ANC) greater than or equal to (\\>/=) 1.0 x 10\\^9/L (1000/uL) without granulocyte colony-stimulating factor support\n   2. Platelet count \\>/=100 x 10\\^9/L (100,000/uL) without transfusion\n   3. Hemoglobin \\>/= 80 g/L (8 g/dL) (1) Patients may be transfused to meet this criterion.\n   4. Aspartate Aminotransferase (AST), Alanine Transaminase (ALT), and alkaline phosphatase (ALP) less than or equal to (\\</=) 2.5 x upper limit of normal (ULN), with the following exceptions:\n\n      1. Patients with documented liver metastases: AST and ALT \\</= 5 x ULN\n      2. Patients with documented liver or bone metastases: ALP \\</= 5 x ULN\n   5. Serum bilirubin \\</= 1.5 x ULN with the following exception:\n\n      (1) Patients with known Gilbert disease: serum bilirubin \\</= 3 x ULN\n   6. Creatinine clearance \\>/= 30 mL/min (calculated using the Cockcroft-Gault formula)\n   7. For patients not receiving therapeutic anticoagulation: international normalized ratio (INR) and Partial Thromboplastin Time, Activated (aPTT) \\</= 1.5 x ULN\n8. Ability to understand and the willingness to sign a written informed consent document.\n9. Availability of pre-treatment tumor tissue via a fresh biopsy. If biopsy is not considered safe and medically feasible by the Investigator, the patient may be approved for enrollment after consultation with the Principal Investigator.\n10. For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive methods, and agreement to refrain from donating eggs, as defined below:\n\n    1. Women must remain abstinent or use contraceptive methods with a failure rate of less than (\\<) 1% per year during the treatment period and for 6 months after the final dose of study treatment. Women must refrain from donating eggs during this same period.\n    2. A woman is considered to be of childbearing potential if she is postmenarchal, has not reached a postmenopausal state ( \\>/= 12 continuous months of amenorrhea with no identified cause other than menopause), and has not undergone surgical sterilization (removal of ovaries and/or uterus). The definition of childbearing potential may be adapted for alignment with local guidelines or requirements.\n    3. Examples of contraceptive methods with a failure rate of \\< 1% per year include bilateral tubal ligation, male sterilization, hormonal contraceptives that inhibit ovulation, hormone-releasing intrauterine devices, and copper intrauterine devices.\n    4. The reliability of sexual abstinence should be evaluated in relation to the duration of the clinical trial and the preferred and usual lifestyle of the patient. Periodic abstinence (e.g., calendar, ovulation, symptothermal, or postovulation methods) and withdrawal are not adequate methods of contraception.\n11. For men: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive measures, and agreement to refrain from donating sperm, as defined below:\n\n    1. With a female partner of childbearing potential who is not pregnant, men who are not surgically sterile must remain abstinent or use a condom plus an additional contraceptive method that together result in a failure rate of \\< 1% per year during the treatment period and for 90 days after the final dose of MGC018. Men must refrain from donating sperm during this this same period.\n    2. With a pregnant female partner, men must remain abstinent or use a condom during the treatment period and 90 days after the final dose of MGC018 to avoid potential exposure to the embryo.\n    3. The reliability of sexual abstinence should be evaluated in relation to the duration of the clinical trial and the preferred and usual lifestyle of the patient. Periodic abstinence (e.g., calendar, ovulation, symptothermal, or postovulation methods) and withdrawal are not adequate methods of contraception.\n\nExclusion Criteria:\n\n1. Patients with treated brain metastases are eligible if they are symptomatically stable while off steroid therapy for a minimum of 7 days\n2. History of leptomeningeal disease\n3. Patient who are receiving any other investigational agents\n4. Major surgical procedure, other than for diagnosis, within 4 weeks prior to initiation of study treatment, or anticipation of need for a major surgical procedure during the study\n5. Diagnosis of another malignancy. However, patients with prior or concurrent malignancy whose natural history or treatment does not have the potential to interfere with the safety or efficacy assessment of the investigational regimen are eligible for this trial.\n6. Evidence of pleural and/or pericardial effusion. A small and/or asymptomatic effusion is not exclusionary.\n7. Any other disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding that, in the view of the investigator, contraindicates the use of an investigational drug, may affect the interpretation of the results, or may render the patient at high risk from treatment complications.\n8. Pregnancy or breastfeeding, or intention of becoming pregnant during study treatment or within 6 months after the final dose of study treatment.",
+  "healthyVolunteers": false,
+  "sex": "ALL",
+  "minimumAge": "18 Years",
+  "maximumAge": null,
+  "stdAges": [
+    "ADULT",
+    "OLDER_ADULT"
+  ],
+  "leadSponsor": "Georgetown University",
+  "leadSponsorClass": "OTHER",
+  "collaborators": [
+    {
+      "name": "MacroGenics",
+      "class": "INDUSTRY"
+    }
+  ],
+  "responsibleParty": {
+    "type": "SPONSOR",
+    "investigator": null,
+    "affiliation": null
+  },
+  "locations": [
+    {
+      "facility": "Lombardi Comprehensive Cancer Center, Georgetown University",
+      "status": null,
+      "city": "Washington D.C.",
+      "state": "District of Columbia",
+      "zip": "20007",
+      "country": "United States",
+      "geoPoint": {
+        "lat": 38.89511,
+        "lon": -77.03637
+      }
+    }
+  ],
+  "oversightHasDmc": true,
+  "isFdaRegulatedDrug": true,
+  "isFdaRegulatedDevice": false,
+  "isUnapprovedDevice": null,
+  "ipdSharing": "NO",
+  "versionDate": "2026-10-20",
+  "conditionMeshTerms": [
+    {
+      "id": "D055752",
+      "term": "Small Cell Lung Carcinoma"
+    }
+  ],
+  "interventionMeshTerms": [],
+  "hasResults": true
+}

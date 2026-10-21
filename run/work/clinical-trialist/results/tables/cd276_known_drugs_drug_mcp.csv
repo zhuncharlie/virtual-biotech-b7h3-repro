@@ -1,0 +1,10 @@
+drug,chembl_id,disease,phase,status,mechanism,nct
+ENOBLITUZUMAB,CHEMBL3545373,head and neck squamous cell carcinoma,2,Withdrawn,CD276 antigen cross-linking agent,NCT04129320
+ENOBLITUZUMAB,CHEMBL3545373,prostate cancer,2,Recruiting,CD276 antigen cross-linking agent,NCT06014255
+8H9 131I,CHEMBL2109310,leptomeningeal metastasis,2,Terminated,CD276 antigen binding agent,NCT03275402
+ENOBLITUZUMAB,CHEMBL3545373,head and neck malignant neoplasia,2,Withdrawn,CD276 antigen cross-linking agent,NCT04129320
+8H9 131I,CHEMBL2109310,neuroblastoma,2,Terminated,CD276 antigen binding agent,NCT03275402
+ENOBLITUZUMAB,CHEMBL3545373,prostate cancer,2,"Active, not recruiting",CD276 antigen cross-linking agent,NCT02923180
+8H9 131I,CHEMBL2109310,diffuse intrinsic pontine glioma,1,Withdrawn,CD276 antigen binding agent,NCT05063357
+ENOBLITUZUMAB,CHEMBL3545373,melanoma,1,Terminated,CD276 antigen cross-linking agent,NCT01918930
+8H9 131I,CHEMBL2109310,peritoneum cancer,1,Terminated,CD276 antigen binding agent,NCT01099644

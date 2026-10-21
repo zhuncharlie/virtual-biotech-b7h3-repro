@@ -1,0 +1,79 @@
+depmap_disease_label,n,mean_gene_effect,essential_fraction,rank_most_essential
+"Breast Neoplasm, NOS",1,-0.49118963,0.0,1
+"Sarcoma, NOS",1,-0.48836473,0.0,2
+Squamous Cell Carcinoma of the Vulva/Vagina,1,-0.4028752,0.0,3
+Uterine Sarcoma/Mesenchymal,3,-0.37214529333333335,0.3333333333333333,4
+Hodgkin Lymphoma,3,-0.34963703,0.0,5
+Adrenocortical Carcinoma,1,-0.32662597,0.0,6
+Giant Cell Tumor of Bone,1,-0.32451612,0.0,7
+Breast Ductal Carcinoma In Situ,3,-0.3159577966666666,0.0,8
+Leiomyosarcoma,4,-0.31446714,0.25,9
+Ovarian Germ Cell Tumor,1,-0.31107116,0.0,10
+Hepatocellular Carcinoma plus Intrahepatic Cholangiocarcinoma,1,-0.30536005,0.0,11
+Liposarcoma,9,-0.3040901766666667,0.1111111111111111,12
+Cervical Squamous Cell Carcinoma,13,-0.29199087038461535,0.15384615384615385,13
+Hepatoblastoma,2,-0.284926925,0.0,14
+Prostate Adenocarcinoma,5,-0.283276074,0.0,15
+Pancreatic Adenocarcinoma,45,-0.2818071124888889,0.022222222222222223,16
+Cutaneous Squamous Cell Carcinoma,5,-0.279612926,0.0,17
+Diffuse Glioma,71,-0.27300557552112675,0.04225352112676056,18
+Bladder Urothelial Carcinoma,30,-0.2688485066666667,0.03333333333333333,19
+Cervical Adenocarcinoma,3,-0.26760680666666664,0.0,20
+Synovial Sarcoma,5,-0.26552142720000005,0.0,21
+Mature T and NK Neoplasms,8,-0.2612587125,0.125,22
+Chondrosarcoma,1,-0.25689217,0.0,23
+Anaplastic Thyroid Cancer,7,-0.25328443714285714,0.0,24
+Ewing Sarcoma,27,-0.2441420505185185,0.037037037037037035,25
+Myeloproliferative Neoplasms,10,-0.23935359209999998,0.1,26
+Intraductal Papillary Neoplasm of the Bile Duct,28,-0.23910617778571427,0.03571428571428571,27
+Neuroblastoma,39,-0.2380316777230769,0.10256410256410256,28
+Melanoma,67,-0.23544215359701492,0.04477611940298507,29
+Non-Small Cell Lung Cancer,98,-0.2346179183132653,0.030612244897959183,30
+SMARCA4-deficient undifferentiated tumor,2,-0.231627405,0.0,31
+Invasive Breast Carcinoma,49,-0.22845620291836732,0.04081632653061224,32
+Esophageal Squamous Cell Carcinoma,24,-0.2254954193333333,0.0,33
+Retinoblastoma,2,-0.22482714,0.0,34
+Adenosquamous Carcinoma of the Pancreas,2,-0.21929669499999999,0.0,35
+Endometrial Carcinoma,28,-0.21754668407142858,0.03571428571428571,36
+Colorectal Adenocarcinoma,63,-0.21386259621428572,0.06349206349206349,37
+Hepatocellular Carcinoma,21,-0.21324461509523812,0.047619047619047616,38
+Rhabdomyosarcoma,12,-0.21139051241666665,0.0,39
+Lung Neuroendocrine Tumor,26,-0.20962716750000002,0.0,40
+Ovarian Epithelial Tumor,58,-0.20768679494827585,0.017241379310344827,41
+Head and Neck Squamous Cell Carcinoma,72,-0.20272937303652777,0.013888888888888888,42
+Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma,6,-0.20150323,0.0,43
+Osteosarcoma,17,-0.20080329094117647,0.0,44
+Mature B-Cell Neoplasms,56,-0.19875774487142858,0.03571428571428571,45
+Meningothelial Tumor,3,-0.19773625333333333,0.0,46
+Urethral Cancer,2,-0.197492255,0.0,47
+Fibrosarcoma,1,-0.19628462,0.0,48
+Esophagogastric Adenocarcinoma,45,-0.19153446329555557,0.022222222222222223,49
+Ampullary Carcinoma,5,-0.189236234,0.0,50
+Non-Hodgkin Lymphoma,7,-0.18779167571428573,0.14285714285714285,51
+Salivary Carcinoma,2,-0.18718019000000002,0.0,52
+Poorly Differentiated Thyroid Cancer,1,-0.18703063,0.0,53
+Pleural Mesothelioma,21,-0.1862006566666667,0.0,54
+Bladder Squamous Cell Carcinoma,2,-0.18400734000000002,0.0,55
+Glassy Cell Carcinoma of the Cervix,1,-0.17880201,0.0,56
+Intracholecystic Papillary Neoplasm,6,-0.1772129135,0.0,57
+Renal Cell Carcinoma,29,-0.17301813006896552,0.0,58
+Epithelioid Sarcoma,2,-0.170103765,0.0,59
+Merkel Cell Carcinoma,3,-0.16991839833333333,0.0,60
+Rhabdoid Cancer,10,-0.1635298528,0.0,61
+Non-Cancerous,16,-0.1632603015,0.0,62
+Embryonal Tumor,15,-0.16257377106666665,0.0,63
+Mucosal Melanoma of the Vulva/Vagina,1,-0.16192374,0.0,64
+Acute Myeloid Leukemia,30,-0.16130118903333335,0.0,65
+B-Cell Acute Lymphoblastic Leukemia,12,-0.15858440583333333,0.0,66
+T-Lymphoblastic Leukemia/Lymphoma,5,-0.15837983,0.0,67
+Ocular Melanoma,8,-0.150867733125,0.0,68
+Nerve Sheath Tumor,6,-0.14931985583333332,0.0,69
+"Head and Neck Carcinoma, Other",3,-0.141385085,0.0,70
+Mixed Cervical Carcinoma,1,-0.12711132,0.0,71
+Chordoma,1,-0.11291862,0.0,72
+Non-Seminomatous Germ Cell Tumor,5,-0.10492299540000001,0.0,73
+Well-Differentiated Thyroid Cancer,3,-0.10080109166666666,0.0,74
+Clear Cell Sarcoma,1,-0.09111031,0.0,75
+Extra Gonadal Germ Cell Tumor,1,-0.033710018,0.0,76
+Gestational Trophoblastic Disease,3,-0.020488286333333328,0.0,77
+Acute Leukemias of Ambiguous Lineage,1,0.04986964,0.0,78

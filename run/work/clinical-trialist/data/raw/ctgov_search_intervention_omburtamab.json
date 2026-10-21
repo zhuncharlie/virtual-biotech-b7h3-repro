@@ -1,0 +1,2214 @@
+{
+  "success": true,
+  "total_count": 10,
+  "trials": [
+    {
+      "nctId": "NCT03275402",
+      "orgStudyId": "101",
+      "secondaryIds": [],
+      "briefTitle": "131I-omburtamab Radioimmunotherapy for Neuroblastoma Central Nervous System/Leptomeningeal Metastases",
+      "officialTitle": "A Multicenter Phase 2/3 Trial of the Efficacy and Safety of Intracerebroventricular Radioimmunotherapy Using 131I-omburtamab for Neuroblastoma Central Nervous System/Leptomeningeal Metastases",
+      "acronym": null,
+      "overallStatus": "TERMINATED",
+      "statusVerifiedDate": "2024-01",
+      "lastKnownStatus": null,
+      "whyStopped": "Corporate business decision. Not due to safety or efficacy concerns.",
+      "startDate": "2018-12-11",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2023-06-02",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2023-06-02",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2017-09-06",
+      "studyFirstPostDate": "2017-09-07",
+      "lastUpdateSubmitDate": "2024-01-22",
+      "lastUpdatePostDate": "2024-02-13",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Patients will receive up to two cycles of intracerebroventricular 131I-omburtamab. Safety and efficacy will be investigated with short-term follow-up at 26 weeks after treatment and with long-term follow-up for up to 3 years following treatment.",
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 52,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "Children with a neuroblastoma diagnose and central nervous system (CNS)/leptomeningeal metastases will be given up to 2 rounds of intracerebroventricular treatment with a radiolabelled monoclonal antibody, 131I-omburtamab to evaluate efficacy and safety",
+      "detailedDescription": "One 131I-omburtamab treatment cycle takes 4 weeks and includes a treatment dose, and an observation period and post-treatment evaluations.\n\nOne 131I-omburtamab treatment cycle for Japan only takes 5 weeks and includes a dosimetry dose (2mCi) of 131I-omburtamab is administered during week 1 followed by blood/cerebral spinal fluid (CSF) samples and whole-body scintigraphy at predefined intervals during the following 48 hours after treatment.\n\n* A therapeutic dose (50mCi) of 131I-omburtamab is administered during week 1 (week 2 for Japan) followed by a 3-week observation period that includes a repeated MRI, CSF cytology, and safety monitoring.\n* A second treatment cycle of 131I-omburtamab is administered during week 5 (week 6 for Japan) if there is no objective disease progression week 5 after the first injection, and the participant is presenting without unexpected and clinical significant Grade 4 toxicity. For participants with ongoing Grade 3 toxicity a second doing cycle will take place according to the discretion of the investigator.\n\nParticipants can be treated in an outpatient setting or may be admitted as inpatients for both the dosimetry and the therapeutic injections.\n\nParticipants completing at least one treatment period will first enter a follow-up period through week 26 and thereafter the long-term follow-up where patients will be evaluated for up to 3 years post-131I-omburtamab treatment where after the trial is ended\n\nParticipants will be monitored for adverse events during and after 131I-omburtamab injection and will have pre- and post-treatment clinical assessments including neurologic examination, hematology and serum chemistry, blood and CSF cultures, endocrinology assessments, CSF analysis, and, pre- and post 131I-omburtamab performance testing. Performance testing will be performed at trial baseline, at week 26 and every 6 months during trial period.\n\nIn case the patient has a subsequent relapse in the CNS/LM after 131I-omburtamab therapy during the follow-up period, re-treatment to target minimal residual disease can be considered and allowed.",
+      "conditions": [
+        "Neuroblastoma",
+        "CNS Metastases",
+        "Leptomeningeal Metastases"
+      ],
+      "keywords": [
+        "Radioimmunotherapy",
+        "Neuroblastoma",
+        "CNS Metastases",
+        "Leptomeningeal Metastases",
+        "Pediatric"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "131I-omburtamab",
+          "description": "Murine IgG1 monoclonal antibody radiolabeled with iodine-131",
+          "armGroupLabels": [
+            "131I-omburtamab"
+          ],
+          "otherNames": [
+            "131I-8H9"
+          ]
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "131I-omburtamab",
+          "type": "EXPERIMENTAL",
+          "description": "One treatment cycle of 131I-omburtamab consists of one dosimetry dose (2 mCi ) (for subjects enrolled on Version 1-7 of Protocol 101) and one treatment dose (50 mCi) for up to 2 cycles of length 5 weeks (for subjects enrolled on Version 1-7 of Protocol 101) or 4 weeks (for subject enrolled after Version 7 of Protocol 101). For Japan only, the first cycle consisted of one dosimetry dose (2 mCi ) week 1 one treatment dose (50 mCi) week 2. If eligible a second cycle of 50 mCi 131I-omburtamab was given at week 6. For subjects below 3 and 1 years of age, the treatment dose was reduced by 33% and 50%, respectively.",
+          "interventionNames": [
+            "Biological: 131I-omburtamab"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Overall Survival Rate",
+          "description": "Overall survival rate at 3 years after the first treatment dose of 131I-omburtamab estimated by the Kaplan-Meier method.",
+          "timeFrame": "3 years"
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must have a histologically confirmed diagnosis of neuroblastoma with relapse in the central nervous system or in the meninges (leptomeningeal).\n* Patients must be between the ages of birth and 18 years at the time of screening.\n* Patients must have a life expectancy of at least 3 months.\n\nExclusion Criteria:\n\n* Patients with primary neuroblastoma in central nervous system.\n* Patients must not have an uncontrolled life-threatening infection.\n* Patients must not have received cranial or spinal irradiation less than 3 weeks prior to first dose of 131I-omburtamab in this trial.\n* Patients must not have received systemic chemotherapy (corticosteroids not included) less than 3 weeks prior to enrollment in this trial.\n* Patients must not have severe major non-hematologic organ toxicity; specifically, any renal, cardiac, hepatic, pulmonary, and gastrointestinal system toxicity must fall below Grade 3 prior to enrollment in this trial. Patients with stable neurological deficits (due to brain tumor) are not excluded. Patients with Grade 3 or lower hearing loss are not excluded.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": null,
+      "maximumAge": "18 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "leadSponsor": "Y-mAbs Therapeutics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Childrens Hospital Los Angeles",
+          "status": null,
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90027",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Riley Hospital for Children",
+          "status": null,
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Nationwide Children's Hospital",
+          "status": null,
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "M.D. Anderson Cancer Center",
+          "status": null,
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Rigshospitalet",
+          "status": null,
+          "city": "Copenhagen",
+          "state": null,
+          "zip": "2100",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "facility": "Department of Pediatric Oncology Fukushima Medical University Hospita",
+          "status": null,
+          "city": "Fukushima",
+          "state": null,
+          "zip": "960-1295",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 37.75,
+            "lon": 140.46667
+          }
+        },
+        {
+          "facility": "Hospital Sant Joan de D\u00e9u",
+          "status": null,
+          "city": "Barcelona",
+          "state": null,
+          "zip": "08010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D009447",
+          "term": "Neuroblastoma"
+        },
+        {
+          "id": "D055756",
+          "term": "Meningeal Carcinomatosis"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "C000633765",
+          "term": "omburtamab I-131"
+        }
+      ],
+      "hasResults": true
+    },
+    {
+      "nctId": "NCT04167618",
+      "orgStudyId": "301",
+      "secondaryIds": [],
+      "briefTitle": "177Lu-DTPA-Omburtamab Radioimmunotherapy for Recurrent or Refractory Medulloblastoma",
+      "officialTitle": "A Phase I/II Dose-escalation and Expansion Cohort Trial of Intracerebroventricular Radioimmunotherapy Using 177Lu-DTPA-Omburtamab in Pediatric and Adolescent Patients With Recurrent or Refractory Medulloblastoma",
+      "acronym": null,
+      "overallStatus": "TERMINATED",
+      "statusVerifiedDate": "2023-09",
+      "lastKnownStatus": null,
+      "whyStopped": "Business priorities",
+      "startDate": "2021-09-30",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2022-08-11",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2022-08-11",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2019-11-11",
+      "studyFirstPostDate": "2019-11-19",
+      "lastUpdateSubmitDate": "2023-09-11",
+      "lastUpdatePostDate": "2023-10-06",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Patients will receive up to two cycles in Part 1 and up to five cycles in Part 2 of intracerebroventricular 177Lu-DTPA-omburtamab. Safety and efficacy will be investigated during treatment and follow-up period.",
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 2,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "Children and adolescents diagnosed with medullablastoma and with recurrent or refractory to frontline therapy will be treated with 177Lu-DTPA-omburtamab, which is a radioactive labelling of a murine monoclonal antibody targeting B7-H3.",
+      "detailedDescription": "Part 1 is a dose-escalation phase with a 3+3 sequential-group design in which patients will receive a dosimetry dose followed by maximum of two 5-week cycles of treatment doses of intracerebroventricular 177Lu-DTPA-omburtamab.\n\nPart 2 is a cohort-expansion phase in which patients will receive a maximum of five 5-week cycles of intracerebroventricular 177Lu-DTPA-omburtamab at the recommended dose determined in Part 1.\n\nEnd of treatment will take place within 5 weeks after the last cycle and thereafter the patients will be enter the follow-up period. The patients will be followed for up to 2 years after last dose.",
+      "conditions": [
+        "Medulloblastoma, Childhood"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "177Lu-DTPA-omburtamab",
+          "description": "Biological, radiolabeled DPTA-omburtamab",
+          "armGroupLabels": [
+            "177Lu-DTPA-omburtamab"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "177Lu-DTPA-omburtamab",
+          "type": "EXPERIMENTAL",
+          "description": "Intracerebroventricular administration of 177Lu-DTPA-omburtamab for up to two cycles (Part 1) and up to five cycles (Part 2).",
+          "interventionNames": [
+            "Drug: 177Lu-DTPA-omburtamab"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Dose Limiting Toxicities (DLTs) Part 1",
+          "description": "Summary of DLTs in DLT evaluable subjects.",
+          "timeFrame": "Days 1 through 35 in cycle 1"
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically confirmed diagnosis of medulloblastoma.\n* SHH, Group 3, or Group 4 according to World Health Organisation (WHO) 2016 classification.\n* Recurrent (maximum of 2 recurrences for Part 1 and 1 recurrence for Part 2) or refractory to frontline therapy. Prior frontline or second line therapy may involve surgery, craniospinal irradiation, stereotactic radiosurgery, and multi-agent chemotherapy regimens.\n* Have refractory disease, focal or multifocal recurrent disease, or pure leptomeningeal disease. Cytological or radiographic remission is allowed; however, not simultaneously.\n* Performance status score of 50 to 100 on Lansky (less than 16 years) or Karnofsky (16 years or older) scales.\n* Life expectancy of at least 3 months, as judged by the Investigator.\n* Acceptable hematological status and liver and kidney function.\n\nExclusion Criteria:\n\n* Obstructive or symptomatic communicating hydrocephalus as determined by Ommaya patency/cerebrospinal fluid (CSF) flow study.\n* Residual disease (nodular or linear) measuring \\> 15 mm in the smallest diameter.\n* Ventriculoperitoneal shunts without programmable valves. Ventriculo-atrial or ventriculo-pleural shunts.\n* Grade 4 nervous system disorder. Stable neurological deficits (due to brain tumor or surgery) or hearing loss are allowed.\n* Uncontrolled life-threatening infection.\n* Received radiation therapy less than 3 weeks prior to the screening visit.\n* Received systemic or intrathecal cytotoxic chemotherapy or intrathecal immunotherapy (corticosteroids not included) less than 3 weeks prior to the screening visit.\n* Received any prior anti-B7-H3 treatment.\n* Non-hematologic organ toxicity Grade 3 or above; specifically, any renal, cardiac, hepatic, pulmonary, and gastrointestinal system toxicity.\n* Other significant disease or condition that in the investigator's opinion would exclude the patient from the trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "3 Years",
+      "maximumAge": "19 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "leadSponsor": "Y-mAbs Therapeutics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Mayo Clinic",
+          "status": null,
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Doernbecher Children's Hospital",
+          "status": null,
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "M.D. Anderson Cancer Center",
+          "status": null,
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Rigshospitalet, B\u00f8rneonkologisk afsnit",
+          "status": null,
+          "city": "Copenhagen",
+          "state": null,
+          "zip": "2100",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "facility": "Princess M\u00e1xima",
+          "status": null,
+          "city": "Utrecht",
+          "state": null,
+          "zip": "3584CS",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.09083,
+            "lon": 5.12222
+          }
+        },
+        {
+          "facility": "Hospital Universitari Vall d'Hebron",
+          "status": null,
+          "city": "Barcelona",
+          "state": null,
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Sant Joan de Deu de Barcelona",
+          "status": null,
+          "city": "Barcelona",
+          "state": null,
+          "zip": "08950",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "The Royal Marsden Hospital",
+          "status": null,
+          "city": "London",
+          "state": null,
+          "zip": null,
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Great North Children's Hospital",
+          "status": null,
+          "city": "Newcastle",
+          "state": null,
+          "zip": null,
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 54.21804,
+            "lon": -5.88979
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D008527",
+          "term": "Medulloblastoma"
+        }
+      ],
+      "interventionMeshTerms": [],
+      "hasResults": true
+    },
+    {
+      "nctId": "NCT00089245",
+      "orgStudyId": "03-133",
+      "secondaryIds": [
+        {
+          "id": "MSKCC-03133",
+          "type": "OTHER",
+          "link": null
+        }
+      ],
+      "briefTitle": "Radiolabeled MAB Therapy in Patients With Refractory, Recurrent, or Advanced CNS or Leptomeningeal Cancer",
+      "officialTitle": "Phase I Study Of Intrathecal Radioimmunotherapy Using I-8H9 For Central Nervous System/Leptomeningeal Neoplasms",
+      "acronym": null,
+      "overallStatus": "TERMINATED",
+      "statusVerifiedDate": "2023-12",
+      "lastKnownStatus": null,
+      "whyStopped": "Corporate business decision. No safety or efficacy concerns.",
+      "startDate": "2004-02-05",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2022-02-02",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2022-02-02",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2004-08-04",
+      "studyFirstPostDate": "2004-08-05",
+      "lastUpdateSubmitDate": "2023-12-18",
+      "lastUpdatePostDate": "2023-12-26",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 177,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "The purpose of this study is to test the feasibility and toxicity of administering intrathecal immunotherapy for patients with central nervous system/leptomeningeal (CNS/LM) malignancies.",
+      "detailedDescription": "This is a phase I study, where the purpose is to find a safe dose of a new medicine called antibody 8H9. Antibodies are made by the body to fight infections and in some cases, to fight tumors. The antibody 8H9 is made by mice and can attack many kinds of tumors. 8H9 antibody can have a dose of radiation attached to it called 131-I. 131I-8H9 has been given in the vein to patients to find cancer cells. This is the first study using 131I-8H9 in the fluid in the spine to kill cancer cells. 131-I is a beta emitting isotope used extensively for radiation targeted therapies.",
+      "conditions": [
+        "Brain and Central Nervous System Tumors",
+        "Neuroblastoma",
+        "Sarcoma"
+      ],
+      "keywords": [
+        "leptomeningeal metastases",
+        "recurrent neuroblastoma",
+        "disseminated neuroblastoma",
+        "recurrent adult brain tumor",
+        "recurrent childhood medulloblastoma",
+        "recurrent childhood rhabdomyosarcoma",
+        "recurrent childhood soft tissue sarcoma",
+        "recurrent osteosarcoma",
+        "recurrent Ewing sarcoma/peripheral primitive neuroectodermal tumor",
+        "childhood atypical teratoid/rhabdoid tumor",
+        "adult medulloblastoma",
+        "previously treated childhood rhabdomyosarcoma",
+        "metastatic Ewing sarcoma/peripheral primitive neuroectodermal tumor",
+        "metastatic osteosarcoma",
+        "childhood desmoplastic small round cell tumor",
+        "metastatic childhood soft tissue sarcoma",
+        "adult rhabdomyosarcoma",
+        "recurrent adult soft tissue sarcoma",
+        "stage IV adult soft tissue sarcoma"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Iodine I 131 MOAB 8H9",
+          "description": "Patients will be injected, intrathecally, with 2 mCi 131I-Omburtamab during week 1 of a 5 week cycle.",
+          "armGroupLabels": [
+            "Radiolabeled Monoclonal Antibody Therapy"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Iodine I 131 MOAB 8H9",
+          "description": "The dose used in this study is 50 mCi 131IOmburtamab, (averaging 5 mCi/mg Omburtamab at 50 mCi dose) which will be administered to each patient during week 2 of a 5 week cycle.",
+          "armGroupLabels": [
+            "Radiolabeled Monoclonal Antibody Therapy"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Radiolabeled Monoclonal Antibody Therapy",
+          "type": "EXPERIMENTAL",
+          "description": "This is a Phase I trial designed to evaluate the Maximally Tolerated Dose (MTD) of intrathecal 131I-8H9. In order to find the MTD, a dose escalation scheme will be employed with patients entering in cohorts of 3 at each dose level from 10 mCi to 60 mCi and a cohort of 6 at each dose level from 70 mCi to 100 mCi.",
+          "interventionNames": [
+            "Drug: Iodine I 131 MOAB 8H9"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Number of patients that have treatment related toxicities",
+          "description": "Assessment of patient with treatment related toxicities",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Subject Inclusion Criteria:\n\n* Patients must have a histologically confirmed diagnosis of a malignancy known to be 8H9 reactive. 8H9 expression must be confirmed by immunohistochemical staining of tumor and assessed by the Department of Pathology or by immunofluorescence of bone marrow except for patients confirmed to have neuroblastoma.\n* Patients must have CNS/ leptomeningeal disease which is refractory to conventional therapies or for which no conventional therapy exists OR a recurrent brain tumors with a predilection for leptomeningeal dissemination (medulloblastoma, PNET, rhabdoid tumor).\n* Patients must have no rapidly progressing or deteriorating neurologic examination.\n* Patients must have an absolute neutrophil count (ANC) \\> 1000/ul and a platelet count \\> 50,000/ul.\n* Patients may have active malignancy outside the central nervous system.\n* Both pediatric and adult patients of any age are eligible.\n* Patients or a legal guardian will sign an informed consent form approved by the IRB and obtained by the Principal or a Co- Investigator before patient entry. Minors will provide assent.\n* Patients with stored stem cells will be treated at the escalating dose while patients with no stem cells will be treated at the 50 mCi dose. Neuroblastoma patients can be treated at the 50 mCi dose with or without stored stem cells.\n\nSubject Exclusion Criteria:\n\n* Patients with obstructive or symptomatic communicating hydrocephalus.\n* Patients with an uncontrolled life-threatening infection.\n* Patients who are pregnant: Pregnant women are excluded for fear of danger to the fetus. Therefore negative pregnancy test is required for all women of child-bearing age, and appropriate contraception is required during the study period.\n* Patients who have received cranial or spinal irradiation less than 3 weeks prior to the start of this protocol.\n* Patients who have received systemic chemotherapy (corticosteroids not included) less than 3 weeks prior to the start of this protocol.\n* Severe major organ toxicity. Specifically, renal, cardiac, hepatic, pulmonary, and gastrointestinal system toxicity should all be less than grade 2. Patients with stable neurological deficits (because of their brain tumor) are not excluded. Patients with \\<= 3 hearing loss are not excluded.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": null,
+      "maximumAge": null,
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Y-mAbs Therapeutics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [
+        {
+          "name": "Memorial Sloan Kettering Cancer Center",
+          "class": "OTHER"
+        }
+      ],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": null,
+      "isFdaRegulatedDevice": null,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D016543",
+          "term": "Central Nervous System Neoplasms"
+        },
+        {
+          "id": "D009447",
+          "term": "Neuroblastoma"
+        },
+        {
+          "id": "D012509",
+          "term": "Sarcoma"
+        },
+        {
+          "id": "D055756",
+          "term": "Meningeal Carcinomatosis"
+        },
+        {
+          "id": "D001932",
+          "term": "Brain Neoplasms"
+        },
+        {
+          "id": "D008527",
+          "term": "Medulloblastoma"
+        },
+        {
+          "id": "D012516",
+          "term": "Osteosarcoma"
+        },
+        {
+          "id": "D018241",
+          "term": "Neuroectodermal Tumors, Primitive, Peripheral"
+        },
+        {
+          "id": "D018335",
+          "term": "Rhabdoid Tumor"
+        },
+        {
+          "id": "D058405",
+          "term": "Desmoplastic Small Round Cell Tumor"
+        },
+        {
+          "id": "D012208",
+          "term": "Rhabdomyosarcoma"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "C000633765",
+          "term": "omburtamab I-131"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT01502917",
+      "orgStudyId": "11-011",
+      "secondaryIds": [],
+      "briefTitle": "Convection-Enhanced Delivery of 124I-Omburtamab for Patients With Non-Progressive Diffuse Pontine Gliomas Previously Treated With External Beam Radiation Therapy",
+      "officialTitle": "A Phase I Study of Convection-Enhanced Delivery of 124I-Omburtamab for Patients With Non-Progressive Diffuse Pontine Gliomas Previously Treated With External Beam Radiation Therapy",
+      "acronym": null,
+      "overallStatus": "COMPLETED",
+      "statusVerifiedDate": "2023-12",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2011-12",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2022-01",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2022-01",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2011-12-29",
+      "studyFirstPostDate": "2012-01-02",
+      "lastUpdateSubmitDate": "2023-12-18",
+      "lastUpdatePostDate": "2023-12-19",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": null,
+      "primaryPurpose": "OTHER",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 50,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "The purpose of this study is to test the safety of a new method to treat Diffuse Intrinsic Pontine Glioma (DIPG). The researchers will use \"convection-enhanced delivery\" (CED) to deliver an agent called 124I-omburtamab. CED is performed during surgery. The study agent is infused through a small tube placed into the tumor in the brain. Many studies have shown this can safely be done in animals but this study is the first time 124I-omburtamab will be given by CED in humans. This will be one of the first times that CED has been performed in the brain stem.\n\nOmburtamab is something called an antibody. Antibodies are made by the body to fight infections and sometimes cancer. The antibody omburtamab is produced by mice and can attack many kinds of tumors. A radioactive substance, 124I-omburtamab, is attached to omburtamab. 124I-omburtamab sticks to parts of tumor cells and can cause the tumor cells to die from radiation. Studies have also been done on humans using 124I-omburtamab to treat other kinds of cancer. Our studies of some DPG and related tumors suggest that omburtamab will bind to the tumor, but the investigators don't know that for sure.\n\nIn this study, the researchers want to find out how safe 124I-omburtamab given by CED is at different dose levels. They will look to see what effects (both good and bad) it has on the patient. The dose of 124I-omburtamab will increase for each new group of patients. The procedure has already been safely performed with lower doses and infusion volumes in a number of patients here at MSKCC. The amount they get will depend on when they enter the study. If too many serious side effects are seen with a certain dose, no one will be treated with a higher dose, and some more patients may be treated with a lower dose to make sure that dose is safe.",
+      "detailedDescription": null,
+      "conditions": [
+        "Brain Cancer",
+        "Brain Stem Glioma"
+      ],
+      "keywords": [
+        "Brain stem glioma",
+        "CNS",
+        "MAB 124I-omburtamab",
+        "infusion cannula",
+        "DIPG",
+        "Diffuse Intrinsic Pontine Glioma",
+        "11-011"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Radioactive iodine-labeled monoclonal antibody omburtamab",
+          "description": "Prior to treatment children will be pre-medicated with super-saturated potassium iodide \\& liothyronine to prevent thyroid uptake of the therapeutic radioisotopes. The proposed intervention is a surgical procedure using interstitial infusion of the radiolabeled monoclonal antibody 124I-omburtamab into the brain stem tumor. This will be performed by stereotactic placement of a small caliber infusion cannula into the tumor followed by a slow infusion (CED) of 124I-omburtamab. Following treatment, these children will be monitored during inpatient hospitalization with clinical evaluations \\& PET/CT or PET/MRI scans of the brain \\& other organs. Clinical observations, intensive care unit monitoring, routine blood \\& interval imaging studies (MRI \\& PET/CT or PET/MRI scans) will be performed at predetermined time points. If the PET/CT scan happens to fall on a weekend or holiday, the scan may be done before or after at the discretion of the Study PI. This will not affect dosimetry interpretation.",
+          "armGroupLabels": [
+            "Radioactive iodine-labeled monoclonal antibody omburtamab"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "RADIATION",
+          "name": "External Beam Radiotherapy",
+          "description": "Standard radiation therapy is given 4-6 weeks prior to study entry.",
+          "armGroupLabels": [
+            "Radioactive iodine-labeled monoclonal antibody omburtamab"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Radioactive iodine-labeled monoclonal antibody omburtamab",
+          "type": "EXPERIMENTAL",
+          "description": "This is a therapeutic Phase I study intended to assess the safety of convection-enhanced delivery (CED) of radioimmunotherapy in the treatment of children with diffuse pontine glioma.",
+          "interventionNames": [
+            "Drug: Radioactive iodine-labeled monoclonal antibody omburtamab",
+            "Radiation: External Beam Radiotherapy"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "maximum tolerated dose",
+          "description": "Determination that a dose is safe will be made following the treatment of at least 3 but no more than 6 patients at a particular dose level. The dose levels are DL1 (0.25 mCi), DL2 (0.5 mCi), DL3 (0.75 mCi), DL4 (1.0 mCi) DL5 (2.5mCi), DL6 (3.25mCi), DL7 (4.0mCi), DL 7.1(4.0mCi), DL 7.2 (4.0mCi), DL 8 (6.0mCi), DL 9 (8.0mCi), DL 10 (10.0mCi), DL 11 (12.0mCi) ,fallback DL0 (0.125 mCi) FB1 (1.50mCi) and FB2 (2.0mCi). An incidence of dose-limiting toxicity (DLT) in the range of 25% is considered acceptable in this population. A maximum tolerated dose (MTD) will be defined as the dose level below that at which 2 DLTs have occurred.",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "assess the toxicity profile",
+          "description": "Adverse events (toxicity) will be assessed and classified according to the Clinical Terminology Criteria for Adverse Events version 4.0 (CTCAE). Generally, grade 3 toxicities interfere with activities of daily living (ADLs) and grade 4 toxicities are life-threatening. Grade 5 toxicities cause death.",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "overall survival",
+          "description": "Overall survival from the time of diagnosis will be recorded for every patient in this study. Overall survival will be estimated by Kaplan-Meier methodology.",
+          "timeFrame": "2 years"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Consensus of diagnosis must be reached by a multidisciplinary pediatric neuro-oncology team by considering both clinical evidence and MRI presentation. Tissue diagnosis is not required.\n* The patient must have undergone prior external beam radiotherapy to a dose of 54-60 Gy to the brain stem. At least 4 weeks but no more than 14 weeks must have elapsed from the completion of radiotherapy.\n* The patient must be in adequate general condition for study, with Lansky or Karnofsky Performance Score of \u2265 50 at study entry .\n\nLansky Performance scale will be used for patients \u226416 years of age.\n\n* The patient must be \u2265 2 and \u2264 21 years old.\n* Patient must weigh a minimum of 8 kg.\n\nExclusion Criteria:\n\n* Clinical and/or radiographic (MRI) progression of tumor following external beam radiation therapy.\n* Metastatic disease.\n* Untreated symptomatic hydrocephalus determined by treating physician.\n* AST or ALT \\> 2x the upper limit of normal.\n* Platelets \\< 100,000/mcL.\n* ANC \\< 1000/mcL.\n* Abnormal PT (Inr) \\>1.5 INR or PTT \\> 42 sec (may be corrected with FFP, cryoprecipitate, vitamin K, etc).\n* Total bilirubin \\> 2.0 mg/dl.\n* Serum creatinine \\> 1.5x the upper limit of normal for age, or calculated creatinine clearance or nuclear GFR \\< 70 ml/min/1.73 m2.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "2 Years",
+      "maximumAge": "21 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "leadSponsor": "Y-mAbs Therapeutics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [
+        {
+          "name": "Memorial Sloan Kettering Cancer Center",
+          "class": "OTHER"
+        }
+      ],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Weill Medical College of Cornell University",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": null,
+      "isFdaRegulatedDevice": null,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D001932",
+          "term": "Brain Neoplasms"
+        },
+        {
+          "id": "D000080443",
+          "term": "Diffuse Intrinsic Pontine Glioma"
+        }
+      ],
+      "interventionMeshTerms": [],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT04022213",
+      "orgStudyId": "19-182",
+      "secondaryIds": [],
+      "briefTitle": "A Study of the Drug I131-Omburtamab in People With Desmoplastic Small Round Cell Tumors and Other Solid Tumors in the Peritoneum",
+      "officialTitle": "Phase II Combination of 131I-Omburtamab Radioimmunotherapy and External Beam Radiotherapy for Desmoplastic Small Round Cell Tumor",
+      "acronym": null,
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "statusVerifiedDate": "2026-07",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2019-07-15",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2027-07",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2027-07",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2019-07-15",
+      "studyFirstPostDate": "2019-07-17",
+      "lastUpdateSubmitDate": "2026-07-20",
+      "lastUpdatePostDate": "2026-07-21",
+      "expandedAccess": null,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 31,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "The purpose of this study is to test any good and bad effects of the study drug 131I-omburtamab. 131I-omburtamab could prevent the cancer from returning, or delay the cancer from getting worse, but it could also cause side effects. Researchers hope to learn more about how 131I-omburtamab works in the body, and how effective it is in treating cancer. 131I-Omburtamab is not approved by the FDA to treat DSRCT or other cancers of the peritoneum.",
+      "detailedDescription": null,
+      "conditions": [
+        "Desmoplastic Small Round Cell Tumor",
+        "Peritoneal Cancer",
+        "Peritoneal Carcinoma"
+      ],
+      "keywords": [
+        "Solid Tumor",
+        "Peritoneal Solid Tumor",
+        "DSRC",
+        "I131-Omburtamab",
+        "Memorial Sloan Kettering Cancer Center",
+        "19-182"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "131 I-omburtamab",
+          "description": "Single dose of IP RIT administered through an IP catheter with 131 I-omburtamab at 80mCi/m2",
+          "armGroupLabels": [
+            "Group A",
+            "Group B",
+            "Group C"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "RADIATION",
+          "name": "WAP-IMRT",
+          "description": "Group A participants will receive WAP-IMRT approximately 2-4 weeks after completing IP RIT. A dose of 30 Gy will be delivered in 20 fractions of 1.5 Gy given once daily, 5 days per week over the course of approximately 4 weeks",
+          "armGroupLabels": [
+            "Group A"
+          ],
+          "otherNames": [
+            "Intensity Modulated Radiation Therapy"
+          ]
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Group A",
+          "type": "EXPERIMENTAL",
+          "description": "Participants with DSRCT who have undergone GTR of their abdominopelvic disease and who have no definitive radiological evidence of disease in liver or outside the abd/pelvis. Patients if deemed of likely benefit to the patient after completing IP RIT plus WAP-IMRT, or will be mandated if ANC is persistently \\<500/ul despite use of G-CSF for \\>1 week, or if patients experience life threatening febrile neutropenia.",
+          "interventionNames": [
+            "Drug: 131 I-omburtamab",
+            "Radiation: WAP-IMRT"
+          ]
+        },
+        {
+          "label": "Group B",
+          "type": "EXPERIMENTAL",
+          "description": "DSRCT patients who have macroscopic residual disease OR who have previously experienced progression of disease while on treatment but have subsequently had a GTR",
+          "interventionNames": [
+            "Drug: 131 I-omburtamab"
+          ]
+        },
+        {
+          "label": "Group C",
+          "type": "EXPERIMENTAL",
+          "description": "Participants with tumors other than DSRCT and will be enrolled onto an assessment arm to determine eligibility. Immunohistochemistry to assess B7H3 expression will be performed on frozen or paraffin embedded tissue using omburtamab (frozen tissue) or a commercially available anti-B7H3 antibody (if paraffin embedded).",
+          "interventionNames": [
+            "Drug: 131 I-omburtamab"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Progression Free Survival/PFS",
+          "description": "Progression free survival after RIT + WA-IMRT.",
+          "timeFrame": "Up to 2 years after treatment is discontinued"
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Have the diagnosis of DSRCT confirmed at MSKCC\n* Age \\>1 year and able to cooperate with radiation safety restrictions during therapy period.\n* Prior to intraperitoneal catheter placement\n\n  * At least 1 weeks must have elapsed since prior chemotherapy\n  * At least 2 weeks must have elapsed since biologic therapy\n  * Toxicities of prior therapy must have resolved to grade 1 or less or to the patient's baseline\n\nAt the completion of surgery, patients must fulfill all of the additional following criteria:\n\n* Have no definitive radiological evidence of disease active in liver or outside the abdomen/pelvic OR have had GTR of this disease at the time of catheter placement\n\nExclusion Criteria:\n\n* Prior progression of disease\n* Prior hypothermic intraperitoneal chemotherapy (HIPEC)\n* Cardiac, pulmonary, and neurologic toxicities are greater grade 1 per NCI CTCAE version 5\n* Renal, gastrointestinal, and hepatic, toxicities are greater than grade 2 (per NCI CTCAE version 5)\n* History of allergy to mouse proteins\n* Patients with grade 4 hypersensitivity reaction to radiolabeled iodine",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "1 Year",
+      "maximumAge": null,
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Memorial Sloan Kettering Cancer Center",
+      "leadSponsorClass": "OTHER",
+      "collaborators": [
+        {
+          "name": "Y-mAbs Therapeutics",
+          "class": "INDUSTRY"
+        }
+      ],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "YES",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D058405",
+          "term": "Desmoplastic Small Round Cell Tumor"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "D050397",
+          "term": "Radiotherapy, Intensity-Modulated"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT05063357",
+      "orgStudyId": "102",
+      "secondaryIds": [],
+      "briefTitle": "131I-omburtamab Delivered by Convection-Enhanced Delivery in Patients With Diffuse Intrinsic Pontine Glioma",
+      "officialTitle": "Safety of 131I-omburtamab Delivered by Convection-Enhanced Delivery in Patients With Diffuse Intrinsic Pontine Glioma Previously Treated With External Beam Radiation Therapy",
+      "acronym": null,
+      "overallStatus": "WITHDRAWN",
+      "statusVerifiedDate": "2023-06",
+      "lastKnownStatus": null,
+      "whyStopped": "Corporate business decision. Not due to safety or efficacy concerns.",
+      "startDate": "2022-03",
+      "startDateType": "ESTIMATED",
+      "primaryCompletionDate": "2026-03",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2026-12",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2020-09-16",
+      "studyFirstPostDate": "2021-10-01",
+      "lastUpdateSubmitDate": "2023-06-22",
+      "lastUpdatePostDate": "2023-06-26",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Single-arm, multi-center clinical trial",
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 0,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "Omburtamab is a murine IgG1 monoclonal antibody, recognizing CD276 (also known as B7- H3). Omburtamab is 131I-labeled at designated radio pharmacies and will be provided as a final radiolabeled product to treatment site. The proposed intervention includes surgical placement using standard stereotactic techniques of a small caliber cannula into the tumor in the pons followed by positive pressure infusion (i.e. CED) of 131I-omburtamab. Iodine-131 conjugated omburtamab (131I-omburtamab) administered via the intracerebroventricular route for the treatment of metastatic CNS neuroblastoma was shown to be tolerable and improve survival. Furthermore, 124I-omburtamab administered by convection enhanced delivery (CED) was shown to have a tolerable safety profile in an ongoing dose escalation trial (in doses up to 4mCi) in patients with diffuse pontine gliomas that have not progressed following external beam radiation therapy. The aim of this trial is to determine the efficacy and safety of 131I-omburtamab in patients with DIPG that have not progressed following external beam radiation therapy.",
+      "detailedDescription": "The IMP infusion volume for CED will be adjusted to 4, 6 or 8 mL dependent on the size of the tumor as estimated by MRI. The maximum volume of 8 mL was tested, and safety cleared in the 11-011 trial. Assuming a ratio of approximately 1:3 between the infusion volume and the distribution volume the infusion volume will be adjusted to ensure coverage of the tumor and 0.5 cm of the surrounding margin. The infusion volume will be 4 mL if tumor size (+0.5 cm margin) \\<10 cm3, 6 mL if tumor size (+0.5 cm margin) \u226510 and \\<15 cm3, and 8 mL if tumor size (+0.5 cm margin) \u226515 and \u226420 cm3. The maximum infusion rate will be 10 \u03bcL/min. Infusions will be initiated using an escalating flow rate plan with 10-min intervals until the maximum rate is achieved (0\u00b75 \u03bcL/min, 1\u00b70 \u03bcL/min, 2\u00b70 \u03bcL/min, 5\u00b70 \u03bcL/min, 7\u00b75 \u03bcL/min and 10 \u03bcL/min).",
+      "conditions": [
+        "DIPG"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "131I-Omburtamab",
+          "description": "Omburtamab is a murine IgG1 monoclonal antibody, recognizing CD276 (also known as B7-H3).",
+          "armGroupLabels": [
+            "Radioactive iodine-labeled monoclonal antibody omburtamab"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DEVICE",
+          "name": "Convention Enhanced Delivery",
+          "description": "The planned intervention includes surgical placement of a small caliber cannula into the tumor located in the pons using standard stereotactic techniques followed by CED of 131Iomburtamb.",
+          "armGroupLabels": [
+            "Radioactive iodine-labeled monoclonal antibody omburtamab"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Radioactive iodine-labeled monoclonal antibody omburtamab",
+          "type": "OTHER",
+          "description": "Single arm",
+          "interventionNames": [
+            "Drug: 131I-Omburtamab",
+            "Device: Convention Enhanced Delivery"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Determining the safety of up to 36 participants with 131I-omburtamab administered directly into the tumor by CED in patients with DIPG assessed by CTCAE v.5.0",
+          "description": "Up to 36 patients may be enrolled in the dose escalation phase in planned cohorts of 3 patients with a maximum of 3 cohorts at a dose level.All patients may receive up to three cycles of 131I-omburtamab. Patients will be followed until the last patient has had the last follow-up visit at 2 years after the 131I-omburtamab administration. End of trial is defined as last patient's last visit in the two-year follow-up period, or death whichever comes first. All Non-serious AEs should be reported from the time of CED placement surgery administration until 30 days after the IMP administration. All SAEs should be captured from signing the ICF until 30 days after IMP administration. Starting at day 31 after dosing of 131I-omburtamab only SAE's or \u2265 grade 3 non-serious AEs considered at least possibly related to 131I-omburtamab or new onset of cancers regardless of causality should be reported.",
+          "timeFrame": "2 years after last patient has received final dose of 131I-omburtamab administration"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Progression of tumor using Magnetic Resonance Imaging (MRI) of the brain in accordance with recommendations from the Response Assessment in Pediatric Neuro-Oncology (RAPNO) working group for Diffuse Intrinsic Pontine Glioma (DIPG)",
+          "description": "MRI of the brain will be used to assess PD.\n\nPD is defined as:\n\nA greater than 25 percent increase in the 2D product of the perpendicular diameters of the lesion using T2-weighted or FLAIR sequences and not considered pseudo-progression, taking as a reference the smallest disease measurement recorded since the baseline MRI OR the appearance of new extrapontine tumor, i.e. lesions non-contiguous to the primary pontine lesion.",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "Progression of tumor using Magnetic Resonance Imaging (MRI) of the spine in accordance with recommendations from the Response Assessment in Pediatric Neuro-Oncology (RAPNO) working group for Diffuse Intrinsic Pontine Glioma (DIPG)",
+          "description": "MRI of the spine will be used to assess PD.\n\nPD is defined as:\n\nA greater than 25 percent increase in the 2D product of the perpendicular diameters of the lesion using T2-weighted or FLAIR sequences and not considered pseudo-progression, taking as a reference the smallest disease measurement recorded since the baseline MRI OR the appearance of new extrapontine tumor, i.e. lesions non-contiguous to the primary pontine lesion.",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "Gross neurological investigation including the cranial nerves by physical examination and the Neurologic Assessment in Neuro-Oncology (NANO) scale.",
+          "description": "Neurological examination indicating clinical deterioration not attributable to other causes such as anticonvulsant or corticosteroid toxicity, electrolyte disturbances, sepsis, hyperglycemia, etc.\n\nPD is defined as:\n\nA greater than 25 percent increase in the 2D product of the perpendicular diameters of the lesion. The scale is intended to be performed at baseline and at follow-up visits. An overall score will be determined following assessment of each domain and will include one of 5 possible outcomes: neurologic response, neurologic progression, neurologic stability, not assessed, and non-evaluable.\n\nNeurologic response is defined as a \u22652 level improvement in at least one domain without worsening in other domains from baseline.\n\nNeurologic stability indicates a score of neurologic function that does not meet criteria for neurologic response, neurologic progression, non-evaluable, or not assessed.",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "SPECT/CT scans and blood sampling for dosimetry",
+          "description": "SPECT/CT scans will be performed at 4h, 12h, 24h, 72h and 7 days after the first administration of 131I-omburtamab.",
+          "timeFrame": "7 days"
+        },
+        {
+          "measure": "Blood sampling for dosimetry",
+          "description": "will be performed at 4h, 12h, 24h, 72h and 7 days after the first administration of 131I-omburtamab.",
+          "timeFrame": "7 days"
+        },
+        {
+          "measure": "Changes in neurological function using the Neurologic Assessment in Neuro-Oncology scale",
+          "description": "Changes in neurological function will be assessed 1, 2, 7, 14, and 30 days after dosing with 131I-omburtamab by summarizing changes from baseline of a neurological examination using the Neurologic Assessment in Neuro-Oncology (NANO) scale. The NANO scale is intended to be performed at baseline and at follow-up visits, especially those where neuroimaging is obtained. An overall NANO score will be determined following assessment of each domain and will include one of 5 possible outcomes: neurologic response, neurologic progression, neurologic stability, not assessed, and non-evaluable. In general, assessment and scoring of all domains is encouraged.",
+          "timeFrame": "Up to 30 days after dosing with 131I-omburtamab"
+        },
+        {
+          "measure": "Changes from baseline in the Lansky/Karnofsky performance score",
+          "description": "Changes from baseline in the Lansky/Karnofsky performance score evaluated 6, 12, and 24 months after last dosing. Lansky or Karnofsky Performance Score of \u2265 70 at study entry. Lansky Performance scale to be used for patients \u226416 years of age. The score is determined on a scale ranging from 0-100. A higher score means the patient is better able to carry out daily activities.",
+          "timeFrame": "24 months after last dosing"
+        },
+        {
+          "measure": "Number of Participants With Treatment-Related Adverse Events as Assessed by CTCAE v4.0",
+          "description": "Monitoring the frequency, type, and duration of serious adverse events after up to 3 CED infusions of 131I-omburtamab",
+          "timeFrame": "30 days after the last IMP administration."
+        },
+        {
+          "measure": "Overall Survival",
+          "description": "Overall survival will be followed as a secondary efficacy endpoint dictated by the absence of suitable and validated surrogate markers of efficacy in DIPG.",
+          "timeFrame": "Up to 24 months after first CED infusion of 131I-omburtamab"
+        },
+        {
+          "measure": "Progression free survival",
+          "description": "Response Assessment in Pediatric Neuro-Oncology (RAPNO) and Response Assessment in Pediatric Neuro-Oncology High Grade Glioma (RAPNO-HCG) will be used to assess progression free survival.",
+          "timeFrame": "Up to 12 months after first CED infusion of 131I-omburtamab"
+        },
+        {
+          "measure": "Objective Response Rate",
+          "description": "Response Assessment in Pediatric Neuro-Oncology (RAPNO) and Response Assessment in Pediatric Neuro-Oncology High Grade Glioma (RAPNO-HCG) will be used to assess objective response rate at 6 months and 12 months after first CED infusion of 131I-omburtamab.",
+          "timeFrame": "12 months after first CED infusion of 131I-omburtamab"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Diagnosis of diffuse intrinsic pontine glioma based on clinical evidence and radiographic (MRI) imaging.\n2. The patient must have undergone prior external beam radiotherapy using standard conformal fractionated or hypo-fractionated techniques to a planned maximal total dose of 54-60 Gy to the brain stem of which the patient must have received \u2265 90% of the planned dose, at least 4 weeks but no more than 14 weeks prior signing of ICF.\n3. Lansky or Karnofsky Performance Score of \u2265 70 at study entry. Lansky Performance scale to be used for patients \u226416 years of age.\n4. Age \u2265 3 years old and less than 21 years old.\n5. Written informed consent from legal guardian(s) and/or child obtained in accordance with local regulations. Pediatric patients must provide assent as required by local regulations.\n\nExclusion Criteria:\n\n1. Clinical and/or radiographic (MRI) progression of tumor in the period between external beam radiation therapy and signing of ICF. If pseudoprogression is suspected rescreening is allowed\n2. Metastatic or disseminated disease.\n3. Tumor size larger than 20cm3.\n4. Untreated symptomatic hydrocephalus as determined by the investigator\n5. Increasing dose of steroids for 1 week prior to first IMP treatment\n6. AST or ALT \\> 3x the upper limit of normal.\n7. Total bilirubin \\> 3x the upper limit of normal. In case either AST or ALT \u22653 x ULN, bilirubin must be \u2264 2 x the upper limit of normal.\n8. Hemoglobin less than 8 g/dL.\n9. White blood cell (WBC) count less than 1000/\u03bcL.\n10. ANC count less than 500/\u03bcL.\n11. Platelet count less than 100,000/\u03bcL.\n12. INR (international normalized ratio) higher than 1.5 (calculated from the prothrombin time).\n13. Glomerular filtration rate (eGFR) of \u2264 60 ml/min/1.73m2 calculated by 2009 revised Bedside Schwartz Equation.\n14. Weight less than 8kg.\n15. Life expectancy less than six weeks as judged by the investigator.\n16. Tumor whose origin is outside the pons.\n17. Patients must not have an uncontrolled life-threatening infection.\n18. Patients must not have severe non-hematologic organ or neurological toxicity; specifically, any neurological, cardiac, hepatic, pulmonary, and gastrointestinal system toxicity must be below Grade 3 prior to signing the ICF.\n19. Females of childbearing potential who are pregnant, breast feeding, intend to become pregnant, or are not using highly effective contraceptive methods while included in the trial and for 12 months after the last dose of 131I-omburtamab.\n20. Fertile male patients who do not agree to the use of condoms during treatment and for a period of 12 months after the last dose of 131I-omburtamab. For a male patient to be exempt from the requirement to use contraception after 131I-omburtamab treatment, he must have undergone surgical sterilization (vasectomy).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "3 Years",
+      "maximumAge": "21 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "leadSponsor": "Y-mAbs Therapeutics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [
+        {
+          "name": "Labcorp Corporation of America Holdings, Inc",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Invicro",
+          "class": "OTHER"
+        }
+      ],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "UNDECIDED",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [],
+      "interventionMeshTerms": [
+        {
+          "id": "C000633765",
+          "term": "omburtamab I-131"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT07698899",
+      "orgStudyId": "26-097",
+      "secondaryIds": [],
+      "briefTitle": "A Study of 177Lu-DTPA-Omburtamab in Children and Adolescents With Brain Cancer or Cancer That Has Spread to the Central Nervous System (CNS)",
+      "officialTitle": "A Phase I Dose Escalation Trial of Compartmental Radioimmunotherapy (cRIT) Using 177Lu-DTPA-omburtamab in Pediatric and Adolescent Patients With Recurrent or Refractory B7H3 Expressing Primary or Metastatic CNS Tumors",
+      "acronym": null,
+      "overallStatus": "RECRUITING",
+      "statusVerifiedDate": "2026-10",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2026-07-02",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2030-06-02",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2030-07-02",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2026-07-06",
+      "studyFirstPostDate": "2026-07-13",
+      "lastUpdateSubmitDate": "2026-10-07",
+      "lastUpdatePostDate": "2026-10-08",
+      "expandedAccess": null,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 24,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "The purpose of this study is to find out whether 177Lu-DPTA-omburtamab is a safe treatment for children and adolescents with recurrent/refractory medulloblastoma or another type of cancer with CNS metastases.",
+      "detailedDescription": null,
+      "conditions": [
+        "Recurrent Medulloblastoma",
+        "Refractory Medulloblastoma",
+        "CNS Metastases",
+        "Central Nervous System Metastasis"
+      ],
+      "keywords": [
+        "Recurrent Medulloblastoma",
+        "Refractory Medulloblastoma",
+        "CNS Metastases",
+        "Central Nervous System Metastasis",
+        "Memorial Sloan Kettering Cancer Center",
+        "26-097",
+        "177Lu-DTPA-Omburtamab"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "25 mCi 177Lu- DTPA-omburtamab",
+          "description": "The dose of DTPA-omburtamab will be decided by the dose escalation design",
+          "armGroupLabels": [
+            "Dose Level 1: 25 mCi",
+            "Dose Level 2: 50 mCi",
+            "Dose Level 3: 75 mCi",
+            "Dose Level 4: 100 mCi"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Dose Level 1: 25 mCi",
+          "type": "EXPERIMENTAL",
+          "description": "25 mCi 177Lu- DTPA-omburtamab",
+          "interventionNames": [
+            "Biological: 25 mCi 177Lu- DTPA-omburtamab"
+          ]
+        },
+        {
+          "label": "Dose Level 2: 50 mCi",
+          "type": "EXPERIMENTAL",
+          "description": "50 mCi 177Lu- DTPA-omburtamab",
+          "interventionNames": [
+            "Biological: 25 mCi 177Lu- DTPA-omburtamab"
+          ]
+        },
+        {
+          "label": "Dose Level 3: 75 mCi",
+          "type": "EXPERIMENTAL",
+          "description": "75 mCi 177Lu- DTPA-omburtamab",
+          "interventionNames": [
+            "Biological: 25 mCi 177Lu- DTPA-omburtamab"
+          ]
+        },
+        {
+          "label": "Dose Level 4: 100 mCi",
+          "type": "EXPERIMENTAL",
+          "description": "100 mCi 177Lu- DTPA-omburtamab",
+          "interventionNames": [
+            "Biological: 25 mCi 177Lu- DTPA-omburtamab"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participants with toxicities",
+          "description": "To determine safety of up to 2 cycles of cRIT with 177Lu-DTPA-omburtamab treatment in pediatric patients graded according to CTCAE version 5",
+          "timeFrame": "Up to 2 cycles (each cycle is 28 days)"
+        },
+        {
+          "measure": "Maximum Tolerated Dose/MTD",
+          "description": "To determine the maximum tolerated dose (MTD) and/or the recommended Phase 2 dose (RP2D) of a single injection of cRIT with 177Lu-DTPA-omburtamab in pediatric patients.",
+          "timeFrame": "Up to 2 cycles (each cycle is 28 days)"
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n\\- Disease type:\n\n* Histologically confirmed diagnosis of a tumor that is known to express B7-H3 including but not limited to neuroblastoma, medulloblastoma, rhabdoid tumors, pineoblastoma, retinoblastoma, CNS embryonal tumor, rhabdomyosarcoma, Ewing's sarcoma and ependymoma.\n\n  * Disease status:\n* Patients must have recurrent or refractory disease with CNS parenchymal and/or leptomeningeal disease which has been treated with conventional therapies or for which no conventional therapy exists. Measurable or evaluable disease is not required at time of enrollment.\n\n  \\- Age: Patients must be \u2265 3 and \\< 22 years of age at the time of enrollment.\n  * Prior Therapy: The participant must have recovered from acute toxic effects of prior anti-cancer therapies with the following minimum duration from prior therapy:\n* Chemotherapy: Patients must have received their last dose of known myelosuppressive anticancertherapy at least 21 days (3 weeks) prior to enrollment or at least 42 days (6 weeks) if prior nitrosourea.\n* Anti-GD2 monoclonal antibody (neuroblastoma patients): Patients must have received their last dose of anti-GD2 mAb at least 14 days (2 weeks) before enrollment.\n* Radiation: Patients must have had their last fraction of:\n\n  * Craniospinal irradiation, whole brain radiation, or total body irradiation at least 21 days (3 weeks) prior to study enrollment.\n  * Focal radiation to areas of symptomatic metastatic disease at least 14 days (2 weeks) prior to study enrollment.\n* Stem Cell Transplant (SCT): For autologous SCT, 60 days (\u2265 2 months) must have elapsed before study enrollment. Patients who have received an autologous hematopoietic stem cell injection to support non- myeloablative therapy (such as 131 I-MIBG) are eligible at any time as long as they meet the other criteria for eligibility. 131\n* I-MIBG therapy or treatment with other radiopharmaceuticals (neuroblastoma 131 patients): A minimum of 42 days (6 weeks) must have elapsed after I-MIBG therapy before start of protocol therapy.\n* Investigational/Biologic Agent (anti-neoplastic): Patient must have recovered from any acute toxicity potentially related to the agent and received their last dose of the investigational or biologic agent \u2265 7 days (1 week) prior to study enrollment.\n* Molecular targeted therapies: Patients must complete a washout period from last therapy that is either 7 days (1 week) or 3 half-lives, whichever is longer.\n\n  * Patients with neurological deficits should have deficits that are stable for a minimum of 7 days (1 week) prior to enrollment.\n  * Patients with seizure disorders may be enrolled if seizures are controlled.\n  * Karnofsky Performance Scale (KPS for \\> 16 years of age) or Lansky Performance Score (LPS for \u2264 16 years of age) assessed within 14 days (2 weeks) prior to study enrollment must be \u2265 50%.\n* Patients who are unable to walk because of neurologic deficits, but who are up in a wheelchair, will be considered ambulatory for the purpose of assessing the performance score.\n\n  * Peripheral absolute neutrophil count (ANC) \u2265 0.5x 109/ L (must not have received G-CSF within 7 days (1 week) prior to enrollment or pegfilgrastim within 14 days (2 weeks) prior to enrollment.\n  * Platelet count \u2265 75 x 109/ L. Growth factor support (romiplostim or biosimilar) is permitted both prior to and during therapy.\n* For patients with neuroblastoma (regardless of marrow disease status) and other solid tumors known bone marrow infiltration from disease: platelet count \u2265 50 x 109/ L (with no platelet transfusion within 7 days prior to study enrollment).\n\n  \\- Adequate Renal Function Defined as:\n\n  \\- A creatinine based on age/gender as follows: Age; Maximum Serum Creatinine (mg/dL) Male and Female\n\n  1 month to \\< 6 months; 0.4, 0.4 6 months to \\< 1 year; 0.5, 0.5\n  1. to \\< 2 years; 0.6, 0.6\n  2. to \\< 6 years; 0.8, 0.8\n\n  6 to \\< 10 years; 1, 1 10 to \\< 13 years; 1.2. 1.2 13 to \\< 16 years; 1.5, 1.4\n\n  \u2265 16 years; 1.7, 1.4\n  * The threshold creatinine values in this Table were derived from the Schwartz formula for estimating GFR utilizing child length and stature data published by the CDC.\n  * Adequate Liver Function Defined as: - Bilirubin \u2264 1.5 x upper limit of normal (ULN) for age (or \u2264 3 x ULN if Gilbert's syndrome) - SGPT (ALT) \\< 135 U/L. For the purpose of this study, the ULN for SGPT is 45 U/L.\n  * Presence of an appropriate intraventricular access device (e.g., programmable ventriculoperitoneal \\[VP\\] shunt or Ommaya reservoir). Patients are not required to have an existing programmable VP shunt or Ommaya at the time of study enrollment but must be willing and able to undergo a surgical procedure to have one placed prior to cRIT.\n* Note: Patients with an existing intraventricular VP shunt without a programmable component must be willing and able to undergo modification of the shunt.\n\n  * Patients may have active malignancy outside the central nervous system but do not immediately require treatment for systemic disease. Neuroblastoma patients with CNS and systemic disease will only receive 1 dose of cRIT 177Lu- omburtamab while patients with CNS metastases in the absence of systemic disease can receive 2 doses of cRIT 177Lu-omburtamab.\n  * Patients may be on standing steroids, as long as the dosage is either stable or decreasing for at least 7 days (1 week) prior to enrollment.\n  * Human Anti-Mouse Antibody (HAMA) testing will be performed prior to 177Lu-DTPAomburtamab.\n\nExclusion Criteria:\n\n* Patients with obstructive or symptomatic communicating hydrocephalus.\n* Patients with an uncontrolled life-threatening infection.\n* Patients who are pregnant:\n\n  o A negative pregnancy test is required for all women of childbearing age, and appropriate contraception for 3 months after the last dose of 177Lu-DTPAomburtamab is required during the study period.\n* Severe major organ toxicity:\n\n  * Cardiac, pulmonary, and gastrointestinal system toxicity should all be \\< grade 2\n  * Patients with grade 4 hearing loss are excluded",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "3 Years",
+      "maximumAge": "22 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "leadSponsor": "Memorial Sloan Kettering Cancer Center",
+      "leadSponsorClass": "OTHER",
+      "collaborators": [
+        {
+          "name": "Y-mAbs Therapeutics",
+          "class": "INDUSTRY"
+        }
+      ],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center Basking Ridge (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Basking Ridge",
+          "state": "New Jersey",
+          "zip": "07920",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.70621,
+            "lon": -74.54932
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering at Monmouth (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Middletown",
+          "state": "New Jersey",
+          "zip": "07748",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.39428,
+            "lon": -74.11709
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering at Bergen (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Montvale",
+          "state": "New Jersey",
+          "zip": "07645",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.04676,
+            "lon": -74.02292
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering at Suffolk-Commack (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Commack",
+          "state": "New York",
+          "zip": "11725",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84288,
+            "lon": -73.29289
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering at Westchester (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Harrison",
+          "state": "New York",
+          "zip": "10604",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.96899,
+            "lon": -73.71263
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center (All Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering at Nassau (Limited Protocol Activities)",
+          "status": "RECRUITING",
+          "city": "Uniondale",
+          "state": "New York",
+          "zip": "11553",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.70038,
+            "lon": -73.59291
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "YES",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D008527",
+          "term": "Medulloblastoma"
+        }
+      ],
+      "interventionMeshTerms": [],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT04743661",
+      "orgStudyId": "PBTC-058",
+      "secondaryIds": [
+        {
+          "id": "NCI-2021-00773",
+          "type": "REGISTRY",
+          "link": null
+        },
+        {
+          "id": "PBTC-058",
+          "type": "OTHER",
+          "link": null
+        },
+        {
+          "id": "PBTC-058",
+          "type": "OTHER",
+          "link": null
+        },
+        {
+          "id": "UM1CA081457",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/UM1CA081457"
+        }
+      ],
+      "briefTitle": "131I-Omburtamab, in Recurrent Medulloblastoma and Ependymoma",
+      "officialTitle": "Phase 2 Study of Intraventricular Omburtamab-based Radioimmunotherapy for Pediatric Patients With Recurrent Medulloblastoma and Ependymoma",
+      "acronym": null,
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "statusVerifiedDate": "2026-07",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2022-04-04",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2026-04-01",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2027-09-30",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2021-02-03",
+      "studyFirstPostDate": "2021-02-08",
+      "lastUpdateSubmitDate": "2026-07-24",
+      "lastUpdatePostDate": "2026-07-28",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 62,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "A Phase 2 study investigating the addition of cRIT 131I-omburtamab to irinotecan, temozolomide, and bevacizumab for patients with recurrent medulloblastoma. A feasibility cohort is included to assess the feasibility of incorporating cRIT 131I-omburtamab for patients with recurrent ependymoma.\n\nDirect intraventricular delivery of radiolabeled tumor-specific antibodies may aid in both the detection and treatment of recurrent disease for these highly specific pediatric patients with recurrent tumors.",
+      "detailedDescription": "Stratum 1: This is a phase 2 single-arm open-label study that will define event-free survival (EFS) and overall survival (OS) following therapy with irinotecan, temozolomide, bevacizumab, and compartmental (intraOmmaya) radioimmunotherapy (cRIT) 131I-omburtamab in patients with recurrent medulloblastoma. Patients with recurrent medulloblastoma will undergo surgery if feasible prior to study entry, followed by Induction Chemotherapy with irinotecan, temozolomide, and bevacizumab on study as per the Children's Oncology Group (COG) trial ACNS0821. Following 2 or 4 courses of chemotherapy and if radiographic disease status is stable or improved, patients may continue to Radioimmunotherapy to receive 2 therapeutic doses (50 mCi each) of cRIT 131I-omburtamab. Following Radioimmunotherapy, patients may resume to Maintenance Chemotherapy with irinotecan, temozolomide, and bevacizumab for up to 12 total courses of chemotherapy or until disease progression, whichever occurs sooner. The primary comparison for this study will be the medulloblastoma cohort treated on ACNS0821 on the irinotecan + temozolomide + bevacizumab arm (N=52).\n\nStratum 2: This is a feasibility cohort. The primary objective is to assess feasibility of incorporating cRIT 131I-omburtamab for patients with recurrent ependymoma and to assess dosimetry. Patients must have progressed after initial surgery, radiation therapy, or other therapies. Patients will undergo surgery (if feasible) prior to study entry with the goal of achieving stable or better disease. Tumors (archived or new) will be tested for B7H3 prior to enrollment. If positive, patients will enroll on Stratum 2 and receive one dosimetry dose (2 mCi) of cRIT 131I-omburtamab with nuclear medicine scintigraphy (typically using 3 whole-body planar gamma camera imaging and at least 1 head SPECT scan or SPECT/CT) using SPECT during the Dosimetry Course (14 days in length). Following the Dosimetry Course and within 2 weeks of the dosimetry dose, patients may continue to Radioimmunotherapy to receive 2 therapeutic doses (50 mCi each) of cRIT 131I-omburtamab.",
+      "conditions": [
+        "Recurrent Medulloblastoma",
+        "Recurrent Ependymoma"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Irinotecan",
+          "description": "Irinotecan is a semisynthetic water-soluble analog of camptothecin (a plant alkaloid isolated from Camptotheca acuminata). Irinotecan is available in single-dose amber glass vials in 40 mg (2 mL) and 100 mg (5 mL), 300 mg (15 mL), and 500 mg (25 mL).\n\nPatients on Stratum 1 will be given irinotecan at 50 mg/m2/day IV on Days 1 through 5 of each chemotherapy course.",
+          "armGroupLabels": [
+            "Recurrent Medulloblastoma"
+          ],
+          "otherNames": [
+            "CPT-11,"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Temozolomide",
+          "description": "An orally administered alkylating agent, a second generation imidazotetrazine. A prodrug of MTIC, temozolomide spontaneously decomposes to MTIC at physiologic pH. Exerts its effect by cross-linking DNA. Temozolomide capsules are available in six different strengths (5, 20, 100, 140, 180, 250 mg). The capsules vary in size, color, and imprint according to strength. In the US, capsules are packaged in 5-count and 14-count bottles.\n\nPatients on Stratum 1 will be given temozolomide at 150 mg/m2/dose PO on Days 1-5 of each chemotherapy course.",
+          "armGroupLabels": [
+            "Recurrent Medulloblastoma"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Bevacizumab",
+          "description": "Bevacizumab is a recombinant humanized anti-vascular endothelial growth factor (anti-VEGF) monoclonal antibody. Bevacizumab is supplied as a clear to slightly opalescent, sterile liquid ready for parenteral administration. Each 400 mg (25 mg/mL, 16 mL fill) glass vial contains bevacizumab with phosphate, trehalose, polysorbate 20, and Sterile Water for Injection.\n\nPatients on Stratum 1 will be given bevacizumab at 10 mg/kg/day IV on Days 1 and 15 of each chemotherapy course, with the exception of the last course of Induction Chemotherapy (i.e., Course 2 or 4) where it will be administered on Day 1 only.",
+          "armGroupLabels": [
+            "Recurrent Medulloblastoma"
+          ],
+          "otherNames": [
+            "rhuMAb VEGF, Avastin\u00ae)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Omburtamab I-131",
+          "description": "Omburtamab is a murine IgG1 monoclonal antibody (mAb) against B7-H3 (CD276) manufactured by in vivo growth of the hybridoma cell line without the use of animal-derived components. Omburtamab will be radiolabeled with iodine-131 at a designated radiolabeling facility. 131I-omburtamab is supplied as a sterile, injectable, radioactive product in a vial. Each supplied vial will contain enough radioactivity to prepare 50 mCi of 131I-omburtamab, formulated in 3.5-4 mL of solution. 131I-omburtamab should be administered via an intraventricular access device (i.e., Ommaya catheter or programmable VP shunt). Radioimmunotherapy consists of 56 days.\n\nPatients on Stratum 1 will receive a therapeutic dose of 50 mCi cRIT 131I-omburtamab on Days 8 and 36 of Radioimmunotherapy.\n\nPatients on Stratum 2 will receive a therapeutic dose of 50 mCi cRIT 131I-omburtamab on Days 1 and 29 of Radioimmunotherapy.",
+          "armGroupLabels": [
+            "Recurrent Ependymoma",
+            "Recurrent Medulloblastoma"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Liothyronine",
+          "description": "Liothyronine (or equivalent) will be given as premedication for 131I-omburtamab to prevent thyroid accumulation. Liothyronine (or equivalent) will be administered at 25 \u00b5g PO, NG, or G-tube (if weight \\< 25 kg) or 50 \u00b5g PO, NG, or G-tube (if weight \u2265 25 kg) daily starting on Day 1 of Radioimmunotherapy (for Stratum 1 patients) or Day 1 of Dosimetry (for Stratum 2 patients), with a mandated minimum of 7 days before each 131I-omburtamab injection and 14 days after each 131I-omburtamab injection. On the day of the 131I-omburtamab injection, administer any time before the injection.",
+          "armGroupLabels": [
+            "Recurrent Ependymoma",
+            "Recurrent Medulloblastoma"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "SSKI",
+          "description": "SSKI (potassium iodide) will be given as premedication for 131I-omburtamab to prevent thyroid accumulation. SSKI (potassium iodide) will be administered as 7 drops (\\~0.35 mL) PO, NG, or G-tube daily starting on Day 1 of Radioimmunotherapy (for Stratum 1 patients) or Day 1 of Dosimetry (for Stratum 2 patients), with a mandated minimum of 7 days before each 131I-omburtamab injection and 14 days after each 131I-omburtamab injection. On the day of the 131I-omburtamab injection, administer any time before the injection.",
+          "armGroupLabels": [
+            "Recurrent Ependymoma",
+            "Recurrent Medulloblastoma"
+          ],
+          "otherNames": [
+            "Potassium iodide"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dexamethasone",
+          "description": "Dexamethasone will be given as premedication for 131I-omburtamab to prevent possible meningeal inflammatory reaction. Starting within 24 hours prior to each 131I-omburtamab injection, dexamethasone will be administered orally at 0.5 mg (if weight \\< 15 kg) or 1 mg (if weight \u2265 15 kg) twice-daily doses for a total of 6 doses to alleviate infusion-related AEs: Two doses starting 24 hours pre-131I-omburtamab injection, two doses on the day of the injection (can be given before or after), and two doses 24 hours post-131I-omburtamab injection.",
+          "armGroupLabels": [
+            "Recurrent Ependymoma",
+            "Recurrent Medulloblastoma"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Antipyretic",
+          "description": "An antipyretic (e.g., oral acetaminophen \\[15 mg/kg, 650 mg maximum\\] or equivalent) will be given as premedication for 131I-omburtamab within 1 to 3 hours before each 131I-omburtamab injection.",
+          "armGroupLabels": [
+            "Recurrent Ependymoma",
+            "Recurrent Medulloblastoma"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Antihistamine",
+          "description": "An antihistamine (e.g., IV diphenhydramine \\[1 mg/kg, 50 mg maximum\\] or equivalent) will be given as premedication for 131I-omburtamab within 1 to 3 hours before each 131I-omburtamab injection.",
+          "armGroupLabels": [
+            "Recurrent Ependymoma",
+            "Recurrent Medulloblastoma"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "anti-emetics",
+          "description": "An anti-emetic (e.g., IV ondansetron \\[0.25 mg/kg, 16 mg maximum\\] or equivalent) will be given as premedication for 131I-omburtamab within 1 to 3 hours before each 131I-omburtamab injection.",
+          "armGroupLabels": [
+            "Recurrent Ependymoma",
+            "Recurrent Medulloblastoma"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Recurrent Medulloblastoma",
+          "type": "EXPERIMENTAL",
+          "description": "This arm aims to estimate event-free survival (EFS) and overall survival (OS) following therapy with irinotecan, temozolomide, bevacizumab, and compartmental (intraOmmaya) radioimmunotherapy (cRIT) 131I-omburtamab in patients with recurrent medulloblastoma. Patients with recurrent medulloblastoma will undergo surgery if feasible prior to study entry, followed by Induction Chemotherapy with irinotecan, temozolomide, and bevacizumab on study as per the Children's Oncology Group (COG) trial ACNS0821. Following 2 or 4 courses of chemotherapy and if radiographic disease status is stable or improved, patients will receive 2 therapeutic doses of 50 mCi cRIT 131I-omburtamab during Radioimmunotherapy. Following Radioimmunotherapy, patients may resume to Maintenance Chemotherapy with irinotecan, temozolomide, and bevacizumab for up to 12 total courses of chemotherapy or until disease progression, whichever occurs sooner.",
+          "interventionNames": [
+            "Drug: Irinotecan",
+            "Drug: Temozolomide",
+            "Drug: Bevacizumab",
+            "Drug: Omburtamab I-131",
+            "Drug: Liothyronine",
+            "Drug: SSKI",
+            "Drug: Dexamethasone",
+            "Drug: Antipyretic",
+            "Drug: Antihistamine",
+            "Drug: anti-emetics"
+          ]
+        },
+        {
+          "label": "Recurrent Ependymoma",
+          "type": "EXPERIMENTAL",
+          "description": "This is a feasibility cohort. The primary objective is to assess feasibility of incorporating cRIT 131I-omburtamab for patients with recurrent ependymoma and to assess dosimetry. Patients must have progressed after initial surgery, radiation therapy, or other therapies. Patients will undergo surgery (if feasible) prior to study entry with the goal of achieving stable or better disease. Tumor tissue (archived or new) will be tested for B7H3 prior to enrollment. If positive, patients will enroll on Stratum 2 and receive one dosimetry dose (2 mCi) of cRIT 131I-omburtamab with nuclear medicine scintigraphy using SPECT during the Dosimetry Course (14 days in length). Following the Dosimetry Course and within 2 weeks of the dosimetry dose, patients may continue to Radioimmunotherapy to receive 2 therapeutic doses (50 mCi) of cRIT 131I-omburtamab.",
+          "interventionNames": [
+            "Drug: Omburtamab I-131",
+            "Drug: Liothyronine",
+            "Drug: SSKI",
+            "Drug: Dexamethasone",
+            "Drug: Antipyretic",
+            "Drug: Antihistamine",
+            "Drug: anti-emetics"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "2-year event free survival (EFS) in the Recurrent Medulloblastoma Cohort",
+          "description": "Using the Kaplan Meier method, estimate of event-free survival (EFS) of patients with relapsed medulloblastoma treated with the study regimen. EFS is defined as the interval of time between enrollment on the study and the minimum date of documentation of progressive disease, death due to any cause, subsequent malignancy or date of last follow-up.",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Percentage of Patients who met feasibility criteria in the Recurrent Ependymoma Cohort",
+          "description": "Percentage of patients who met feasibility criteria of incorporating cRIT 131I-omburtamab treatment for patients with recurrent ependymoma. Patients who meet both of the following criteria will be counted as feasibility successes: 1) Administration of the first therapeutic dose of the antibody at the treating institution within 6 days of labeling. 2) Successful acquisition of all 3 SPECT scans during the Dosimetry Course prior to Radioimmunotherapy.",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival (OS) in in Recurrent Medulloblastoma Cohort",
+          "description": "Using the Kaplan Meier method, estimate of the overall survival (OS) of patients with recurrent medulloblastoma treated with the study regimen. OS is defined as the interval of time between enrollment on the study and the minimum date of death due to any cause or date of last follow-up.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Percentage of Recurrent Ependymoma patients with B7H3 reactivity",
+          "description": "All recurrent ependymoma patients must be screened for B7H3 reactivity to be eligible for treatment on this study. B7H3 reactivity in pre-treatment formalin-fixed and paraffin-embedded tumor tissue will be assessed by IHC performed in a CLIA-certified lab. Patients whose tumors meet the reactivity criteria will be counted towards this percentage over the total number of patients who were screened.",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Event free survival (EFS) for Recurrent Ependymoma",
+          "description": "Using the Kaplan Meier method, estimate of EFS of patients with recurrent ependymoma following incorporation of intraOmmaya 131I-omburtamab treatment. EFS is defined as the interval of time between enrollment on the study and the minimum date of documentation of progressive disease, death due to any cause, subsequent malignancy or date of last follow-up.",
+          "timeFrame": "5 years from enrollment completion"
+        },
+        {
+          "measure": "Overall survival (OS) for Recurrent Ependymoma",
+          "description": "Using the Kaplan Meier method, estimate OS of patients with recurrent ependymoma following incorporation of intraOmmaya 131I-omburtamab treatment. OS is defined as the interval of time between enrollment on the study and the minimum date of death due to any cause or date of last follow-up.",
+          "timeFrame": "5 years from enrollment completion"
+        },
+        {
+          "measure": "Estimate of Mean Absorbed Radiation Dose",
+          "description": "To assess the distribution of 131I-omburtamab, Recurrent Ependymoma patients will receive one dosimetry dose (2 mCi) of cRIT 131I-omburtamab with three serial nuclear medicine scintigraphy using SPECT during the Dosimetry Course (1 week in length) prior to receiving the therapeutic dose. Organ dosimetry will be analyzed for whole body and regions of interest (ROI) and calculated based on nuclear imaging scans by whole-body planar gamma camera scans. ROIs in each planar dataset will be defined at each time point if signal is visibly above the immediate background. The mean absorbed radiation dose in CSF and whole blood will be estimated via imaging-based estimation (CSF).",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Number of Recurrent Medulloblastoma and Ependymoma Participants with Grade 3 or higher 131I-omburtamab - Related Adverse Events as Assessed by CTCAE v5.0",
+          "description": "Number of patients in the combined cohort (Recurrent Medulloblastoma and Ependymoma) who received at least 1 dose of 131I-omburtamab and experienced Adverse Events that were deemed at least possibly related to 131I-omburtamab will be reported by AE category as Assessed by CTCAE v5.0.",
+          "timeFrame": "1 year"
+        }
+      ],
+      "eligibilityCriteria": "INCLUSION CRITERIA: Stratum 1\n\n* Patients with histologically confirmed diagnosis of medulloblastoma that is recurrent, progressive, or refractory to standard therapy. All tumors must have histologic verification at either time of initial diagnosis or recurrence. Note: For this study, refractory disease is specifically defined as presence of persistent abnormality on conventional MRI that is further distinguished by histology (tissue sample) or advanced imaging, i.e., diffusion weighted sequences or MR spectroscopy.\n* Patients must have disease, defined as tumor measurable in two perpendicular diameters on MRI, OR diffuse leptomeningeal disease, OR clear MRI evidence of disease that may not be measurable in two perpendicular diameters. Patients may have tumor cells in CSF with or without radiographic evidence of disease at time of enrollment.\n* Patients must be \\< 22 years of age at time of enrollment.\n* Protocol treatment with radioimmunotherapy (131I-omburtamab) will require the presence of an appropriate intraventricular access device (e.g., programmable ventriculoperitoneal \\[VP\\] shunt or Ommaya reservoir). Patients are not required to have an existing programmable VP shunt or Ommaya at time of study enrollment but must be willing and able to undergo a surgical procedure to have one placed prior to Radioimmunotherapy. Note: Patients with an existing intraventricular VP shunt without a programmable component must be willing and able to undergo modification of the shunt before treatment with 131I-omburtamab.\n* Patients must have recurrent, progressive, or refractory medulloblastoma after prior craniospinal irradiation (CSI) therapy with or without prior chemotherapy, unless CSI is contraindicated or determined to be not in the best interest of patient due to underlying medical conditions or declined by patient/family. Patients must have experienced no more than two recurrences of medulloblastoma or have refractory disease. Note: Patients with contraindications to radiation therapy are still eligible.\n* Patients must have received their last dose of known myelosuppressive anticancer therapy at least 21 days prior to enrollment or at least 42 days if prior nitrosourea.\n* Biologic or investigational agent (anti-neoplastic) - Patient must have recovered from any acute toxicity potentially related to the agent and received their last dose of the investigational or biologic agent \u2265 7 days prior to study enrollment. For agents that have known adverse events occurring beyond 7 days after administration, this period must be extended beyond the time during which adverse events are known to occur.\n* Monoclonal antibody treatment and agents with known prolonged half-lives - Patient must have recovered from any acute toxicity potentially related to the agent and received last dose of the agent \u2265 21 days prior to study enrollment.\n* Radiation - Patients must have had their last fraction of:\n\n  1. Craniospinal irradiation, whole brain radiation, total body irradiation, or radiation to \\>= 50% of pelvis or spine 24 weeks prior to study enrollment. Tumor designated as \"measurable\" for protocol purposes must not have received radiation within 12 weeks prior to study enrollment.\n  2. Focal radiation to areas of symptomatic metastatic disease at least 14 days prior to study enrollment.\n* Stem Cell Transplant (SCT) - For autologous SCT \\>= 3 months must have elapsed prior to study enrollment.\n* Patients with neurological deficits should have deficits stable for a minimum of 1 week prior to enrollment. A baseline detailed neurological exam should clearly document neurological status of the patient at time of study enrollment. Patients with seizure disorders may be enrolled if seizures are controlled and on non-enzyme inducing anticonvulsants. Patients must not be taking enzyme-inducing antiepileptic medicines within 1 week prior to study enrollment.\n* Karnofsky Performance Scale (KPS for \\> 16 years of age) or Lansky Performance Score (LPS for \u2264 16 years of age) assessed within 2 weeks prior to study enrollment must be \u2265 50%. Patients who are unable to walk because of neurologic deficits, but who are up in a wheelchair, will be considered ambulatory for the purpose of assessing the performance score.\n* Organ Function - Patients must have:\n\n  1. Peripheral absolute neutrophil count (ANC) \u2265 1 x 10\\^9/ L (must not have received G-CSF within 7 days prior to enrollment or pegfilgrastim within 14 days prior to enrollment)\n  2. Platelet count \u2265 100 x 10\\^9/ L (unsupported, defined as no platelet transfusion within 7 days prior to study enrollment)\n  3. Hemoglobin \u2265 8.0 g/dL (may receive packed red blood cell \\[PRBC\\] transfusions)\n  4. Serum creatinine based on age/gender. Patients that do not meet the criteria in Table 1 but have a 24 hour Creatinine Clearance or GFR (radioisotope or iothalamate) \u2265 70 mL/min/1.73 m\\^2 are eligible.\n  5. Urine protein should be screened by dipstick analysis. If protein \u2265 2+ on dipstick, then Urine Protein Creatinine (UPC) ratio should be calculated. If UPC ratio \\> 0.5, 24-hour urine protein should be obtained, and the level should be \\< 1000 mg/24 hours for patient enrollment.\n  6. Total bilirubin \u2264 1.5 x institutional upper limit of normal (ULN)\n  7. ALT (SGPT) and AST (SGOT) \\< 5 x institutional upper limit of normal (ULN)\n  8. INR/PT \u2264 1.5 x institutional upper limit of normal (ULN)\n* Hypertension must be well controlled (\u2264 95th percentile) on stable doses of medication.\n* Patients must have recovered from any surgical procedure before enrolling on this study.\n* HIV Infected Individuals - Patients who are known to be Human immunodeficiency virus (HIV)-infected must be on effective anti-retroviral therapy with undetectable viral load within 6 months prior to study enrollment.\n* Hep B Chronically Infected Individuals - For patients with known evidence of chronic hepatitis B virus (HBV) infection, the HBV viral load must be undetectable on suppressive therapy, if indicated.\n* Hep C (HCV) Infected Individuals - Patients with a known history of hepatitis C virus (HCV) infection must have been treated and cured. Patients with known HCV infection who are currently on treatment are eligible if they have an undetectable HCV viral load.\n* Corticosteroids - Patients who are receiving dexamethasone at a stable or decreasing dose for at least 7 days prior to study enrollment are eligible.\n* Growth Factors - Patients must be off all colony-forming growth factor(s) for at least 1 week prior to enrollment (e.g., filgrastim, sargramostim, or erythropoietin) or at least 2 weeks for pegfilgrastim.\n* Patients of childbearing or child fathering potential must be willing to use a medically acceptable form of birth control, which includes abstinence, while being treated on this study and for at least 6 months after the completion of bevacizumab therapy.\n* The patient or parent/guardian can understand the consent and is willing to sign a written informed consent document according to institutional guidelines.\n\nEXCLUSION CRITERIA: Stratum 1\n\n* Pregnant women are excluded from this study due to risks of fetal and teratogenic adverse events as seen in animal/human studies. Female patients of childbearing potential must have a negative serum or urine pregnancy test prior to enrollment. If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required.\n* Patients must not have previously received the combination of bevacizumab, irinotecan, and temozolomide therapy.\n* Patients with a serious or non-healing wound, ulcer, or bone fracture are not eligible for this study.\n* Patients must not have a history of abdominal fistula, gastrointestinal perforation, or intraabdominal abscess within 6 months prior to study enrollment.\n* Patients must not have a known bleeding diathesis or coagulopathy.\n* Patients must not have had significant vascular disease (e.g., aortic aneurysm requiring surgical repair, deep venous or arterial thrombosis) within the last 6 months prior to study enrollment.\n* Patients must not have a known thrombophilic condition (i.e., protein S, protein C or antithrombin III deficiency, Factor V Leiden, Factor II G20210A mutation, homocysteinemia or antiphospholipid antibody syndrome). Testing is not required in patients without thrombophilic history.\n* Patients must not have evidence of new CNS hemorrhage on baseline MRI obtained within 14 days prior to study enrollment.\n* Patients with history of stroke, myocardial infarction, transient ischemic attack (TIA), severe or unstable angina, peripheral vascular disease, or grade II or greater congestive heart failure within the past 6 months are not eligible.\n* Patients must not have serious and inadequately controlled cardiac arrhythmia.\n* Patients with known hypersensitivity to Chinese hamster ovary cell products or other recombinant human antibodies are not eligible.\n* Patients must not be currently taking NSAIDS, clopidrogel, dipyridamole, or aspirin therapy \\> 81 mg/day.\n* Female patients who are breastfeeding are not eligible for this study unless they agree not to breastfeed.\n* Patients with any clinically significant unrelated systemic illness (serious infections or significant cardiac, pulmonary, hepatic, or other organ dysfunction) that in the opinion of the investigator would compromise the patient's ability to tolerate protocol therapy, put them at additional risk for toxicity, or would interfere with the study procedures or results. Patients with a prior or concurrent malignancy whose natural history or treatment has the potential to interfere with the safety or efficacy assessment of the investigational regimen for this trial.\n* Patients who are receiving any other anti-cancer or investigational drug therapy are ineligible.\n* Patients currently receiving any of the following medications and cannot be discontinued 7 days prior to enrollment are ineligible:\n\n  1. Known strong and moderate inducers or inhibitors of CYP3A4/5, including enzyme-inducing anti-convulsant drugs (EIACDs), grapefruit, echinacea, grapefruit hybrids, pummelos, starfruit, and Seville oranges\n  2. Substrates of CYP3A4/5 with a narrow therapeutic index\n  3. Herbal preparations/medications (except for vitamins) including, but not limited to: St. John's wort, Kava, ephedra (ma huang), gingko biloba, dehydroepiandrosterone (DHEA), yohimbe, saw palmetto, black cohosh and ginseng. Patients should stop using all herbal medications and dietary supplements at least 7 days prior to enrollment.\n* Patients who in the opinion of the investigator are unwilling or unable to return for required follow-up visits or obtain follow-up studies required to assess toxicity to therapy or to adhere to drug administration plan, other study procedures, and study restrictions.\n\nINCLUSION CRITERIA FOR SCREENING: Stratum 2\n\n* For patients with histological diagnosis of ependymoma, screening consent for B7H3 must be obtained prior to enrollment on PBTC-058.\n* Patients must have evidence of tumor reactivity for B7H3 (CD276) to be eligible for treatment. Results from prior testing of tumor reactivity for B7H3 (CD276) using a CLIA-certified immunohistochemistry (IHC) assay may be used. For patients who do not have prior B7H3 testing results from a CLIA lab, samples must be sent to MSKCC.\n* Patients with a histologically confirmed diagnosis of ependymoma that is recurrent, progressive, or refractory to standard therapy. All tumors must have histologic verification at either the time of initial diagnosis or recurrence. Note: For this study, refractory disease is specifically defined as presence of persistent abnormality on conventional MRI that is further distinguished by histology (tissue sample) or advanced imaging, i.e., diffusion weighted sequences or MR spectroscopy.\n* Patients may have tumor cells in CSF with or without radiographic evidence of disease at time of screening.\n* Patients must be \\< 22 years of age at the time of screening.\n* Potential Eligibility for Study Enrollment - Patients screened for this trial should be expected to meet criteria for treatment as outlined in the protocol.\n\nINCLUSION CRITERIA FOR ENROLLMENT: Stratum 2\n\n* Patients with histologically confirmed diagnosis of ependymoma that is recurrent, progressive, or refractory to standard therapy. All tumors must have histologic verification at either time of initial diagnosis or recurrence.\n* Patients must be positive for B7H3 reactivity by IHC performed in a CLIA-certified lab.\n* Patients may have tumor cells in CSF with or without radiographic evidence of disease at the time of enrollment. Patients are not required to have measurable or evaluable disease at time of study enrollment.\n* Patients must be \\< 22 years of age at the time of enrollment.\n* Intraventricular Access Device - Protocol treatment with radioimmunotherapy (131I-omburtamab) will require the presence of an appropriate intraventricular access device (e.g., programmable ventriculoperitoneal \\[VP\\] shunt or Ommaya reservoir). Patients are not required to have an existing programmable VP shunt or Ommaya at time of study enrollment but must be willing and able to undergo a surgical procedure to have one placed prior to Radioimmunotherapy. Note: Patients with an existing intraventricular VP shunt without a programmable component must be willing and able to undergo modification of the shunt before treatment with 131I-omburtamab.\n* Patients must have recurrent or refractory ependymoma after having received either focal or craniospinal irradiation (CSI) therapy, unless CSI is contraindicated or declined by the patient/family. There are no restrictions on the number of prior recurrences for this stratum. Note: Patients with contraindications to radiation therapy are still eligible.\n* Patients must have received their last dose of known myelosuppressive anticancer therapy at least 21 days prior to enrollment or at least 42 days if prior nitrosourea.\n* Biologic or investigational agent (anti-neoplastic) - Patients must have recovered from any acute toxicity potentially related to the agent and received their last dose of the investigational or biologic agent \u2265 7 days prior to study enrollment. For agents that have known adverse events occurring beyond 7 days after administration, this period must be extended beyond the time during which adverse events are known to occur.\n* Monoclonal antibody treatment and agents with known prolonged half-lives - Patients must have recovered from any acute toxicity potentially related to the agent and received their last dose of the agent \u2265 21 days prior to study enrollment.\n* Patients must have had their last fraction of:\n\n  1. Craniospinal irradiation, whole brain radiation, total body irradiation or radiation to \\>= 50% of pelvis or spine 24 weeks prior to study enrollment. The tumor designated as \"measurable\" for protocol purposes must not have received radiation within 12 weeks prior to study enrollment.\n  2. Focal radiation to areas of symptomatic metastatic disease 14 days prior to study enrollment.\n* Patients with neurological deficits should have deficits stable for a minimum of 1 week prior to enrollment. A baseline detailed neurological exam should clearly document neurological status of the patient at time of study enrollment. Patients with seizure disorders may be enrolled if seizures are controlled and on non-enzyme inducing anticonvulsants. Patients must not be taking enzyme-inducing antiepileptic medicines within 1 week prior to study enrollment.\n* Karnofsky Performance Scale (KPS for \\> 16 years of age) or Lansky Performance Score (LPS for \u2264 16 years of age) assessed within 2 weeks prior to study enrollment must be \u2265 50%. Patients who are unable to walk because of neurologic deficits, but who are up in a wheelchair, will be considered ambulatory for the purpose of assessing the performance score.\n* Organ Function\n\n  1. Peripheral absolute neutrophil count (ANC) \u2265 1 x 10\\^9/ L (must not have received G-CSF within the 7 days prior to enrollment or pegfilgrastim within the 14 days prior to enrollment)\n  2. Platelet count \u2265 100 x 10\\^9/ L (unsupported, defined as no platelet transfusion within 7 days prior to study enrollment)\n  3. Hemoglobin \u2265 8.0 g/dL (may receive PRBC transfusions)\n  4. Serum creatinine based on age/gender. Patients that do not meet the criteria but have a 24 hour Creatinine Clearance or GFR (radioisotope or iothalamate) \u2265 70 mL/min/1.73 m\\^2 are eligible.\n  5. Total bilirubin \u2264 1.5 x institutional upper limit of normal (ULN) for age\n  6. ALT (SGPT) and AST (SGOT) \\< 5 x institutional upper limit of normal (ULN) for age\n* HIV Infected Individuals - Patients who are known to be Human immunodeficiency virus (HIV)-infected must be on effective anti-retroviral therapy with undetectable viral load within 6 months prior to study enrollment.\n* Hep B Chronically Infected Individuals - For patients with known evidence of chronic hepatitis B virus (HBV) infection, the HBV viral load must be undetectable on suppressive therapy, if indicated.\n* Hep C (HCV) Infected Individuals - Patients with a known history of hepatitis C virus (HCV) infection must have been treated and cured. Patients with known HCV infection who are currently on treatment are eligible if they have an undetectable HCV viral load.\n* Corticosteroids - Patients who are receiving dexamethasone at a stable or decreasing dose for at least 7 days prior to study enrollment are eligible.\n* Growth Factors - Patients must be off all colony- forming growth factor(s) for at least 1 week prior to enrollment (e.g., filgrastim, sargramostim or erythropoietin) or at least 2 weeks for pegfilgrastim.\n* Patients of childbearing or child fathering potential must be willing to use a medically acceptable form of birth control, which includes abstinence, while being treated on this study and for at least 40 days after the last dose of 131I-omburtamab.\n* The patient or parent/guardian can understand the consent and is willing to sign a written informed consent document according to institutional guidelines.\n\nEXCLUSION CRITERIA FOR ENROLLMENT: Stratum 2\n\n* Pregnant women are excluded from this study due to risks of fetal and teratogenic adverse events as seen in animal/human studies. Female patients of childbearing potential must have a negative serum or urine pregnancy test prior to enrollment. If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required.\n* Female patients who are breastfeeding are not eligible for this study unless they agree not to breastfeed.\n* Patients with any clinically significant unrelated systemic illness (serious infections or significant cardiac, pulmonary, hepatic or other organ dysfunction) that in the opinion of the investigator would compromise the patient's ability to tolerate protocol therapy, put them at additional risk for toxicity or would interfere with the study procedures or results. Patients with a prior or concurrent malignancy whose natural history or treatment has the potential to interfere with the safety or efficacy assessment of the investigational regimen for this trial.\n* Patients who are receiving any other anti-cancer or investigational drug therapy are ineligible.\n* Patients who in the opinion of the investigator are unwilling or unable to return for required follow-up visits or obtain follow-up studies required to assess toxicity to therapy or to adhere to drug administration plan, other study procedures, and study restrictions.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": null,
+      "maximumAge": "21 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "leadSponsor": "Pediatric Brain Tumor Consortium",
+      "leadSponsorClass": "NETWORK",
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        },
+        {
+          "name": "Memorial Sloan Kettering Cancer Center",
+          "class": "OTHER"
+        },
+        {
+          "name": "Y-mAbs Therapeutics",
+          "class": "INDUSTRY"
+        }
+      ],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Children's Hospital Los Angeles",
+          "status": null,
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90027",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Cincinnati Children's Hospital Medical Center",
+          "status": null,
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D008527",
+          "term": "Medulloblastoma"
+        },
+        {
+          "id": "D004806",
+          "term": "Ependymoma"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "D000077146",
+          "term": "Irinotecan"
+        },
+        {
+          "id": "D000077204",
+          "term": "Temozolomide"
+        },
+        {
+          "id": "D000068258",
+          "term": "Bevacizumab"
+        },
+        {
+          "id": "C000633765",
+          "term": "omburtamab I-131"
+        },
+        {
+          "id": "D014284",
+          "term": "Triiodothyronine"
+        },
+        {
+          "id": "D011193",
+          "term": "Potassium Iodide"
+        },
+        {
+          "id": "D003907",
+          "term": "Dexamethasone"
+        },
+        {
+          "id": "D058633",
+          "term": "Antipyretics"
+        },
+        {
+          "id": "D006633",
+          "term": "Histamine Antagonists"
+        },
+        {
+          "id": "D000932",
+          "term": "Antiemetics"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT05064306",
+      "orgStudyId": "21-345",
+      "secondaryIds": [],
+      "briefTitle": "131I-omburtamab for the Treatment of Central Nervous System/Leptomeningeal Neoplasms in Children and Young Adults",
+      "officialTitle": "Expanded Access Use of 131I-Omburtamab Intraventricular Radioimmunotherapy for Central Nervous System/Leptomeningeal Neoplasms",
+      "acronym": null,
+      "overallStatus": "NO_LONGER_AVAILABLE",
+      "statusVerifiedDate": "2025-07",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": null,
+      "startDateType": null,
+      "primaryCompletionDate": null,
+      "primaryCompletionDateType": null,
+      "completionDate": null,
+      "completionDateType": null,
+      "studyFirstSubmitDate": "2021-09-29",
+      "studyFirstPostDate": "2021-10-01",
+      "lastUpdateSubmitDate": "2025-07-29",
+      "lastUpdatePostDate": "2025-08-01",
+      "expandedAccess": false,
+      "studyType": "EXPANDED_ACCESS",
+      "phases": [],
+      "allocation": null,
+      "interventionModel": null,
+      "interventionModelDescription": null,
+      "primaryPurpose": null,
+      "masking": null,
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": null,
+      "enrollmentType": null,
+      "briefSummary": "The researchers are doing this study to provide access to treatment with 131I-omburtamab for children and young adults who have CNS/leptomeningeal neoplasms. 131I-omburtamab is an investigational drug; the FDA has not approved it to treat this cancer or any other disease. However, the agency has granted the drug Breakthrough Therapy Designation for the treatment of neuroblastoma with CNS metastases.",
+      "detailedDescription": null,
+      "conditions": [
+        "Central Nervous System/Leptomeningeal Neoplasms"
+      ],
+      "keywords": [
+        "131I-omburtamab",
+        "neuroblastoma",
+        "medulloblastoma",
+        "rhabdoid tumors",
+        "pineoblastoma",
+        "retinoblastoma",
+        "PNET",
+        "rhabdomyosarcoma",
+        "Ewing's sarcoma",
+        "Wilm's tumor",
+        "hepatoblastoma",
+        "non-embryonal tumors",
+        "histologic confirmation of B7-H3 reactivity",
+        "21-345"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "131I-omburtamab",
+          "description": "50 mCi 131I-omburtamab",
+          "armGroupLabels": [],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [],
+      "primaryOutcomes": [],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must have a histologically confirmed diagnosis of an embryonal malignancy (including but not limited to neuroblastoma, medulloblastoma, rhabdoid tumors, pineoblastoma, retinoblastoma, PNET, rhabdomyosarcoma, Ewing's sarcoma, Wilm's tumor, hepatoblastoma) other non-embryonal tumors must have histologic confirmation of B7-H3 reactivity.\n* Patients must have a diagnosis of CNS/ leptomeningeal disease which has been treated with conventional therapies or for which no conventional therapy exists or a recurrent brain tumor with a predilection for leptomeningeal dissemination (i.e. PNET, rhabdoid tumor).\n* Chemotherapy:\n\n  \u00b0Patients must have received their last dose of myelosuppressive anticancer therapy at least 21 days (3 weeks) prior to receiving treatment dose(s).\n* Biologic or investigational agent (anti-neoplastic):\n\n  * Patients who are currently on biological (small molecule inhibitors such as ALK inhibitors, ROS inhibitors or MEK inhibitors etc.) or investigational agents that are considered non-myelosuppressive can continue treatment but should have recovered from any acute toxicity potentially related to the agent.\n  * Patients may be treated if they received one prior treatment dose with 131I-omburtamab\n* Monoclonal antibody treatment and agents with known prolonged half-lives:\n\n  * Patients must have recovered from any acute toxicity potentially related to the agent and received their last dose of the agent \u2265 21 days prior to enrollment.\n  * Monoclonal antibody treatment and agents with known prolonged half-lives: Patient must have recovered from any acute toxicity potentially related to the agent and received their last dose of the agent \u2265 28 days prior to receiving treatment dose(s).\n* Neurologic Status:\n\n  * Patients with neurological deficits should have deficits that are stable for a minimum of 1 week prior to enrollment.\n  * Patients with seizure disorders may be enrolled if seizures are controlled.\n* Performance Status:\n\n  \u00b0Karnofsky Performance Scale (KPS for \\> 16 years of age) or Lansky Performance Score (LPS for \u2264 16 years of age) assessed within 2 weeks prior to study enrollment must be \u2265 50%. Patients who are unable to walk because of neurologic deficits, but who are up in a wheelchair, will be considered ambulatory for the purpose of assessing the performance score.\n* Adequate bone marrow function defined as:\n\n  * Peripheral absolute neutrophil count (ANC) \u2265 0.5x 10\\^9/ L (must not have received G-CSF within the 7 days prior to enrollment or pegfilgrastim within the 14 days prior to enrollment)\n  * Platelet count \u2265 50 x 10\\^9/ L (unsupported, defined as no platelet transfusion within 7 days prior to study enrollment)\n* Intraventricular Access Device \u00b0Protocol treatment with radioimmunotherapy (131I-omburtumab) will require the presence of an appropriate intraventricular access device (e.g.,programmable ventriculoperitoneal \\[VP\\] shunt or Ommaya reservoir). Patients are not required to have an existing programmable VP shunt or Ommaya at the time of study enrollment but must be willing and able to undergo a surgical procedure to have one placed prior to Radioimmunotherapy.\n\nNote: Patients with an existing intraventricular VP shunt without a programmable component must be willing and able to undergo modification of the shunt before treatment with 131I-omburtumab.\n\n* Both pediatric and adult patients of any age are eligible.\n* Patients may have active malignancy outside the central nervous system.\n* Patients may be on standing steroids, as long as the dosage is either stable or decreasing for at least week prior to enrollment\n* Signed informed consent and assent when appropriate indicating awareness of the investigational nature of this study.\n\nExclusion Criteria:\n\n* Patients with obstructive or symptomatic communicating hydrocephalus\n* Patients with an uncontrolled life-threatening infection\n* Patients who are pregnant: negative pregnancy test is required for all women of childbearing age, and appropriate contraception is required during the study period.\n* Patients who have received cranial or spinal irradiation less than 3 weeks prior to first dose",
+      "healthyVolunteers": null,
+      "sex": "ALL",
+      "minimumAge": null,
+      "maximumAge": null,
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Memorial Sloan Kettering Cancer Center",
+      "leadSponsorClass": "OTHER",
+      "collaborators": [
+        {
+          "name": "Y-mAbs Therapeutics",
+          "class": "INDUSTRY"
+        }
+      ],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": null,
+      "isFdaRegulatedDevice": null,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D008577",
+          "term": "Meningeal Neoplasms"
+        },
+        {
+          "id": "D009447",
+          "term": "Neuroblastoma"
+        },
+        {
+          "id": "D008527",
+          "term": "Medulloblastoma"
+        },
+        {
+          "id": "D018335",
+          "term": "Rhabdoid Tumor"
+        },
+        {
+          "id": "D010871",
+          "term": "Pinealoma"
+        },
+        {
+          "id": "D012175",
+          "term": "Retinoblastoma"
+        },
+        {
+          "id": "D018242",
+          "term": "Neuroectodermal Tumors, Primitive"
+        },
+        {
+          "id": "D012208",
+          "term": "Rhabdomyosarcoma"
+        },
+        {
+          "id": "D012512",
+          "term": "Sarcoma, Ewing"
+        },
+        {
+          "id": "D009396",
+          "term": "Wilms Tumor"
+        },
+        {
+          "id": "D018197",
+          "term": "Hepatoblastoma"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "C000633765",
+          "term": "omburtamab I-131"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT04315246",
+      "orgStudyId": "302",
+      "secondaryIds": [],
+      "briefTitle": "177Lu-DTPA-Omburtamab Radioimmunotherapy for Leptomeningeal Metastasis From Solid Tumors (Breast, NSCLC, Malignant Melanoma)",
+      "officialTitle": "A Phase I/II Trial of Intracerebroventricular 177Lu DTPA Omburtamab Radioimmunotherapy for Leptomeningeal Metastasis From Solid Tumors",
+      "acronym": null,
+      "overallStatus": "WITHDRAWN",
+      "statusVerifiedDate": "2022-07",
+      "lastKnownStatus": null,
+      "whyStopped": "Business priorities",
+      "startDate": "2022-08-31",
+      "startDateType": "ESTIMATED",
+      "primaryCompletionDate": "2024-12-31",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2024-12-31",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2020-03-12",
+      "studyFirstPostDate": "2020-03-19",
+      "lastUpdateSubmitDate": "2022-07-12",
+      "lastUpdatePostDate": "2022-07-15",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Patients will receive up to five cycles of intracerebroventricular 177Lu-DTPA-omburtamab. Safety and efficacy will be investigated during treatment and follow-up period.",
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 0,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "Adults with leptomeningeal metastasis from solid tumors will be treated with 177Lu-DTPA-omburtamab, which is a radioactive labelling of a murine monoclonal antibody targeting B7-H3.",
+      "detailedDescription": "Part 1 is a dose-escalation phase with a 3+3 sequential-group design in which patients will receive a dosimetry dose followed by maximum of five 5-week cycles of treatment doses of intracerebroventricular 177Lu-DTPA-omburtamab.\n\nPart 2 is a cohort-expansion phase in which patients will receive a treatment at the recommended dose determined in Part 1, until confirmed LM progression, unacceptable toxicity, or for maximum of 5 cycles, whichever comes first; however, the total number of cycles will be determined based upon data from Part 1 (e.g., the dosimetry data) to minimize the risk of radiation necrosis and decreased neurological function End of treatment will take place within 5 weeks after the last cycle and thereafter the patients will be enter the follow-up period. The patients will be followed for up until one year after first dose (Part 1) and 2 years after first dose (Part 2).",
+      "conditions": [
+        "Leptomeningeal Metastasis",
+        "Solid Tumor, Adult"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "radiolabeled DPTA-omburtamab",
+          "description": "Biological, radiolabeled DPTA-omburtamab",
+          "armGroupLabels": [
+            "177Lu-DTPA-omburtamab"
+          ],
+          "otherNames": [
+            "Drug: 177Lu-DTPA-omburtamab"
+          ]
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "177Lu-DTPA-omburtamab",
+          "type": "EXPERIMENTAL",
+          "description": "Intracerebroventricular administration of 177Lu-DTPA-omburtamab for up to five cycles.",
+          "interventionNames": [
+            "Biological: radiolabeled DPTA-omburtamab"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of adverse events (AEs) and serious adverse events (SAEs)",
+          "description": "Safety will be evaluated by the incidence of AEs and SAEs graded according to CTCAE version 5.0. The maximum tolerated dose and the recommended phase 2 dose (RP2D) will be determined in Part 1",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Incidence of AEs and SAEs",
+          "description": "In Part 2, safety will be evaluated by the incidence of AEs and SAEs graded according to CTCAE version 5.0, at the RP2D defined in Part 1",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Maximum radioactivity count of lutetium-177 in blood",
+          "description": "The time for maximum absorbed radiation dose",
+          "timeFrame": "2 weeks"
+        },
+        {
+          "measure": "Elimination half-life of lutetium-177 radioactivity in blood",
+          "description": "The time for eliminating half of the radioactivity in blood",
+          "timeFrame": "2 weeks"
+        },
+        {
+          "measure": "Absorbed radiation dose of lutetium-177 in blood and cerebrospinal fluid (CSF)",
+          "description": "Time-activity curves of radioactivity measurements in blood and CSF will be modeled to deliver absorbed doses in blood and CSF",
+          "timeFrame": "2 weeks"
+        },
+        {
+          "measure": "Dosimetry analysis of lutetium-177",
+          "description": "Whole-body dosimetry by gamma camera scans and single-photon emission computed tomography (SPECT)",
+          "timeFrame": "2 weeks"
+        },
+        {
+          "measure": "Maximum Plasma Concentration [Cmax] in CSF",
+          "description": "Concentration of 177Lu-DTPA-omburtamab in CSF",
+          "timeFrame": "7 weeks"
+        },
+        {
+          "measure": "Maximum Plasma Concentration [Cmax] in serum",
+          "description": "Concentration of 177Lu-DTPA-omburtamab in serum",
+          "timeFrame": "7 weeks"
+        },
+        {
+          "measure": "Elimination Half Life in CSF",
+          "description": "Concentration of 177Lu-DTPA-omburtamab in CSF",
+          "timeFrame": "7 weeks"
+        },
+        {
+          "measure": "Elimination Half Life in serum",
+          "description": "Concentration of 177Lu-DTPA-omburtamab in serum",
+          "timeFrame": "7 weeks"
+        },
+        {
+          "measure": "Response",
+          "description": "Objective response rate (ORR) will be defined as the proportion of all evaluable patients achieving a response as the best overall response at the time of assessment",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Investigator-assessed Duration of Response (DoR)",
+          "description": "DoR is defined as the time from first response to LM progression",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Progression-free Survival (PFS)",
+          "description": "PFS is defined as the time from first treatment to date of LM progression or death from any cause, whichever comes first",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS is defined as the time from first treatment to date of death",
+          "timeFrame": "2 years"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Primary ductal or lobular breast cancer, non-small cell lung cancer, or malignant melanoma\n* Type I or Type II LM with a \"confirmed\" or \"probable\" diagnosis according to EANO-ESMO guidelines 2017\n* Life expectancy more than 2 months, as judged by the Investigator\n* ECOG Performance status 0, 1, or 2\n* Acceptable hematological status and liver and kidney function\n* Written informed consent obtained in accordance with local regulations\n* Presence of an intracerebroventricular access device before first dosing\n\nExclusion Criteria:\n\n* Obstructive or symptomatic communicating hydrocephalus\n* Progressive systemic (extra-leptomeningeal) disease\n* Uncontrolled life-threatening infection\n* Ventriculo-peritoneal shunts without programmable valves. Ventriculo-atrial or ventriculo-pleural shunts\n* Received craniospinal irradiation (for intraparenchymal or dural metastases) or intrathecal cytotoxic anti-cancer therapy less than 3 weeks prior to first dose of 177Lu-DTPA-omburtamab\n* Severe non-hematologic organ toxicity; specifically, any renal, cardiac, hepatic, pulmonary, or gastrointestinal system toxicity Grade 3 or above prior to enrolment\n* Grade 4 nervous system disorder. Hearing loss or stable neurological deficits due to brain tumor are allowed\n* Unacceptable coagulation function prior to first dosing defined as INR Grade 2 or above\n* Female of childbearing potential, who are pregnant, breast-feeding, intend to become pregnant, or are not using highly effective contraceptive methods or male who is not using highly effective contraceptive method\n* Other significant disease or condition that in the investigator's opinion would exclude the patient from the trial.\n* Smallest diameter of treated or untreated nodular or linear leptomeningeal metastasis \\>0.5 cm on MRI (Part 2 only)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Y-mAbs Therapeutics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Cedars-Sinai Medical Center",
+          "status": null,
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Johns Hopkins",
+          "status": null,
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Duke Cancer Center",
+          "status": null,
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "M.D. Anderson Cancer Center",
+          "status": null,
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "The University of Washington",
+          "status": null,
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "The Christie Hospital NHS Foundation Trust",
+          "status": null,
+          "city": "Manchester",
+          "state": null,
+          "zip": null,
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.48095,
+            "lon": -2.23743
+          }
+        },
+        {
+          "facility": "The Royal Marsden Hospital",
+          "status": null,
+          "city": "Sutton",
+          "state": null,
+          "zip": null,
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.35,
+            "lon": -0.2
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "UNDECIDED",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D055756",
+          "term": "Meningeal Carcinomatosis"
+        }
+      ],
+      "interventionMeshTerms": [],
+      "hasResults": false
+    }
+  ],
+  "trials_returned": 10,
+  "query_params": {
+    "query.intr": "omburtamab",
+    "countTotal": "true"
+  },
+  "pages_fetched": 1
+}

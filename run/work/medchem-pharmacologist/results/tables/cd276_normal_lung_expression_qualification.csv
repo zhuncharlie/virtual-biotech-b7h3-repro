@@ -1,0 +1,6 @@
+assay_scale,tissue,metric,value,hpa_level,n_cells,n_donors,source,interpretation
+bulk RNA (HPA),lung,TPM,1682.5,4,,,work/target-biologist/results/tables/cd276_tissue_expression_summary.csv,HPA RNA level 4 (high bulk transcript).
+bulk protein (HPA),lung,ordinal IHC level,2.0,2,,,work/target-biologist/results/tables/cd276_tissue_expression_summary.csv,HPA protein level 2 (reliable=True); does not support a 'high normal-lung protein' claim.
+single-cell transcript (CELLxGENE Census),lung,"CPM, cell-weighted mean",13.9,,12315,4,work/single-cell-analyst/results/tables/cd276_normal_tissues_lineage_expression.csv,Comparatively low cell-level transcript. The bulk RNA level 4 is not reproduced at cell resolution; myeloid/stromal cells carry most of the signal.
+single-cell transcript (CELLxGENE Census),lung,"CPM, highest lineage (macrophage)",39.64,,3334,4,work/single-cell-analyst/results/tables/cd276_normal_tissues_lineage_expression.csv,Lung macrophages are the dominant cell-level source.
+single-cell transcript (CELLxGENE Census),lung,"CPM, lung epithelial",17.09,,851,4,work/single-cell-analyst/results/tables/cd276_normal_tissues_lineage_expression.csv,Lung epithelial transcript is low and near the overall mean.

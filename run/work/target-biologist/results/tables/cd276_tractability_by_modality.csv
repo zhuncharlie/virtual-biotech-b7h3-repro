@@ -1,0 +1,29 @@
+modality,criterion,value
+Small molecule,Approved drug,False
+Small molecule,Advanced clinical,False
+Small molecule,Phase 1 clinical,False
+Small molecule,Structure with ligand,False
+Small molecule,High-quality ligand,False
+Small molecule,High-quality pocket,False
+Small molecule,Medium-quality pocket,False
+Small molecule,Druggable family,False
+Antibody,Approved drug,False
+Antibody,Advanced clinical,True
+Antibody,Phase 1 clinical,False
+Antibody,UniProt localization high confidence,False
+Antibody,GO cellular component high confidence,False
+Antibody,UniProt localization medium confidence,False
+Antibody,UniProt signal peptide or TMHMM,True
+Antibody,GO cellular component medium confidence,False
+Antibody,Human Protein Atlas localization,False
+PROTAC/degrader,Approved drug,False
+PROTAC/degrader,Advanced clinical,False
+PROTAC/degrader,Phase 1 clinical,False
+PROTAC/degrader,Literature,False
+PROTAC/degrader,UniProt ubiquitination,False
+PROTAC/degrader,Database ubiquitination,True
+PROTAC/degrader,Half-life data,True
+PROTAC/degrader,Small-molecule binder,False
+Other/unknown,Approved drug,False
+Other/unknown,Advanced clinical,False
+Other/unknown,Phase 1 clinical,False

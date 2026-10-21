@@ -1,0 +1,10 @@
+pref_name,chembl_id,drug_type,mechanism_of_action,indication,disease_id,max_phase,status,trial_id
+ENOBLITUZUMAB,CHEMBL3545373,Antibody,CD276 antigen cross-linking agent,head and neck squamous cell carcinoma,EFO_0000181,2,Withdrawn,NCT04129320
+ENOBLITUZUMAB,CHEMBL3545373,Antibody,CD276 antigen cross-linking agent,prostate cancer,MONDO_0008315,2,Recruiting,NCT06014255
+ENOBLITUZUMAB,CHEMBL3545373,Antibody,CD276 antigen cross-linking agent,prostate cancer,MONDO_0008315,2,"Active, not recruiting",NCT02923180
+ENOBLITUZUMAB,CHEMBL3545373,Antibody,CD276 antigen cross-linking agent,head and neck malignant neoplasia,EFO_0006859,2,Withdrawn,NCT04129320
+ENOBLITUZUMAB,CHEMBL3545373,Antibody,CD276 antigen cross-linking agent,melanoma,EFO_0000756,1,Terminated,NCT01918930
+8H9 131I,CHEMBL2109310,Antibody (radiolabelled),CD276 antigen binding agent,leptomeningeal metastasis,EFO_1001012,2,Terminated,NCT03275402
+8H9 131I,CHEMBL2109310,Antibody (radiolabelled),CD276 antigen binding agent,neuroblastoma,EFO_0000621,2,Terminated,NCT03275402
+8H9 131I,CHEMBL2109310,Antibody (radiolabelled),CD276 antigen binding agent,diffuse intrinsic pontine glioma,EFO_1000026,1,Withdrawn,NCT05063357
+8H9 131I,CHEMBL2109310,Antibody (radiolabelled),CD276 antigen binding agent,peritoneum cancer,MONDO_0002087,1,Terminated,NCT01099644

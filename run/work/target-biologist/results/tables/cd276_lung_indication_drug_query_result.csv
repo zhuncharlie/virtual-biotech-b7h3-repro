@@ -1,0 +1,3 @@
+indication,disease_id,n_cd276_drugs_returned,query_scope
+lung adenocarcinoma,EFO_0000571,0,"query with target_id=ENSG00000103855, min_phase=0"
+small cell lung carcinoma,EFO_0000702,0,"query with target_id=ENSG00000103855, min_phase=0"

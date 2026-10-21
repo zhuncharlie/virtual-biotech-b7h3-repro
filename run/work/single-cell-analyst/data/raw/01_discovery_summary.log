@@ -1,0 +1,130 @@
+
+=== LUAD: 1,105,309 cells | 10 datasets | 177 donors | primary=635,998 ===
+    primary-only: 635,998 cells | 3 datasets | 128 donors
+                                       cells  donors  cell_types
+dataset_id                                                      
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1  548457     109          33
+576f193c-75d0-4a11-bd25-8676587e6dc2   46529      16          11
+9f222629-9e39-47d0-b83f-e08d610c7479   41012       3          41
+  Assays: {"10x 3' v2": 466622, 'BD Rhapsody Whole Transcriptome Analysis': 86386, 'inDrop': 19910, 'GEXSCOPE technology': 16739, "10x 3' v3": 16147, 'Smart-seq2': 13500, "10x 5' v1": 7737, "10x 3' v1": 5100, "10x 3' transcription profiling": 3857}
+  Cell types (primary cells):
+                                                       cells  donors
+cell_type                                                           
+CD4-positive, alpha-beta T cell                       108064     111
+CD8-positive, alpha-beta T cell                        83367     107
+alveolar macrophage                                    63656     101
+macrophage                                             52072     115
+natural killer cell                                    39174     101
+B cell                                                 30238     110
+classical monocyte                                     28215     100
+malignant cell                                         26179      92
+T cell                                                 23818      19
+plasma cell                                            19039     110
+epithelial cell of lung                                18116      93
+regulatory T cell                                      17787     100
+unknown                                                14774       3
+CD1c-positive myeloid dendritic cell                   14524     100
+pulmonary alveolar type 2 cell                         13530      88
+mast cell                                              11473     113
+vein endothelial cell                                   8972      94
+neutrophil                                              7831      49
+capillary endothelial cell                              5464      74
+epithelial cell                                         5270      16
+multiciliated epithelial cell                           4898      77
+non-classical monocyte                                  4700      79
+fibroblast                                              3979      15
+myeloid cell                                            3959      92
+fibroblast of lung                                      3844      75
+pulmonary alveolar type 1 cell                          3246      73
+dendritic cell                                          2897     102
+plasmacytoid dendritic cell                             2391      87
+endothelial cell                                        2349      16
+bronchus fibroblast of lung                             1796      71
+endothelial cell of lymphatic vessel                    1757      56
+conventional dendritic cell                             1559      81
+pulmonary artery endothelial cell                       1267      63
+smooth muscle cell                                      1240      65
+club cell                                               1183      65
+pericyte                                                1035      68
+elicited macrophage                                      548       3
+brush cell of tracheobronchial tree                      406       2
+mesothelial cell                                         284      21
+respiratory basal cell                                   230       3
+alveolar type 1 fibroblast cell                          174       3
+tracheobronchial smooth muscle cell                      119       3
+multiciliated columnar cell of tracheobronchial tree     119       3
+nasal mucosa goblet cell                                  98       2
+lung macrophage                                           89       2
+lung pericyte                                             81       3
+stromal cell                                              68      20
+erythrocyte                                               46       3
+alveolar adventitial fibroblast                           44       3
+epithelial cell of lower respiratory tract                13       3
+respiratory tract hillock cell                             7       1
+myofibroblast cell                                         4       2
+ionocyte                                                   2       2
+pulmonary alveolar epithelial cell                         2       1
+tracheobronchial goblet cell                               1       1
+
+=== SCLC: 99,697 cells | 10 datasets | 9 donors | primary=31,540 ===
+    primary-only: 31,540 cells | 1 datasets | 9 donors
+                                      cells  donors  cell_types
+dataset_id                                                     
+576f193c-75d0-4a11-bd25-8676587e6dc2  31540       9          10
+  Assays: {"10x 3' v2": 21325, "10x 3' v3": 10215}
+  Cell types (primary cells):
+                  cells  donors
+cell_type                      
+epithelial cell   25988       9
+T cell             3898       9
+dendritic cell      433       9
+macrophage          375       9
+fibroblast          328       9
+B cell              204       8
+endothelial cell    204       9
+neutrophil           69       5
+mast cell            33       7
+plasma cell           8       2
+
+=== NORMAL_LUNG: 4,042,946 cells | 64 datasets | 537 donors | primary=2,178,206 ===
+
+=== Datasets containing BOTH LUAD and normal lung: 10 ===
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1: LUAD 606,144 cells/126 donors | normal 212,889 cells/68 donors | shared donor ids: 0
+232f6a5a-a04c-4758-a6e8-88ab2e3a6e69: LUAD 312,237 cells/110 donors | normal 212,889 cells/68 donors | shared donor ids: 0
+486486d4-9462-43e5-9249-eb43fa5a49a6: LUAD 21,478 cells/16 donors | normal 4,520 cells/4 donors | shared donor ids: 3
+576f193c-75d0-4a11-bd25-8676587e6dc2: LUAD 46,529 cells/16 donors | normal 12,315 cells/4 donors | shared donor ids: 3
+9f222629-9e39-47d0-b83f-e08d610c7479: LUAD 62,807 cells/11 donors | normal 558,404 cells/138 donors | shared donor ids: 3
+a6858c10-c52a-4a1d-bc12-a90dbd51ca66: LUAD 5,118 cells/16 donors | normal 843 cells/4 donors | shared donor ids: 3
+d224c8e0-c28e-4360-9e42-b3977cd83f9f: LUAD 6,374 cells/16 donors | normal 127 cells/3 donors | shared donor ids: 2
+d4cfefa0-3a35-44eb-b848-d7a725b481e7: LUAD 5,118 cells/16 donors | normal 843 cells/4 donors | shared donor ids: 3
+e9175006-8978-4417-939f-819855eab80e: LUAD 5,235 cells/16 donors | normal 4,054 cells/4 donors | shared donor ids: 3
+f64e1be1-de15-4d27-8da4-82225cd4c035: LUAD 34,269 cells/16 donors | normal 10,934 cells/4 donors | shared donor ids: 3
+
+=== Datasets containing BOTH SCLC and normal lung: 7 -> ['486486d4-9462-43e5-9249-eb43fa5a49a6', '576f193c-75d0-4a11-bd25-8676587e6dc2', 'a6858c10-c52a-4a1d-bc12-a90dbd51ca66', 'd224c8e0-c28e-4360-9e42-b3977cd83f9f', 'd4cfefa0-3a35-44eb-b848-d7a725b481e7', 'e9175006-8978-4417-939f-819855eab80e', 'f64e1be1-de15-4d27-8da4-82225cd4c035'] ===
+=== SCLC datasets (all, incl non-primary): ===
+                                      cells  donors  primary
+dataset_id                                                  
+576f193c-75d0-4a11-bd25-8676587e6dc2  31540       9    31540
+34deb33b-a50e-4993-a38b-1c0e5079c1c2  26043       9        0
+a6858c10-c52a-4a1d-bc12-a90dbd51ca66  25988       9        0
+76347874-8801-44bf-9aea-0da21c78c430   5155       9        0
+f64e1be1-de15-4d27-8da4-82225cd4c035   4845       9        0
+486486d4-9462-43e5-9249-eb43fa5a49a6   3671       9        0
+e9175006-8978-4417-939f-819855eab80e    798       9        0
+b47cf863-d90d-4fe5-a1eb-1a4785a3e329    792       9        0
+d224c8e0-c28e-4360-9e42-b3977cd83f9f    532       9        0
+d4cfefa0-3a35-44eb-b848-d7a725b481e7    333       9        0
+
+=== LUAD datasets (all, incl non-primary): ===
+                                       cells  donors  primary
+dataset_id                                                   
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1  606144     126   548457
+232f6a5a-a04c-4758-a6e8-88ab2e3a6e69  312237     110        0
+9f222629-9e39-47d0-b83f-e08d610c7479   62807      11    41012
+576f193c-75d0-4a11-bd25-8676587e6dc2   46529      16    46529
+f64e1be1-de15-4d27-8da4-82225cd4c035   34269      16        0
+486486d4-9462-43e5-9249-eb43fa5a49a6   21478      16        0
+d224c8e0-c28e-4360-9e42-b3977cd83f9f    6374      16        0
+e9175006-8978-4417-939f-819855eab80e    5235      16        0
+a6858c10-c52a-4a1d-bc12-a90dbd51ca66    5118      16        0
+d4cfefa0-3a35-44eb-b848-d7a725b481e7    5118      16        0

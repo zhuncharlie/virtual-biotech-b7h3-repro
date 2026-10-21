@@ -1,0 +1,34 @@
+category,attribute,value,source
+identity,Ensembl gene ID,ENSG00000103855,Open Targets target info
+identity,Approved symbol,CD276,Open Targets / HGNC
+identity,Approved name,CD276 molecule,Open Targets / HGNC
+identity,Common synonyms,B7-H3; B7H3; 4Ig-B7-H3; B7RP-2; CD276 antigen; costimulatory molecule,Open Targets / HGNC / UniProt
+identity,Gene biotype,protein_coding,Open Targets
+identity,Chromosome,15,Open Targets
+identity,Genomic location (GRCh38),15:73683966-73714514 (+ strand),Open Targets
+identity,Canonical transcript,ENST00000318443 (15:73684383-73714514),Open Targets
+identity,UniProt (Swiss-Prot),Q5ZPR3,Open Targets / UniProt
+identity,ChEMBL target ID,CHEMBL3712879,Open Targets
+identity,DrugBank ID,DB15635,Open Targets
+protein_class,ChEMBL target class (L1),Surface antigen,ChEMBL via target MCP
+protein_class,UniProt protein family (prior knowledge),"Immunoglobulin superfamily, B7/CD28 co-signalling family; type I transmembrane glycoprotein",PRIOR KNOWLEDGE - not returned by MCP
+localization,Subcellular localization (UniProt),Membrane,UniProt via target MCP
+localization,Subcellular localization (HPA),Vesicles,HPA via target MCP
+localization,Signal peptide / TM prediction,UniProt SigP or TMHMM = TRUE (antibody tractability criterion),Open Targets tractability
+localization,SignalP annotation,SignalP-noTM (secretory signal peptide; no TM predicted by SignalP alone),Open Targets dbXrefs
+function,UniProt function description,May regulate T-cell-mediated immune response; may protect tumour cells by inhibiting NK-mediated lysis; proposed marker for neuroblastoma detection; may modulate lymphocytic activity at mucosal surfaces,UniProt via Open Targets
+function,Reactome pathways,None returned (0 pathways),Reactome via pathway MCP
+chemistry,Chemical probes,"None (0 total, 0 high-quality)",Open Targets chemical probes
+constraint,gnomAD LoF observed/expected,34 observed vs 51.0 expected; o/e 0.667; LOEUF bin 4 (rank 7792),gnomAD via Open Targets
+constraint,gnomAD missense observed/expected,634 observed vs 732.0 expected; o/e 0.866,gnomAD via Open Targets
+homologue,Chimpanzee ortholog,CD276; 98.88% identity; one-to-one; high confidence,Ensembl via Open Targets
+homologue,Macaque ortholog,CD276; 94.57% query identity; one-to-one; high confidence,Ensembl via Open Targets
+homologue,Mouse ortholog,Cd276; 52.43% query identity (88.61% target identity); one-to-one; high confidence,Ensembl via Open Targets
+homologue,Rat ortholog,Cd276; 52.81% query identity; one-to-one; high confidence,Ensembl via Open Targets
+homologue,Guinea pig ortholog,CD276; 89.70% query identity; one-to-one,Ensembl via Open Targets
+homologue,Dog ortholog,CD276; 93.63% query identity; one-to-one,Ensembl via Open Targets
+homologue,Pig ortholog,CD276; 90.07% query identity; one-to-one,Ensembl via Open Targets
+paralogue,HHLA2 (closest human paralogue),12.92% query / 16.67% target identity,Ensembl via Open Targets
+paralogue,VTCN1 (B7-H4),11.99% query / 22.70% target identity,Ensembl via Open Targets
+paralogue,BTN/BTNL family paralogues,"8.99-16.48% query identity across BTN1A1, BTN2A1/2, BTN3A1/2/3, BTNL2/3/8/9, MOG, ERMAP, ICOSLG",Ensembl via Open Targets
+interactions,IntAct protein interactions,"40 interactions; reported scores 0.27-0.53 (low confidence); includes LGALS1, LGALS3, LGALS8, LGALS9, CD9, CD81, TNF, KRAS/HRAS/NRAS",IntAct via interaction MCP

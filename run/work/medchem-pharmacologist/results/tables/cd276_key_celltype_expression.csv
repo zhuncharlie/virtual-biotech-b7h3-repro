@@ -1,0 +1,19 @@
+indication,cell_type,lineage,compartment,n_cells,n_donors,n_datasets,mean_cpm,mean_cpm_donor_avg,median_cpm,pct_expressing,malignant_reference_cell_type,malignant_reference_mean_cpm,ratio_to_malignant_reference,is_malignant_reference
+LUAD,fibroblast,Fibroblast/stromal,Stromal/endothelial,3979,15,1,75.91,82.44,0.0,0.2674,malignant cell,23.58,3.22,False
+LUAD,alveolar macrophage,Macrophage,Immune,63656,101,2,34.09,32.83,0.0,0.2586,malignant cell,23.58,1.45,False
+LUAD,macrophage,Macrophage,Immune,52072,115,2,32.86,43.61,0.0,0.165,malignant cell,23.58,1.39,False
+LUAD,epithelial cell,Epithelial,Malignant/epithelial,5270,16,1,28.61,28.04,0.0,0.152,malignant cell,23.58,1.21,False
+LUAD,malignant cell,Malignant,Malignant/epithelial,26179,92,1,23.58,25.61,0.0,0.1544,malignant cell,23.58,1.0,True
+LUAD,endothelial cell,Endothelial,Stromal/endothelial,2349,16,1,22.78,18.55,0.0,0.0949,malignant cell,23.58,0.97,False
+LUAD,pulmonary alveolar type 2 cell,Epithelial,Malignant/epithelial,13530,88,2,14.52,18.18,0.0,0.069,malignant cell,23.58,0.62,False
+LUAD,B cell,B cell,Immune,30238,110,3,2.19,1.36,0.0,0.0036,malignant cell,23.58,0.09,False
+LUAD,natural killer cell,NK cell,Immune,39174,101,2,1.63,1.89,0.0,0.0032,malignant cell,23.58,0.07,False
+LUAD,T cell,T cell,Immune,23818,19,2,1.54,1.33,0.0,0.003,malignant cell,23.58,0.07,False
+SCLC,fibroblast,Fibroblast/stromal,Stromal/endothelial,328,9,1,68.1,56.11,0.0,0.2622,epithelial cell,28.54,2.39,False
+SCLC,macrophage,Macrophage,Immune,375,9,1,48.81,33.23,0.0,0.0773,epithelial cell,28.54,1.71,False
+SCLC,endothelial cell,Endothelial,Stromal/endothelial,204,9,1,40.8,25.77,0.0,0.1961,epithelial cell,28.54,1.43,False
+SCLC,epithelial cell,Epithelial,Malignant/epithelial,25988,9,1,28.54,30.61,0.0,0.1946,epithelial cell,28.54,1.0,True
+SCLC,B cell,B cell,Immune,204,8,1,6.83,2.81,0.0,0.0098,epithelial cell,28.54,0.24,False
+SCLC,dendritic cell,Dendritic cell,Immune,433,9,1,5.1,2.49,0.0,0.0162,epithelial cell,28.54,0.18,False
+SCLC,T cell,T cell,Immune,3898,9,1,1.42,1.95,0.0,0.0041,epithelial cell,28.54,0.05,False
+SCLC,neutrophil,Neutrophil,Immune,69,5,1,0.0,0.0,0.0,0.0,epithelial cell,28.54,0.0,False

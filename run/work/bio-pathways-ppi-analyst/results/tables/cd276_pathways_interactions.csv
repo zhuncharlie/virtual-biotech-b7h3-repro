@@ -1,0 +1,94 @@
+record_type,gene_symbol,ensembl_id,source,score,score_type,detection_method,mi_identifier,evidence_count,go_aspect,go_id,go_term,go_evidence_code,reference,notes
+Reactome_pathway,CD276,ENSG00000103855,Reactome via mcp__pathway__get_gene_pathways,,,,,0,,,,,,count=0; message='No Reactome pathways found for this gene'; search_pathways('CD276') also returned 0
+GO_endpoint_status,CD276,ENSG00000103855,mcp__pathway__get_gene_ontology,,,,,0,P,,,,,count=0 from the pathway-MCP GO endpoint; GO terms below come from mcp__target__get_target_info instead
+GO_endpoint_status,CD276,ENSG00000103855,mcp__pathway__get_gene_ontology,,,,,0,F,,,,,count=0 from the pathway-MCP GO endpoint; GO terms below come from mcp__target__get_target_info instead
+GO_endpoint_status,CD276,ENSG00000103855,mcp__pathway__get_gene_ontology,,,,,0,C,,,,,count=0 from the pathway-MCP GO endpoint; GO terms below come from mcp__target__get_target_info instead
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,F,GO:0005102,signaling receptor binding,IBA,GO_REF:0000033,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,C,GO:0009897,external side of plasma membrane,IBA,GO_REF:0000033,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,F,GO:0005102,signaling receptor binding,NAS,PMID:11224528,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,P,GO:0042110,T cell activation,IDA,PMID:18650384,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,C,GO:0009897,external side of plasma membrane,NAS,PMID:15188059,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,P,GO:0032729,positive regulation of type II interferon production,IDA,PMID:11224528,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,F,GO:0005515,protein binding,IPI,PMID:18650384,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,C,GO:0016020,membrane,IEA,GO_REF:0000043,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,P,GO:0042102,positive regulation of T cell proliferation,IEA,GO_REF:0000117,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,P,GO:0032649,regulation of type II interferon production,IEA,GO_REF:0000117,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,P,GO:0001819,positive regulation of cytokine production,IEA,GO_REF:0000117,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,P,GO:0042102,positive regulation of T cell proliferation,IDA,PMID:11224528,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,P,GO:0050852,T cell receptor signaling pathway,IBA,GO_REF:0000033,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,C,GO:0016020,membrane,NAS,PMID:15188059,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,P,GO:0001817,regulation of cytokine production,IBA,GO_REF:0000033,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,C,GO:0016020,membrane,IEA,GO_REF:0000044,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,P,GO:0042110,T cell activation,IEA,GO_REF:0000117,
+GO_annotation,CD276,ENSG00000103855,Open Targets via mcp__target__get_target_info,,,,,,P,GO:0050776,regulation of immune response,NAS,PMID:11224528,
+PPI_STRING,CD8A,ENSG00000153563,STRING v12 via mcp__interaction__get_interactions,0.873,STRING combined score (0-1),,,1,,,,,,"top-scoring partner in the network; textmining-only evidence, pubmedId null"
+PPI_STRING,IFNG,ENSG00000111537,STRING v12 via mcp__interaction__get_interactions,0.78,STRING combined score (0-1),,,1,,,,,,
+PPI_STRING,IL1B,ENSG00000125538,STRING v12 via mcp__interaction__get_interactions,0.597,STRING combined score (0-1),,,1,,,,,,
+PPI_STRING,THBS1,ENSG00000137801,STRING v12 via mcp__interaction__get_interactions,0.497,STRING combined score (0-1),,,3,,,,,,
+PPI_STRING,DNMT3A,ENSG00000119772,STRING v12 via mcp__interaction__get_interactions,0.483,STRING combined score (0-1),,,2,,,,,,
+PPI_STRING,IFNAR1,ENSG00000142166,STRING v12 via mcp__interaction__get_interactions,0.446,STRING combined score (0-1),,,2,,,,,,
+PPI_STRING,,ENSG00000102970,STRING v12 via mcp__interaction__get_interactions,0.434,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,TP53,ENSG00000141510,STRING v12 via mcp__interaction__get_interactions,0.395,STRING combined score (0-1),,,2,,,,,,
+PPI_STRING,,ENSG00000145649,STRING v12 via mcp__interaction__get_interactions,0.387,STRING combined score (0-1),,,3,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000099250,STRING v12 via mcp__interaction__get_interactions,0.386,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000111981,STRING v12 via mcp__interaction__get_interactions,0.352,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000111796,STRING v12 via mcp__interaction__get_interactions,0.342,STRING combined score (0-1),,,1,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000163735,STRING v12 via mcp__interaction__get_interactions,0.306,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,NRAS,ENSG00000213281,STRING v12 via mcp__interaction__get_interactions,0.277,STRING combined score (0-1),,,3,,,,,,
+PPI_STRING,,ENSG00000040275,STRING v12 via mcp__interaction__get_interactions,0.269,STRING combined score (0-1),,,1,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000156127,STRING v12 via mcp__interaction__get_interactions,0.25,STRING combined score (0-1),,,1,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000167286,STRING v12 via mcp__interaction__get_interactions,0.243,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000240972,STRING v12 via mcp__interaction__get_interactions,0.24,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000150630,STRING v12 via mcp__interaction__get_interactions,0.235,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000171860,STRING v12 via mcp__interaction__get_interactions,0.225,STRING combined score (0-1),,,1,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000077498,STRING v12 via mcp__interaction__get_interactions,0.218,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000165704,STRING v12 via mcp__interaction__get_interactions,0.209,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000163734,STRING v12 via mcp__interaction__get_interactions,0.201,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000130427,STRING v12 via mcp__interaction__get_interactions,0.189,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000106683,STRING v12 via mcp__interaction__get_interactions,0.16,STRING combined score (0-1),,,1,,,,,,symbol unresolved in this session
+PPI_STRING,,ENSG00000116062,STRING v12 via mcp__interaction__get_interactions,0.152,STRING combined score (0-1),,,2,,,,,,symbol unresolved in this session
+PPI_IntAct,LGALS1,ENSG00000100097,IntAct via mcp__interaction__get_interactions,0.53,IntAct MI score (0-1),,,3,,,,,P09382,highest IntAct score in this network (3 observations); still below the 0.7 high-confidence threshold
+PPI_IntAct,LGALS3,ENSG00000131981,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,P17931,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_IntAct,CLEC5A,ENSG00000258227,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q9NY25,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_IntAct,RYK,ENSG00000163785,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,3,,,,,P34925,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_IntAct,CD68,ENSG00000129226,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,P34810,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_IntAct,CD81,ENSG00000110651,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,4,,,,,P60033,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_IntAct,MAPT,ENSG00000186868,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,2,,,,,P10636-8,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_IntAct,,ENSG00000156875,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q96MC6,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000070214,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q8WWI5,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000111181,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,P48065,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000099960,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,O43246,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000117479,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,O60779,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000139514,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,P30825,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000185873,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q86T26,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000204961,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q9Y5H5,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000120860,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q9Y3C0,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000139921,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q9H3N1,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000007129,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q3KPI0,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000153132,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,O14967,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000188811,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q5JS37,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000116977,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,O00214,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000179213,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q8N7X8,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000116661,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q9UK22,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000186818,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q8NHJ6-2,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,,ENSG00000007129,IntAct via mcp__interaction__get_interactions,0.35,IntAct MI score (0-1),,,1,,,,,Q3KPI0-2,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence; symbol unresolved in this session
+PPI_IntAct,CFTR,ENSG00000001626,IntAct via mcp__interaction__get_interactions,0.27,IntAct MI score (0-1),,,1,,,,,P13569,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_IntAct,KCNK3,ENSG00000171303,IntAct via mcp__interaction__get_interactions,0.27,IntAct MI score (0-1),,,1,,,,,O14649,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_IntAct,HRAS,ENSG00000174775,IntAct via mcp__interaction__get_interactions,0.27,IntAct MI score (0-1),,,1,,,,,P01112,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_IntAct,KRAS,ENSG00000133703,IntAct via mcp__interaction__get_interactions,0.27,IntAct MI score (0-1),,,1,,,,,P01116,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_IntAct,NRAS,ENSG00000213281,IntAct via mcp__interaction__get_interactions,0.27,IntAct MI score (0-1),,,1,,,,,P01111,IntAct score 0.35 is the modal floor of this network (single-observation records); low confidence
+PPI_evidence,CD8A,ENSG00000153563,STRING v12 via mcp__interaction__get_interaction_evidence,0.873,STRING evidence channel score (0-1),textmining,MI:0110,,,,,,,interactionScore=0.873; pubmedId null
+PPI_evidence,,ENSG00000185896,STRING v12 via mcp__interaction__get_interaction_evidence,0.4,STRING evidence channel score (0-1),textmining,MI:0110,,,,,,,interactionScore=0.401; pubmedId null
+PPI_evidence,,ENSG00000099250,STRING v12 via mcp__interaction__get_interaction_evidence,0.348,STRING evidence channel score (0-1),textmining,MI:0110,,,,,,,interactionScore=0.386; pubmedId null
+PPI_evidence,,ENSG00000099250,STRING v12 via mcp__interaction__get_interaction_evidence,0.097,STRING evidence channel score (0-1),coexpression,MI:2231,,,,,,,interactionScore=0.386; pubmedId null
+PPI_evidence,,ENSG00000242950,STRING v12 via mcp__interaction__get_interaction_evidence,0.37,STRING evidence channel score (0-1),textmining,MI:0110,,,,,,,interactionScore=0.379; pubmedId null
+PPI_evidence,,ENSG00000242950,STRING v12 via mcp__interaction__get_interaction_evidence,0.055,STRING evidence channel score (0-1),coexpression,MI:2231,,,,,,,interactionScore=0.379; pubmedId null
+PPI_evidence,,ENSG00000144648,STRING v12 via mcp__interaction__get_interaction_evidence,0.366,STRING evidence channel score (0-1),textmining,MI:0110,,,,,,,interactionScore=0.366; pubmedId null
+PPI_evidence,,ENSG00000155659,STRING v12 via mcp__interaction__get_interaction_evidence,0.213,STRING evidence channel score (0-1),textmining,MI:0110,,,,,,,interactionScore=0.213; pubmedId null
+PPI_evidence,,ENSG00000155659,STRING v12 via mcp__interaction__get_interaction_evidence,0.042,STRING evidence channel score (0-1),coexpression,MI:2231,,,,,,,interactionScore=0.213; pubmedId null
+PPI_evidence,,ENSG00000099866,STRING v12 via mcp__interaction__get_interaction_evidence,0.209,STRING evidence channel score (0-1),textmining,MI:0110,,,,,,,interactionScore=0.211; pubmedId null
+PPI_evidence,,ENSG00000099866,STRING v12 via mcp__interaction__get_interaction_evidence,0.044,STRING evidence channel score (0-1),coexpression,MI:2231,,,,,,,interactionScore=0.211; pubmedId null
+PPI_evidence,,ENSG00000129654,STRING v12 via mcp__interaction__get_interaction_evidence,0.106,STRING evidence channel score (0-1),coexpression,MI:2231,,,,,,,interactionScore=0.164; pubmedId null
+PPI_evidence,,ENSG00000117984,STRING v12 via mcp__interaction__get_interaction_evidence,0.118,STRING evidence channel score (0-1),textmining,MI:0110,,,,,,,interactionScore=0.158; pubmedId null
+PPI_evidence,,ENSG00000117984,STRING v12 via mcp__interaction__get_interaction_evidence,0.082,STRING evidence channel score (0-1),coexpression,MI:2231,,,,,,,interactionScore=0.158; pubmedId null
+PPI_evidence,,ENSG00000168811,STRING v12 via mcp__interaction__get_interaction_evidence,0.104,STRING evidence channel score (0-1),coexpression,MI:2231,,,,,,,interactionScore=0.151; pubmedId null

@@ -1,0 +1,195 @@
+{
+  "outputs": [
+    {
+      "timestamp": "2026-10-20T08:58:41.656661",
+      "tool": "query_gwas_associations",
+      "file_path": "cd276_locus_credible_sets_all_studies.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/genomics-analyst/data/raw/cd276_locus_credible_sets_all_studies.parquet",
+      "query_params": {
+        "region": "chr15:73500000-73900000"
+      },
+      "size_mb": 0.203704833984375,
+      "n_records": 303,
+      "metadata": {
+        "summary_stats": {
+          "mean_beta": 1.334728390177545,
+          "beta_range": [
+            -2.0897,
+            362.54
+          ],
+          "most_significant_pval_exp": -323
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T08:59:05.534405",
+      "tool": "get_credible_sets",
+      "file_path": "test_locus_credset.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/genomics-analyst/data/raw/test_locus_credset.parquet",
+      "query_params": {
+        "study_locus_id": "f708dd02ec81994b8d5ac6212a42357b"
+      },
+      "size_mb": 0.018303871154785156,
+      "n_records": 1,
+      "metadata": {
+        "summary_stats": {
+          "mean_log10BF": 12.736093639317792,
+          "max_log10BF": 12.736093639317792,
+          "study_types": {
+            "gwas": 1
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T08:59:48.921698",
+      "tool": "get_credible_sets",
+      "file_path": "luad_GCST90297563_credible_sets.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/genomics-analyst/data/raw/luad_GCST90297563_credible_sets.parquet",
+      "query_params": {
+        "study_id": "GCST90297563"
+      },
+      "size_mb": 0.024704933166503906,
+      "n_records": 3,
+      "metadata": {
+        "summary_stats": {
+          "study_types": {
+            "gwas": 3
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:00:17.609568",
+      "tool": "get_credible_sets",
+      "file_path": "luad_GCST90455522_credible_sets.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/genomics-analyst/data/raw/luad_GCST90455522_credible_sets.parquet",
+      "query_params": {
+        "study_id": "GCST90455522"
+      },
+      "size_mb": 0.08121299743652344,
+      "n_records": 13,
+      "metadata": {
+        "summary_stats": {
+          "study_types": {
+            "gwas": 13
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:00:40.316805",
+      "tool": "get_credible_sets",
+      "file_path": "luad_GCST90134662_credible_sets.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/genomics-analyst/data/raw/luad_GCST90134662_credible_sets.parquet",
+      "query_params": {
+        "study_id": "GCST90134662"
+      },
+      "size_mb": 0.0510406494140625,
+      "n_records": 13,
+      "metadata": {
+        "summary_stats": {
+          "study_types": {
+            "gwas": 13
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:01:02.432873",
+      "tool": "get_credible_sets",
+      "file_path": "luad_GCST008836_credible_sets.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/genomics-analyst/data/raw/luad_GCST008836_credible_sets.parquet",
+      "query_params": {
+        "study_id": "GCST008836"
+      },
+      "size_mb": 0.04636669158935547,
+      "n_records": 9,
+      "metadata": {
+        "summary_stats": {
+          "study_types": {
+            "gwas": 9
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:01:24.834930",
+      "tool": "get_credible_sets",
+      "file_path": "luad_GCST004744_credible_sets.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/genomics-analyst/data/raw/luad_GCST004744_credible_sets.parquet",
+      "query_params": {
+        "study_id": "GCST004744"
+      },
+      "size_mb": 0.025983810424804688,
+      "n_records": 13,
+      "metadata": {
+        "summary_stats": {
+          "mean_log10BF": 3339.543330501816,
+          "max_log10BF": 43247.550502082995,
+          "study_types": {
+            "gwas": 13
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:01:47.217017",
+      "tool": "get_credible_sets",
+      "file_path": "sclc_GCST004746_credible_sets.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/genomics-analyst/data/raw/sclc_GCST004746_credible_sets.parquet",
+      "query_params": {
+        "study_id": "GCST004746"
+      },
+      "size_mb": 0.02077960968017578,
+      "n_records": 2,
+      "metadata": {
+        "summary_stats": {
+          "mean_log10BF": 5.992952024725593,
+          "max_log10BF": 9.295628488116567,
+          "study_types": {
+            "gwas": 2
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:02:08.371619",
+      "tool": "get_credible_sets",
+      "file_path": "sclc_GCST90134664_credible_sets.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/genomics-analyst/data/raw/sclc_GCST90134664_credible_sets.parquet",
+      "query_params": {
+        "study_id": "GCST90134664"
+      },
+      "size_mb": 0.022062301635742188,
+      "n_records": 2,
+      "metadata": {
+        "summary_stats": {
+          "study_types": {
+            "gwas": 2
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:02:28.419663",
+      "tool": "get_credible_sets",
+      "file_path": "sclc_FINNGEN_R12_C3_SCLC_EXALLC_credible_sets.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/genomics-analyst/data/raw/sclc_FINNGEN_R12_C3_SCLC_EXALLC_credible_sets.parquet",
+      "query_params": {
+        "study_id": "FINNGEN_R12_C3_SCLC_EXALLC"
+      },
+      "size_mb": 0.021816253662109375,
+      "n_records": 1,
+      "metadata": {
+        "summary_stats": {
+          "mean_log10BF": 2.51016254565,
+          "max_log10BF": 2.51016254565,
+          "study_types": {
+            "gwas": 1
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+nct_id,drugId,targetId,diseaseId,phase,status,disease_name,studyStopReason,studyStopReasonCategories
+NCT04129320,CHEMBL3545373,ENSG00000103855,EFO_0000181,2.0,Withdrawn,Squamous Cell Carcinoma of Head and Neck,Change in study design,['Study design']
+NCT03275402,CHEMBL2109310,ENSG00000103855,EFO_0000621,2.0,Terminated,Neuroblastoma,Corporate business decision. Not due to safety or efficacy concerns.,['Business or administrative']
+NCT06014255,CHEMBL3545373,ENSG00000103855,MONDO_0008315,2.0,Recruiting,Prostate Cancer,,
+NCT02923180,CHEMBL3545373,ENSG00000103855,MONDO_0008315,2.0,"Active, not recruiting",Prostate Cancer,,
+NCT03275402,CHEMBL2109310,ENSG00000103855,EFO_1001012,2.0,Terminated,Leptomeningeal Metastases,Corporate business decision. Not due to safety or efficacy concerns.,['Business or administrative']
+NCT01918930,CHEMBL3545373,ENSG00000103855,EFO_0000756,1.0,Terminated,Melanoma,Unable to accrue as planned for optional biopsies,['Insufficient enrollment']
+NCT05063357,CHEMBL2109310,ENSG00000103855,EFO_1000026,1.0,Withdrawn,DIPG,Corporate business decision. Not due to safety or efficacy concerns.,['Business or administrative']
+NCT04129320,CHEMBL3545373,ENSG00000103855,EFO_0006859,2.0,Withdrawn,Head and Neck Cancer,Change in study design,['Study design']
+NCT01099644,CHEMBL2109310,ENSG00000103855,MONDO_0002087,1.0,Terminated,Peritoneal Cancer,Corporate business decision. Not due to safety or efficacy concerns,['Business or administrative']

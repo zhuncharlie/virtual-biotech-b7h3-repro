@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "server_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/src/mcp_servers/single_cell_mcp/server.py",
+  "tools_exposed_count": 11,
+  "tools_exposed_sample": [
+    "get_census_info",
+    "list_metadata_values",
+    "search_genes",
+    "query_cell_metadata",
+    "get_anndata",
+    "count_cells",
+    "get_gene_statistics",
+    "summarize_datasets",
+    "get_cell_type_tissue_matrix",
+    "get_expression_for_genes"
+  ],
+  "get_census_info_raw_response": "{\"census_version\":\"stable\",\"organism\":\"homo_sapiens\",\"total_cell_count\":158982719,\"total_gene_count\":61497,\"available_layers\":[\"normalized\",\"raw\"],\"note\":\"This server provides access to human single-cell data only\"}",
+  "note": "real network call to CELLxGENE Census cloud endpoint; no local bulk data required",
+  "_recorded_at": "2026-10-19T05:07:48-0500"
+}

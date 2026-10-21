@@ -1,0 +1,135 @@
+{
+  "goal": "Evaluate B7-H3 (CD276) as a therapeutic target in lung adenocarcinoma (LUAD) and small cell lung cancer (SCLC) only: tumor biology rationale, genetic/functional support, expression specificity and safety liability, clinical precedence, and ranked modality options.",
+  "created": "2026-10-20T08:56:14.715722",
+  "steps": [
+    {
+      "id": "s1",
+      "agent": "genomics-analyst",
+      "task": "Genetic evidence and tractability for CD276 in LUAD and SCLC: resolve exact disease IDs, query GWAS/L2G/QTL colocalization, target prioritisation and tractability. Interpret candidly given CD276 is not a classic genetically driven target.",
+      "depends_on": [],
+      "expected_outputs": [
+        "work/genomics-analyst/results/tables/cd276_luad_sclc_genetic_evidence.csv",
+        "work/genomics-analyst/results/reports/cd276_genetic_evidence.md"
+      ]
+    },
+    {
+      "id": "s2",
+      "agent": "single-cell-analyst",
+      "task": "CD276 expression across cell types in LUAD and SCLC tumors versus normal lung, plus normal-tissue expression relevant to on-target off-tumor toxicity. CELLxGENE Census only; no spatial/Visium.",
+      "depends_on": [],
+      "expected_outputs": [
+        "work/single-cell-analyst/results/tables/cd276_luad_sclc_celltype_expression.csv",
+        "work/single-cell-analyst/results/figures/cd276_expression_luad_sclc.png"
+      ]
+    },
+    {
+      "id": "s3",
+      "agent": "functional-genomics-analyst",
+      "task": "DepMap CRISPR dependency of CD276 across LUAD and SCLC cell lines and selectivity versus other lineages; whether tumor cells depend on CD276 and whether expression is retained.",
+      "depends_on": [],
+      "expected_outputs": [
+        "work/functional-genomics-analyst/results/tables/cd276_depmap_luad_sclc.csv",
+        "work/functional-genomics-analyst/results/reports/cd276_functional_genomics.md"
+      ]
+    },
+    {
+      "id": "s4",
+      "agent": "bio-pathways-ppi-analyst",
+      "task": "Pathway and protein-interaction context for CD276: Reactome/GO annotations, interaction partners, immune-checkpoint biology, and pathway-based on-target safety considerations.",
+      "depends_on": [],
+      "expected_outputs": [
+        "work/bio-pathways-ppi-analyst/results/tables/cd276_pathways_interactions.csv",
+        "work/bio-pathways-ppi-analyst/results/reports/cd276_pathway_safety.md"
+      ]
+    },
+    {
+      "id": "s5",
+      "agent": "clinical-trialist",
+      "task": "Clinical precedence for B7-H3-directed agents in LUAD and SCLC: ClinicalTrials.gov trials, agents, phases, status, and reported outcomes; cBioPortal if relevant. Restrict disease scope to LUAD/SCLC.",
+      "depends_on": [],
+      "expected_outputs": [
+        "work/clinical-trialist/results/tables/b7h3_luad_sclc_trials.csv",
+        "work/clinical-trialist/results/reports/b7h3_clinical_landscape.md"
+      ]
+    },
+    {
+      "id": "s6",
+      "agent": "fda-safety-officer",
+      "task": "Safety profile of B7-H3 targeting: target safety events, known B7-H3 drug warnings/adverse events, mouse phenotypes, pharmacogenomics, and on-target off-tumor risk in normal tissues.",
+      "depends_on": [],
+      "expected_outputs": [
+        "work/fda-safety-officer/results/tables/b7h3_safety_signals.csv",
+        "work/fda-safety-officer/results/reports/b7h3_safety_assessment.md"
+      ]
+    },
+    {
+      "id": "s7",
+      "agent": "target-biologist",
+      "task": "CD276 target biology for modality selection: protein class, isoforms, subcellular localization, homologues, tractability, expression overview, and implications for ADC/bispecific/CAR modalities.",
+      "depends_on": [],
+      "expected_outputs": [
+        "work/target-biologist/results/tables/cd276_target_biology.csv",
+        "work/target-biologist/results/reports/cd276_modality_biology.md"
+      ]
+    },
+    {
+      "id": "s8",
+      "agent": "medchem-pharmacologist",
+      "task": "Rank the top modalities for B7-H3 in LUAD and SCLC (e.g., ADC, bispecific/T-cell engager, CAR-T, radioimmunotherapy), using target-biologist biology findings and the clinical trial landscape; assess feasibility, timeline, cost, differentiation.",
+      "depends_on": [
+        "s5",
+        "s7"
+      ],
+      "expected_outputs": [
+        "work/medchem-pharmacologist/results/tables/b7h3_modality_ranking.csv",
+        "work/medchem-pharmacologist/results/reports/b7h3_modality_recommendation.md"
+      ]
+    },
+    {
+      "id": "s9",
+      "agent": "scientific-reviewer",
+      "task": "Review all specialist outputs against the user query, checking scope (LUAD/SCLC only), data support, internal consistency, and whether conclusions follow. Flag gaps and overreach.",
+      "depends_on": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "expected_outputs": [
+        "work/scientific-reviewer/results/reports/b7h3_review.md"
+      ]
+    }
+  ],
+  "valid_order": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9"
+  ],
+  "parallel_groups": [
+    [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7"
+    ],
+    [
+      "s8"
+    ],
+    [
+      "s9"
+    ]
+  ]
+}

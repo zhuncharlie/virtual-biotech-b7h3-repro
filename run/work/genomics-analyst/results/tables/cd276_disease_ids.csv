@@ -1,0 +1,4 @@
+disease,disease_id,source_name_returned,search_term,excluded_terms,used
+lung adenocarcinoma,EFO_0000571,lung adenocarcinoma,lung adenocarcinoma,"MONDO_0000503 (adenocarcinoma in situ), MONDO_0003892 (acinar), EFO_1000046 (papillary), EFO_0005288 (duplicate NSCLC-adeno term)",True
+small cell lung carcinoma,EFO_0000702,small cell lung carcinoma,small cell lung carcinoma,"MONDO_0003438 (combined SCLC); EFO_0003060 (NSCLC, out of scope)",True
+CD276 target,ENSG00000103855,CD276 molecule,CD276,,True

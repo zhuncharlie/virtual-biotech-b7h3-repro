@@ -1,0 +1,13 @@
+annotation_class,annotation,value,detail,source
+constraint,syn,0.8682699799537659,obs=275; exp=316.7200012207031; oe_lower=0.7860000133514404; oe_upper=0.9589999914169312; p=1.2777999639511108; upperRank=None; upperBin=None; upperBin6=None,Open Targets gnomAD constraint via mcp__target__get_target_info
+constraint,mis,0.8660899996757507,obs=634; exp=732.030029296875; oe_lower=0.8109999895095825; oe_upper=0.925000011920929; p=1.323199987411499; upperRank=None; upperBin=None; upperBin6=None,Open Targets gnomAD constraint via mcp__target__get_target_info
+constraint,lof,0.6666399836540222,obs=34; exp=51.00199890136719; oe_lower=0.5059999823570251; oe_upper=0.8880000114440918; p=4.2877999817392265e-08; upperRank=7792; upperBin=4; upperBin6=2,Open Targets gnomAD constraint via mcp__target__get_target_info
+tractability,AB: Advanced Clinical,true,,Open Targets tractability via mcp__target__get_target_info
+tractability,AB: UniProt SigP or TMHMM,true,,Open Targets tractability via mcp__target__get_target_info
+tractability,PR: Database Ubiquitination,true,,Open Targets tractability via mcp__target__get_target_info
+tractability,PR: Half-life Data,true,,Open Targets tractability via mcp__target__get_target_info
+subcellular_location,Membrane,,source=uniprot; termSL=SL-0162,mcp__target__get_target_info
+subcellular_location,Vesicles,,source=HPA_main; termSL=SL-0498,mcp__target__get_target_info
+target_class,Surface antigen,l1,,mcp__target__get_target_info
+field_status,safetyLiabilities,null,no safety-liability annotation returned for CD276,mcp__target__get_target_info
+field_status,pathways,null,"Open Targets pathways field null, consistent with the Reactome count=0 result",mcp__target__get_target_info

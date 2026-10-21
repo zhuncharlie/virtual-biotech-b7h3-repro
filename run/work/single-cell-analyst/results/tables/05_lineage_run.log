@@ -1,0 +1,84 @@
+Organ ordering by weighted mean CD276:
+organ
+kidney                     55.496955
+skin                       45.651992
+adrenal gland              37.550642
+adipose                    34.516371
+colon                      30.794318
+ileum                      25.077413
+pancreas                   22.625972
+brain cortex               20.735389
+heart                      16.464161
+lung                       13.901355
+breast                     12.153193
+skeletal muscle            10.409004
+thymus                      7.441752
+esophagus                   3.302705
+liver                       1.946132
+blood (progenitor-rich)     0.305059
+spleen/lymph node           0.240950
+bone marrow                 0.206055
+blood (mature PBMC)         0.070628
+
+Top lineages overall (>=500 cells):
+             organ              lineage  n_cells  n_donors  mean_cpm_weighted  pct_expressing_weighted
+108         kidney   Fibroblast/stromal     1026         9          85.890770                 0.057505
+16   adrenal gland           Macrophage     6055         6          66.936501                 0.040462
+110         kidney              Unknown    90876         9          64.667360                 0.069215
+157           skin          Endothelial     2411        13          60.123640                 0.344670
+159           skin   Fibroblast/stromal   101899        13          58.779582                 0.336853
+67           colon          Endothelial     2818        12          58.010258                 0.318666
+186         thymus   Fibroblast/stromal    15126         8          53.586939                 0.118075
+165           skin         Neural/glial     6261        13          49.738981                 0.247245
+22   adrenal gland  Pericyte/SMC/muscle      676         5          48.676650                 0.031065
+15   adrenal gland   Fibroblast/stromal     2003         6          48.204049                 0.036445
+161           skin           Macrophage    18695        13          48.069057                 0.229259
+168           skin  Pericyte/SMC/muscle    15272        13          47.516833                 0.238279
+0          adipose            Adipocyte    52232        22          46.971862                 0.127565
+107         kidney          Endothelial     5862         9          44.569370                 0.031559
+76       esophagus   Fibroblast/stromal      505         6          41.841656                 0.134653
+135       pancreas   Fibroblast/stromal     1764         5          41.729225                 0.038549
+109         kidney                Other    57555         9          41.653189                 0.031101
+94           ileum   Fibroblast/stromal    21235        11          40.221452                 0.142030
+128           lung           Macrophage     3334         4          39.636960                 0.330234
+69           colon   Fibroblast/stromal    20346        12          38.476774                 0.150890
+
+Cancer lineage summary:
+indication             lineage  n_cells  n_donors  mean_cpm_weighted  mean_cpm_donor_avg  pct_expressing_weighted  max_celltype_cpm                         max_celltype
+      LUAD         Blood other       46         3         116.226460           42.431885                 0.043478        116.226460                          erythrocyte
+      LUAD  Fibroblast/stromal     9909        75          55.449135           57.772033                 0.210718         75.914780                           fibroblast
+      LUAD Pericyte/SMC/muscle     2475        68          35.763689           32.619306                 0.111515         55.822770                             pericyte
+      LUAD          Macrophage   116365       115          33.485580           37.610411                 0.215924         34.088330                  alveolar macrophage
+      LUAD               Other     4362        92          31.376133           40.571047                 0.229253         33.803535                         myeloid cell
+      LUAD           Malignant    26179        92          23.583786           25.613407                 0.154437         23.583786                       malignant cell
+      LUAD           Mast cell    11473       113          19.887093           28.775274                 0.053168         19.887093                            mast cell
+      LUAD          Epithelial    47002        93          16.399674           16.633509                 0.075103        198.138610       respiratory tract hillock cell
+      LUAD         Endothelial    19809        94          15.740033           23.359648                 0.045333         22.784660                     endothelial cell
+      LUAD             Unknown    14774         3          14.551353           13.174445                 0.067957         14.551353                              unknown
+      LUAD      Dendritic cell    18980       102          13.969631           18.414106                 0.074289         17.214834 CD1c-positive myeloid dendritic cell
+      LUAD          Neutrophil     7831        49           5.391261           40.424520                 0.007279          5.391261                           neutrophil
+      LUAD            Monocyte    32915       100           5.016636            7.261383                 0.012426          5.664103                   classical monocyte
+      LUAD              B cell    30238       110           2.194509            1.356960                 0.003572          2.194509                               B cell
+      LUAD              T cell   233036       111           2.015342            2.358678                 0.004077          3.334870                    regulatory T cell
+      LUAD         Plasma cell    21430       110           1.949979            2.966381                 0.011619          2.039512                          plasma cell
+      LUAD             NK cell    39174       101           1.634361            1.889779                 0.003191          1.634361                  natural killer cell
+      SCLC  Fibroblast/stromal      328         9          68.100640           56.111435                 0.262195         68.100640                           fibroblast
+      SCLC          Macrophage      375         9          48.813145           33.228580                 0.077333         48.813145                           macrophage
+      SCLC         Endothelial      204         9          40.796223           25.767271                 0.196078         40.796223                     endothelial cell
+      SCLC          Epithelial    25988         9          28.537155           30.610802                 0.194590         28.537155                      epithelial cell
+      SCLC              B cell      204         8           6.833862            2.810586                 0.009804          6.833862                               B cell
+      SCLC      Dendritic cell      433         9           5.095573            2.490518                 0.016166          5.095573                       dendritic cell
+      SCLC              T cell     3898         9           1.423700            1.954463                 0.004105          1.423700                               T cell
+      SCLC           Mast cell       33         7           0.000000            0.000000                 0.000000          0.000000                            mast cell
+      SCLC          Neutrophil       69         5           0.000000            0.000000                 0.000000          0.000000                           neutrophil
+      SCLC         Plasma cell        8         2           0.000000            0.000000                 0.000000          0.000000                          plasma cell
+LUAD | malignant cell: n=26,179 donors=92 mean=23.6 CPM donor_avg=25.6 pct+=15.4%
+LUAD | epithelial cell: n=5,270 donors=16 mean=28.6 CPM donor_avg=28.0 pct+=15.2%
+LUAD | fibroblast: n=3,979 donors=15 mean=75.9 CPM donor_avg=82.4 pct+=26.7%
+LUAD | macrophage: n=52,072 donors=115 mean=32.9 CPM donor_avg=43.6 pct+=16.5%
+LUAD | T cell: n=23,818 donors=19 mean=1.5 CPM donor_avg=1.3 pct+=0.3%
+LUAD | CD8-positive, alpha-beta T cell: n=83,367 donors=107 mean=1.8 CPM donor_avg=1.6 pct+=0.4%
+SCLC | epithelial cell: n=25,988 donors=9 mean=28.5 CPM donor_avg=30.6 pct+=19.5%
+SCLC | fibroblast: n=328 donors=9 mean=68.1 CPM donor_avg=56.1 pct+=26.2%
+SCLC | macrophage: n=375 donors=9 mean=48.8 CPM donor_avg=33.2 pct+=7.7%
+SCLC | T cell: n=3,898 donors=9 mean=1.4 CPM donor_avg=2.0 pct+=0.4%

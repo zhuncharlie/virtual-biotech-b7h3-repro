@@ -1,0 +1,81 @@
+/home/xqinag/miniconda/envs/vbt/lib/python3.11/site-packages/anndata/_core/anndata.py:1806: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/code/scripts/04_cd276_expression_analysis.py:194: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  norm = pd.concat(norm_parts, ignore_index=True)
+LUAD: (635998, 3) | cells: 635998 | donors: 128 | datasets: 3
+SCLC: (31540, 3) | cells: 31540 | donors: 9 | datasets: 1
+Shared LUAD/normal donors in 576f: ['RU675', 'RU682', 'RU684']
+  donor_id condition  n_cells   mean_cpm  pct_expressing  mean_epcam_cpm  mean_ptprc_cpm
+0    RU675      LUAD      291  14.336791        0.147766      703.860598       21.036039
+1    RU675    Normal      221   4.394932        0.027149      297.244376       99.234552
+2    RU682      LUAD      120  40.131461        0.275000      834.941980        4.446002
+3    RU682    Normal      191  11.806674        0.078534      399.171870       58.834194
+4    RU684      LUAD      189  26.590487        0.132275      550.778350       27.159189
+5    RU684    Normal      150  24.302466        0.073333      425.465987       28.741806
+
+Paired summary:
+           n_cells          mean_cpm            pct_expressing                         mean_cpm
+condition    LUAD Normal       LUAD     Normal           LUAD    Normal ratio_LUAD_over_normal
+donor_id                                                                                      
+RU675       291.0  221.0  14.336791   4.394932       0.147766  0.027149               3.262119
+RU682       120.0  191.0  40.131461  11.806674       0.275000  0.078534               3.399049
+RU684       189.0  150.0  26.590487  24.302466       0.132275  0.073333               1.094148
+
+Mean LUAD vs normal epithelial CPM (donor means): 27.01957964745816 vs 13.501357292019142
+
+SCLC epithelial:   indication  n_cells  n_donors  n_datasets  mean_fraction  median_fraction  pct_expressing  mean_epcam_fraction  mean_ptprc_fraction  mean_fraction_donor_avg   mean_cpm  median_cpm  mean_cpm_donor_avg  mean_epcam_cpm  mean_ptprc_cpm
+0       SCLC    25988         9           1       0.000029              0.0         0.19459             0.000915             0.000003                 0.000031  28.537155         0.0           30.610802      915.462158        2.783445
+Normal lung epithelial:     indication  n_cells  n_donors  n_datasets  mean_fraction  median_fraction  pct_expressing  mean_epcam_fraction  mean_ptprc_fraction  mean_fraction_donor_avg   mean_cpm  median_cpm  mean_cpm_donor_avg  mean_epcam_cpm  mean_ptprc_cpm
+0  Normal lung      851         4           1       0.000017              0.0        0.068155             0.000503             0.000056                 0.000017  17.091188         0.0           16.763453      502.904572       56.479362
+
+Organ summary:
+                       organ  n_cells  n_donors  weighted_mean_cpm  max_celltype_cpm                         max_celltype  max_celltype_pct  pct_cells_expressing_weighted
+16                     skin   178563        13          46.008979         77.579582                          chondrocyte          0.277778                       0.256240
+11                   kidney    64510         9          42.578498         85.890770                         stromal cell          0.057505                       0.031530
+1             adrenal gland    43476         6          37.550642         67.136078                           macrophage          0.040583                       0.027417
+0                   adipose    86064        22          34.516372         81.859528          stromal cell of endometrium          0.333333                       0.092675
+7                     colon    49095        12          30.794318         58.010258                 gut endothelial cell          0.318666                       0.153009
+10                    ileum    83580        11          25.077713         62.620602         type EC enteroendocrine cell          0.265591                       0.111534
+14                 pancreas    79367         5          22.625972         41.729225             pancreatic stellate cell          0.038549                       0.016695
+5              brain cortex   116576         4          20.735389         57.639812    central nervous system macrophage          0.087591                       0.337274
+9                     heart   228846        31          16.464161         26.096321  regular ventricular cardiac myocyte          0.083988                       0.043960
+13                     lung    12315         4          13.901355         39.636959                           macrophage          0.330234                       0.098254
+6                    breast   117346        20          12.153193         26.924339                           fibroblast          0.050601                       0.028684
+15          skeletal muscle   182747        17          10.424446         56.401558  fibroblast of the aortic adventitia          0.245743                       0.036105
+18                   thymus   263395        14           7.892333         55.689892             thymic fibroblast type 1          0.112018                       0.022256
+8                 esophagus    87947         6           3.302705         41.841656                         stromal cell          0.134653                       0.018090
+12                    liver   167598        17           1.946132         15.400333                           macrophage          0.070520                       0.010818
+3   blood (progenitor-rich)   338903        90           0.301667         20.762976                     endothelial cell          0.045802                       0.000628
+17        spleen/lymph node   389682        23           0.240950         10.893222                            mast cell          0.030387                       0.001286
+4               bone marrow   263159        45           0.206055         22.412277          stromal cell of bone marrow          0.089202                       0.001167
+2       blood (mature PBMC)   207225        13           0.070628          0.256449          plasmacytoid dendritic cell          0.002500                       0.000372
+
+Top 25 normal cell types by mean CD276 CPM (>=200 cells, unknown excluded):
+               organ                               cell_type  n_cells  n_donors   mean_cpm  pct_expressing
+239           kidney                            stromal cell     1026         9  85.890770        0.057505
+495    adrenal gland                              macrophage     6037         6  67.136078        0.040583
+401            ileum            type EC enteroendocrine cell      930         7  62.620602        0.265591
+297             skin                      myofibroblast cell     5228        13  60.470142        0.355011
+507    adrenal gland                            stromal cell      380         6  60.242062        0.031579
+267             skin                        endothelial cell     2411        13  60.123638        0.344670
+380            ileum                      myofibroblast cell     2592         9  60.118843        0.186343
+530          adipose                            preadipocyte    37836        22  59.606812        0.138598
+316             skin  vascular associated smooth muscle cell     9414        13  59.039894        0.298492
+273             skin                              fibroblast    96659        13  58.688148        0.335882
+319            colon                    gut endothelial cell     2818        12  58.010258        0.318666
+243     brain cortex       central nervous system macrophage      274         4  57.639812        0.087591
+435  skeletal muscle     fibroblast of the aortic adventitia     4757        17  56.401558        0.245743
+497    adrenal gland                   mesenchymal stem cell      690         4  55.791775        0.053623
+196           thymus                thymic fibroblast type 1     7963         8  55.689892        0.112018
+197           thymus                thymic fibroblast type 2     4440         8  55.305672        0.132658
+272             skin                       eurydendroid cell     1244        11  52.971329        0.260450
+275             skin                              glial cell     4380        13  50.252258        0.245890
+506    adrenal gland                      smooth muscle cell      660         5  49.856689        0.031818
+325            colon                                pericyte     2887        12  48.155880        0.216834
+288             skin                              macrophage    18695        13  48.069057        0.229259
+237           kidney                          mesangial cell    44177         9  47.834770        0.034430
+168           thymus                              fibroblast     2723         8  44.634693        0.112009
+233           kidney       endothelial cell of vascular tree     5862         9  44.569370        0.031559
+344            ileum              capillary endothelial cell     1545        10  44.528328        0.170227
+
+Saved tables and figures.

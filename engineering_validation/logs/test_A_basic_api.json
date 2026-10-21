@@ -1,0 +1,7 @@
+{
+  "requested_model": "claude-sonnet-4-5-20250929",
+  "returncode": 0,
+  "stdout": "{\"requested_model\": \"claude-sonnet-4-5-20250929\", \"response_model_field\": \"claude-sonnet-4-5-20250929\", \"response_id\": \"784ce4ce-e70e-403e-9d20-5a585e59350d\", \"stop_reason\": \"end_turn\", \"text\": \"pong\", \"usage\": {\"cache_creation\": null, \"cache_creation_input_tokens\": 0, \"cache_read_input_tokens\": 0, \"inference_geo\": null, \"input_tokens\": 38, \"output_tokens\": 14, \"server_tool_use\": null, \"service_tier\": \"standard\"}}",
+  "stderr": "",
+  "_recorded_at": "2026-10-19T04:56:26-0500"
+}

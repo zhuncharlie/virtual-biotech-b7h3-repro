@@ -1,0 +1,163 @@
+{
+  "success": true,
+  "total_count": 1,
+  "trials": [
+    {
+      "nctId": "NCT02192567",
+      "orgStudyId": "DS5573-A-J101",
+      "secondaryIds": [],
+      "briefTitle": "Open Label Study of DS-5573a",
+      "officialTitle": "Phase 1, Open Label Study to Assess the Safety and Pharmacokinetics of DS-5573a in Japanese Patients With Advanced Solid Malignant Tumors",
+      "acronym": null,
+      "overallStatus": "TERMINATED",
+      "statusVerifiedDate": "2017-03",
+      "lastKnownStatus": null,
+      "whyStopped": "Business decision",
+      "startDate": "2014-09",
+      "startDateType": null,
+      "primaryCompletionDate": "2017-01",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2017-01",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2014-07-14",
+      "studyFirstPostDate": "2014-07-17",
+      "lastUpdateSubmitDate": "2017-03-01",
+      "lastUpdatePostDate": "2017-03-03",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 19,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "This is an open-label, sequential dose escalation and expansion study to evaluate the safety, and pharmacokinetics of DS-5573a in Japanese patients with advanced solid malignant tumors.",
+      "detailedDescription": null,
+      "conditions": [
+        "Advanced Solid Malignant Tumors"
+      ],
+      "keywords": [
+        "Advanced solid malignant tumor",
+        "phase 1",
+        "oncology"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "DS-5573a",
+          "description": "Step 1 of this study will use a starting intravenous (IV) dose of 0.1 mg/kg. Eight dose levels are planned, level 1: 0.1 mg/kg, level 1.5: 0.1 mg/kg, 0.3 mg/kg, level 2: 0.3 mg/kg, level 3: 1 mg/kg, level 4: 3 mg/kg, level 5: 10 mg/kg, level 6: 20 mg/kg, level 7: 30 mg/kg.\n\nStep 2: 30 subjects will use the dose determined in Step 1.",
+          "armGroupLabels": [
+            "DS-5573a does escalation (step 1) and expansion (step 2)"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "DS-5573a does escalation (step 1) and expansion (step 2)",
+          "type": "EXPERIMENTAL",
+          "description": "Step 1 of this study will follow a 3+3 study design with a starting intravenous (IV) dose of 0.1 mg/kg.\n\nEight dose levels are planned, level 1: 0.1 mg/kg, level 1.5: 0.1 mg/kg, 0.3 mg/kg, level 2: 0.3 mg/kg, level 3: 1 mg/kg, level 4: 3 mg/kg, level 5: 10 mg/kg, level 6: 20 mg/kg, level 7: 30 mg/kg Step 2: 30 subjects will be enrolled and treated at the dose determined in Step 1.",
+          "interventionNames": [
+            "Drug: DS-5573a"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Number of subjects experiencing dose limiting toxicities",
+          "description": "Number of subjects experiencing dose limiting toxicities. To investigate the safety of DS-5573a reporting on frequency and seriousness of treatment emergent adverse events.",
+          "timeFrame": "Day 1 through Day 28"
+        },
+        {
+          "measure": "Number of subjects experiencing adverse events",
+          "description": "Number of subjects experiencing adverse events. To investigate the safety of DS-5573a reporting on frequency and seriousness of treatment emergent adverse events.",
+          "timeFrame": "Day 1 through 45 days after last dose"
+        },
+        {
+          "measure": "Pharmacokinetic profile of DS-5573a",
+          "description": "Pharmacokinetic profile of DS-5573a. \\[Time Frame: Cycle 1, 2, 3: Days 1, 2, 4, 8,15; Cycle 4, 5, 6, 7, 8: Day 1\\] To assess the pharmacokinetic profile of DS-5573a in Japanese subjects with advanced malignant solid tumors.",
+          "timeFrame": "Cycle 1 - Day 1 through Cycle 8 - Day 1"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence of human anti-human antibodies (HAHA) against DS-5573a",
+          "description": "Incidence of human anti-human antibodies (HAHA) against DS-5573a.",
+          "timeFrame": "Cycle 1 - Day 1 through Cycle 1 - Day 15."
+        },
+        {
+          "measure": "Assessment of tumor response to DS-5573a using RECIST ver1.1.",
+          "description": "Assessment of tumor response is conducted every 6 weeks during the study until study end or the subject discontinues participation.",
+          "timeFrame": "week 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90"
+        },
+        {
+          "measure": "Assessment of DS-5573a-related biomarkers in blood and tumor",
+          "description": "Assessment of DS-5573a-related biomarkers in blood and tumor.",
+          "timeFrame": "Cycle 1 - Days 1,2 through Cycle 3 - Days 1,2"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Advanced solid tumor that is refractory to standard treatment, or for which no standard treatment is available.\n* Eastern Cooperative Oncology Group performance status(PS) of 0 or 1\n\nExclusion Criteria:\n\n* Have any of the following concomitant disease or had the history of having following disease within 6 months before enrollment:\n\nCardiac failure (NYHA \u2265 ClassIII), myocardial infarction, cerebral infarction, unstable angina, arrhythmia requiring treatment, coronary-artery/peripheral artery bypass surgery, cerebrovascular disease, pulmonary thromboembolism, uncontrolled deep-vein thrombosis or clinically severe thromboembolic event, or autoimmune disorders requiring treatment.\n\n* Severe or uncontrolled concomitant disease.\n* Clinically active brain metastases defined as symptomatic or requiring treatment.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Daiichi Sankyo Co., Ltd.",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "National Cancer Center Hospital",
+          "status": null,
+          "city": "Tokyo",
+          "state": null,
+          "zip": "104-0045",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": null,
+      "isFdaRegulatedDevice": null,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "C000613983",
+          "term": "DS-5573a"
+        }
+      ],
+      "hasResults": false
+    }
+  ],
+  "trials_returned": 1,
+  "query_params": {
+    "query.intr": "DS-5573a",
+    "countTotal": "true"
+  },
+  "pages_fetched": 1
+}

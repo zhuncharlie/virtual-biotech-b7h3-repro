@@ -1,0 +1,25 @@
+histology_group,gene_effect_bin,n,fraction
+LUAD,< -0.7 (strong essential),0,0.0
+LUAD,-0.7 to -0.5 (essential),1,0.021739130434782608
+LUAD,-0.5 to -0.3 (weak dependency),11,0.2391304347826087
+LUAD,-0.3 to -0.1,25,0.5434782608695652
+LUAD,-0.1 to 0.1,8,0.17391304347826086
+LUAD,> 0.1,1,0.021739130434782608
+SCLC,< -0.7 (strong essential),0,0.0
+SCLC,-0.7 to -0.5 (essential),0,0.0
+SCLC,-0.5 to -0.3 (weak dependency),4,0.16
+SCLC,-0.3 to -0.1,16,0.64
+SCLC,-0.1 to 0.1,5,0.2
+SCLC,> 0.1,0,0.0
+Other NSCLC,< -0.7 (strong essential),0,0.0
+Other NSCLC,-0.7 to -0.5 (essential),2,0.038461538461538464
+Other NSCLC,-0.5 to -0.3 (weak dependency),14,0.2692307692307692
+Other NSCLC,-0.3 to -0.1,28,0.5384615384615384
+Other NSCLC,-0.1 to 0.1,7,0.1346153846153846
+Other NSCLC,> 0.1,1,0.019230769230769232
+Other lineages,< -0.7 (strong essential),4,0.0038424591738712775
+Other lineages,-0.7 to -0.5 (essential),31,0.029779058597502402
+Other lineages,-0.5 to -0.3 (weak dependency),233,0.22382324687800192
+Other lineages,-0.3 to -0.1,591,0.5677233429394812
+Other lineages,-0.1 to 0.1,170,0.1633045148895293
+Other lineages,> 0.1,12,0.011527377521613832

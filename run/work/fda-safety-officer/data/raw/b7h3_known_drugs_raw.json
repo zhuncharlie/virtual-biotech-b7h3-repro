@@ -1,0 +1,34 @@
+{
+  "query": {
+    "tool": "mcp__drug__search_known_drugs",
+    "target_id": "ENSG00000103855",
+    "min_phase": 0,
+    "limit": 50,
+    "retrieved_utc": "2026-10-20"
+  },
+  "count": 9,
+  "unique_drugs": 2,
+  "note": "9 target-disease rows returned; only 2 unique agents. No row for ifinatamab deruxtecan, vobramitamab duocarmazine, or any other B7-H3 agent. Agent is specified per row because this endpoint returns target-disease pairs.",
+  "drugs": [
+    {"drugId": "CHEMBL3545373", "prefName": "ENOBLITUZUMAB", "synonyms": ["Enoblituzumab", "MGA-271", "MGA271"], "drugType": "Antibody", "mechanismOfAction": "CD276 antigen cross-linking agent", "targetId": "ENSG00000103855", "diseaseId": "EFO_0000181", "label": "head and neck squamous cell carcinoma", "phase": 2, "status": "Withdrawn", "trial": "NCT04129320"},
+    {"drugId": "CHEMBL3545373", "prefName": "ENOBLITUZUMAB", "synonyms": ["Enoblituzumab", "MGA-271", "MGA271"], "drugType": "Antibody", "mechanismOfAction": "CD276 antigen cross-linking agent", "targetId": "ENSG00000103855", "diseaseId": "EFO_0006859", "label": "head and neck malignant neoplasia", "phase": 2, "status": "Withdrawn", "trial": "NCT04129320"},
+    {"drugId": "CHEMBL3545373", "prefName": "ENOBLITUZUMAB", "synonyms": ["Enoblituzumab", "MGA-271", "MGA271"], "drugType": "Antibody", "mechanismOfAction": "CD276 antigen cross-linking agent", "targetId": "ENSG00000103855", "diseaseId": "MONDO_0008315", "label": "prostate cancer", "phase": 2, "status": "Recruiting", "trial": "NCT06014255"},
+    {"drugId": "CHEMBL3545373", "prefName": "ENOBLITUZUMAB", "synonyms": ["Enoblituzumab", "MGA-271", "MGA271"], "drugType": "Antibody", "mechanismOfAction": "CD276 antigen cross-linking agent", "targetId": "ENSG00000103855", "diseaseId": "MONDO_0008315", "label": "prostate cancer", "phase": 2, "status": "Active, not recruiting", "trial": "NCT02923180"},
+    {"drugId": "CHEMBL3545373", "prefName": "ENOBLITUZUMAB", "synonyms": ["Enoblituzumab", "MGA-271", "MGA271"], "drugType": "Antibody", "mechanismOfAction": "CD276 antigen cross-linking agent", "targetId": "ENSG00000103855", "diseaseId": "EFO_0000756", "label": "melanoma", "phase": 1, "status": "Terminated", "trial": "NCT01918930"},
+    {"drugId": "CHEMBL2109310", "prefName": "8H9 131I", "synonyms": ["8H9", "8h9 131i", "omburtamab"], "drugType": "Antibody", "mechanismOfAction": "CD276 antigen binding agent", "targetId": "ENSG00000103855", "diseaseId": "EFO_1001012", "label": "leptomeningeal metastasis", "phase": 2, "status": "Terminated", "trial": "NCT03275402"},
+    {"drugId": "CHEMBL2109310", "prefName": "8H9 131I", "synonyms": ["8H9", "8h9 131i", "omburtamab"], "drugType": "Antibody", "mechanismOfAction": "CD276 antigen binding agent", "targetId": "ENSG00000103855", "diseaseId": "EFO_0000621", "label": "neuroblastoma", "phase": 2, "status": "Terminated", "trial": "NCT03275402"},
+    {"drugId": "CHEMBL2109310", "prefName": "8H9 131I", "synonyms": ["8H9", "8h9 131i", "omburtamab"], "drugType": "Antibody", "mechanismOfAction": "CD276 antigen binding agent", "targetId": "ENSG00000103855", "diseaseId": "EFO_1000026", "label": "diffuse intrinsic pontine glioma", "phase": 1, "status": "Withdrawn", "trial": "NCT05063357"},
+    {"drugId": "CHEMBL2109310", "prefName": "8H9 131I", "synonyms": ["8H9", "8h9 131i", "omburtamab"], "drugType": "Antibody", "mechanismOfAction": "CD276 antigen binding agent", "targetId": "ENSG00000103855", "diseaseId": "MONDO_0002087", "label": "peritoneum cancer", "phase": 1, "status": "Terminated", "trial": "NCT01099644"}
+  ],
+  "companion_queries": {
+    "get_drug_warnings_ENOBLITUZUMAB_CHEMBL3545373": {"count": 0, "message": "No warnings found for this drug"},
+    "get_drug_warnings_8H9_131I_CHEMBL2109310": {"count": 0, "message": "No warnings found for this drug"},
+    "get_drug_warnings_positive_control_infliximab_CHEMBL1201581": {"count": 2, "warningType": "Black Box Warning", "toxicityClasses": ["carcinogenicity", "infectious disease"]},
+    "get_drug_warnings_bevacizumab_CHEMBL1201583": {"count": 0, "message": "No warnings found for this drug; indicates incomplete coverage for some approved drugs"}
+  },
+  "lung_cancer_disease_queries": {
+    "EFO_0000571_non_small_cell_lung_carcinoma": {"rows_returned": 200, "unique_drug_names": 24, "b7h3_agents_found": 0},
+    "EFO_0000702_small_cell_lung_carcinoma": {"rows_returned": 200, "unique_drug_names": 55, "b7h3_agents_found": 0},
+    "caveat": "Both disease queries hit the 200-row limit, so they are not exhaustive lists of all lung-cancer drugs; however, no B7-H3-targeted agent appeared, and the target-restricted query (count=9) is the authoritative agent list for CD276 in this database."
+  }
+}

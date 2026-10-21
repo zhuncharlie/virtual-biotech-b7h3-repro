@@ -1,0 +1,428 @@
+{
+  "success": true,
+  "total_count": 1,
+  "trials": [
+    {
+      "nctId": "NCT07503808",
+      "orgStudyId": "IDE034-001",
+      "secondaryIds": [],
+      "briefTitle": "A Study of IDE034 in Adult Participants With Locally Advanced/Metastatic Solid Tumors Types",
+      "officialTitle": "An Open-Label, Multicenter Study Evaluating the Safety, Efficacy, and Pharmacokinetics of IDE034 in Adult Participants With Locally Advanced/Metastatic Solid Tumors",
+      "acronym": null,
+      "overallStatus": "RECRUITING",
+      "statusVerifiedDate": "2026-03",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2026-02-24",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2027-07-30",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2027-07-30",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2026-03-19",
+      "studyFirstPostDate": "2026-03-31",
+      "lastUpdateSubmitDate": "2026-06-16",
+      "lastUpdatePostDate": "2026-06-18",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 150,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "This is a Phase 1a/1b, open-label, multicenter dose escalation and dose expansion clinical study to evaluate the safety, PK, immunogenicity and preliminary efficacy of IDE034 in participants with locally advanced/metastatic solid tumor types that express B7-H3 and PTK7.",
+      "detailedDescription": "Part 1 - Dose escalation Part 1 will evaluate increasing doses of IDE034 to assess safety, tolerability, and to determine dose-limiting toxicities (DLTs), the maximum tolerated dose (MTD) and/or recommended dose for expansion (RDE) in subjects with locally advanced/metastatic solid tumor types that express B7-H3 and PTK7.\n\nPart 2 - Dose Expansion Part 2 will evaluate participants with B7-H3 and PTK7 expressing advanced/metastatic solid tumors at 2 or more dose levels determined to be safe and tolerable during dose escalation. The goal of Part 2 is to identify which of the doses evaluated in Part 1 is safe, well tolerated and results in tumor responses.\n\nIn parallel a basket cohort may be enrolled at one of the expansion dose(s) for which the tumor types and other selection criteria will be based on emerging data from nonclinical and Part 1 clinical evaluations. Additional selection criteria may be applied to the expansion indications (e.g., histological subset or select molecular alterations) based on emerging data.",
+      "conditions": [
+        "Esophageal Squamous Cell Carcinoma",
+        "High Grade Serous Ovarian Cancer",
+        "Head and Neck Squamous Cell Carcinoma",
+        "Colorectal Cancer",
+        "Castration-resistant Prostate Cancer",
+        "Non Small Cell Lung Cancer",
+        "Endometrium Cancer",
+        "Triple Negative Breast Cancer"
+      ],
+      "keywords": [
+        "Esophageal Squamous Cell Carcinoma",
+        "ESCC",
+        "Endometrial Cancer",
+        "Head and Neck Squamous Cell Carcinoma",
+        "HNSCC",
+        "Triple-negative Breast Cancer",
+        "TNBC",
+        "Colorectal Cancer",
+        "CRC",
+        "Castration-resistant Prostate Cancer",
+        "CRPC",
+        "Non-small Cell Lung Cancer",
+        "NSCLC",
+        "High-grade Serous Ovarian Cancer",
+        "HGSOC",
+        "Advanced, Metastic Solid Tumors",
+        "B7-H3 (CD276) and Protein Tyrosine Kinase 7 (PTK7)",
+        "IDE034"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "IDE034",
+          "description": "IDE034",
+          "armGroupLabels": [
+            "Part 1:IDE034 Dose Escalation",
+            "Part 2: IDE034 Dose Expansion"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Part 1:IDE034 Dose Escalation",
+          "type": "EXPERIMENTAL",
+          "description": "IDE034 Dose Escalation Successive cohorts of participants will be treated with increasing doses of IDE034 until the maximum tolerated dose or the recommended dose for expansion is determined",
+          "interventionNames": [
+            "Drug: IDE034"
+          ]
+        },
+        {
+          "label": "Part 2: IDE034 Dose Expansion",
+          "type": "EXPERIMENTAL",
+          "description": "IDE034 Dose Expansion To further assess the safety, tolerability, and preliminary antitumor activity at one or more dose levels of IDE034 selected from dose escalation",
+          "interventionNames": [
+            "Drug: IDE034"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and tolerability of IDE034 in Part 1 dose escalation",
+          "description": "Incidence of dose limiting toxicities; incidence and severity of AEs and SAEs graded based on CTCAE V6.0",
+          "timeFrame": "21 days following the first dose of IDE034"
+        },
+        {
+          "measure": "Safety and tolerability of IDE034 in Part 2 dose expansion",
+          "description": "Incidence of dose limiting toxicities; incidence and severity of AEs and SAEs graded based on CTCAE V6.0",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To evaluate preliminary anti-tumor activity of IDE034 in Part 2 dose expansion",
+          "description": "Objective Response Rate (ORR) per RECIST v1.1",
+          "timeFrame": "Time Frame: Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To evaluate preliminary anti-tumor activity of IDE034 in Part 2 dose expansion",
+          "description": "Duration of Response (DoR) per RECIST v1.1",
+          "timeFrame": "Time Frame: Approximately 20 months total study duration"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "To evaluate preliminary anti-tumor activity of IDE034 in Part 1 dose escalation",
+          "description": "Objective Response Rate (ORR) per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To evaluate preliminary anti-tumor activity of IDE034 in Part 1 dose escalation",
+          "description": "Duration of Response (DoR) per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To further characterize preliminary anti-tumor activity of IDE034 in Part 1 dose escalation",
+          "description": "Disease Control Rate (DCR) per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To further characterize preliminary anti-tumor activity of IDE034 in Part 1 dose escalation",
+          "description": "Duration of response per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To further characterize preliminary anti-tumor activity of IDE034 in Part 2 dose expansion",
+          "description": "Disease Control Rate (DCR) per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To further characterize preliminary anti-tumor activity of IDE034 in Part 2 dose expansion",
+          "description": "Duration of response per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of IDE034 and its constituents:",
+          "description": "Area under concentration time curve from time 0 to the last quantifiable concentration (AUClast)",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of IDE034 and its constituents",
+          "description": "Area under concentration time curve from time 0 to the end of dosing interval (AUCtau)",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of IDE034 and its constituents",
+          "description": "Maximum observed concentration (Cmax)",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of IDE034 and its constituents",
+          "description": "time to maximum observed concentration (Tmax)",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of IDE034 and its constituents",
+          "description": "concentration observed immediately prior to the next dose (Ctrough)",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To evaluate immunogenicity of IDE034",
+          "description": "Anti-IDE034 antibody incidence and titers will be determined",
+          "timeFrame": "Approximately 20 months total study duration"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Participant must be at least 18 years of age or the age of maturity per local regulations\n2. Participants with advanced recurrent or metastatic solid tumors expressing B7-H3 and PTK7 in the following indications: NSCLC, ESCC, endometrial cancer, HGSOC, HNSCC, TNBC (estrogen receptor, progesterone receptor, and human epidermal growth factor receptor 2 \\[HER2\\] negative), CRC, and CRPC who have radiologically progressed or recurred on at least one line of therapy or is intolerant to additional effective standard therapies.\n3. Archival tissue sample for testing\n4. Measurable disease\n5. Have Eastern Cooperative Oncology Group performance status (ECOG PS) of 0 or 1.\n6. Have adequate bone marrow and organ function.\n7. Able to comply with contraceptive/barrier requirements\n\nExclusion Criteria:\n\n1. Known symptomatic brain metastases or leptomeningeal metastasis\n2. Known primary CNS malignancy and any other malignancies within 2 years prior to the first dose.\n3. Have uncontrolled tumor-associated pain\n4. Have clinically significant cardiac abnormalities and/or cerebrovascular disease (stroke) within 6 months before the first dose\n5. Active uncontrolled infection\n6. Have history of interstitial pneumonitis, current noninfectious pneumonitis requiring steroid therapy; known or suspected interstitial pneumonitis as seen on screening imaging; other moderate to severe lung diseases seriously affecting respiratory function within 3 months before the first dose.\n7. Have history of severe infections within 4 weeks prior to the start of study treatment, including but not limited to bacteremia, severe pneumonia, or other serious infectious complications requiring hospitalization.\n8. Have history of immunodeficiency, with a positive human immunodeficiency virus (HIV) test at screening.\n9. Participants with known or suspected viral hepatitis\n10. Have history of active tuberculosis within 1 year before enrollment\n11. If participants had adverse reactions to previous antitumor treatment that have not recovered to guidelines of CTCAE Grade \u2264 1 and Grade 2 peripheral neurological symptoms\n12. Have received chemotherapy within 3 weeks of first dose of IMP; immunotherapy or biologic targeted antitumor treatments within 3 weeks before the first dose of IMP or other investigational products within 4 weeks of first dose of IMP\n13. Administration of any of the following\n\n    1. Current use or anticipated need for food or drugs that are known strong CYP3A4/5 inhibitors or inducers\n    2. Have prior treatment with B7-H3 or PTK7 antibody-drug conjugate (ADC).\n    3. Have prior treatment with a topoisomerase I inhibitor (TOP1i), including an ADC with a TOP1i payload, within 6 months of first dose of IMP\n    4. Have received radiotherapy within 2 weeks prior to study entry\n    5. Have undergone major surgery or trauma within 4 weeks prior to study entry.\n    6. Have received live attenuated vaccine within 28 days prior to the first dose or are expected to receive live attenuated vaccine during the study treatment.\n    7. Female participants who are pregnant, lactating, or planning to become pregnant during the study period to 7 months after the last dose of IMP.\n    8. Are known to be allergic to any component or excipient of the IMP product or have a history of severe allergic reactions to other monoclonal antibody/fusion protein drugs.\n    9. Participants with complications in the eye including ulcers in the eye, and severe dry eye",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "IDEAYA Biosciences",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Sarah Cannon Research Institute at HealthONE",
+          "status": "RECRUITING",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80218",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists",
+          "status": "RECRUITING",
+          "city": "Sarasota",
+          "state": "Florida",
+          "zip": "34232",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          }
+        },
+        {
+          "facility": "Karmanos Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "START New York Long Island, LLC",
+          "status": "RECRUITING",
+          "city": "Lake Success",
+          "state": "New York",
+          "zip": "11042",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.77066,
+            "lon": -73.71763
+          }
+        },
+        {
+          "facility": "SCRI Oncology Partners",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "NEXT Texas LLC - Austin",
+          "status": "RECRUITING",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78758",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "START Dallas Fort Worth, LLC",
+          "status": "RECRUITING",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        },
+        {
+          "facility": "MD Anderson",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "NEXT Texas LLC - Houston",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77054",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "NEXT Texas LLC - Dallas",
+          "status": "RECRUITING",
+          "city": "Irving",
+          "state": "Texas",
+          "zip": "75039",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.81402,
+            "lon": -96.94889
+          }
+        },
+        {
+          "facility": "NEXT Texas LLC - San Antonio",
+          "status": "RECRUITING",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "START San Antonio, LLC",
+          "status": "RECRUITING",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "START Mountain Region, LLC",
+          "status": "RECRUITING",
+          "city": "West Valley City",
+          "state": "Utah",
+          "zip": "84119",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.69161,
+            "lon": -112.00105
+          }
+        },
+        {
+          "facility": "NEXT Texas LLC - Virginia",
+          "status": "RECRUITING",
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22031",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "Medical Oncology Associates",
+          "status": "RECRUITING",
+          "city": "Spokane",
+          "state": "Washington",
+          "zip": "99208",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.65966,
+            "lon": -117.42908
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D000077277",
+          "term": "Esophageal Squamous Cell Carcinoma"
+        },
+        {
+          "id": "D000077195",
+          "term": "Squamous Cell Carcinoma of Head and Neck"
+        },
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D016889",
+          "term": "Endometrial Neoplasms"
+        },
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "interventionMeshTerms": [],
+      "hasResults": false
+    }
+  ],
+  "trials_returned": 1,
+  "query_params": {
+    "query.cond": "non-small cell lung cancer",
+    "query.term": "CD276",
+    "countTotal": "true"
+  },
+  "pages_fetched": 1
+}

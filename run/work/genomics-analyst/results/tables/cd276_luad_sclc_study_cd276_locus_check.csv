@@ -1,0 +1,9 @@
+histology,study_id,study_label,credible_sets_retrieved,chr15_credible_sets,min_distance_chr15_to_CD276_TSS_bp,locus_within_500kb_of_CD276,CD276_gene_body_hit,note
+LUAD,GCST90297563,Lung adenocarcinoma (Shi 2023),3,0,,False,False,
+LUAD,GCST90455522,Lung adenocarcinoma (Gorman 2024),13,1,24641362.0,False,False,
+LUAD,GCST90134662,Lung adenocarcinoma (Byun 2022),13,2,4881261.0,False,False,
+LUAD,GCST008836,Lung adenocarcinoma (Dai 2019),9,1,24599956.0,False,False,
+LUAD,GCST004744,Lung adenocarcinoma (McKay 2017),13,2,4929452.0,False,False,
+SCLC,GCST004746,Small cell lung carcinoma (McKay 2017),2,2,4881214.0,False,False,
+SCLC,GCST90134664,Small cell lung carcinoma (Byun 2022),2,1,4906200.0,False,False,
+SCLC,FINNGEN_R12_C3_SCLC_EXALLC,Small cell lung cancer (FinnGen R12),1,1,4893577.0,False,False,

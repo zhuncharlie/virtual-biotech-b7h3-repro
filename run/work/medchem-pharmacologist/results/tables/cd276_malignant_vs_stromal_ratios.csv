@@ -1,0 +1,17 @@
+indication,malignant_reference_cell_type,malignant_reference_mean_cpm,malignant_reference_pct_expressing,comparator_cell_type,comparator_mean_cpm,comparator_pct_expressing,malignant_to_comparator_ratio,comparator_to_malignant_ratio
+LUAD,malignant cell,23.58,0.1544,fibroblast,75.91,0.2674,0.31,3.22
+LUAD,malignant cell,23.58,0.1544,alveolar macrophage,34.09,0.2586,0.69,1.45
+LUAD,malignant cell,23.58,0.1544,macrophage,32.86,0.165,0.72,1.39
+LUAD,malignant cell,23.58,0.1544,epithelial cell,28.61,0.152,0.82,1.21
+LUAD,malignant cell,23.58,0.1544,endothelial cell,22.78,0.0949,1.04,0.97
+LUAD,malignant cell,23.58,0.1544,pulmonary alveolar type 2 cell,14.52,0.069,1.62,0.62
+LUAD,malignant cell,23.58,0.1544,B cell,2.19,0.0036,10.75,0.09
+LUAD,malignant cell,23.58,0.1544,natural killer cell,1.63,0.0032,14.43,0.07
+LUAD,malignant cell,23.58,0.1544,T cell,1.54,0.003,15.28,0.07
+SCLC,epithelial cell,28.54,0.1946,fibroblast,68.1,0.2622,0.42,2.39
+SCLC,epithelial cell,28.54,0.1946,macrophage,48.81,0.0773,0.58,1.71
+SCLC,epithelial cell,28.54,0.1946,endothelial cell,40.8,0.1961,0.7,1.43
+SCLC,epithelial cell,28.54,0.1946,B cell,6.83,0.0098,4.18,0.24
+SCLC,epithelial cell,28.54,0.1946,dendritic cell,5.1,0.0162,5.6,0.18
+SCLC,epithelial cell,28.54,0.1946,T cell,1.42,0.0041,20.04,0.05
+SCLC,epithelial cell,28.54,0.1946,neutrophil,0.0,0.0,,0.0

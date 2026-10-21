@@ -1,0 +1,1065 @@
+{
+  "outputs": [
+    {
+      "timestamp": "2026-10-20T08:59:16.424754",
+      "tool": "query_cell_metadata",
+      "file_path": "luad_lung_cell_metadata.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/luad_lung_cell_metadata.parquet",
+      "query_params": {
+        "value_filter": "tissue == 'lung' and disease == 'lung adenocarcinoma'",
+        "columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay",
+          "suspension_type",
+          "tissue_type",
+          "is_primary_data"
+        ],
+        "limit": 1500000
+      },
+      "size_mb": 1.770218849182129,
+      "n_records": 1105309,
+      "metadata": {
+        "n_cells_total": 1105309,
+        "limited": false,
+        "column_stats": {
+          "dataset_id": {
+            "unique_values": 10,
+            "top_value": "1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1"
+          },
+          "donor_id": {
+            "unique_values": 177,
+            "top_value": "He_Fan_2021_P1"
+          },
+          "cell_type": {
+            "unique_values": 67,
+            "top_value": "CD4-positive, alpha-beta T cell"
+          },
+          "tissue": {
+            "unique_values": 1,
+            "top_value": "lung"
+          },
+          "disease": {
+            "unique_values": 1,
+            "top_value": "lung adenocarcinoma"
+          },
+          "assay": {
+            "unique_values": 9,
+            "top_value": "10x 3' v2"
+          },
+          "suspension_type": {
+            "unique_values": 1,
+            "top_value": "cell"
+          },
+          "tissue_type": {
+            "unique_values": 1,
+            "top_value": "tissue"
+          },
+          "is_primary_data": {
+            "unique_values": 2,
+            "top_value": "True"
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T08:59:55.084872",
+      "tool": "query_cell_metadata",
+      "file_path": "sclc_lung_cell_metadata.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/sclc_lung_cell_metadata.parquet",
+      "query_params": {
+        "value_filter": "tissue == 'lung' and disease == 'small cell lung carcinoma'",
+        "columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay",
+          "suspension_type",
+          "tissue_type",
+          "is_primary_data"
+        ],
+        "limit": 200000
+      },
+      "size_mb": 0.2696552276611328,
+      "n_records": 99697,
+      "metadata": {
+        "n_cells_total": 99697,
+        "limited": false,
+        "column_stats": {
+          "dataset_id": {
+            "unique_values": 10,
+            "top_value": "576f193c-75d0-4a11-bd25-8676587e6dc2"
+          },
+          "donor_id": {
+            "unique_values": 9,
+            "top_value": "RU1108"
+          },
+          "cell_type": {
+            "unique_values": 31,
+            "top_value": "epithelial cell"
+          },
+          "tissue": {
+            "unique_values": 1,
+            "top_value": "lung"
+          },
+          "disease": {
+            "unique_values": 1,
+            "top_value": "small cell lung carcinoma"
+          },
+          "assay": {
+            "unique_values": 2,
+            "top_value": "10x 3' v2"
+          },
+          "suspension_type": {
+            "unique_values": 1,
+            "top_value": "cell"
+          },
+          "tissue_type": {
+            "unique_values": 1,
+            "top_value": "tissue"
+          },
+          "is_primary_data": {
+            "unique_values": 2,
+            "top_value": "False"
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:00:26.446960",
+      "tool": "query_cell_metadata",
+      "file_path": "normal_lung_cell_metadata.parquet",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_lung_cell_metadata.parquet",
+      "query_params": {
+        "value_filter": "tissue == 'lung' and disease == 'normal'",
+        "columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay",
+          "suspension_type",
+          "tissue_type",
+          "is_primary_data"
+        ],
+        "limit": 4500000
+      },
+      "size_mb": 5.077017784118652,
+      "n_records": 4042946,
+      "metadata": {
+        "n_cells_total": 4042946,
+        "limited": false,
+        "column_stats": {
+          "dataset_id": {
+            "unique_values": 64,
+            "top_value": "350237e0-9f48-4cbd-9140-3b44495549f3"
+          },
+          "donor_id": {
+            "unique_values": 537,
+            "top_value": "2"
+          },
+          "cell_type": {
+            "unique_values": 243,
+            "top_value": "unknown"
+          },
+          "tissue": {
+            "unique_values": 1,
+            "top_value": "lung"
+          },
+          "disease": {
+            "unique_values": 1,
+            "top_value": "normal"
+          },
+          "assay": {
+            "unique_values": 11,
+            "top_value": "10x 3' v2"
+          },
+          "suspension_type": {
+            "unique_values": 2,
+            "top_value": "cell"
+          },
+          "tissue_type": {
+            "unique_values": 2,
+            "top_value": "tissue"
+          },
+          "is_primary_data": {
+            "unique_values": 2,
+            "top_value": "True"
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:43:19.171905",
+      "tool": "get_anndata",
+      "file_path": "luad_ds1e6a_lymphoid_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/luad_ds1e6a_lymphoid_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'lung' and disease == 'lung adenocarcinoma' and is_primary_data == True and dataset_id == '1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1' and (cell_type == 'CD4-positive, alpha-beta T cell' or cell_type == 'CD8-positive, alpha-beta T cell' or cell_type == 'T cell' or cell_type == 'regulatory T cell' or cell_type == 'natural killer cell' or cell_type == 'B cell' or cell_type == 'plasma cell')",
+        "gene_symbols": [
+          "CD276",
+          "EPCAM",
+          "PTPRC"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay",
+          "is_primary_data"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 8.381945610046387,
+      "n_records": 275475,
+      "metadata": {
+        "n_genes": 3,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 1.41,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:47:24.774204",
+      "tool": "get_anndata",
+      "file_path": "luad_ds1e6a_myeloid_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/luad_ds1e6a_myeloid_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'lung' and disease == 'lung adenocarcinoma' and is_primary_data == True and dataset_id == '1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1' and (cell_type == 'alveolar macrophage' or cell_type == 'macrophage' or cell_type == 'classical monocyte' or cell_type == 'non-classical monocyte' or cell_type == 'myeloid cell' or cell_type == 'CD1c-positive myeloid dendritic cell' or cell_type == 'plasmacytoid dendritic cell' or cell_type == 'conventional dendritic cell' or cell_type == 'dendritic cell' or cell_type == 'neutrophil' or cell_type == 'mast cell')",
+        "gene_symbols": [
+          "CD276",
+          "EPCAM",
+          "PTPRC"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay",
+          "is_primary_data"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 5.849086761474609,
+      "n_records": 182954,
+      "metadata": {
+        "n_genes": 3,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.94,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T09:54:27.065672",
+      "tool": "get_anndata",
+      "file_path": "luad_ds1e6a_epithelial_stromal_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/luad_ds1e6a_epithelial_stromal_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'lung' and disease == 'lung adenocarcinoma' and is_primary_data == True and dataset_id == '1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1' and (cell_type == 'malignant cell' or cell_type == 'epithelial cell of lung' or cell_type == 'pulmonary alveolar type 2 cell' or cell_type == 'pulmonary alveolar type 1 cell' or cell_type == 'multiciliated epithelial cell' or cell_type == 'club cell' or cell_type == 'vein endothelial cell' or cell_type == 'capillary endothelial cell' or cell_type == 'endothelial cell of lymphatic vessel' or cell_type == 'pulmonary artery endothelial cell' or cell_type == 'fibroblast of lung' or cell_type == 'bronchus fibroblast of lung' or cell_type == 'smooth muscle cell' or cell_type == 'pericyte' or cell_type == 'mesothelial cell' or cell_type == 'stromal cell' or cell_type == 'epithelial cell')",
+        "gene_symbols": [
+          "CD276",
+          "EPCAM",
+          "PTPRC"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay",
+          "is_primary_data"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 3.1310949325561523,
+      "n_records": 90028,
+      "metadata": {
+        "n_genes": 3,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.46,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:22:43.214767",
+      "tool": "get_anndata",
+      "file_path": "luad_other_datasets_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/luad_other_datasets_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'lung' and disease == 'lung adenocarcinoma' and is_primary_data == True and (dataset_id == '576f193c-75d0-4a11-bd25-8676587e6dc2' or dataset_id == '9f222629-9e39-47d0-b83f-e08d610c7479')",
+        "gene_symbols": [
+          "CD276",
+          "EPCAM",
+          "PTPRC"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay",
+          "is_primary_data"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 3.1340551376342773,
+      "n_records": 87541,
+      "metadata": {
+        "n_genes": 3,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.45,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:24:48.347727",
+      "tool": "get_anndata",
+      "file_path": "sclc_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/sclc_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'lung' and disease == 'small cell lung carcinoma' and is_primary_data == True",
+        "gene_symbols": [
+          "CD276",
+          "EPCAM",
+          "PTPRC"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay",
+          "is_primary_data"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 1.5566625595092773,
+      "n_records": 31540,
+      "metadata": {
+        "n_genes": 3,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.16,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:27:24.116406",
+      "tool": "get_anndata",
+      "file_path": "normal_lung_matched_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_lung_matched_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'lung' and disease == 'normal' and is_primary_data == True and dataset_id == '576f193c-75d0-4a11-bd25-8676587e6dc2'",
+        "gene_symbols": [
+          "CD276",
+          "EPCAM",
+          "PTPRC"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay",
+          "is_primary_data"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 0.9724416732788086,
+      "n_records": 12315,
+      "metadata": {
+        "n_genes": 3,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.06,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:32:25.257000",
+      "tool": "get_anndata",
+      "file_path": "normal_blood_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_blood_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'blood' and disease == 'normal' and is_primary_data == True and dataset_id == 'd9f3a82c-24bb-4277-b715-8ec92a33dd32'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 9.275835990905762,
+      "n_records": 342712,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 1.76,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:33:57.541296",
+      "tool": "get_anndata",
+      "file_path": "normal_bone_marrow_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_bone_marrow_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'bone marrow' and disease == 'normal' and is_primary_data == True and dataset_id == 'cd2f23c1-aef1-48ae-8eb4-0bcf124e567d'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 7.305453300476074,
+      "n_records": 263159,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 1.35,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:37:30.451114",
+      "tool": "get_anndata",
+      "file_path": "normal_spleen_lymphnode_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_spleen_lymphnode_cd276.h5ad",
+      "query_params": {
+        "value_filter": "disease == 'normal' and is_primary_data == True and dataset_id == '1b350d0a-4535-4879-beb6-1142f3f94947' and (tissue == 'spleen' or tissue == 'thoracic lymph node')",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 10.965306282043457,
+      "n_records": 389682,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 2.0,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:38:32.130589",
+      "tool": "get_anndata",
+      "file_path": "normal_thymus_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_thymus_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'thymus' and disease == 'normal' and is_primary_data == True and dataset_id == '29244e1d-02e6-4133-b411-516ef7474638'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 7.646553039550781,
+      "n_records": 280479,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 1.44,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:40:03.704211",
+      "tool": "get_anndata",
+      "file_path": "normal_heart_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_heart_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'heart left ventricle' and disease == 'normal' and is_primary_data == True and dataset_id == '364bd0c7-f7fd-48ed-99c1-ae26872b1042'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 6.406747817993164,
+      "n_records": 228846,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 1.17,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:41:14.696968",
+      "tool": "get_anndata",
+      "file_path": "normal_liver_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_liver_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'liver' and disease == 'normal' and is_primary_data == True and dataset_id == 'e84f2780-51e8-4cfa-8aa0-13bbfef677c7'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 4.7852325439453125,
+      "n_records": 167598,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.86,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:41:52.865375",
+      "tool": "get_anndata",
+      "file_path": "normal_kidney_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_kidney_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'kidney' and disease == 'normal' and is_primary_data == True and dataset_id == 'f7c1c579-2dc0-47e2-ba19-8165c5a0e353'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 4.596828460693359,
+      "n_records": 155386,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.8,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:44:40.349078",
+      "tool": "get_anndata",
+      "file_path": "normal_brain_cortex_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_brain_cortex_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'cerebral cortex' and disease == 'normal' and is_primary_data == True and dataset_id == 'f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 3.695155143737793,
+      "n_records": 116576,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.6,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:46:24.419012",
+      "tool": "get_anndata",
+      "file_path": "normal_skin_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_skin_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'skin of body' and disease == 'normal' and is_primary_data == True and dataset_id == 'fd072bc3-2dfb-46f8-b4e3-467cb3223182'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 5.330676078796387,
+      "n_records": 180931,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.93,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:47:23.730949",
+      "tool": "get_anndata",
+      "file_path": "normal_colon_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_colon_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'colon' and disease == 'normal' and is_primary_data == True and dataset_id == '9d5df009-eb76-43a3-b6cd-22017cc53700'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 1.8779420852661133,
+      "n_records": 49095,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.25,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:48:28.681266",
+      "tool": "get_anndata",
+      "file_path": "normal_ileum_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_ileum_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'ileum' and disease == 'normal' and is_primary_data == True and dataset_id == '80a2c5b6-02e7-4fc0-9f12-179f5247c1bc'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 2.7698965072631836,
+      "n_records": 83581,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.43,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:49:07.297519",
+      "tool": "get_anndata",
+      "file_path": "normal_pancreas_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_pancreas_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'pancreas' and disease == 'normal' and is_primary_data == True and dataset_id == '31f657dc-1875-4c4b-a5ca-ce63b3ef3a82'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 2.5939550399780273,
+      "n_records": 79367,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.41,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:50:33.681140",
+      "tool": "get_anndata",
+      "file_path": "normal_skeletal_muscle_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_skeletal_muscle_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'intercostal muscle' and disease == 'normal' and is_primary_data == True and dataset_id == 'b3c9904b-2ffd-4038-8620-ee1c5b072e9c'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 5.224811553955078,
+      "n_records": 183161,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.94,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:51:38.092517",
+      "tool": "get_anndata",
+      "file_path": "normal_esophagus_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_esophagus_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'epithelium of esophagus' and disease == 'normal' and is_primary_data == True and dataset_id == 'b07fb54c-d7ad-4995-8bb0-8f3d8611cabe'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 2.811863899230957,
+      "n_records": 87947,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.45,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:52:14.182586",
+      "tool": "get_anndata",
+      "file_path": "normal_adrenal_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_adrenal_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'adrenal gland' and disease == 'normal' and is_primary_data == True and dataset_id == '2adb1f8a-a6b1-4909-8ee8-484814e2d4bf'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 1.6928625106811523,
+      "n_records": 43476,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.22,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:53:05.098139",
+      "tool": "get_anndata",
+      "file_path": "normal_breast_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_breast_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'breast' and disease == 'normal' and is_primary_data == True and dataset_id == '7f08cbcc-5790-4576-8478-10e9a999b316'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 3.5813846588134766,
+      "n_records": 117346,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.6,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:53:56.198428",
+      "tool": "get_anndata",
+      "file_path": "normal_adipose_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_adipose_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'subcutaneous adipose tissue' and disease == 'normal' and is_primary_data == True and dataset_id == 'ca46ffe6-0a26-4d8d-82fa-81722daf1102'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 2.8040971755981445,
+      "n_records": 86064,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.44,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T10:57:54.714883",
+      "tool": "get_anndata",
+      "file_path": "normal_blood_mature_pbmc_cd276.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/normal_blood_mature_pbmc_cd276.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'blood' and disease == 'normal' and is_primary_data == True and dataset_id == 'e522d2cd-7927-4e59-a4ed-064009569279'",
+        "gene_symbols": [
+          "CD276"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 5.898270606994629,
+      "n_records": 207225,
+      "metadata": {
+        "n_genes": 1,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 1.06,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T11:00:27.975894",
+      "tool": "get_anndata",
+      "file_path": "qc_scale_blood_pbmc_actb.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/qc_scale_blood_pbmc_actb.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'blood' and disease == 'normal' and is_primary_data == True and dataset_id == 'e522d2cd-7927-4e59-a4ed-064009569279'",
+        "gene_symbols": [
+          "CD276",
+          "ACTB",
+          "GAPDH"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 7.26323127746582,
+      "n_records": 207225,
+      "metadata": {
+        "n_genes": 3,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 1.06,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T11:01:43.250646",
+      "tool": "get_anndata",
+      "file_path": "qc_scale_skin_actb.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/qc_scale_skin_actb.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'skin of body' and disease == 'normal' and is_primary_data == True and dataset_id == 'fd072bc3-2dfb-46f8-b4e3-467cb3223182'",
+        "gene_symbols": [
+          "CD276",
+          "ACTB",
+          "GAPDH"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 6.530065536499023,
+      "n_records": 180931,
+      "metadata": {
+        "n_genes": 3,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.93,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T11:02:44.289008",
+      "tool": "get_anndata",
+      "file_path": "qc_scale_kidney_actb.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/qc_scale_kidney_actb.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'kidney' and disease == 'normal' and is_primary_data == True and dataset_id == 'f7c1c579-2dc0-47e2-ba19-8165c5a0e353'",
+        "gene_symbols": [
+          "CD276",
+          "ACTB",
+          "GAPDH"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 4.943737030029297,
+      "n_records": 155386,
+      "metadata": {
+        "n_genes": 3,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.8,
+        "genes_subsetted": true
+      }
+    },
+    {
+      "timestamp": "2026-10-20T11:04:53.549291",
+      "tool": "get_anndata",
+      "file_path": "qc_scale_sclc_actb.h5ad",
+      "full_path": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/single-cell-analyst/data/raw/qc_scale_sclc_actb.h5ad",
+      "query_params": {
+        "value_filter": "tissue == 'lung' and disease == 'small cell lung carcinoma' and is_primary_data == True",
+        "gene_symbols": [
+          "CD276",
+          "ACTB",
+          "GAPDH"
+        ],
+        "ensembl_ids": null,
+        "obs_columns": [
+          "dataset_id",
+          "donor_id",
+          "cell_type",
+          "tissue",
+          "disease",
+          "assay"
+        ],
+        "layer": "normalized"
+      },
+      "size_mb": 1.6544513702392578,
+      "n_records": 31540,
+      "metadata": {
+        "n_genes": 3,
+        "layer_retrieved": "normalized",
+        "estimated_memory_gb": 0.16,
+        "genes_subsetted": true
+      }
+    }
+  ]
+}

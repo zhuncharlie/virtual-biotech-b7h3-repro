@@ -1,0 +1,491 @@
+{
+  "stats": {
+    "n_claims": 17,
+    "n_evidence": 37,
+    "n_verified_evidence": 37,
+    "claims_without_verified_evidence": [],
+    "by_agent": {
+      "target-biologist": 2,
+      "functional-genomics-analyst": 1,
+      "genomics-analyst": 1,
+      "single-cell-analyst": 3,
+      "clinical-trialist": 3,
+      "fda-safety-officer": 3,
+      "medchem-pharmacologist": 3,
+      "bio-pathways-ppi-analyst": 1
+    },
+    "by_confidence": {
+      "strong": 10,
+      "weak": 1,
+      "moderate": 6
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "text": "CD276 is a type I cell-surface antigen that is strongly antibody-tractable, with no small-molecule tractability and no viable PROTAC route.",
+      "agent": "target-biologist",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "antibody advanced-clinical TRUE and signal-peptide/TM TRUE; all small-molecule flags FALSE",
+          "path": "work/target-biologist/results/tables/cd276_tractability_by_modality.csv",
+          "sha256": "b850f4736622e46c4c7ef4a5485e72fef81e0c49c45eb2e3bcdffe80330c07a0",
+          "produced_by": "target-biologist"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "ChEMBL L1 surface antigen; UniProt membrane localization",
+          "path": "work/target-biologist/results/tables/cd276_target_biology.csv",
+          "sha256": "9c267768135ca408a33fc7e58866e93cacbc279d0ced749fe4c3c8f3b0ed9b55",
+          "produced_by": "target-biologist"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C2",
+      "text": "CD276 is not intrinsically essential in LUAD or SCLC: mean CRISPR gene effect is -0.230 across 46 LUAD lines (2.2% essential) and -0.204 across 25 SCLC lines (0% essential), with no lineage selectivity.",
+      "agent": "functional-genomics-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "per-cell-line gene effect; 46 LUAD and 25 SCLC lines",
+          "path": "work/functional-genomics-analyst/results/tables/cd276_depmap_luad_sclc.csv",
+          "sha256": "b4591c3607f0d126142100b223a8fe3f1c43c01edee789385284a001a8896076",
+          "produced_by": "functional-genomics-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "LUAD vs other NSCLC difference +0.008, p=0.77",
+          "path": "work/functional-genomics-analyst/results/tables/cd276_depmap_group_comparisons.csv",
+          "sha256": "dd47891124abc419a117c12adc1bfd3cf9cf7c57d289ceec32eae7ac4e1e0f66",
+          "produced_by": "functional-genomics-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C3",
+      "text": "No CD276-locus genetic association was found for LUAD or SCLC: 0 of 8 queried GWAS contained a CD276-locus credible set, and none of 67 L2G predictions derive from LUAD or SCLC studies.",
+      "agent": "genomics-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "0/8 studies with a CD276-locus credible set",
+          "path": "work/genomics-analyst/results/tables/cd276_luad_sclc_study_cd276_locus_check.csv",
+          "sha256": "9a76c30449e08c1ad0b7c0768b56bc921781adbb723051f50814441b7bc2e300",
+          "produced_by": "genomics-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "67 L2G rows, all non-LUAD/SCLC traits",
+          "path": "work/genomics-analyst/results/tables/cd276_l2g_predictions.csv",
+          "sha256": "371ead9ead4f91f808acf397d0b7d9eee3aed2cb4d2d3eb3e9e4a453ea80bef0",
+          "produced_by": "genomics-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C4",
+      "text": "In dissociated tumor transcriptomes, CD276 is higher in stromal and myeloid cells than in malignant or epithelial cells in both indications (LUAD fibroblast 75.9 vs malignant 23.6 CPM; SCLC fibroblast 68.1 vs epithelial 28.5 CPM).",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "lineage-level CPM for LUAD and SCLC",
+          "path": "work/single-cell-analyst/results/tables/cd276_luad_sclc_lineage_expression.csv",
+          "sha256": "eee028ffc3a24a5fed1ff75d77f5faa06d105a6fc2c74ec2631644e040e75451",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "symmetric LUAD/SCLC stromal-vs-tumor comparison",
+          "path": "work/single-cell-analyst/results/tables/cd276_stromal_vs_tumor_symmetry.csv",
+          "sha256": "63e70ad7abe8d4ab97d6c974b901c08bf72a9e09f2124709f3b3e5dc7ffdede9",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C5",
+      "text": "CD276 transcript was higher in LUAD tumor epithelium than paired adjacent normal in 3/3 donors, but reached at least 2-fold in only 2/3 (ratios 3.26, 3.40, 1.09) and was not statistically significant at n=3.",
+      "agent": "single-cell-analyst",
+      "confidence": "weak",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "per-donor ratios 3.26, 3.40, 1.09",
+          "path": "work/single-cell-analyst/results/tables/cd276_epithelial_tumor_vs_normal_donor_paired_summary.csv",
+          "sha256": "ba47f90afacd0c2fd0fd53839a12c3dabdcaa76c87251bef3d7cafdd8510bfcd",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "n=3 paired statistics",
+          "path": "work/single-cell-analyst/results/tables/cd276_luad_paired_donor_stats.csv",
+          "sha256": "53c6de957cc57e4de8993d577a5ce1f8c4f85413799d147f5657d5ed4efe4ce6",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C6",
+      "text": "Normal-tissue CD276 expression is broad and low-to-moderate, highest in skin and kidney and near-zero in hematopoietic tissues; normal lung shows 1,683 TPM bulk RNA (HPA level 4) but only HPA protein level 2 and a comparatively low cell-level transcript (13.9 CPM).",
+      "agent": "single-cell-analyst",
+      "confidence": "moderate",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "organ-level weighted means; skin and kidney highest, hematopoietic near zero",
+          "path": "work/single-cell-analyst/results/tables/cd276_normal_tissue_organ_summary.csv",
+          "sha256": "776702f73e27299f6a775f1ba4975b0bff956bf8ef9acd0bf6aaf145bcc5503e",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "normal lung 1,682.5 TPM RNA level 4, protein level 2",
+          "path": "work/fda-safety-officer/data/processed/b7h3_expression_evidence_for_safety.csv",
+          "sha256": "13e7621e85c65161650ac310c9af0d49772d45ae223f13b7ac368915b8733370",
+          "produced_by": "fda-safety-officer"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "Census normal-lung cell-level transcript 13.9 CPM",
+          "path": "work/medchem-pharmacologist/results/tables/cd276_normal_lung_expression_qualification.csv",
+          "sha256": "8c87044ed76cd89a727519e475e16cd151623857d5d6c8be32ba4f187cbb6d74",
+          "produced_by": "medchem-pharmacologist"
+        }
+      ],
+      "n_verified": 3
+    },
+    {
+      "id": "C7",
+      "text": "There are zero LUAD-specific B7-H3 clinical trials, whereas 26 SCLC-contributing interventional trials exist, including 6 Phase 3 trials across 4 molecules, overwhelmingly ADCs.",
+      "agent": "clinical-trialist",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "43-row curated trial table; 0 LUAD-specific, 26 SCLC-contributing, 6 Phase 3",
+          "path": "work/clinical-trialist/results/tables/b7h3_luad_sclc_trials.csv",
+          "sha256": "9f43227df61e826b89e7ef8a37bdb6a069f4072da5c4a38223f21f8950707337",
+          "produced_by": "clinical-trialist"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "landscape report with phase distribution and modality breakdown",
+          "path": "work/clinical-trialist/results/reports/b7h3_clinical_landscape.md",
+          "sha256": "6bf3eb0e718261b9daefc72360b8c0e06ca9076a3368a2ecd5015ad532e466c6",
+          "produced_by": "clinical-trialist"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C8",
+      "text": "Only 4 of 43 curated B7-H3 trials have posted ClinicalTrials.gov results, and the only SCLC-specific posted result is MGC018 with ORR 0/9 (n=9); no LUAD-specific outcome is posted.",
+      "agent": "clinical-trialist",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "MGC018 SCLC n=9 ORR 0/9; no LUAD-specific outcome",
+          "path": "work/clinical-trialist/results/tables/b7h3_posted_results_extract.csv",
+          "sha256": "b361cdb0f615b2104d85921db0b617e5f523393afbddb0e8117f9bac9af8145d",
+          "produced_by": "clinical-trialist"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "4/43 trials with posted results",
+          "path": "work/clinical-trialist/results/tables/b7h3_luad_sclc_trials.csv",
+          "sha256": "9f43227df61e826b89e7ef8a37bdb6a069f4072da5c4a38223f21f8950707337",
+          "produced_by": "clinical-trialist"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C9",
+      "text": "Clinical precedence establishes B7-H3 feasibility in SCLC but not efficacy; the completed Phase 3 ARTEMIS-008 trial has no posted results, so a SCLC go decision must be staged on a class-level Phase 3 readout.",
+      "agent": "clinical-trialist",
+      "confidence": "moderate",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "ARTEMIS-008 completed with no results module; feasibility vs efficacy distinction",
+          "path": "work/clinical-trialist/results/reports/b7h3_clinical_landscape.md",
+          "sha256": "6bf3eb0e718261b9daefc72360b8c0e06ca9076a3368a2ecd5015ad532e466c6",
+          "produced_by": "clinical-trialist"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "ARTEMIS-008 NCT06498479 status",
+          "path": "work/clinical-trialist/results/tables/b7h3_luad_sclc_trials.csv",
+          "sha256": "9f43227df61e826b89e7ef8a37bdb6a069f4072da5c4a38223f21f8950707337",
+          "produced_by": "clinical-trialist"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C10",
+      "text": "CD276 is moderately loss-of-function tolerant (o/e 0.667); the queried databases contain no target-level OpenFDA adverse events, mouse phenotypes, or pharmacogenomic records, and no FDA records at all for ifinatamab deruxtecan or vobramitamab duocarmazine, which are evidence gaps rather than clean safety.",
+      "agent": "fda-safety-officer",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "LoF o/e 0.667; zero target-level AE/mouse/PGx records",
+          "path": "work/fda-safety-officer/results/tables/b7h3_safety_signals.csv",
+          "sha256": "eeeafcb331647c5871b93b294fa8367130c2e40ba41cc51f1127b2d871d247ee",
+          "produced_by": "fda-safety-officer"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "no FDA records for I-DXd or MGC018; enoblituzumab/omburtamab records with zero warnings",
+          "path": "work/fda-safety-officer/results/tables/b7h3_agent_registry_lung_cancer.csv",
+          "sha256": "01ee9cf1974a015d94fddd63d5a4711f701fa1937df1acb5fafaab873fc10280",
+          "produced_by": "fda-safety-officer"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C11",
+      "text": "The dominant safety risk for a B7-H3 ADC is payload-level, notably ILD/pneumonitis and myelosuppression, rather than target-level toxicity; prior thoracic radiation and checkpoint pneumonitis narrow the pulmonary safety margin in both indications.",
+      "agent": "fda-safety-officer",
+      "confidence": "moderate",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "11 risks classified as target-level vs payload-level",
+          "path": "work/medchem-pharmacologist/results/tables/b7h3_target_vs_payload_risk_attribution.csv",
+          "sha256": "0457efcdd3188fe0863d31c1582a17f3efacd9a9fda10de5122f9d8202d36d1c",
+          "produced_by": "medchem-pharmacologist"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "payload/modality-level toxicities marked not B7-H3 biology",
+          "path": "work/fda-safety-officer/results/tables/b7h3_modality_class_toxicities.csv",
+          "sha256": "98102d5ea81aa10f8ea9efb4407b5983126da3129c7f004f2bc95e9da754b988",
+          "produced_by": "fda-safety-officer"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "risk-benefit framing for LUAD and SCLC",
+          "path": "work/fda-safety-officer/results/reports/b7h3_safety_assessment.md",
+          "sha256": "86e5269532948a42a3ba63199e2c2a70a730a2dd89383fc04c1bbc81395c37e4",
+          "produced_by": "fda-safety-officer"
+        }
+      ],
+      "n_verified": 3
+    },
+    {
+      "id": "C12",
+      "text": "ADC ranks first in both indications; SCLC is a staged GO (composite 4.20) conditional on class-level Phase 3 efficacy and a differentiated profile, while LUAD is deprioritized (ADC composite 2.90, clinical precedence 1/5).",
+      "agent": "medchem-pharmacologist",
+      "confidence": "moderate",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "SCLC ADC 4.20 staged GO; LUAD ADC 2.90 deprioritized",
+          "path": "work/medchem-pharmacologist/results/tables/b7h3_modality_ranking.csv",
+          "sha256": "e7aaa886b1051808e5b09b419b9fa6b0cad1e7b277d510880846157342afea0c",
+          "produced_by": "medchem-pharmacologist"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "revised indication-specific recommendations",
+          "path": "work/medchem-pharmacologist/results/reports/b7h3_modality_recommendation.md",
+          "sha256": "cdd209e2eaf918432da8a344151e114ac72fa51d8c371e641b1fccab1e9c0bd9",
+          "produced_by": "medchem-pharmacologist"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C13",
+      "text": "The decisive de-risking experiment is paired quantitative surface B7-H3 density plus internalization in tumor versus normal lung, with proposed gates of at least 50,000 molecules/cell, tumor/normal ratio at least 3, internalization at least 40%, and at least 30% PDX regression.",
+      "agent": "medchem-pharmacologist",
+      "confidence": "moderate",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "go/no-go gates and decisive experiment",
+          "path": "work/medchem-pharmacologist/results/reports/b7h3_modality_recommendation.md",
+          "sha256": "cdd209e2eaf918432da8a344151e114ac72fa51d8c371e641b1fccab1e9c0bd9",
+          "produced_by": "medchem-pharmacologist"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "conditions attached to the ADC recommendation",
+          "path": "work/medchem-pharmacologist/results/tables/b7h3_modality_ranking.csv",
+          "sha256": "e7aaa886b1051808e5b09b419b9fa6b0cad1e7b277d510880846157342afea0c",
+          "produced_by": "medchem-pharmacologist"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C14",
+      "text": "A canonical B7-H3 receptor is not established in the queried interaction data and no high-confidence physical interaction was retrieved; co-inhibitory versus co-stimulatory function remains unresolved.",
+      "agent": "bio-pathways-ppi-analyst",
+      "confidence": "moderate",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "interaction evidence is textmining/coexpression; no receptor-grade partner",
+          "path": "work/bio-pathways-ppi-analyst/results/tables/cd276_pathways_interactions.csv",
+          "sha256": "535cd24fd101a55f1d8027133b84a7d53c05078db634c8f71df8978b8250a922",
+          "produced_by": "bio-pathways-ppi-analyst"
+        },
+        {
+          "kind": "figure",
+          "verified": true,
+          "note": "only textmining-only CD8A exceeds 0.7",
+          "path": "work/bio-pathways-ppi-analyst/results/figures/cd276_partner_confidence.png",
+          "sha256": "e49ff4bd480725733c7aa61c6c751c6ee7460a83e4311f20e20f28721dcbb1df",
+          "produced_by": "bio-pathways-ppi-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C15",
+      "text": "Material evidence gaps remain: tumor/normal surface-protein density, internalization, and shedding are not retrievable from the configured databases; SCLC single-cell data come from one dataset (9 donors); and Tahoe-100M perturbation data were unavailable.",
+      "agent": "target-biologist",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "internalization, shedding, surface density, isoform-resolved expression not retrievable",
+          "path": "work/target-biologist/results/reports/cd276_modality_biology.md",
+          "sha256": "87dffb167ec2065cadd29d8c271893badbce0833eb0e5da5120026423ea6a146",
+          "produced_by": "target-biologist"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "SCLC 31,540 cells from 1 dataset/9 donors",
+          "path": "work/single-cell-analyst/results/tables/cd276_dataset_inventory.csv",
+          "sha256": "9ebec04273351db1301b233e5dde721006bff77abfbf328ca99548c85d0611be",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "TAHOE_DATA_PATH not set",
+          "path": "work/functional-genomics-analyst/results/tables/cd276_tahoe_query_status.json",
+          "sha256": "1f32173af8cf7fa24936d9187d12f8dce37943c5e33edd332f4779bbb2e7b535",
+          "produced_by": "functional-genomics-analyst"
+        }
+      ],
+      "n_verified": 3
+    },
+    {
+      "id": "C16",
+      "text": "Although no LUAD-specific B7-H3 trial exists, LUAD patients are eligible in at least three nonsquamous-NSCLC trials (NCT07464327 Phase 3, NCT06780085 Phase 2, NCT07824882 Phase 2), so absence of a LUAD-specific trial is not absence of LUAD evidence.",
+      "agent": "medchem-pharmacologist",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "three nonsquamous-NSCLC trials with LUAD eligibility",
+          "path": "work/medchem-pharmacologist/results/tables/b7h3_modality_precedent_evidence.csv",
+          "sha256": "bb845fc030af3c7ecd2aa1d1afd5794107565f8b5214b4e439ad66c63d21bb63",
+          "produced_by": "medchem-pharmacologist"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "trial scope and indications",
+          "path": "work/clinical-trialist/results/tables/b7h3_luad_sclc_trials.csv",
+          "sha256": "9f43227df61e826b89e7ef8a37bdb6a069f4072da5c4a38223f21f8950707337",
+          "produced_by": "clinical-trialist"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C17",
+      "text": "Mouse CD276 identity is only 52.4%, whereas macaque identity is 94.6%, making mouse a poor toxicology species for a human-selective B7-H3 agent.",
+      "agent": "fda-safety-officer",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "homologue sequence identity by species",
+          "path": "work/target-biologist/results/tables/cd276_target_biology.csv",
+          "sha256": "9c267768135ca408a33fc7e58866e93cacbc279d0ced749fe4c3c8f3b0ed9b55",
+          "produced_by": "target-biologist"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "cross-species identity and toxicology-species implication",
+          "path": "work/fda-safety-officer/results/reports/b7h3_safety_assessment.md",
+          "sha256": "86e5269532948a42a3ba63199e2c2a70a730a2dd89383fc04c1bbc81395c37e4",
+          "produced_by": "fda-safety-officer"
+        }
+      ],
+      "n_verified": 2
+    }
+  ]
+}

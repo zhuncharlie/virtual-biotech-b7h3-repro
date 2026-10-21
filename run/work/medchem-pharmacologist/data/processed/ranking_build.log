@@ -1,0 +1,20 @@
+Wrote:
+/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/medchem-pharmacologist/results/tables/b7h3_modality_ranking.csv
+/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/medchem-pharmacologist/results/tables/b7h3_modality_precedent_evidence.csv
+/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/medchem-pharmacologist/results/tables/cd276_normal_lung_expression_qualification.csv
+/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/medchem-pharmacologist/results/tables/b7h3_target_vs_payload_risk_attribution.csv
+/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/medchem-pharmacologist/results/figures/b7h3_modality_composite_scores.png
+/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261020-085513-evaluate-the-therapeutic-candida-a03f0a23/work/medchem-pharmacologist/results/figures/b7h3_modality_dimension_heatmap.png
+
+Ranking:
+indication  rank                                                    modality  composite_score  equal_weight_score                                   decision_status
+      LUAD     1               B7-H3 ADC (topoisomerase-I payload preferred)             2.90                 2.8    DEPRIORITIZED - competitive/precedence grounds
+      LUAD     2                           B7-H3 bispecific / T-cell engager             2.25                 2.2                        NOT A LEAD - deprioritized
+      LUAD     3 B7-H3 CAR-T (autologous; NK-CAR not clinically precedented)             1.85                 1.8                        NOT A LEAD - deprioritized
+      LUAD     4      B7-H3 radioimmunotherapy / radioligand (177Lu or 131I)             1.85                 1.8                        NOT A LEAD - deprioritized
+      SCLC     1               B7-H3 ADC (topoisomerase-I payload preferred)             4.20                 4.0           STAGED GO - conditional (lead modality)
+      SCLC     2                           B7-H3 bispecific / T-cell engager             3.05                 3.0 BACKUP - conditional on a tumour-selective format
+      SCLC     3 B7-H3 CAR-T (autologous; NK-CAR not clinically precedented)             2.65                 2.6                          NOT NOW - research track
+      SCLC     4      B7-H3 radioimmunotherapy / radioligand (177Lu or 131I)             2.40                 2.4              NOT NOW - research/combination track
+
+Normal-lung cell-weighted CPM: 13.9

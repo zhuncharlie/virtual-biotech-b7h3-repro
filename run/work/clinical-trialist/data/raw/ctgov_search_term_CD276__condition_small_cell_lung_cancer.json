@@ -1,0 +1,650 @@
+{
+  "success": true,
+  "total_count": 2,
+  "trials": [
+    {
+      "nctId": "NCT07503808",
+      "orgStudyId": "IDE034-001",
+      "secondaryIds": [],
+      "briefTitle": "A Study of IDE034 in Adult Participants With Locally Advanced/Metastatic Solid Tumors Types",
+      "officialTitle": "An Open-Label, Multicenter Study Evaluating the Safety, Efficacy, and Pharmacokinetics of IDE034 in Adult Participants With Locally Advanced/Metastatic Solid Tumors",
+      "acronym": null,
+      "overallStatus": "RECRUITING",
+      "statusVerifiedDate": "2026-03",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2026-02-24",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2027-07-30",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2027-07-30",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2026-03-19",
+      "studyFirstPostDate": "2026-03-31",
+      "lastUpdateSubmitDate": "2026-06-16",
+      "lastUpdatePostDate": "2026-06-18",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 150,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "This is a Phase 1a/1b, open-label, multicenter dose escalation and dose expansion clinical study to evaluate the safety, PK, immunogenicity and preliminary efficacy of IDE034 in participants with locally advanced/metastatic solid tumor types that express B7-H3 and PTK7.",
+      "detailedDescription": "Part 1 - Dose escalation Part 1 will evaluate increasing doses of IDE034 to assess safety, tolerability, and to determine dose-limiting toxicities (DLTs), the maximum tolerated dose (MTD) and/or recommended dose for expansion (RDE) in subjects with locally advanced/metastatic solid tumor types that express B7-H3 and PTK7.\n\nPart 2 - Dose Expansion Part 2 will evaluate participants with B7-H3 and PTK7 expressing advanced/metastatic solid tumors at 2 or more dose levels determined to be safe and tolerable during dose escalation. The goal of Part 2 is to identify which of the doses evaluated in Part 1 is safe, well tolerated and results in tumor responses.\n\nIn parallel a basket cohort may be enrolled at one of the expansion dose(s) for which the tumor types and other selection criteria will be based on emerging data from nonclinical and Part 1 clinical evaluations. Additional selection criteria may be applied to the expansion indications (e.g., histological subset or select molecular alterations) based on emerging data.",
+      "conditions": [
+        "Esophageal Squamous Cell Carcinoma",
+        "High Grade Serous Ovarian Cancer",
+        "Head and Neck Squamous Cell Carcinoma",
+        "Colorectal Cancer",
+        "Castration-resistant Prostate Cancer",
+        "Non Small Cell Lung Cancer",
+        "Endometrium Cancer",
+        "Triple Negative Breast Cancer"
+      ],
+      "keywords": [
+        "Esophageal Squamous Cell Carcinoma",
+        "ESCC",
+        "Endometrial Cancer",
+        "Head and Neck Squamous Cell Carcinoma",
+        "HNSCC",
+        "Triple-negative Breast Cancer",
+        "TNBC",
+        "Colorectal Cancer",
+        "CRC",
+        "Castration-resistant Prostate Cancer",
+        "CRPC",
+        "Non-small Cell Lung Cancer",
+        "NSCLC",
+        "High-grade Serous Ovarian Cancer",
+        "HGSOC",
+        "Advanced, Metastic Solid Tumors",
+        "B7-H3 (CD276) and Protein Tyrosine Kinase 7 (PTK7)",
+        "IDE034"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "IDE034",
+          "description": "IDE034",
+          "armGroupLabels": [
+            "Part 1:IDE034 Dose Escalation",
+            "Part 2: IDE034 Dose Expansion"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Part 1:IDE034 Dose Escalation",
+          "type": "EXPERIMENTAL",
+          "description": "IDE034 Dose Escalation Successive cohorts of participants will be treated with increasing doses of IDE034 until the maximum tolerated dose or the recommended dose for expansion is determined",
+          "interventionNames": [
+            "Drug: IDE034"
+          ]
+        },
+        {
+          "label": "Part 2: IDE034 Dose Expansion",
+          "type": "EXPERIMENTAL",
+          "description": "IDE034 Dose Expansion To further assess the safety, tolerability, and preliminary antitumor activity at one or more dose levels of IDE034 selected from dose escalation",
+          "interventionNames": [
+            "Drug: IDE034"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and tolerability of IDE034 in Part 1 dose escalation",
+          "description": "Incidence of dose limiting toxicities; incidence and severity of AEs and SAEs graded based on CTCAE V6.0",
+          "timeFrame": "21 days following the first dose of IDE034"
+        },
+        {
+          "measure": "Safety and tolerability of IDE034 in Part 2 dose expansion",
+          "description": "Incidence of dose limiting toxicities; incidence and severity of AEs and SAEs graded based on CTCAE V6.0",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To evaluate preliminary anti-tumor activity of IDE034 in Part 2 dose expansion",
+          "description": "Objective Response Rate (ORR) per RECIST v1.1",
+          "timeFrame": "Time Frame: Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To evaluate preliminary anti-tumor activity of IDE034 in Part 2 dose expansion",
+          "description": "Duration of Response (DoR) per RECIST v1.1",
+          "timeFrame": "Time Frame: Approximately 20 months total study duration"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "To evaluate preliminary anti-tumor activity of IDE034 in Part 1 dose escalation",
+          "description": "Objective Response Rate (ORR) per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To evaluate preliminary anti-tumor activity of IDE034 in Part 1 dose escalation",
+          "description": "Duration of Response (DoR) per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To further characterize preliminary anti-tumor activity of IDE034 in Part 1 dose escalation",
+          "description": "Disease Control Rate (DCR) per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To further characterize preliminary anti-tumor activity of IDE034 in Part 1 dose escalation",
+          "description": "Duration of response per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To further characterize preliminary anti-tumor activity of IDE034 in Part 2 dose expansion",
+          "description": "Disease Control Rate (DCR) per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To further characterize preliminary anti-tumor activity of IDE034 in Part 2 dose expansion",
+          "description": "Duration of response per RECIST v1.1",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of IDE034 and its constituents:",
+          "description": "Area under concentration time curve from time 0 to the last quantifiable concentration (AUClast)",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of IDE034 and its constituents",
+          "description": "Area under concentration time curve from time 0 to the end of dosing interval (AUCtau)",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of IDE034 and its constituents",
+          "description": "Maximum observed concentration (Cmax)",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of IDE034 and its constituents",
+          "description": "time to maximum observed concentration (Tmax)",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of IDE034 and its constituents",
+          "description": "concentration observed immediately prior to the next dose (Ctrough)",
+          "timeFrame": "Approximately 20 months total study duration"
+        },
+        {
+          "measure": "To evaluate immunogenicity of IDE034",
+          "description": "Anti-IDE034 antibody incidence and titers will be determined",
+          "timeFrame": "Approximately 20 months total study duration"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Participant must be at least 18 years of age or the age of maturity per local regulations\n2. Participants with advanced recurrent or metastatic solid tumors expressing B7-H3 and PTK7 in the following indications: NSCLC, ESCC, endometrial cancer, HGSOC, HNSCC, TNBC (estrogen receptor, progesterone receptor, and human epidermal growth factor receptor 2 \\[HER2\\] negative), CRC, and CRPC who have radiologically progressed or recurred on at least one line of therapy or is intolerant to additional effective standard therapies.\n3. Archival tissue sample for testing\n4. Measurable disease\n5. Have Eastern Cooperative Oncology Group performance status (ECOG PS) of 0 or 1.\n6. Have adequate bone marrow and organ function.\n7. Able to comply with contraceptive/barrier requirements\n\nExclusion Criteria:\n\n1. Known symptomatic brain metastases or leptomeningeal metastasis\n2. Known primary CNS malignancy and any other malignancies within 2 years prior to the first dose.\n3. Have uncontrolled tumor-associated pain\n4. Have clinically significant cardiac abnormalities and/or cerebrovascular disease (stroke) within 6 months before the first dose\n5. Active uncontrolled infection\n6. Have history of interstitial pneumonitis, current noninfectious pneumonitis requiring steroid therapy; known or suspected interstitial pneumonitis as seen on screening imaging; other moderate to severe lung diseases seriously affecting respiratory function within 3 months before the first dose.\n7. Have history of severe infections within 4 weeks prior to the start of study treatment, including but not limited to bacteremia, severe pneumonia, or other serious infectious complications requiring hospitalization.\n8. Have history of immunodeficiency, with a positive human immunodeficiency virus (HIV) test at screening.\n9. Participants with known or suspected viral hepatitis\n10. Have history of active tuberculosis within 1 year before enrollment\n11. If participants had adverse reactions to previous antitumor treatment that have not recovered to guidelines of CTCAE Grade \u2264 1 and Grade 2 peripheral neurological symptoms\n12. Have received chemotherapy within 3 weeks of first dose of IMP; immunotherapy or biologic targeted antitumor treatments within 3 weeks before the first dose of IMP or other investigational products within 4 weeks of first dose of IMP\n13. Administration of any of the following\n\n    1. Current use or anticipated need for food or drugs that are known strong CYP3A4/5 inhibitors or inducers\n    2. Have prior treatment with B7-H3 or PTK7 antibody-drug conjugate (ADC).\n    3. Have prior treatment with a topoisomerase I inhibitor (TOP1i), including an ADC with a TOP1i payload, within 6 months of first dose of IMP\n    4. Have received radiotherapy within 2 weeks prior to study entry\n    5. Have undergone major surgery or trauma within 4 weeks prior to study entry.\n    6. Have received live attenuated vaccine within 28 days prior to the first dose or are expected to receive live attenuated vaccine during the study treatment.\n    7. Female participants who are pregnant, lactating, or planning to become pregnant during the study period to 7 months after the last dose of IMP.\n    8. Are known to be allergic to any component or excipient of the IMP product or have a history of severe allergic reactions to other monoclonal antibody/fusion protein drugs.\n    9. Participants with complications in the eye including ulcers in the eye, and severe dry eye",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "IDEAYA Biosciences",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Sarah Cannon Research Institute at HealthONE",
+          "status": "RECRUITING",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80218",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists",
+          "status": "RECRUITING",
+          "city": "Sarasota",
+          "state": "Florida",
+          "zip": "34232",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          }
+        },
+        {
+          "facility": "Karmanos Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "START New York Long Island, LLC",
+          "status": "RECRUITING",
+          "city": "Lake Success",
+          "state": "New York",
+          "zip": "11042",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.77066,
+            "lon": -73.71763
+          }
+        },
+        {
+          "facility": "SCRI Oncology Partners",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "NEXT Texas LLC - Austin",
+          "status": "RECRUITING",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78758",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "START Dallas Fort Worth, LLC",
+          "status": "RECRUITING",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        },
+        {
+          "facility": "MD Anderson",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "NEXT Texas LLC - Houston",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77054",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "NEXT Texas LLC - Dallas",
+          "status": "RECRUITING",
+          "city": "Irving",
+          "state": "Texas",
+          "zip": "75039",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.81402,
+            "lon": -96.94889
+          }
+        },
+        {
+          "facility": "NEXT Texas LLC - San Antonio",
+          "status": "RECRUITING",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "START San Antonio, LLC",
+          "status": "RECRUITING",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "START Mountain Region, LLC",
+          "status": "RECRUITING",
+          "city": "West Valley City",
+          "state": "Utah",
+          "zip": "84119",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.69161,
+            "lon": -112.00105
+          }
+        },
+        {
+          "facility": "NEXT Texas LLC - Virginia",
+          "status": "RECRUITING",
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22031",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "Medical Oncology Associates",
+          "status": "RECRUITING",
+          "city": "Spokane",
+          "state": "Washington",
+          "zip": "99208",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.65966,
+            "lon": -117.42908
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D000077277",
+          "term": "Esophageal Squamous Cell Carcinoma"
+        },
+        {
+          "id": "D000077195",
+          "term": "Squamous Cell Carcinoma of Head and Neck"
+        },
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D016889",
+          "term": "Endometrial Neoplasms"
+        },
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "interventionMeshTerms": [],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT07509034",
+      "orgStudyId": "10001973",
+      "secondaryIds": [
+        {
+          "id": "001973-C",
+          "type": null,
+          "link": null
+        }
+      ],
+      "briefTitle": "Autologous B7-H3 Chimeric Antigen Receptor T Cells in Previously Treated Extensive-Stage Small Cell Lung Cancer With Recurrent or Refractory Disease",
+      "officialTitle": "A Phase I Study to Assess the Safety and Antitumor Activity of Autologous B7-H3 Chimeric Antigen Receptor T Cells in Previously Treated Extensive-Stage Small Cell Lung Cancer With Recurrent or Refractory Disease",
+      "acronym": null,
+      "overallStatus": "RECRUITING",
+      "statusVerifiedDate": "2026-09-29",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2026-10-25",
+      "startDateType": "ESTIMATED",
+      "primaryCompletionDate": "2030-01-30",
+      "primaryCompletionDateType": "ESTIMATED",
+      "completionDate": "2031-01-30",
+      "completionDateType": "ESTIMATED",
+      "studyFirstSubmitDate": "2026-04-02",
+      "studyFirstPostDate": "2026-04-03",
+      "lastUpdateSubmitDate": "2026-10-19",
+      "lastUpdatePostDate": "2026-10-20",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 40,
+      "enrollmentType": "ESTIMATED",
+      "briefSummary": "Background:\n\nSmall cell lung cancer (SCLC) is the deadliest form of lung cancer. Extrapulmonary neuroendocrine cancer (EPNEC) is a similar type of cancer that develops anywhere other than the lungs. EPNEC is also deadly. B7-H3 is a protein often found in SCLC and EPNEC tumor cells. Researchers can modify a person s own T cells, or immune cells, to target B7-H3. When these modified T cells are returned to the body-a treatment called B7-H3 chimeric antigen receptor (CAR) T cell therapy-they may help kill cancer cells.\n\nObjective:\n\nTo test B7-H3 CAR T cell therapy in people with SCLC or EPNEC.\n\nEligibility:\n\nPeople aged 18 years and older with SCLC or EPNEC that either did not respond or returned after treatment.\n\nDesign:\n\nParticipants will be screened. They will have blood tests and tests of their heart function. They will have imaging scans.\n\nParticipants will undergo apheresis: Blood will be taken from the body through a needle. The blood will pass through a machine that separates out the T cells. The remaining blood will be returned to the body through a different needle. The collected T cells will be altered to make them attack cells with B7-H3.\n\nParticipants will be in the hospital for at least 15 days. They will receive chemotherapy drugs to prepare their body for the treatment. These drugs will be given through a tube attached to a needle inserted into a vein.\n\nThe modified T cells will be infused through a vein. Participants will remain in the hospital until they are well enough to go home.\n\nFollow-up visits will continue for 15 years....",
+      "detailedDescription": "Background:\n\n* Small cell lung cancer (SCLC) is the most lethal form of lung cancer with an average life expectancy of 7 to 11 months.\n* Extrapulmonary neuroendocrine cancers (EP-NEC) are rare and aggressive orphan cancers that share morphological and transcriptomic similarities and potentially therapeutic vulnerabilities with SCLC, with no standard treatments at relapse.\n* Currently available therapies for patients who have disease progression after first-line chemotherapy-immunotherapy yield limited clinical benefit. Most patients with recurrent/refractory (R/R) SCLC or EP-NEC die within months of disease progression.\n* Chimeric antigen receptor (CAR) T cells recognize and kill target-expressing tumor cells.\n* B7 homolog 3 (B7-H3, also known as CD276) is a surface molecule highly expressed in multiple solid tumor types, including SCLC and EP-NEC, with minimal expression in normal human tissues.\n* B7-H3 targeted CAR T cells have shown preliminary evidence of safety and efficacy in B7-H3 expressing pediatric solid tumors and brain tumors.\n\nObjective:\n\n* Arm 1: To determine the maximum tolerated dose (MTD) or maximum administered dose (MAD) of autologous B7-H3 CAR T cells in participants with previously treated recurrent/refractory (R/R) extensive-stage small cell lung cancer (ES-SCLC) or extrapulmonary neuroendocrine cancer (EP-NEC).\n* Arm 2: To determine Disease Control Rate (DCR).\n\nEligibility:\n\n* Age \\>=18 years.\n* Histologically confirmed SCLC or EP-NEC that has recurred following or refractory to first-line therapy.\n* At least 1 measurable lesion by Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1.\n* Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0-2.\n\nDesign:\n\n* This is a Phase I dose escalation/de-escalation study evaluating autologous B7-H3 CAR T cells in participants with R/R SCLC or EP-NEC.\n* Participants will undergo apheresis for T cell selection. Collected T cells will be transduced with a lentivirus encoding the B7-H3 CAR construct. Participants will receive a lymphodepletion regimen with the intent of enhancing the activity and proliferation of the infused autologous B7-H3 CAR T cells.\n* During study treatment, participants will have clinical assessments, laboratory evaluations, and imaging studies for safety and response assessment. Blood and tumor samples will be collected for correlative studies at various timepoints.\n* After study treatment completion, follow-up will be performed for up to 15 years.",
+      "conditions": [
+        "Recurrent Small Cell Lung Cancer",
+        "Extensive-Stage Small Cell Lung Cancer",
+        "Small Cell Lung Cancer",
+        "Small Cell Lung Carcinoma",
+        "Refractory Small Cell Lung Cancer",
+        "Extrapulmonary Small Cell Carcinoma",
+        "Neuroendocrine Carcinoma",
+        "Poorly Differentiated Neuroendocrine Carcinoma",
+        "High-Grade Neuroendocrine Carcinoma"
+      ],
+      "keywords": [
+        "CAR T Cells",
+        "CAR-T",
+        "CD276",
+        "B7H3",
+        "Adoptive Cell Therapy",
+        "SCLC",
+        "EP-NEC",
+        "Extrapulmonary neuroendocrine carcinoma",
+        "Relapsed small cell lung cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Autologous B7-H3 CAR T",
+          "description": "For both dose escalation and expansion phases, B7-H3 CAR T cell infusion will be performed following lymphodepleting therapy. Up to 2 years post the initial infusion, participants will be offered the option for an additional infusion of B7-H3 CAR T cells at the same dose level as the initial dose, with or without LD if eligible.",
+          "armGroupLabels": [
+            "Dose Escalation",
+            "Dose Expansion"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "description": "For both dose escalation and expansion phases, FDA approved lymphodepleting agents, cyclophosphamide and fludarabine will be used on this study prior to the administration of T cells.",
+          "armGroupLabels": [
+            "Dose Escalation",
+            "Dose Expansion"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Fludarabine",
+          "description": "For both dose escalation and expansion phases, FDA approved lymphodepleting agents, cyclophosphamide and fludarabine will be used on this study prior to the administration of T cells.",
+          "armGroupLabels": [
+            "Dose Escalation",
+            "Dose Expansion"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Dose Escalation",
+          "type": "EXPERIMENTAL",
+          "description": "Escalating doses of autologous B7-H3 CAR T cells.",
+          "interventionNames": [
+            "Drug: Autologous B7-H3 CAR T",
+            "Drug: Cyclophosphamide",
+            "Drug: Fludarabine"
+          ]
+        },
+        {
+          "label": "Dose Expansion",
+          "type": "EXPERIMENTAL",
+          "description": "Maximum tolerated dose (MTD) or maximum administered dose (MAD) of autologous B7-H3 CAR T cells.",
+          "interventionNames": [
+            "Drug: Autologous B7-H3 CAR T",
+            "Drug: Cyclophosphamide",
+            "Drug: Fludarabine"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Determine the maximum tolerated dose (MTD) or maximum administered dose (MAD) of autologous B7-H3 CAR T cells",
+          "description": "The MTD/MAD is the dose level at which no more than 1 of up to 6 participants experience DLT during autologous B7-H3 CAR T cell treatment, and the dose below that at which at least 2 (of \\<=6) participants have DLT as a result of treatment.",
+          "timeFrame": "Dose Limiting Toxicity (DLT) period (day 0 through day 28)"
+        },
+        {
+          "measure": "Determine disease control rate (DCR)",
+          "description": "DCR will be reported as a percentage of participants who achieve a complete response, partial response, or stable disease following autologous B7-H3 CAR T cells treatment.",
+          "timeFrame": "Until disease progression or 15 years, whichever occurs first"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Assess safety of autologous B7-H3 CAR T cells infusion",
+          "description": "Safety will be reported based on the number (percentage) of participants experiencing adverse events per dose level as well as reporting specific grades and types of toxicity encountered per the Common Terminology Criteria for Adverse Events (CTCAE) version 6.0.",
+          "timeFrame": "Study duration"
+        },
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "description": "The ORR will be reported among 13-16 participants, which includes both participants treated at the MTD/MAD during the dose escalation phase (3-6 participants) and the 10 participants treated during the dose expansion phase, along with a 95% two-sided confidence interval.",
+          "timeFrame": "Until disease progression or 15 years, whichever occurs first"
+        },
+        {
+          "measure": "Duration of Response (DOR)",
+          "description": "DOR will be reported using a Kaplan-Meier curve and 95% confidence interval for the median of each based on the participants at the final dose level.",
+          "timeFrame": "Until disease progression or 15 years, whichever occurs first"
+        },
+        {
+          "measure": "Progression Free Survival (PFS)",
+          "description": "PFS will be reported using a Kaplan-Meier curve and 95% confidence interval for the median of each based on the participants at the final dose level.",
+          "timeFrame": "Until disease progression or 15 years, whichever occurs first"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS will be reported based on those participants using a Kaplan-Meier curve and 95% confidence interval for the median OS.",
+          "timeFrame": "Until death or 15 years, whichever occurs first"
+        },
+        {
+          "measure": "Evaluate safety of re-treatment",
+          "description": "Safety will be reported based on the number (percentage) of participants experiencing adverse events per dose level as well as reporting specific grades and types of toxicity encountered per CTCAE v6.0.",
+          "timeFrame": "Study duration"
+        }
+      ],
+      "eligibilityCriteria": "* INCLUSION CRITERIA:\n* Age \\>=18 years old.\n* Histologically confirmed small cell lung cancer (SCLC) or extrapulmonary neuroendocrine cancers (EP-NEC) that has recurred following or is refractory to first-line therapy. Note: small cell cancers of non-lung primary sites are also eligible.\n* Eastern Cooperative Oncology Group Performance Status (ECOG PS) 0-2.\n* Pulse oximetry \\>= 90% on room air.\n* Aspartate Transferase (AST) \\< 3 X institutional upper limit of normal (ULN). Note: in case of liver metastases \\<= 5 X ULN is acceptable.\n* Alanine Aminotransferase (ALT) \\< 3 X institutional ULN. Note: in case of liver metastases \\<= 5 X ULN is acceptable.\n* Total bilirubin \\<=2 X institutional ULN.\n* Creatinine \\<=1.5 X institutional ULN OR creatinine clearance (CrCl) \\>= 50 mL/min/1.73m\\^2 (calculated by the Chronic Kidney Disease Epidemiology Collaboration \\[CKD-EPI\\] formula or calculated eGFR provided by a laboratory).\n* Absolute Neutrophil Count (ANC) \\>= 750/mcL.\n* Platelet count \\>= 75,000/mcL.\n* An absolute lymphocyte count (ALC) \\>=300/mcL and CD3+ cell count \\>=150/mcL.\n* Normal cardiac ejection fraction as defined by \\>= 45% by echocardiogram (ECHO) at screening.\n* At least 1 measurable lesion by Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 that has not been previously irradiated.\n* Recovered from acute toxic effects of all prior cancer therapy to Grade \\<2 per Common Terminology Criteria for Adverse Events (CTCAE) v.6.0 at least one week before apheresis excluding the parameters for ANC and ALC mentioned above.\n* The following criteria must be met prior to apheresis:\n\n  * Chemotherapy and biologic/targeted agents:\n\n    * \\>=14 days since the last dose of standard myelosuppressive chemotherapy.\n    * \\>= 7 days since the completion of biologic agent, targeted agent, or tyrosine kinase inhibitor therapy.\n    * \\>= 3 weeks or 5 half-lives (whichever is shorter) since prior therapy with a monoclonal antibody.\n  * Radiotherapy:\n\n    * \\>= 1 week since the last radiotherapy session.\n    * No washout period required for palliative radiation to non-target lesions.\n    * \\>= 3 weeks since hepatic radiation, chemoembolization, and/or radiofrequency ablation.\n  * Steroids and immunosuppressive therapy:\n\n    * Corticosteroids: \\>= 2 weeks since the therapeutic doses (\\> 0.5 mg/kg/day prednisone or equivalent). Note: Inhaled or topical steroids are not exclusionary.\n    * Physiologic replacement doses (up to 5 mg/day prednisone equivalent) are allowed and can be adjusted based on participant's BMI if warranted.\n    * \\>= 2 weeks since the other immunosuppressive medication (e.g., calcineurin inhibitors, methotrexate, rapamycin, thalidomide, etc.).\n  * Anti-PD-1 and any investigational therapies:\n\n    * \\>= 2 weeks since Anti-PD-1 monoclonal antibody therapy.\n    * \\>= 2 weeks or 5 half-lives of the investigational product (whichever is shorter) since any investigational treatment or clinical trial participation.\n  * Other criteria:\n\n    * 72 hours since small molecule tyrosine kinase inhibitors (e.g., EGFR inhibitors), PARP inhibitors, or KRAS G12C inhibitors.\n* Individuals of childbearing potential (IOCBP) must agree to use highly effective contraception (hormonal, intrauterine device \\[IUD\\], abstinence, surgical sterilization) at the study entry and up to 12 months after the last dose of combined chemotherapy.\n\nNote: IOCBP is defined as any individual who has experienced menarche and who has not undergone successful surgical sterilization or who is not postmenopausal.\n\n* Individuals able to father a child must agree to use an effective method of contraception (barrier, surgical sterilization, abstinence) at the study entry and up to 7 months after the last dose of study drugs. We also will recommend individuals able to father a child with partners of childbearing potential ask partners to be on highly effective birth control (hormonal, IUD, surgical sterilization). Individuals able to father a child must not freeze or donate sperm within the same period.\n* Nursing participants must be willing to discontinue nursing from study treatment initiation through 6 months after the last dose of the study drug(s).\n* Ability of the participant to understand and the willingness to sign a written informed consent document.\n\nEXCLUSION CRITERIA:\n\n* History of anaphylactic reactions attributed to anti-B7-H3 antibodies or compounds of similar chemical or biologic composition to autologous B7-H3 CAR T cells, cyclophosphamide, fludarabine, or other agents used in this study.\n* Infection exposure with the human immunodeficiency virus (HIV), hepatitis B virus (HBV), or hepatitis C virus (HCV) as defined below:\n\n  * Positive serology for HIV.\n  * Active HBV infection as demonstrated by test for hepatitis B surface antigen (HBsAg).\n  * Positive serology for HCV.\n* Prior gene therapy using an integrating vector (except for autologous B7-H3 CAR T cells retreatment).\n* History of any previous allogeneic hematopoietic stem cell transplant.\n* Presence of fungal, bacterial, viral, or other infection is permitted if responding to active treatment.\n* Central Nervous System (CNS) disorder such as cerebrovascular ischemia/hemorrhage, dementia, cerebellar disease, or autoimmune disease with CNS involvement that may impair the ability to evaluate neurotoxicity.\n* Pregnancy confirmed with beta-human chorionic gonadotropin (beta-HCG) serum or urine pregnancy test in IOCBP at screening.\n* Uncontrolled intercurrent illness or medical condition(s) evaluated by medical history, physical exam, electrocardiogram (ECG) or situations that would unacceptably increase risk for the participant or impair the ability to evaluate the endpoints of the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "120 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "National Cancer Institute (NCI)",
+      "leadSponsorClass": "NIH",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "National Institutes of Health Clinical Center",
+          "status": "RECRUITING",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20892",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "YES",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D055752",
+          "term": "Small Cell Lung Carcinoma"
+        },
+        {
+          "id": "D018278",
+          "term": "Carcinoma, Neuroendocrine"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        },
+        {
+          "id": "C024352",
+          "term": "fludarabine"
+        }
+      ],
+      "hasResults": false
+    }
+  ],
+  "trials_returned": 2,
+  "query_params": {
+    "query.cond": "small cell lung cancer",
+    "query.term": "CD276",
+    "countTotal": "true"
+  },
+  "pages_fetched": 1
+}

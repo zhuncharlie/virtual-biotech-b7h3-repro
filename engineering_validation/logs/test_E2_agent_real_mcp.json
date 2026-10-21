@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "model_requested": "claude-sonnet-4-5-20250929",
+  "mcp_server": "single_cell (real stdio subprocess, src/mcp_servers/single_cell_mcp/server.py)",
+  "called_real_tool": true,
+  "ground_truth": {
+    "census_version": "stable",
+    "organism": "homo_sapiens",
+    "total_cell_count": 158982719,
+    "total_gene_count": 61497,
+    "available_layers": [
+      "normalized",
+      "raw"
+    ],
+    "note": "This server provides access to human single-cell data only"
+  },
+  "agent_reported_cells": 158982719,
+  "agent_reported_genes": 61497,
+  "numbers_match_ground_truth": true,
+  "transcript": [
+    {
+      "type": "tool_use",
+      "name": "mcp__single_cell__get_census_info",
+      "input": {}
+    },
+    {
+      "type": "text",
+      "text": "cells: 158982719\ngenes: 61497"
+    }
+  ],
+  "_recorded_at": "2026-10-19T05:41:26-0500"
+}

@@ -1,0 +1,2023 @@
+{
+  "success": true,
+  "total_count": 3,
+  "trials": [
+    {
+      "nctId": "NCT05293496",
+      "orgStudyId": "CP-MGC018-02",
+      "secondaryIds": [],
+      "briefTitle": "A Study of MGC018 in Combination With MGD019 in Participants With Advanced Solid Tumors",
+      "officialTitle": "A Phase 1/1b Dose Escalation and Cohort Expansion Study of MGC018 in Combination With Checkpoint Inhibitor in Participants With Advanced Solid Tumors",
+      "acronym": null,
+      "overallStatus": "COMPLETED",
+      "statusVerifiedDate": "2025-10",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2022-04-19",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2025-06-24",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2025-08-26",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2022-02-12",
+      "studyFirstPostDate": "2022-03-24",
+      "lastUpdateSubmitDate": "2025-10-09",
+      "lastUpdatePostDate": "2025-10-14",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 31,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "Study CP-MGC018-02 is a study of vobramitamab duocarmazine (MGC018) in combination with lorigerlimab (MGD019). The study is designed to characterize safety, tolerability, pharmacokinetics (PK), immunogenicity, pharmacodynamics, and preliminary antitumor activity. Participants with relapsed or refractory, unresectable, locally advanced or metastatic solid tumors including, but not limited to, metastatic castration-resistant prostate cancer (mCRPC), melanoma, pancreatic cancer, hepatocellular carcinoma (HCC), ovarian cancer, and renal cell carcinoma (RCC) will be enrolled.\n\nVobramitamab duocarmazine and lorigerlimab are administered separately on Day 1 of every 4-week (28-day) cycle at the assigned dose for each cohort. Participants who do not meet criteria for study drug discontinuation may receive study drugs for up to 2 years.\n\nTumor assessments are performed every 8 weeks (\u00b1 7 days) for the initial 6 months on study drugs, then every 12 weeks (\u00b1 21 days) until progressive disease (PD).\n\nParticipants will be followed for safety throughout the study. .",
+      "detailedDescription": null,
+      "conditions": [
+        "Advanced Solid Tumor",
+        "Castration-Resistant Prostatic Cancer",
+        "Malignant Melanoma",
+        "Pancreatic Ductal Carcinoma",
+        "Hepatocellular Cancer",
+        "Epithelial Ovarian Cancer",
+        "Renal Cell Carcinoma"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "vobramitamab duocarmazine",
+          "description": "Vobramitamab duocarmazine is an antibody drug conjugate (ADC) targeted against B7-H3.",
+          "armGroupLabels": [
+            "Cohort -1",
+            "Cohort 1",
+            "Cohort 2",
+            "Cohort 3",
+            "Cohort 4",
+            "Cohort 5",
+            "Cohort Expansion"
+          ],
+          "otherNames": [
+            "MGC018"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "lorigerlimab",
+          "description": "Lorigerlimab is a bispecific DART\u00ae molecule that binds PD-1 and CTLA-4.",
+          "armGroupLabels": [
+            "Cohort -1",
+            "Cohort 1",
+            "Cohort 2",
+            "Cohort 3",
+            "Cohort 4",
+            "Cohort 5",
+            "Cohort Expansion"
+          ],
+          "otherNames": [
+            "MGD019"
+          ]
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Cohort -1",
+          "type": "EXPERIMENTAL",
+          "description": "vobramitamab duocarmazine at dose level -1 and lorigerlimab intravenously (IV) every 4 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine",
+            "Biological: lorigerlimab"
+          ]
+        },
+        {
+          "label": "Cohort 1",
+          "type": "EXPERIMENTAL",
+          "description": "vobramitamab duocarmazine at dose level 1 and lorigerlimab IV every 4 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine",
+            "Biological: lorigerlimab"
+          ]
+        },
+        {
+          "label": "Cohort 2",
+          "type": "EXPERIMENTAL",
+          "description": "vobramitamab duocarmazine at dose level 1 and lorigerlimab IV every 4 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine",
+            "Biological: lorigerlimab"
+          ]
+        },
+        {
+          "label": "Cohort 3",
+          "type": "EXPERIMENTAL",
+          "description": "vobramitamab duocarmazine at dose level 2 and lorigerlimab IV every 4 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine",
+            "Biological: lorigerlimab"
+          ]
+        },
+        {
+          "label": "Cohort 4",
+          "type": "EXPERIMENTAL",
+          "description": "vobramitamab duocarmazine at dose level 3 and lorigerlimab IV every 4 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine",
+            "Biological: lorigerlimab"
+          ]
+        },
+        {
+          "label": "Cohort 5",
+          "type": "EXPERIMENTAL",
+          "description": "vobramitamab duocarmazine at dose level 4 and lorigerlimab IV every 4 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine",
+            "Biological: lorigerlimab"
+          ]
+        },
+        {
+          "label": "Cohort Expansion",
+          "type": "EXPERIMENTAL",
+          "description": "maximum tolerated dose of vobramitamab duocarmazine and lorigerlimab IV every 4 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine",
+            "Biological: lorigerlimab"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participants with adverse events (AEs)",
+          "description": null,
+          "timeFrame": "Up to 2 years"
+        },
+        {
+          "measure": "Number of participants with serious adverse events (SAEs)",
+          "description": null,
+          "timeFrame": "Up to 2 years"
+        },
+        {
+          "measure": "Number of participants with AEs leading to study treatment discontinuation",
+          "description": null,
+          "timeFrame": "Up to 2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Mean maximum observed concentration (Cmax) of vobramitamab duocarmazine",
+          "description": "Peak concentration of vobramitamab duocarmazine",
+          "timeFrame": "Throughout the study, up to 2 years"
+        },
+        {
+          "measure": "Mean maximum observed concentration (Cmax) of lorigerlimab",
+          "description": "Peak concentration of lorigerlimab",
+          "timeFrame": "Throughout the study, up to 2 years"
+        },
+        {
+          "measure": "Mean time to maximum concentration (Tmax) of vobramitamab duocarmazine",
+          "description": "Time at which peak concentration of vobramitamab duocarmazine is observed",
+          "timeFrame": "Throughout the study, up to 2 years"
+        },
+        {
+          "measure": "Mean time to maximum concentration (Tmax) of lorigerlimab",
+          "description": "Time at which peak concentration of lorigerlimab is observed",
+          "timeFrame": "Throughout the study, up to 2 years"
+        },
+        {
+          "measure": "Mean area under the concentration-time curve during the dosing interval (AUCtau) of vobramitamab duocarmazine",
+          "description": "Concentration of vobramitamab duocarmazine in the bloodstream during the 28-day dosing interval after dose administration",
+          "timeFrame": "Throughout the study, up to 2 years"
+        },
+        {
+          "measure": "Mean area under the concentration-time curve during the dosing interval (AUCtau) of lorigerlimab",
+          "description": "Concentration of lorigerlimab in the bloodstream during the 28-day dosing interval after dose administration",
+          "timeFrame": "Throughout the study, up to 2 years"
+        },
+        {
+          "measure": "Mean trough concentration of vobramitamab duocarmazine",
+          "description": "Concentration of vobramitamab duocarmazine at the end of a dosing interval",
+          "timeFrame": "Day 1 of each cycle (every 4 weeks) up to 2 years."
+        },
+        {
+          "measure": "Mean trough concentration of lorigerlimab",
+          "description": "Concentration of lorigerlimab at the end of a dosing interval",
+          "timeFrame": "Throughout the study, up to 2 years"
+        },
+        {
+          "measure": "Number of participants who develop anti-drug antibodies (ADA) to vobramitamab duocarmazine",
+          "description": null,
+          "timeFrame": "Throughout the study, up to 2 years"
+        },
+        {
+          "measure": "Number of participants who develop ADA to lorigerlimab",
+          "description": null,
+          "timeFrame": "Throughout the study, up to 2 years"
+        },
+        {
+          "measure": "Objective response rate (ORR)",
+          "description": null,
+          "timeFrame": "Assessed every 8 weeks for the first 6 months, then every 12 weeks for up to 2 years."
+        },
+        {
+          "measure": "Median progression free survival (PFS)",
+          "description": "PFS is defined as the time from the first dose date to the date of first documented PD or death from any cause, whichever occurs first.",
+          "timeFrame": "Assessed every 8 weeks for the first 6 months, then every 12 weeks. Survival status is assessed approximately every 12 weeks after the last dose of study treatment until withdrawal of consent, lost to follow up, death, or end of the study, up to 2 years."
+        },
+        {
+          "measure": "Median duration of response (DoR)",
+          "description": "DoR is defined as the time from the date of initial response (CR or PR) to the date of first documented PD or death from any cause, whichever occurs first.",
+          "timeFrame": "Assessed every 8 weeks for the first 6 months, then every 12 weeks for up to 2 years."
+        },
+        {
+          "measure": "Median overall survival (OS)",
+          "description": "OS is defined as the time from the first dose date to the date of death from any cause.",
+          "timeFrame": "Survival status is assessed approximately every 12 weeks after the last dose of study treatment until withdrawal of consent, lost to follow up, death, or end of the study, up to 2 years"
+        },
+        {
+          "measure": "Median radiographic PFS (rPFS) for mCRPC",
+          "description": "rPFS is defined as the time from the first dose of study drug to the first occurrence of radiographic PD of soft tissue lesions using RECIST v1.1, or appearance of \u2265 2 new bone lesions, or death from any cause",
+          "timeFrame": "Assessed every 8 weeks for the first 6 months, then every 12 weeks for up to 2 years."
+        },
+        {
+          "measure": "Prostate-specific antigen (PSA) response rate for mCRPC",
+          "description": "PSA response is defined as \u2265 50% decline from baseline in PSA with confirmation at least 3 weeks later.",
+          "timeFrame": "PSA is assessed every 4 weeks, up to 2 years while on treatment, then every 12 weeks for up to an additional 2 years in follow-up."
+        },
+        {
+          "measure": "Best PSA percent change from baseline for mCRPC",
+          "description": null,
+          "timeFrame": "PSA is assessed every 4 weeks, up to 2 years while on treatment, then every 12 weeks for up to an additional 2 years in follow-up."
+        },
+        {
+          "measure": "Median time to PSA progression for mCRPC",
+          "description": "PSA progression is defined as an increase that is \u2265 25% and \u2265 2 ng/mL the baseline or lowest value observed, and which confirmed by a second value at least 3 weeks later.",
+          "timeFrame": "PSA is assessed every 4 weeks, up to 2 years while on treatment, then every 12 weeks for up to an additional 2 years in follow-up."
+        },
+        {
+          "measure": "Median duration of PSA response for mCRPC",
+          "description": "DoR of PSA is defined as the time from the date of initial PSA response to the date of first documented PSA progression or death from any cause, whichever occurs first.",
+          "timeFrame": "PSA is assessed every 4 weeks, up to 2 years while on treatment, then every 12 weeks for up to an additional 2 years in follow-up."
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 1\\. Ability to provide and document informed consent and willing and able to comply with all study procedures.\n* Participants diagnosed with advanced solid tumors including but not limited to metastatic castration-resistant prostate cancer, melanoma, pancreatic cancer, hepatocellular carcinoma, ovarian cancer and renal cell carcinoma.\n* Participants have received approved therapies according to their diagnosis.\n* Participants must have an available tumor tissue sample. A fresh tumor biopsy may be performed if no archival sample is available.\n* Eastern Cooperative Oncology Group performance status of less than or equal to 2.\n* Life expectancy of at least 12 weeks.\n* Evidence of measurable tumor for evaluation\n* Acceptable end organ function according to laboratory results.\n* Patients must agree to use highly-effective contraception during the study, and not donate sperm or ova.\n\nExclusion Criteria:\n\n* Any underlying medical or psychiatric condition impairing participant's ability to receive, tolerate, or comply with the planned treatment or study procedures.\n* Another malignancy that required treatment within the past 2 years. Participants who have had curative therapy for non-melanomatous skin cancer, localized prostate cancer (Gleason score \\< 6), or carcinoma in situ are eligible for the study.\n* Active viral, bacterial, or fungal infection requiring systemic treatment within 1 week of initiation of study drug. Participants are eligible after SARS CoV 2-related symptoms have fully recovered for \u2265 72 hours.\n* History of immunodeficiency. Participants with HIV are eligible if they have a CD4+ count \u2265 300/\u00b5L, undetectable viral load, and maintained on antiretroviral therapy for a minimum of 4 weeks.\n* Prior autologous/allogeneic stem cell or tissue/solid organ transplant\n* Prior treatment with MGD009, enoblituzumab, or other B7-H3 targeted agents for cancer.\n* Clinically significant cardiovascular disease, lung compromise, venous insufficiency, or gastrointestinal disorders.\n* Participants with greater than Grade 1 peripheral neuropathy.\n* Participants who have a history of severe adverse events (AEs) from immune checkpoint inhibitors (anti-PD-1, anti-PD-L1, or CTLA-4 inhibitors). All other AEs from prior immune checkpoint inhibitors must be resolved to Grade 1 or less. Participants with any grade neurologic toxicity from prior immune checkpoint inhibitors are excluded.\n* Pleural effusion or ascites. Trace pleural or peritoneal fluid is not exclusionary.\n* History of Guillain-Barre syndrome, myasthenia gravis, or other autoimmune sensory or motor neuropathies.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "MacroGenics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "University of California, Los Angeles",
+          "status": null,
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90095",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "University of California, San Francisco",
+          "status": null,
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists and Research Institute",
+          "status": null,
+          "city": "Sarasota",
+          "state": "Florida",
+          "zip": "34232",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          }
+        },
+        {
+          "facility": "Winship Cancer Institute of Emory University",
+          "status": null,
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Johns Hopkins Sidney Kimmel Comprehensive Cancer Center",
+          "status": null,
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Weill Cornell Medicine",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Carolina BioOncology",
+          "status": null,
+          "city": "Huntersville",
+          "state": "North Carolina",
+          "zip": "28078",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.41069,
+            "lon": -80.84285
+          }
+        },
+        {
+          "facility": "Stephenson Cancer Center, The University of Oklahoma",
+          "status": null,
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "University of Pittsburgh Medical Center, Hillman Cancer Center",
+          "status": null,
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15232",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "University of Virginia Comprehensive Cancer Center",
+          "status": null,
+          "city": "Charlottesville",
+          "state": "Virginia",
+          "zip": "22908",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          }
+        }
+      ],
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D064129",
+          "term": "Prostatic Neoplasms, Castration-Resistant"
+        },
+        {
+          "id": "D008545",
+          "term": "Melanoma"
+        },
+        {
+          "id": "D021441",
+          "term": "Carcinoma, Pancreatic Ductal"
+        },
+        {
+          "id": "D008113",
+          "term": "Liver Neoplasms"
+        },
+        {
+          "id": "D000077216",
+          "term": "Carcinoma, Ovarian Epithelial"
+        },
+        {
+          "id": "D002292",
+          "term": "Carcinoma, Renal Cell"
+        }
+      ],
+      "interventionMeshTerms": [],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT03729596",
+      "orgStudyId": "CP-MGC018-01",
+      "secondaryIds": [],
+      "briefTitle": "MGC018 With or Without MGA012 in Advanced Solid Tumors",
+      "officialTitle": "A Phase 1/2, First-in-Human, Open-Label, Dose-Escalation Study of MGC018 (Anti-B7-H3 Antibody Drug Conjugate) Alone and in Combination With MGA012 (Anti-PD-1 Antibody) in Patients With Advanced Solid Tumors",
+      "acronym": null,
+      "overallStatus": "TERMINATED",
+      "statusVerifiedDate": "2025-07",
+      "lastKnownStatus": null,
+      "whyStopped": "Business decision",
+      "startDate": "2018-11-21",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2023-03-18",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2023-03-18",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2018-10-30",
+      "studyFirstPostDate": "2018-11-02",
+      "lastUpdateSubmitDate": "2025-07-10",
+      "lastUpdatePostDate": "2025-07-31",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Dose escalation will use a 3+3+3 design to identify an MAD or MTD, followed by a Cohort Expansion.",
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 143,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "The purpose of this study is to evaluate the safety and tolerability, pharmacokinetics (PK) pharmacodynamics and preliminary antitumor activity of vobramitamab duocarmazine (MGC018) in patients with advanced solid tumors. Patients with solid tumors will be enrolled in the Dose Escalation Phase; Cohort Expansion will include metastatic castrate-resistant prostate cancer (mCRPC), non-small cell lung cancer (NSCLC), triple-negative breast cancer (TNBC), squamous cell carcinoma of the head and neck (SCCHN), and melanoma. Patients who do not experience unacceptable toxicity or meet criteria for permanent discontinuation may undergo additional cycles for up to two years. Patients in Cohort Expansion will be followed for survival every 3 months for 2 years following last dose.",
+      "detailedDescription": null,
+      "conditions": [
+        "Squamous Cell Carcinoma of Head and Neck",
+        "Triple Negative Breast Cancer",
+        "Melanoma",
+        "Advanced Solid Tumor, Adult",
+        "Metastatic Castrate Resistant Prostate Cancer",
+        "Non Small Cell Lung Cancer"
+      ],
+      "keywords": [
+        "antibody-drug conjugate (ADC)",
+        "B7-H3"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "vobramitamab duocarmazine",
+          "description": "Anti-B7H3 antibody drug conjugate",
+          "armGroupLabels": [
+            "Cohort 1",
+            "Cohort 2",
+            "Cohort 3",
+            "Cohort 4",
+            "Cohort 5",
+            "Melanoma expansion",
+            "NSCLC expansion",
+            "SCCHN expansion",
+            "TNBC expansion",
+            "mCRPC expansion"
+          ],
+          "otherNames": [
+            "MGC018"
+          ]
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Cohort 1",
+          "type": "EXPERIMENTAL",
+          "description": "0.5 mg/kg IV every 3 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        },
+        {
+          "label": "Cohort 2",
+          "type": "EXPERIMENTAL",
+          "description": "1.0 mg/kg IV every 3 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        },
+        {
+          "label": "Cohort 3",
+          "type": "EXPERIMENTAL",
+          "description": "2.0 mg/kg IV every 3 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        },
+        {
+          "label": "Cohort 4",
+          "type": "EXPERIMENTAL",
+          "description": "3.0 mg/kg IV every 3 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        },
+        {
+          "label": "Cohort 5",
+          "type": "EXPERIMENTAL",
+          "description": "4.0 mg/kg IV every 3 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        },
+        {
+          "label": "mCRPC expansion",
+          "type": "EXPERIMENTAL",
+          "description": "3.0 mg/kg IV every 3 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        },
+        {
+          "label": "NSCLC expansion",
+          "type": "EXPERIMENTAL",
+          "description": "3.0 mg/kg IV every 3 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        },
+        {
+          "label": "TNBC expansion",
+          "type": "EXPERIMENTAL",
+          "description": "3.0 mg/kg IV every 3 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        },
+        {
+          "label": "Melanoma expansion",
+          "type": "EXPERIMENTAL",
+          "description": "3.0 mg/kg IV every 3 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        },
+        {
+          "label": "SCCHN expansion",
+          "type": "EXPERIMENTAL",
+          "description": "3.0 mg/kg IV every 3 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Patients With Adverse Events of Vobramitamab Duocarmazine as Assessed by CTCAE v4.03",
+          "description": "Safety is based on evaluation of adverse events (AEs) and serious adverse events (SAEs) from the time of study drug administration through the End of Study visit.",
+          "timeFrame": "Throughout the study up to 24 months"
+        },
+        {
+          "measure": "Number of Participants With Dose Limiting Toxicities (DLT)",
+          "description": "Number of participants with severe side effects from study treatment during the DLT evaluation period (6 weels)",
+          "timeFrame": "up to 42 days from first dose"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Best Overall Response (BOR) of Vobramitamab Duocarmazine",
+          "description": "The best response recorded from the start of the study treatment until the end of treatment according to Response Evaluation Criteria in Solid Tumors (RECIST) criteria version 1.1, taking into account any requirement for confirmation of response.\n\nComplete response (CR) is defined as disappearance of all target and non-target lesions.\n\nPartial response (PR) is defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters, no progression of non-target lesions, and no new lesions.\n\nProgressive disease (PD) is defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study, or unequivocal progression of non-target lesions, or appearance of new lesions.\n\nStable disease (SD) is defined as neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify as progression.\n\nNot evaluable (NE) is where the response cannot be determined.",
+          "timeFrame": "Throughout the study for up to 24 months"
+        },
+        {
+          "measure": "Objective Response Rate (ORR) of Vobramitamab Duocarmazine",
+          "description": "The percentage of participants who achieve a complete response (CR or partial response (PR) to treatment with vobramitamab duocarmazine",
+          "timeFrame": "Efficacy evaluations every 9 weeks throughout the study for up to 24 months"
+        },
+        {
+          "measure": "Progression Free Survival (PFS) of Vobramitamab Duocarmazine",
+          "description": "PFS is calculated from the first dose date until the date of first documented PD using RECIST v1.1, or death from any cause, whichever occurs first.\n\nProgressive disease (PD) is defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study, or unequivocal progression of non-target lesions, or appearance of new lesions. Median PFS and 95% CI is estimated using the Kaplan-Meier method.",
+          "timeFrame": "Every 9 weeks for up to 24 months"
+        },
+        {
+          "measure": "Median Duration of Response (DoR) of Vobramitamab Duocarmazine",
+          "description": "Median DoR assessed as the time from the date of initial objective response to the date of first documented PD, per RECIST v1.1, or the date of death from any cause, whichever occurs first.\n\nMedian DoR and 95% CI is estimated using the Kaplan-Meier method.",
+          "timeFrame": "Throughout the study for up to 48 months"
+        },
+        {
+          "measure": "Median Overall Survival (OS) of Vobramitamab Duocarmazine",
+          "description": "Median OS assessed as the time from the first dose date to the date of death from any cause, using the Kaplan-Meier method for estimating median and confidence interval. .",
+          "timeFrame": "Every 9 weeks for up to 24 months"
+        },
+        {
+          "measure": "PSA Response Rate",
+          "description": "Percent of prostate cancer patients with at least 50% reduction in prostate-specific antigen (PSA) with confirmation at least 3 weeks later",
+          "timeFrame": "Every 3 weeks up to 24 months"
+        },
+        {
+          "measure": "Best PSA Response",
+          "description": "For prostate cancer patients, the greatest change from baseline in PSA.",
+          "timeFrame": "Every 3 weeks up to 24 months"
+        },
+        {
+          "measure": "Mean Area Under the Curve (AUC) of Vobramitamab Duocarmazine Antibody Drug Conjugate (ADC)",
+          "description": "Area under the plasma concentration versus time curve of vobramitamab duocarmazine",
+          "timeFrame": "At baseline, Cycle 1, Day 1: 1 hour, 4 hours after the first dose, Day 2, Day 3, Day 7, Day 14 and Cycle 2 Day 1 (approximately 21 days after the first dose)."
+        },
+        {
+          "measure": "Mean AUC of Duocarmycin",
+          "description": "Area under the plasma concentration versus time curve of duocarmycin (unconjugated payload) in the bloodstream",
+          "timeFrame": "At baseline, Cycle 1, Day 1: 1 hour, 4 hours after the first dose, Day 2, Day 3, Day 7, Day 14 and Cycle 2 Day 1 (approximately 21 days after the first dose)."
+        },
+        {
+          "measure": "Mean Maximum Concentration Vobramitamab Duocarmazine ADC",
+          "description": "Maximum Plasma Concentration of vobramitamab duocarmazine ADC in the bloodstream",
+          "timeFrame": "At baseline, Cycle 1, Day 1, 1 and 4 hours after the end of infusion, Day 2, and Day 3."
+        },
+        {
+          "measure": "Mean Maximum Concentration Duocarmycin",
+          "description": "Maximum Plasma Concentration of vobramitamab duocarmazine ADC in the bloodstream",
+          "timeFrame": "At baseline, Cycle 1, Day 1, 1 and 4 hours after the end of infusion, Day 2, and Day 3."
+        },
+        {
+          "measure": "Mean Trough Concentration of Vobramitamab Duocarmazine ADC",
+          "description": "Average trough plasma concentration of vobramitamab duocarmazine ADC in the bloodstream.",
+          "timeFrame": "At baseline, and before subsequent infusion Cycle 2, Day 1 (Study Day 22)."
+        },
+        {
+          "measure": "Mean Trough Concentration of Duocarmycin",
+          "description": "Average trough plasma concentration of duocarmycin unconjugated payload in the bloodstream.",
+          "timeFrame": "At baseline, and before subsequent infusion Cycle 2, Day 1 (Study Day 22)."
+        },
+        {
+          "measure": "Number of Participants Who Develop MGC018 Anti-drug Antibodies",
+          "description": "Shifts in MGC018 anti-drug antibodies after treatment with vobramitamab duocarmazine",
+          "timeFrame": "Every 3 weeks through end of treatment, up to 24 months"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Tissue specimen available for retrospective analysis of B7-H3 and PD-L1 expression.\n* Eastern Cooperative Oncology Group performance status of \u22642\n* Life expectancy \u2265 12 weeks for dose escalation phase and \u2265 24 weeks for cohort expansion phase\n* Measurable disease. Prostate cancer patients with bone only disease are eligible.\n* Acceptable laboratory parameters and adequate organ reserve.\n* Dose Escalation Phase: Patients with histologically proven, unresectable, locally advanced or metastatic solid tumors for whom no therapy with demonstrated clinical benefit is available.\n\nModule A Cohort Expansion:\n\n* mCRPC that has progressed with one prior line of chemotherapy for metastatic disease and no more than two prior lines of anti-hormonal therapy.\n* NSCLC: metastatic disease after standard cytotoxic, targeted, and biologic or checkpoint inhibitor therapy. No more than 2 prior lines of chemotherapy.\n* TNBC: Locally advance or metastatic disease that has progressed following at least one systemic therapy.\n* SCCHN that has progressed during or following at least one systemic therapy for metastatic or recurrent unresectable disease. No more than 2 prior lines of chemotherapy.\n* Melanoma that has progressed during or following at least one systemic treatment for unresectable locally advanced or metastatic disease. Patients who are intolerant of or refused standard therapy are eligible.\n\nExclusion Criteria:\n\n* Patients with history of prior central nervous system (CNS) metastasis must have been treated, be asymptomatic, and not have concurrent treatment for CNS disease, progression of CNS metastases on MRI, CT or PET within 6 months, or history of leptomeningeal disease or cord compression at the time of enrollment.\n* Prior treatment with B7-H3 targeted agents for cancer.\n* Treatment with systemic cancer therapy, biologic agents, or anti-hormonal therapy (mCRPC) within 4 weeks, prior small molecule targeted or kinase inhibitors within 14 days or 5 half-lives, prior radioligand within 6 months\n* Clinically significant cardiovascular disease.\n* Clinically significant pulmonary compromise or requirement for supplemental oxygen.\n* History of clinically-significant cardiovascular disease, including but not limited to pericarditis or pericardial effusion.\n* Active viral (including confirmed or presumed COVID-19), bacterial, or systemic fungal infection requiring parenteral treatment within 7 days of first study drug administration.\n* Known history of hepatitis B or C infection or known positive test for hepatitis B surface antigen or core antigen, or hepatitis C polymerase chain reaction.\n* Known positive testing for human immunodeficiency virus or history of acquired immune deficiency syndrome.\n* Major trauma or major surgery within 4 weeks of first study drug administration.\n* Clinically significant venous insufficiency.\n* \\> Grade 1 peripheral neuropathy.\n* Evidence of pleural effusion.\n* Evidence of ascites.\n* Serum testosterone \\>50 ng/dl or \\>1.7 nmol/L in mCRPC in Module A Cohort Expansion Phase",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "MacroGenics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "UCLA Department of Medicine - Hematology/Oncology",
+          "status": null,
+          "city": "Santa Monica",
+          "state": "California",
+          "zip": "90404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.01949,
+            "lon": -118.49138
+          }
+        },
+        {
+          "facility": "Sibley Memorial Hospital",
+          "status": null,
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "The Johns Hopkins Kimmel Cancer Center",
+          "status": null,
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21231",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "START Midwest",
+          "status": null,
+          "city": "Grand Rapids",
+          "state": "Michigan",
+          "zip": "49546",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.96336,
+            "lon": -85.66809
+          }
+        },
+        {
+          "facility": "Nebraska Methodist Hospital",
+          "status": null,
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Comprehensive Cancer Centers of Nevada",
+          "status": null,
+          "city": "Las Vegas",
+          "state": "Nevada",
+          "zip": "89169",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          }
+        },
+        {
+          "facility": "Carolina Biooncology Institute",
+          "status": null,
+          "city": "Huntersville",
+          "state": "North Carolina",
+          "zip": "28078",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.41069,
+            "lon": -80.84285
+          }
+        },
+        {
+          "facility": "Inova Schar Cancer Institute",
+          "status": null,
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22031",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "Virginia Cancer Specialist",
+          "status": null,
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22031",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "St Vincent's Health Network (Kinghorn Cancer Centre)",
+          "status": null,
+          "city": "Darlinghurst",
+          "state": null,
+          "zip": "2010",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.87939,
+            "lon": 151.21925
+          }
+        },
+        {
+          "facility": "Austin Health - Olivia Newton John Cancer Center",
+          "status": null,
+          "city": "Heidelberg",
+          "state": null,
+          "zip": "3084",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.75,
+            "lon": 145.06667
+          }
+        },
+        {
+          "facility": "Calvary Mater NewCastle",
+          "status": null,
+          "city": "Waratah",
+          "state": null,
+          "zip": "2298",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.90667,
+            "lon": 151.72647
+          }
+        },
+        {
+          "facility": "The University of Queensland - Princess Alexandra Hospital (PAH)",
+          "status": null,
+          "city": "Woolloongabba",
+          "state": null,
+          "zip": "4105",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.48855,
+            "lon": 153.03655
+          }
+        },
+        {
+          "facility": "Samodzielny Publiczny Zak\u0142ad Opieki Zdrowotnej Szpital Uniwersytecki w Krakowie Oddzia\u0142 Kliniczny Onkologii",
+          "status": null,
+          "city": "Krakow",
+          "state": null,
+          "zip": "31-501",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Med-Polonia Sp. z o.o.",
+          "status": null,
+          "city": "Poznan",
+          "state": null,
+          "zip": "60-693",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.40692,
+            "lon": 16.92993
+          }
+        },
+        {
+          "facility": "Magodent Sp. z o.o. Szpital Elbl\u0105ska Oddzia\u0142 Onkologii Klinicznej/ Chemioterapii",
+          "status": null,
+          "city": "Warsaw",
+          "state": null,
+          "zip": "01-748",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Narodowy Instytut Onkologii im. Marii Sk\u0142odowskiej-Curie Pa\u0144stwowy Instytut Badawczy Oddzia\u0142 Bada\u0144 Wczesnych Faz",
+          "status": null,
+          "city": "Warsaw",
+          "state": null,
+          "zip": "02-781",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Hospital Universitario Vall d'Hebron",
+          "status": null,
+          "city": "Barcelona",
+          "state": null,
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Institut Catal\u00e0 D'Oncologia - Hospital Universitari Germans Trias I Pujol",
+          "status": null,
+          "city": "Barcelona",
+          "state": null,
+          "zip": null,
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario HM Sanchinarro",
+          "status": null,
+          "city": "Madrid",
+          "state": null,
+          "zip": "20850",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Ruber Internacional",
+          "status": null,
+          "city": "Madrid",
+          "state": null,
+          "zip": "28034",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D000077195",
+          "term": "Squamous Cell Carcinoma of Head and Neck"
+        },
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        },
+        {
+          "id": "D008545",
+          "term": "Melanoma"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        }
+      ],
+      "interventionMeshTerms": [],
+      "hasResults": true
+    },
+    {
+      "nctId": "NCT05551117",
+      "orgStudyId": "CP-MGC018-03",
+      "secondaryIds": [],
+      "briefTitle": "A Study of Vobramitamab Duocarmazine in Participants With Metastatic Castration Resistant Prostate Cancer and Other Solid Tumors",
+      "officialTitle": "A Phase 2, Open-label, Study of Vobramitamab Duocarmazine in Participants With Metastatic Castration-resistant Prostate Cancer and Other Solid Tumors",
+      "acronym": "Tamarack",
+      "overallStatus": "TERMINATED",
+      "statusVerifiedDate": "2026-01",
+      "lastKnownStatus": null,
+      "whyStopped": "Business reasons",
+      "startDate": "2023-06-13",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2024-07-04",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2025-01-23",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2022-09-19",
+      "studyFirstPostDate": "2022-09-22",
+      "lastUpdateSubmitDate": "2026-01-21",
+      "lastUpdatePostDate": "2026-02-09",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 192,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "Study CP-MGC018-03 is an open-label, two-part, Phase 2 study. Part 1 of the study will enroll participants with metastatic castration-resistant prostate cancer (mCRPC) previously treated with one prior androgen receptor axis-targeted therapy (ARAT). ARAT includes abiraterone, enzalutamide, or apalutamide.\n\nParticipants may have received up to 1 prior docetaxel-containing regimen, but no other chemotherapy agents.\n\nThis part of the study will assess the efficacy and tolerability of vobramitamab duocarmazine (MGC018) in two experimental arms (2.0 mg/kg every 4 weeks \\[Q4W\\] and 2.7 mg/kg Q4W) . Approximately 100 participants will be randomized 1:1.\n\nPart 2 of the study will enroll participants with locally advanced or metastatic solid tumors. Participants must have progressive following at least 1 prior line of standard chemotherapy for advanced or metastatic disease. Participants will receive vobramitamab duocarmazine at a dose of 2.7 mg/kg every 4 weeks. Up to 200 participants may be enrolled in Part 2.\n\nIn both parts, vobramitamab duocarmazine will be administered intravenously (IV) in clinic on Day 1 of each 4-week cycle. Vobramitamab duocarmazine will be administered until criteria for treatment discontinuation are met. Participants will undergo regular testing for signs of disease progression using computed tomography (CT) scans, magnetic resonance imaging (MRI), bone scans, and prostate-specific antigen (PSA) blood tests. Routine examinations and blood tests will be performed and evaluated by the study doctor.",
+      "detailedDescription": null,
+      "conditions": [
+        "Castration-Resistant Prostatic Cancer",
+        "Androgen-Independent Prostatic Cancer",
+        "Androgen-Insensitive Prostatic Cancer",
+        "Androgen-Resistant Prostatic Cancer",
+        "Hormone Refractory Prostatic Cancer",
+        "Anal Cancer",
+        "Anal Neoplasm",
+        "Carcinoma, Squamous Cell of Head and Neck",
+        "Head and Neck Squamous Cell Carcinoma",
+        "Laryngeal Squamous Cell Carcinoma",
+        "Oral Squamous Cell Carcinoma",
+        "Malignant Melanoma",
+        "Melanoma",
+        "Non-small Cell Lung Cancer",
+        "Non-small Cell Carcinoma",
+        "Small-cell Lung Cancer",
+        "Small Cell Carcinoma"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "vobramitamab duocarmazine 2.0 mg (Arm A)",
+          "description": "2.0 mg/kg intravenous (IV) every 4 weeks",
+          "armGroupLabels": [
+            "Part 1: MGC018 2.0 mg (Arm A)"
+          ],
+          "otherNames": [
+            "MGC018"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "vobramitamab duocarmazine 2.7 mg (Arm B)",
+          "description": "2.7 mg.kg IV every 4 weeks",
+          "armGroupLabels": [
+            "Part 1: MGC018 2.7 mg (Arm B)"
+          ],
+          "otherNames": [
+            "MGC018"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "vobramitamab duocarmazine",
+          "description": "2.7 mg.kg IV every 4 weeks",
+          "armGroupLabels": [
+            "Part 2"
+          ],
+          "otherNames": [
+            "MGC018"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Abiraterone",
+          "description": "1000 mg once daily",
+          "armGroupLabels": [
+            "Part 1: Control Arm"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Enzalutamide",
+          "description": "160 mg daily",
+          "armGroupLabels": [
+            "Part 1: Control Arm"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Part 1: MGC018 2.0 mg (Arm A)",
+          "type": "EXPERIMENTAL",
+          "description": "MGC018 2.0 mg/kg every 4 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine 2.0 mg (Arm A)"
+          ]
+        },
+        {
+          "label": "Part 1: MGC018 2.7 mg (Arm B)",
+          "type": "EXPERIMENTAL",
+          "description": "MGC018 2.7 mg/kg every 4 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine 2.7 mg (Arm B)"
+          ]
+        },
+        {
+          "label": "Part 2",
+          "type": "EXPERIMENTAL",
+          "description": "MGC018 2.7 mg/kg every 4 weeks",
+          "interventionNames": [
+            "Biological: vobramitamab duocarmazine"
+          ]
+        },
+        {
+          "label": "Part 1: Control Arm",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients are administered abiraterone or enzalutamide",
+          "interventionNames": [
+            "Drug: Abiraterone",
+            "Drug: Enzalutamide"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Part 1: Six-month Radiographic Progression Free Survival (rPFS) as Determined by the Investigator",
+          "description": "The landmark analysis for 6 month rPFS rate will occur when all participants on Part 1 have been on study for at least 6 months.",
+          "timeFrame": "Assessed every 8 weeks for six months. Six month data reported."
+        },
+        {
+          "measure": "Part 2: Objective Response Rate (ORR) Per Investigator Assessment of Response Evaluation Criteria in Solid Tumours (RECIST) 1.1 Criteria",
+          "description": "The ORR is defined as the percentage of participants in the response evaluable population who achieve a best overall response of complete response (CR) or partial response (PR), per RECIST version 1.1 criterial CR is defined as disappearance of all target and non-target lesions. PR is defined as at least a 30% decrease from baseline in the sum of diameters of target lesions.",
+          "timeFrame": "Every 8 weeks for the first 24 weeks, then every 12 weeks. Average duration of participation, 10 months."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Part 1: ORR Per PCWG3 Criteria as Determined by the Investigator",
+          "description": "To qualify as an objective response, CR and PR require confirmation at least 4 weeks after initial observation of complete response (CR) or partial response (PR). CR + PR = ORR",
+          "timeFrame": "Every 8 weeks for the first 24 weeks, then every 12 weeks. Average duration of participation, 10 months,"
+        },
+        {
+          "measure": "Part 1: Median Duration of Response (DoR) Per PCWG3 Criteria as Determined by the Investigator",
+          "description": "The DoR will be calculated as the time from the date of initial tumor response (CR or PR) to the date of first documented PD or death from any cause, whichever occurs first.",
+          "timeFrame": "Every 8 weeks for the first 24 weeks, then every 12 weeks. Average duration of participation, 10 months."
+        },
+        {
+          "measure": "Part 1: Mean Best Tumor Size Change Over Time",
+          "description": null,
+          "timeFrame": "Every 8 weeks for the first 24 weeks, then every 12 weeks. Average duration of participation, 10 months."
+        },
+        {
+          "measure": "Part 1: Prostate-specific Cancer Antigen (PSA) Response Rate Per PCWG3 Criteria",
+          "description": "PSA response is defined as a \u2265 50% decline in PSA from baseline with PSA confirmation \u2265 3 weeks after the first documented reduction in PSA of \u2265 50%.",
+          "timeFrame": "Every 4 weeks throughout study participation. Average duration 10 months."
+        },
+        {
+          "measure": "Part 1: Time to PSA Progression Per PCWG3 Criteria",
+          "description": "In participants with a decrease in PSA from baseline, PSA progression is defined as a \u2265 25% increase and an absolute increase of \u2265 2 ng/mL above the nadir value, which is confirmed by a consecutive second value obtained \u2265 3 weeks later.\n\nIn participants with no decrease in PSA from baseline, PSA progression is defined as a \u2265 25% increase and an absolute increase of \u2265 2 ng/mL above the baseline value after 12 weeks.\n\nTime to PSA progression is defined as the time from the date of randomization to the first PSA progression.",
+          "timeFrame": "Every 4 weeks throughout study participation. Average duration of participation, 10 months."
+        },
+        {
+          "measure": "Part 1: Duration of PSA Response Per PCWG3 Criteria",
+          "description": "Duration of PSA response is defined as the time from the date of first documented PSA response to the earliest date of PSA progression.",
+          "timeFrame": "Every 4 weeks throughout study participation. Average duration of participation, 10 months."
+        },
+        {
+          "measure": "Part 1: Best PSA Percent Change",
+          "description": null,
+          "timeFrame": "Every 4 weeks throughout study participation. Average duration of participation, 10 months."
+        },
+        {
+          "measure": "Part 1: Time to First Symptomatic Skeletal Event (SSE)",
+          "description": "An SSE is defined as any of the following events: new symptomatic pathological fracture, requirement for radiation therapy to relieve bone pain, spinal cord compression, or tumor-related orthopedic surgical intervention. The time to first SSE is defined as the time from the date of randomization to the first occurrence of SSE.",
+          "timeFrame": "Every 4 weeks throughout the study. Average duration of participation, 10 months."
+        },
+        {
+          "measure": "Number of Participants With Adverse Event (AEs), Serious AEs (SAEs), and AEs Leading to Study Treatment Discontinuation.",
+          "description": null,
+          "timeFrame": "Throughout the study, average duration of participation, 10 months."
+        },
+        {
+          "measure": "Number of Participants Who Develop Anti-drug Antibodies (ADA)",
+          "description": "Participant specimens were evaluated for the presence of ADA beginning a baseline and throughout the study. If at any time during the study, the results show evidence of ADA, they were counted as ADA positive. There was no time-to- event analysis nor by visit analysis of the data.",
+          "timeFrame": "Every 4 weeks throughout the study, average duration of participation was 10 months."
+        },
+        {
+          "measure": "Part 2: Median DoR Per Investigator Assessment of RECIST 1.1 Criteria",
+          "description": "The DoR will be calculated as the time from the date of initial tumor response (CR or PR) to the date of first documented progressive disease (PD) or death from any cause, whichever occurs first.",
+          "timeFrame": "Every 8 weeks for the first 24 weeks, then every 12 weeks. Average duration of participation, 10 months."
+        },
+        {
+          "measure": "Part 2: Median Progression Free Survival (PFS) Per Investigator Assessment of RECIST 1.1 Criteria",
+          "description": "PFS is defined as the time from the date of the first dose to the date of first PD per RECIST 1.1 criteria or death from any cause, whichever occurs first.",
+          "timeFrame": "Every 8 weeks for the first 24 weeks, then every 12 weeks. Average duration of participation, 10 months."
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Part 1 only: Histologically confirmed adenocarcinoma of the prostate without evidence of neuroendocrine differentiation, signet cell, or small cell features.\n* Part 2 only: Histologically confirmed SCC or the anus, melanoma, HNSCC, squamous NSCLC, or SCLC.\n* Part 1 only: Received 1 prior ARAT for metastatic or non-metastatic, castration-sensitive or castration-resistant prostate cancer. A second ARAT regimen of \\<60 days used as bridging to lutetium-177 is permitted. Up to 3 total prior lines of therapy for mCRPC are permitted..\n* Part 2 only: At least 1 prior line of systemic therapy for unresectable or metastatic disease and no more than 2 prior lines of cytotoxic chemotherapy. Participants with HNSCC or melanoma must have received prior PD-1 or PD-L1 inhibitor for advanced or metastatic disease.\n* All participants must have \u2265 1 metastatic lesion, according to RECIST 1.1 or PCWG3 criteria, that is present on magnetic resonance imaging (MRI), computed tomography (CT), or bone scan obtained \u2264 28 days prior to initiation of study treatment.\n* All participants must have tumor progression, according to disease-specific criteria, following their most recent anti-cancer therapy.\n* All participants must have and available archival or formalin-fixed paraffin-embedded (FFPE) tumor tissue sample for participants with metastasis to internal organs\n* All participants have acceptable physical condition and laboratory values.\n* All participants of childbearing potential must agree to use highly effective methods of birth control.\n* All participants must not be pregnant, planning to be pregnant, or breastfeeding.\n\nExclusion Criteria:\n\n* Any underlying medical or psychiatric condition impairing participant's ability to receive, tolerate, or comply with the planned treatment or study procedures.\n* Part 1 only: Received \\>1 prior taxane-containing regimen for prostate cancer. A second taxane regimen of \\<60 days used as bridging for lutetium-177 is permitted.\n* Part 1 only: Received \\>3 total prior therapies for mCRPC\n* Part 1 only: Participants with known BRCA or ATM mutation (germline or somatic) are not eligible unless they received prior treatment with a PARP inhibitor where available, indicated and tolerated.\n* Another hematologic or solid tumor \u2265 stage 1 malignancy that completed surgery, last dose of radiotherapy, or last dose of systemic anti-cancer therapy \u2264 2 years from first dose of study treatment. Participants who had curative therapy for non-melanomatous skin cancer or for localized malignancy are eligible.\n* Untreated, symptomatic central nervous system (CNS) metastasis.\n* Prior treatment with any B7-H3 targeted agent for cancer,\n* Contradictions to the use of corticosteroid treatment\n* Prior stem cell, tissue, or solid organ transplant.\n* Part 1 only: Use of products that have published anti-prostate cancer activity or are known to decrease PSA.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "MacroGenics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Compassionate Cancer Care Medical Group",
+          "status": null,
+          "city": "Fountain Valley",
+          "state": "California",
+          "zip": "92708",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.70918,
+            "lon": -117.95367
+          }
+        },
+        {
+          "facility": "University of California Los Angeles (UCLA) Community Cancer Care",
+          "status": null,
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90095",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "The University of Florida Health System - UF Health Urology - Jacksonville",
+          "status": null,
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32209",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Mid Florida Hematology and Oncology Center",
+          "status": null,
+          "city": "Orange City",
+          "state": "Florida",
+          "zip": "32763",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.94888,
+            "lon": -81.29867
+          }
+        },
+        {
+          "facility": "Pontchartrain Cancer Center",
+          "status": null,
+          "city": "Covington",
+          "state": "Louisiana",
+          "zip": "70433",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.47549,
+            "lon": -90.10042
+          }
+        },
+        {
+          "facility": "The Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+          "status": null,
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21231",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Barbara Ann Karmanos Cancer Institute - Hudson-Webber Cancer Research Center",
+          "status": null,
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Masonic Cancer Center, University of Minnesota",
+          "status": null,
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55455",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Gabrail Cancer Center",
+          "status": null,
+          "city": "Canton",
+          "state": "Ohio",
+          "zip": "44718",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79895,
+            "lon": -81.37845
+          }
+        },
+        {
+          "facility": "VA Portland Health Care Services",
+          "status": null,
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Carolina Urologic Research Center",
+          "status": null,
+          "city": "Myrtle Beach",
+          "state": "South Carolina",
+          "zip": "29572",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.68906,
+            "lon": -78.88669
+          }
+        },
+        {
+          "facility": "University of Virginia Comprehensive Cancer Center",
+          "status": null,
+          "city": "Charlottesville",
+          "state": "Virginia",
+          "zip": "22908",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          }
+        },
+        {
+          "facility": "Virginia Cancer Specalists",
+          "status": null,
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22031",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "Fred Hutchinson Cancer Center",
+          "status": null,
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Ramsay Health Care - Westmead Private Hospital",
+          "status": null,
+          "city": "Westmead",
+          "state": "New South Wales",
+          "zip": "2145",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.80383,
+            "lon": 150.98768
+          }
+        },
+        {
+          "facility": "The University of Queensland (UQ) - Princess Alexandra Hospital (PAH)",
+          "status": null,
+          "city": "Woolloongabba",
+          "state": "Queensland",
+          "zip": "4102",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.48855,
+            "lon": 153.03655
+          }
+        },
+        {
+          "facility": "Cabrini Health- Malvern",
+          "status": null,
+          "city": "Malvern",
+          "state": "Victoria",
+          "zip": "3144",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.86259,
+            "lon": 145.02811
+          }
+        },
+        {
+          "facility": "Peter MacCallum Cancer Centre",
+          "status": null,
+          "city": "Melbourne",
+          "state": "Victoria",
+          "zip": "3000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "Cliniques Universitaires Saint-Luc",
+          "status": null,
+          "city": "Woluwe-Saint-Lambert",
+          "state": "Brussles",
+          "zip": "1200",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.84389,
+            "lon": 4.42912
+          }
+        },
+        {
+          "facility": "(Grand Hopital de Charleroi) GHDC",
+          "status": null,
+          "city": "Charleroi",
+          "state": "Hainaut",
+          "zip": "6000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.41136,
+            "lon": 4.44448
+          }
+        },
+        {
+          "facility": "Centre Hospitalier de Ardenne - Libramont - Clinique du Sein",
+          "status": null,
+          "city": "Libramont",
+          "state": "Luxembourg",
+          "zip": "6800",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 49.91741,
+            "lon": 5.37318
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire (CHU) - Universite Catholique de Louvain (UCL) - Namur - Site Godinne (Cliniques Universitaires UCL de Mont-Godinne)",
+          "status": null,
+          "city": "Godinne",
+          "state": "Namur",
+          "zip": "5300",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.34809,
+            "lon": 4.87364
+          }
+        },
+        {
+          "facility": "Algemeen Ziekenhuis Maria Middelares",
+          "status": null,
+          "city": "Ghent",
+          "state": null,
+          "zip": "9000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          }
+        },
+        {
+          "facility": "Centre Antoine-Lacassagne",
+          "status": null,
+          "city": "Nice",
+          "state": "AM",
+          "zip": "06189",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "Institut de Cancerologie Strasbourg Europe (ICANS)",
+          "status": null,
+          "city": "Strasbourg",
+          "state": "Bas Rhin",
+          "zip": "67200",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Institut Bergoni\u00e9",
+          "status": null,
+          "city": "Bordeaux",
+          "state": "Gironde",
+          "zip": "33076",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "Institut r\u00e9gional du Cancer de Montpellier - ICM Val d'Aurelle",
+          "status": null,
+          "city": "Montpellier",
+          "state": "Herault",
+          "zip": "34298",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Priv\u00e9 Saint-Gr\u00e9goire",
+          "status": null,
+          "city": "Saint-Gr\u00e9goire",
+          "state": "Ille Et Vilaine",
+          "zip": "35760",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.15101,
+            "lon": -1.68579
+          }
+        },
+        {
+          "facility": "Clinique Victor Hugo",
+          "status": null,
+          "city": "Le Mans",
+          "state": "Sarthe",
+          "zip": "72000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.0021,
+            "lon": 0.20251
+          }
+        },
+        {
+          "facility": "Gustave Roussy",
+          "status": null,
+          "city": "Villejuif",
+          "state": "Val De Marne",
+          "zip": "94800",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.7939,
+            "lon": 2.35992
+          }
+        },
+        {
+          "facility": "CHRU Brest",
+          "status": null,
+          "city": "Brest",
+          "state": null,
+          "zip": "29200",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "Institut Mutualiste Montsouris",
+          "status": null,
+          "city": "Paris",
+          "state": null,
+          "zip": "75014",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "H\u00f4pital d'Instruction des Arm\u00e9es B\u00e9gin",
+          "status": null,
+          "city": "Saint-Mand\u00e9",
+          "state": "\u00cele-de-France Region",
+          "zip": "94160",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.83864,
+            "lon": 2.41579
+          }
+        },
+        {
+          "facility": "Hopital Foch",
+          "status": null,
+          "city": "Suresnes",
+          "state": "\u00cele-de-France Region",
+          "zip": "92150",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.87143,
+            "lon": 2.22929
+          }
+        },
+        {
+          "facility": "AOU San Luigi Gonzaga Oncology Department",
+          "status": null,
+          "city": "Orbassano",
+          "state": "TO",
+          "zip": "10049",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.00547,
+            "lon": 7.53813
+          }
+        },
+        {
+          "facility": "Ospedale dell'Angelo",
+          "status": null,
+          "city": "Mestre",
+          "state": "Venice",
+          "zip": "30174",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.49167,
+            "lon": 12.24538
+          }
+        },
+        {
+          "facility": "Radiation Oncology Unit, Azienda Ospedaliera Universitaria Careggi, University of Florence",
+          "status": null,
+          "city": "Florence",
+          "state": null,
+          "zip": "50134",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.77925,
+            "lon": 11.24626
+          }
+        },
+        {
+          "facility": "Istituto Oncologico Veneto",
+          "status": null,
+          "city": "Padova",
+          "state": null,
+          "zip": "35128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.38225,
+            "lon": 11.14261
+          }
+        },
+        {
+          "facility": "Azienda Provinciale per i Servizi Sanitari - Presidio Ospedaliero S. Chiara",
+          "status": null,
+          "city": "Trento",
+          "state": null,
+          "zip": "38122",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 46.06787,
+            "lon": 11.12108
+          }
+        },
+        {
+          "facility": "Szpital im. Fryderyka Chopina",
+          "status": null,
+          "city": "Otwock",
+          "state": "Masovian Voivodeship",
+          "zip": "05-400",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.10577,
+            "lon": 21.26129
+          }
+        },
+        {
+          "facility": "Magodent Szpital Elblaska",
+          "status": null,
+          "city": "Warsaw",
+          "state": "Masovian Voivodeship",
+          "zip": "01-748",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Medical Concierge Centrum Medyczne",
+          "status": null,
+          "city": "Warsaw",
+          "state": "Masovian Voivodeship",
+          "zip": "02-798",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Grochowski Hospital",
+          "status": null,
+          "city": "Warsaw",
+          "state": "Masovian Voivodeship",
+          "zip": "04-073",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Szpital Wojewodzki im. Mikolaja Kopernika",
+          "status": null,
+          "city": "Koszalin",
+          "state": "West Pomeranian Voivodeship",
+          "zip": "75-581",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.19438,
+            "lon": 16.17222
+          }
+        },
+        {
+          "facility": "Przychodnia Lekarska \"KOMED\"",
+          "status": null,
+          "city": "Konin",
+          "state": "WLKP",
+          "zip": "62-500",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22338,
+            "lon": 18.25121
+          }
+        },
+        {
+          "facility": "Kyungpook National University Chilgok Hospital",
+          "status": null,
+          "city": "Bugok",
+          "state": "Daegu",
+          "zip": "41404",
+          "country": "South Korea",
+          "geoPoint": null
+        },
+        {
+          "facility": "National Cancer Center",
+          "status": null,
+          "city": "Goyang-si",
+          "state": "Gyeonggi-do",
+          "zip": "10408",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.65639,
+            "lon": 126.835
+          }
+        },
+        {
+          "facility": "Chonnam National University Hospital",
+          "status": null,
+          "city": "Gwangju",
+          "state": null,
+          "zip": "61469",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.15472,
+            "lon": 126.91556
+          }
+        },
+        {
+          "facility": "Seoul National University Hopital",
+          "status": null,
+          "city": "Seoul",
+          "state": null,
+          "zip": "03080",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Yonsei University Health System, Severance Hospital",
+          "status": null,
+          "city": "Seoul",
+          "state": null,
+          "zip": "03722",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Samsung Meical Cemter",
+          "status": null,
+          "city": "Seoul",
+          "state": null,
+          "zip": "06351",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Ewha Womans University Mokdong Hospital",
+          "status": null,
+          "city": "Seoul",
+          "state": null,
+          "zip": "07985",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Asan Medical Center",
+          "status": null,
+          "city": "Seoul",
+          "state": null,
+          "zip": "5505",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Hospital Universitari Parc Taul\u00ed",
+          "status": null,
+          "city": "Sabadell",
+          "state": "Barcelona",
+          "zip": "08208",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.54329,
+            "lon": 2.10942
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen del Rocio",
+          "status": null,
+          "city": "Seville",
+          "state": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Del Mar",
+          "status": null,
+          "city": "Barcelona",
+          "state": null,
+          "zip": "08003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Clinic de Barcelona",
+          "status": null,
+          "city": "Barcelona",
+          "state": null,
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital de la Santa Creu I Sant Pau",
+          "status": null,
+          "city": "Barcelona",
+          "state": null,
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Institut Catala d'Oncologia Hospitalet",
+          "status": null,
+          "city": "Barcelona",
+          "state": null,
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario Lucus Augusti",
+          "status": null,
+          "city": "Lugo",
+          "state": null,
+          "zip": "27002",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.00992,
+            "lon": -7.55602
+          }
+        },
+        {
+          "facility": "Hospital Universitario 12 de Octubre",
+          "status": null,
+          "city": "Madrid",
+          "state": null,
+          "zip": "28041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "The Royal Marsden NHS Trust",
+          "status": null,
+          "city": "Sutton",
+          "state": "Surrey",
+          "zip": "SM2 5PT",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.35,
+            "lon": -0.2
+          }
+        },
+        {
+          "facility": "Oxford University Hospitals NHS- Churchill Hospital",
+          "status": null,
+          "city": "Oxford",
+          "state": null,
+          "zip": "OX3 7LE",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.75222,
+            "lon": -1.25596
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D064129",
+          "term": "Prostatic Neoplasms, Castration-Resistant"
+        },
+        {
+          "id": "D001005",
+          "term": "Anus Neoplasms"
+        },
+        {
+          "id": "D000077195",
+          "term": "Squamous Cell Carcinoma of Head and Neck"
+        },
+        {
+          "id": "D008545",
+          "term": "Melanoma"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D055752",
+          "term": "Small Cell Lung Carcinoma"
+        },
+        {
+          "id": "D018288",
+          "term": "Carcinoma, Small Cell"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "C089740",
+          "term": "abiraterone"
+        },
+        {
+          "id": "C540278",
+          "term": "enzalutamide"
+        }
+      ],
+      "hasResults": true
+    }
+  ],
+  "trials_returned": 3,
+  "query_params": {
+    "query.intr": "vobramitamab duocarmazine",
+    "countTotal": "true"
+  },
+  "pages_fetched": 1
+}

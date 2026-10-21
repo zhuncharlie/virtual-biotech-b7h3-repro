@@ -1,0 +1,12 @@
+parameter,value
+census_version,"stable (CELLxGENE Census, 158,982,719 human cells, 61,497 genes)"
+indication_filter_LUAD,tissue == 'lung' and disease == 'lung adenocarcinoma' and is_primary_data == True
+indication_filter_SCLC,tissue == 'lung' and disease == 'small cell lung carcinoma' and is_primary_data == True
+normal_lung_filter,tissue == 'lung' and disease == 'normal' and is_primary_data == True and dataset_id == '576f193c-75d0-4a11-bd25-8676587e6dc2'
+genes_retrieved,CD276 (ENSG00000103855); EPCAM and PTPRC for compartment sanity checks; ACTB/GAPDH for normalization QC in 4 datasets
+layer,normalized
+expression_units,Census normalized layer is counts/total counts per cell (fraction); multiplied by 1e6 to give CPM-equivalent units. No log transform.
+cell_qc,Census-provided cells used as-is. No additional cell-level QC filtering was applied; n_genes/complexity cannot be recomputed from a 3-gene subset.
+primary_data,"Only is_primary_data == True cells were used, preventing duplicate cells across Census datasets."
+software,"scanpy 1.11.5, anndata 0.12.7, pandas 2.3.3, numpy 1.26.3"
+date,2026-10-20

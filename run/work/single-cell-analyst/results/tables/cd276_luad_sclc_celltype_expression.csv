@@ -1,0 +1,66 @@
+indication,dataset_id,cell_type,lineage,compartment,n_cells,n_donors,n_datasets,mean_cpm,mean_cpm_donor_avg,median_cpm,pct_expressing,mean_epcam_cpm,mean_ptprc_cpm
+LUAD,pooled,respiratory tract hillock cell,Epithelial,Malignant/epithelial,7,1,1,198.13861,198.13861,0.0,0.1428571428571428,232.95198,0.0
+LUAD,pooled,erythrocyte,Blood other,Other,46,3,1,116.22646,42.431885,0.0,0.0434782608695652,0.0,124.936516
+LUAD,pooled,fibroblast,Fibroblast/stromal,Stromal/endothelial,3979,15,1,75.91478,82.439606,0.0,0.2674038703191757,7.5012083,20.77056
+LUAD,pooled,bronchus fibroblast of lung,Fibroblast/stromal,Stromal/endothelial,1796,71,2,60.624836,61.303013,0.0,0.2433184855233853,9.181918,10.976072
+LUAD,pooled,pericyte,Pericyte/SMC/muscle,Stromal/endothelial,1035,68,1,55.82277,42.800365,0.0,0.1777777777777777,17.089674,12.613649
+LUAD,pooled,nasal mucosa goblet cell,Epithelial,Malignant/epithelial,98,2,1,48.49991,136.12491,0.0,0.1122448979591836,865.63824,1.6495434
+LUAD,pooled,alveolar adventitial fibroblast,Fibroblast/stromal,Stromal/endothelial,44,3,1,42.93647,62.542988,0.0,0.3181818181818182,2.4019656,8.505981
+LUAD,pooled,fibroblast of lung,Fibroblast/stromal,Stromal/endothelial,3844,75,1,34.425514,33.197617,0.0,0.1449011446409989,4.0095763,7.226404
+LUAD,pooled,alveolar macrophage,Macrophage,Immune,63656,101,2,34.08833,32.830547,0.0,0.2585773532738469,3.965876,245.07303
+LUAD,pooled,lung pericyte,Pericyte/SMC/muscle,Stromal/endothelial,81,3,1,33.961815,75.33442,0.0,0.074074074074074,12.0697565,36.92296
+LUAD,pooled,myeloid cell,Other,Immune,3959,92,1,33.803535,43.666943,0.0,0.2465269007325082,6.0077686,332.50577
+LUAD,pooled,macrophage,Macrophage,Immune,52072,115,2,32.855072,43.607903,0.0,0.1650023045014595,5.9781146,269.87668
+LUAD,pooled,lung macrophage,Macrophage,Immune,89,2,1,30.007463,17.57016,0.0,0.146067415730337,5.6725707,257.2098
+LUAD,pooled,epithelial cell,Epithelial,Malignant/epithelial,5270,16,1,28.610973,28.040754,0.0,0.1519924098671726,463.62994,25.992083
+LUAD,pooled,brush cell of tracheobronchial tree,Epithelial,Malignant/epithelial,406,2,1,27.688372,13.912722,0.0,0.2586206896551724,886.64923,2.3562944
+LUAD,pooled,elicited macrophage,Macrophage,Immune,548,3,1,23.94674,26.203922,0.0,0.1113138686131386,38.870476,147.06929
+LUAD,pooled,malignant cell,Malignant,Malignant/epithelial,26179,92,1,23.583786,25.613407,0.0,0.1544367622903854,673.85974,11.12955
+LUAD,pooled,endothelial cell,Endothelial,Stromal/endothelial,2349,16,1,22.78466,18.550835,0.0,0.0949340144742443,4.6642284,37.78475
+LUAD,pooled,smooth muscle cell,Pericyte/SMC/muscle,Stromal/endothelial,1240,65,1,21.759754,23.772541,0.0,0.064516129032258,3.0296903,13.991469
+LUAD,pooled,stromal cell,Fibroblast/stromal,Stromal/endothelial,68,20,1,20.35397,23.812387,0.0,0.1470588235294117,8.5567045,15.073099
+LUAD,pooled,vein endothelial cell,Endothelial,Stromal/endothelial,8972,94,2,20.188824,29.36067,0.0,0.0537226928221132,15.114739,22.684307
+LUAD,pooled,mast cell,Mast cell,Immune,11473,113,3,19.887093,28.775274,0.0,0.0531683082018652,5.749695,178.10048
+LUAD,pooled,endothelial cell of lymphatic vessel,Endothelial,Stromal/endothelial,1757,56,2,17.651928,46.623383,0.0,0.0631758679567444,8.873511,12.999364
+LUAD,pooled,CD1c-positive myeloid dendritic cell,Dendritic cell,Immune,14524,100,2,17.214834,23.193901,0.0,0.0917102726521619,7.5914254,413.73868
+LUAD,pooled,epithelial cell of lung,Epithelial,Malignant/epithelial,18116,93,1,16.954607,14.641838,0.0,0.0694965776109516,402.55725,23.31191
+LUAD,pooled,alveolar type 1 fibroblast cell,Fibroblast/stromal,Stromal/endothelial,174,3,1,16.628798,13.522397,0.0,0.0344827586206896,11.33199,4.251541
+LUAD,pooled,unknown,Unknown,Unknown,14774,3,1,14.551353,13.174445,0.0,0.067957222147015,222.4894,378.3567
+LUAD,pooled,pulmonary alveolar type 2 cell,Epithelial,Malignant/epithelial,13530,88,2,14.521726,18.176382,0.0,0.0689578713968957,236.30536,11.348258
+LUAD,pooled,pulmonary alveolar type 1 cell,Epithelial,Malignant/epithelial,3246,73,2,13.916211,14.776927,0.0,0.0354282193468884,529.22217,47.924847
+LUAD,pooled,club cell,Epithelial,Malignant/epithelial,1183,65,2,10.848446,10.870016,0.0,0.0794590025359256,269.56342,9.339643
+LUAD,pooled,mesothelial cell,Other,Stromal/endothelial,284,21,2,8.844049,12.968487,0.0,0.0633802816901408,13.440549,6.25797
+LUAD,pooled,tracheobronchial smooth muscle cell,Pericyte/SMC/muscle,Stromal/endothelial,119,3,1,8.450086,7.1795416,0.0,0.0504201680672268,42.04156,11.003943
+LUAD,pooled,multiciliated epithelial cell,Epithelial,Malignant/epithelial,4898,77,2,8.001977,7.686803,0.0,0.0428746427113107,358.78534,16.424883
+LUAD,pooled,respiratory basal cell,Epithelial,Malignant/epithelial,230,3,1,7.948539,17.411085,0.0,0.0043478260869565,435.76553,11.808198
+LUAD,pooled,capillary endothelial cell,Endothelial,Stromal/endothelial,5464,74,2,7.0692477,12.145057,0.0,0.0104319180087847,7.292111,30.191713
+LUAD,pooled,pulmonary artery endothelial cell,Endothelial,Stromal/endothelial,1267,63,2,5.9180827,5.8828273,0.0,0.0197316495659037,6.2976284,12.288476
+LUAD,pooled,classical monocyte,Monocyte,Immune,28215,100,2,5.664103,8.144271,0.0,0.0137161084529505,3.6210132,554.0397
+LUAD,pooled,neutrophil,Neutrophil,Immune,7831,49,2,5.3912606,40.42452,0.0,0.0072787638871153,29.371624,1896.6422
+LUAD,pooled,multiciliated columnar cell of tracheobronchial tree,Other,Malignant/epithelial,119,3,1,4.3931737,3.4489923,0.0,0.0504201680672268,309.7692,19.945133
+LUAD,pooled,dendritic cell,Dendritic cell,Immune,2897,102,3,4.35015,3.8557565,0.0,0.0210562651018294,9.283462,590.10126
+LUAD,pooled,regulatory T cell,T cell,Immune,17787,100,1,3.3348696,3.7031999,0.0,0.0082082419744757,7.078017,1214.5594
+LUAD,pooled,B cell,B cell,Immune,30238,110,3,2.1945086,1.3569603,0.0,0.003571664792645,5.096677,426.18176
+LUAD,pooled,"CD4-positive, alpha-beta T cell",T cell,Immune,108064,111,2,2.0671997,2.9253204,0.0,0.0039606159312999,7.9874563,974.394
+LUAD,pooled,plasma cell,Plasma cell,Immune,19039,110,3,2.0395122,3.2464714,0.0,0.0123430852460738,8.283377,71.46888
+LUAD,pooled,"CD8-positive, alpha-beta T cell",T cell,Immune,83367,107,2,1.8012829,1.6320591,0.0,0.0036465268031715,8.9243355,1239.7216
+LUAD,pooled,natural killer cell,NK cell,Immune,39174,101,2,1.6343611,1.8897789,0.0,0.0031908919181089,6.675607,1225.3182
+LUAD,pooled,conventional dendritic cell,Dendritic cell,Immune,1559,81,2,1.611905,0.93738824,0.0,0.0109044259140474,10.534232,315.44937
+LUAD,pooled,T cell,T cell,Immune,23818,19,2,1.5438943,1.3269962,0.0,0.0030229238391132,3.861986,1294.8937
+LUAD,pooled,plasmacytoid dendritic cell,Plasma cell,Immune,2391,87,2,1.2370491,0.73608255,0.0,0.0058552906733584,4.130062,268.51392
+LUAD,pooled,non-classical monocyte,Monocyte,Immune,4700,79,2,1.1297663,1.9612362,0.0,0.0046808510638297,2.3243537,1147.4312
+LUAD,pooled,epithelial cell of lower respiratory tract,Epithelial,Malignant/epithelial,13,3,1,0.0,0.0,0.0,0.0,254.90543,0.0
+LUAD,pooled,myofibroblast cell,Fibroblast/stromal,Stromal/endothelial,4,2,1,0.0,0.0,0.0,0.0,0.0,0.0
+LUAD,pooled,ionocyte,Epithelial,Malignant/epithelial,2,2,1,0.0,0.0,0.0,0.0,857.8263,89.6696
+LUAD,pooled,pulmonary alveolar epithelial cell,Epithelial,Malignant/epithelial,2,1,1,0.0,0.0,0.0,0.0,1361.2062,0.0
+LUAD,pooled,tracheobronchial goblet cell,Epithelial,Malignant/epithelial,1,1,1,0.0,0.0,0.0,0.0,604.95734,0.0
+SCLC,pooled,fibroblast,Fibroblast/stromal,Stromal/endothelial,328,9,1,68.10064,56.111435,0.0,0.2621951219512195,40.22914,8.918981
+SCLC,pooled,macrophage,Macrophage,Immune,375,9,1,48.813145,33.22858,0.0,0.0773333333333333,43.12275,453.39136
+SCLC,pooled,endothelial cell,Endothelial,Stromal/endothelial,204,9,1,40.796223,25.767271,0.0,0.196078431372549,16.657421,3.3870833
+SCLC,pooled,epithelial cell,Epithelial,Malignant/epithelial,25988,9,1,28.537155,30.610802,0.0,0.1945898106818531,915.46216,2.7834446
+SCLC,pooled,B cell,B cell,Immune,204,8,1,6.8338623,2.8105865,0.0,0.0098039215686274,54.037132,489.67877
+SCLC,pooled,dendritic cell,Dendritic cell,Immune,433,9,1,5.0955734,2.4905179,0.0,0.0161662817551963,46.17612,968.3283
+SCLC,pooled,T cell,T cell,Immune,3898,9,1,1.4236997,1.9544632,0.0,0.0041046690610569,22.97244,1427.2076
+SCLC,pooled,neutrophil,Neutrophil,Immune,69,5,1,0.0,0.0,0.0,0.0,0.0,2149.5005
+SCLC,pooled,mast cell,Mast cell,Immune,33,7,1,0.0,0.0,0.0,0.0,55.66261,103.0579
+SCLC,pooled,plasma cell,Plasma cell,Immune,8,2,1,0.0,0.0,0.0,0.0,0.0,182.41443

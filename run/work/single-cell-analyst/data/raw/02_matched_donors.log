@@ -1,0 +1,20 @@
+=== matched datasets: donor overlap (donor x disease cell counts) ===
+
+-- dataset 576f193c-75d0-4a11-bd25-8676587e6dc2: 16 LUAD donors, 4 normal donors, shared=['RU675', 'RU682', 'RU684']
+cond      LUAD  normal
+donor_id              
+RU675     3196    2979
+RU682     3931    3829
+RU684      338    2454
+  cell types per shared-donor normal sample:
+    RU675: T cell(1222), macrophage(1200), epithelial cell(221), dendritic cell(148), mast cell(71), endothelial cell(48), B cell(37), fibroblast(28), plasma cell(2), neutrophil(2)
+    RU682: macrophage(1832), T cell(1445), dendritic cell(249), epithelial cell(191), B cell(41), endothelial cell(36), neutrophil(19), mast cell(11), fibroblast(5)
+    RU684: T cell(1883), macrophage(211), epithelial cell(150), dendritic cell(96), mast cell(89), B cell(25)
+
+-- dataset 9f222629-9e39-47d0-b83f-e08d610c7479: 3 LUAD donors, 104 normal donors, shared=[]
+
+=== SCLC dataset donor check ===
+576f193c-75d0-4a11-bd25-8676587e6dc2: SCLC donors=['RU1066', 'RU1108', 'RU1144', 'RU1145', 'RU1181', 'RU1195', 'RU1229', 'RU1311', 'RU426'] normal donors=['RU675', 'RU682', 'RU684', 'RU685'] shared=[]
+
+=== Datasets with primary LUAD AND primary SCLC cells: ['576f193c-75d0-4a11-bd25-8676587e6dc2'] ===
+  576f193c-75d0-4a11-bd25-8676587e6dc2: LUAD donors=['RU1038', 'RU1057', 'RU1061', 'RU1128', 'RU1134', 'RU1135', 'RU1137', 'RU1170', 'RU1262', 'RU1271', 'RU653', 'RU661', 'RU675', 'RU676', 'RU682', 'RU684'], SCLC donors=['RU1066', 'RU1108', 'RU1144', 'RU1145', 'RU1181', 'RU1195', 'RU1229', 'RU1311', 'RU426']

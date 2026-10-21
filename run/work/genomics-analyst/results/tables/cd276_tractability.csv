@@ -1,0 +1,21 @@
+modality,tractability_bucket,value
+antibody,Approved Drug,False
+antibody,Advanced Clinical,True
+antibody,Phase 1 Clinical,False
+antibody,UniProt SigP or TMHMM,True
+small_molecule,Approved Drug,False
+small_molecule,Advanced Clinical,False
+small_molecule,Phase 1 Clinical,False
+small_molecule,Structure with Ligand,False
+small_molecule,High-Quality Ligand,False
+small_molecule,High-Quality Pocket,False
+small_molecule,Med-Quality Pocket,False
+small_molecule,Druggable Family,False
+protac,Approved Drug,False
+protac,Advanced Clinical,False
+protac,Phase 1 Clinical,False
+protac,Literature,False
+protac,UniProt Ubiquitination,False
+protac,Database Ubiquitination,True
+protac,Half-life Data,True
+protac,Small Molecule Binder,False

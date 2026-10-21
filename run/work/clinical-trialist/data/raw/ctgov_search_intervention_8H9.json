@@ -1,0 +1,871 @@
+{
+  "success": true,
+  "total_count": 5,
+  "trials": [
+    {
+      "nctId": "NCT01099644",
+      "orgStudyId": "09-090",
+      "secondaryIds": [],
+      "briefTitle": "Intraperitoneal RIT With 131I-8H9 for Pts With DSRCT and Other Solid Tumors Involving the Peritoneum",
+      "officialTitle": "Phase I Study of Intraperitoneal Radioimmunotherapy With 131I-8H9 for Patients With Desmoplastic Small Round Cell Tumors and Other Solid Tumors Involving the Peritoneum",
+      "acronym": null,
+      "overallStatus": "TERMINATED",
+      "statusVerifiedDate": "2023-10",
+      "lastKnownStatus": null,
+      "whyStopped": "Corporate business decision. Not due to safety or efficacy concerns",
+      "startDate": "2010-04",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2019-06-11",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2019-06-11",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2010-04-06",
+      "studyFirstPostDate": "2010-04-07",
+      "lastUpdateSubmitDate": "2023-10-26",
+      "lastUpdatePostDate": "2023-10-31",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 54,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "A phase I study of Intraperitoneal Radioimmunotherapy with 131 I-omburtamab in patients \\>1 year of age with desmoplastic small round cell tumors and other solid tumors involving the peritoneum.",
+      "detailedDescription": "The purpose of this study is to test the safety of a new medicine called antibody 8H9 injected into the lining of the abdomen or peritoneum, where the tumor is. This medicine is an antibody or protein which binds to certain tumors, including DSCRT. There is a small number of DSCRT which do not bind with 8H9. If the tumor does not bind with 8H9, you might not benefit from this treatment. The investigators want to find out what effects, good and/or bad, it has.\n\nThis antibody is made in mice. Radioactive iodine can be bound to this antibody to deliver radiation to the tumor. The investigators wish to determine the safety of radiolabeled 8H9 at different dose levels. This is the first study using 131I-8H9 in the peritoneum.",
+      "conditions": [
+        "Peritoneal Cancer"
+      ],
+      "keywords": [
+        "Peritoneum",
+        "Desmoplastic Small Round Cell Tumors",
+        "Intraperitoneal Radioimmunotherapy",
+        "131 I-8H9",
+        "09-090"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "131 I-8H9",
+          "description": "Patients will be administered therapeutic dose of IP 131I-8H9 per the dose escalation regimen. 131I-8H9 pharmacokinetics will be studied by serial blood draws from indwelling venous lines. 131I-8H9 biodistribution will be studied by a single gamma camera scan about 5 days after IP injection where feasible.",
+          "armGroupLabels": [
+            "131 I-8H9"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "131 I-8H9",
+          "type": "EXPERIMENTAL",
+          "description": "This is a phase I study of 131I-8H9 for patients with DSRCT and other 8H9-reactive solid tumors metastatic to the peritoneum.",
+          "interventionNames": [
+            "Biological: 131 I-8H9"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Define the toxicity of 131I-8H9 administered intraperitoneally.",
+          "description": "Assessment of toxicity of 131I-8H9 administered intraperitoneally.",
+          "timeFrame": "weekly"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Define maximal tolerated dose (MTD) of 131I-8H9 administered intraperitoneally",
+          "description": "Assessment of maximal tolerated dose of 131I-8H9 administered intraperitoneally",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Assess pharmacokinetics for 131I-8H9 administered intraperitoneally",
+          "description": "Assessment of the pharmacokinetics for IP 131I-8H9 administered intraperitoneally",
+          "timeFrame": "0 hrs, 60 mins, 2 hrs, 8 hrs, 18hrs, 30 hrs, 42hr, 66hrs, 90 hrs, and 114hrs."
+        },
+        {
+          "measure": "Assess response of DSRCT and other solid tumors to 131 I-8H9 administered intraperitoneally",
+          "description": "Assessment of the response of DSRCT and other solid tumors to 131 I-8H9 administered intraperitoneally",
+          "timeFrame": "between days 24 and 38"
+        }
+      ],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must have the diagnosis of (a) DSRCT with peritoneal involvement or (b) other Burtomab-positive solid tumors involving the peritoneum (e.g. adrenocortical carcinoma, Wilm's tumor).\n* For tumors other than DSRCT, patients must have a history of tumor progression or recurrence or failure to achieve complete response with standard therapy or \\<20% chance of long term disease-free survival.\n* For tumors other than DSRCT, Burtomab reactivity must be confirmed by immunohistochemistry.\n* Patients with DSCRT are not required to have measurable or evaluable disease.\n* Patients with tumors other than DSRCT without measurable or evaluable disease will only be considered if they have \\<20% chance of long term disease-free survival.\n* Prior Therapy: At least 4 weeks should have elapsed since any biologic therapy, or immunotherapy. Three weeks should have elapsed since last dose of chemotherapy or radiotherapy.\n* Age \\>1 year and able to cooperate with radiation safety restrictions during therapy period.\n* Stem cells: Patients must have an autologous hematopoietic stem cell product cryopreserved and available for re-infusion after 131 I-Burtomab treatment. The minimum dose for hematopoietic stem cells is 2 x 106 CD34+ cells/kg.\n* Minimum life expectancy of six weeks as determined by consenting professional.\n* Signed informed consent indicating awareness of the investigational nature of this program.\n\nExclusion Criteria:\n\n* Severe major organ toxicity. Renal, cardiac, hepatic, pulmonary, gastrointestinal and neurologic toxicity should all be grade 1 or less (per NCI CTC version 3 criteria) with the following exceptions: serum AST,ALT and alkaline phosphatase should be \u22645 x upper limit of normal (ULN), serum bilirubin \u2264 3 x ULN and nausea and vomiting should be \u2264 grade 2 Patients with myelosuppression are not excluded if ANC \u2265 500/uL.\n* Platelet count should be \\> 50,000/ul and hemoglobin should be \\> 8gm/dl. Patients may receive platelet or red blood cell transfusions to maintain hemoglobin and platelets at clinical appropriate levels.\n* Patients with clinically suspected dense intraperitoneal adhesions preventing adequate IP distribution.\n* History of allergy to mouse proteins.\n* Patients previously treated with murine monoclonal antibodies will be excluded if they have a HAMA level of \\>1000U/ml.\n* Active serious infections not controlled by antibiotics.\n* Pregnant women and women who are breast feeding are excluded for fear of danger to the fetus/infant. Therefore negative pregnancy test is required for all women of child-bearing age, and appropriate contraception is used during the study period. Pregnancy testing will be carried out within two weeks prior to administration of radioiodinated Burtomab in females of childbearing age.\n* Inability or unwillingness to comply with radiation safety procedures or protocol requirements.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "1 Year",
+      "maximumAge": null,
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Y-mAbs Therapeutics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": null,
+      "isFdaRegulatedDevice": null,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [],
+      "interventionMeshTerms": [],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT00582608",
+      "orgStudyId": "00-066",
+      "secondaryIds": [],
+      "briefTitle": "Tumor Detection Using Iodine-131-Labeled Monoclonal Antibody 8H9",
+      "officialTitle": "Tumor Detection Using Iodine-131-Labeled Monoclonal Antibody 8H9",
+      "acronym": null,
+      "overallStatus": "TERMINATED",
+      "statusVerifiedDate": "2017-01",
+      "lastKnownStatus": null,
+      "whyStopped": "Lack of accrual",
+      "startDate": "2001-10",
+      "startDateType": null,
+      "primaryCompletionDate": "2009-05",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2009-05",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2007-12-21",
+      "studyFirstPostDate": "2007-12-28",
+      "lastUpdateSubmitDate": "2017-01-10",
+      "lastUpdatePostDate": "2017-03-01",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": null,
+      "primaryPurpose": "DIAGNOSTIC",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 12,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "The purpose of this study is to find out whether the monoclonal antibody 8H9 is useful in finding tumors in your body. Antibodies are protein found naturally in blood. They can fasten themselves to bacteria and viruses. They can stimulate white cells and blood proteins to kill tumors. The antibody 8H9 was made from mouse white cells. The white cells that secrete this antibody have been made to live for ever. They manufacture large amounts of 8H9 for patient use. Although other monoclonal antibodies have been safely tested in people, the antibody 8H9 has never been given to a human patient.",
+      "detailedDescription": "To test if intravenous injections of iodine-131 labeled murine monoclonal antibody 8H9 can detect primary and metastatic solid tumors. A total of 60 patients will be accrued over a period of 2 years.",
+      "conditions": [
+        "CNS Cancer",
+        "Neuroblastoma",
+        "Sarcoma"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "131I-8H9",
+          "description": "This is an open-label single arm study of 131I-8H9, injected intravenously at 10 mCi/1.73 m\\^2 dose \\[intended specific activity of \\~20 mCi/mg protein\\]",
+          "armGroupLabels": [
+            "131I-8H9 and 8H9"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "8H9",
+          "description": "administration of 50mg/1.73m\\^2 of unlabeled 8H9.",
+          "armGroupLabels": [
+            "131I-8H9 and 8H9"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "131I-8H9 and 8H9",
+          "type": "EXPERIMENTAL",
+          "description": "This is an open-label single arm study of 131 I-8H9. injected intravenously at 10mCi/1.73m\\^2 dose \\[intended specific activity of '20mCi/mg protein\\] preceded by administration of 50mg/1.73m2 of unlabeled -8H9.",
+          "interventionNames": [
+            "Drug: 131I-8H9",
+            "Drug: 8H9"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and Toxicity is Measured by the Total Number of Participants Affected",
+          "description": "Safety and toxicity is measured by the total number of participants affected. Please see the adverse event table for the specifics for this protocol.",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of pediatric/adolescent solid tumor (including neuroblastoma, rhabdomyosarcoma, Ewing's/PNET, osteosarcoma, brain tumors, desmoplastic small round cell tumor (DSRT) and other tumors that are 8H9-positive) confirmed by the MSKCC Department of Pathology.\n* Patient must have either recurrent disease or have \\<20% chance of long term disease-free survival.\n* Patient must be at least 1 year old. Age can range from 1-50 years of age.\n* Patients should have measurable or evaluable disease. For tumor types that are known to be 8H9-positive, patients can be imaged after the diagnosis is made, prior to definitive surgery or surgery to confirm tumor recurrence.\n* Tumor tissue is or will be available for 8H9 immunostaining. For patients with tumor-types known to be 8H9-positive, surgical samples obtained after 131I- 8H9 imaging will be immunostained to confirm 8H9-reactivity. These tumor types include: neuroblastoma, rhabdomyosarcoma, osteosarcoma, DSRT, Ewing's Sarcoma/PNET), brain tumors (glioblastoma multiforme, mixed glioma, astrocytoma, ependymoma, medulloblastoma, schwannoma., meningioma).\n* If frozen tumor tissue is unavailable, and if bone marrow involvement is demonstrated by histology, 8H9 immunostaining by immunofluorescence will be carried out on patient's bone marrow. In this case, patients will be eligible for study if bone marrow 8H9 immunostaining is positive.\n\nExclusion Criteria:\n\n* Severe major organ toxicity. Specifically, renal, cardiac, hepatic, pulmonary, gastrointestinal, and neurologic system toxicity should all be less than grade 2. Patients with stable neurological deficits (because of their brain tumor) are not excluded. Patients with \\<= 3 hearing loss are not excluded.\n* Clinically apparent infections.\n* History of allergy to iodine or mouse proteins.\n* Patients previously treated with mouse monoclonal antibodies are not eligible unless they have no circulating HAMA.\n* Pregnant women are excluded for fear of danger to the fetus. Therefore negative pregnancy test is required for all women of child-bearing age, and appropriate contraception is used during the study period.\n* Patient's own tumor is negative by 8H9 immunostaining.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "1 Year",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "leadSponsor": "Memorial Sloan Kettering Cancer Center",
+      "leadSponsorClass": "OTHER",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": null,
+      "isFdaRegulatedDevice": null,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D016543",
+          "term": "Central Nervous System Neoplasms"
+        },
+        {
+          "id": "D009447",
+          "term": "Neuroblastoma"
+        },
+        {
+          "id": "D012509",
+          "term": "Sarcoma"
+        }
+      ],
+      "interventionMeshTerms": [],
+      "hasResults": true
+    },
+    {
+      "nctId": "NCT00089245",
+      "orgStudyId": "03-133",
+      "secondaryIds": [
+        {
+          "id": "MSKCC-03133",
+          "type": "OTHER",
+          "link": null
+        }
+      ],
+      "briefTitle": "Radiolabeled MAB Therapy in Patients With Refractory, Recurrent, or Advanced CNS or Leptomeningeal Cancer",
+      "officialTitle": "Phase I Study Of Intrathecal Radioimmunotherapy Using I-8H9 For Central Nervous System/Leptomeningeal Neoplasms",
+      "acronym": null,
+      "overallStatus": "TERMINATED",
+      "statusVerifiedDate": "2023-12",
+      "lastKnownStatus": null,
+      "whyStopped": "Corporate business decision. No safety or efficacy concerns.",
+      "startDate": "2004-02-05",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2022-02-02",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2022-02-02",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2004-08-04",
+      "studyFirstPostDate": "2004-08-05",
+      "lastUpdateSubmitDate": "2023-12-18",
+      "lastUpdatePostDate": "2023-12-26",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 177,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "The purpose of this study is to test the feasibility and toxicity of administering intrathecal immunotherapy for patients with central nervous system/leptomeningeal (CNS/LM) malignancies.",
+      "detailedDescription": "This is a phase I study, where the purpose is to find a safe dose of a new medicine called antibody 8H9. Antibodies are made by the body to fight infections and in some cases, to fight tumors. The antibody 8H9 is made by mice and can attack many kinds of tumors. 8H9 antibody can have a dose of radiation attached to it called 131-I. 131I-8H9 has been given in the vein to patients to find cancer cells. This is the first study using 131I-8H9 in the fluid in the spine to kill cancer cells. 131-I is a beta emitting isotope used extensively for radiation targeted therapies.",
+      "conditions": [
+        "Brain and Central Nervous System Tumors",
+        "Neuroblastoma",
+        "Sarcoma"
+      ],
+      "keywords": [
+        "leptomeningeal metastases",
+        "recurrent neuroblastoma",
+        "disseminated neuroblastoma",
+        "recurrent adult brain tumor",
+        "recurrent childhood medulloblastoma",
+        "recurrent childhood rhabdomyosarcoma",
+        "recurrent childhood soft tissue sarcoma",
+        "recurrent osteosarcoma",
+        "recurrent Ewing sarcoma/peripheral primitive neuroectodermal tumor",
+        "childhood atypical teratoid/rhabdoid tumor",
+        "adult medulloblastoma",
+        "previously treated childhood rhabdomyosarcoma",
+        "metastatic Ewing sarcoma/peripheral primitive neuroectodermal tumor",
+        "metastatic osteosarcoma",
+        "childhood desmoplastic small round cell tumor",
+        "metastatic childhood soft tissue sarcoma",
+        "adult rhabdomyosarcoma",
+        "recurrent adult soft tissue sarcoma",
+        "stage IV adult soft tissue sarcoma"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Iodine I 131 MOAB 8H9",
+          "description": "Patients will be injected, intrathecally, with 2 mCi 131I-Omburtamab during week 1 of a 5 week cycle.",
+          "armGroupLabels": [
+            "Radiolabeled Monoclonal Antibody Therapy"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Iodine I 131 MOAB 8H9",
+          "description": "The dose used in this study is 50 mCi 131IOmburtamab, (averaging 5 mCi/mg Omburtamab at 50 mCi dose) which will be administered to each patient during week 2 of a 5 week cycle.",
+          "armGroupLabels": [
+            "Radiolabeled Monoclonal Antibody Therapy"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Radiolabeled Monoclonal Antibody Therapy",
+          "type": "EXPERIMENTAL",
+          "description": "This is a Phase I trial designed to evaluate the Maximally Tolerated Dose (MTD) of intrathecal 131I-8H9. In order to find the MTD, a dose escalation scheme will be employed with patients entering in cohorts of 3 at each dose level from 10 mCi to 60 mCi and a cohort of 6 at each dose level from 70 mCi to 100 mCi.",
+          "interventionNames": [
+            "Drug: Iodine I 131 MOAB 8H9"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Number of patients that have treatment related toxicities",
+          "description": "Assessment of patient with treatment related toxicities",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Subject Inclusion Criteria:\n\n* Patients must have a histologically confirmed diagnosis of a malignancy known to be 8H9 reactive. 8H9 expression must be confirmed by immunohistochemical staining of tumor and assessed by the Department of Pathology or by immunofluorescence of bone marrow except for patients confirmed to have neuroblastoma.\n* Patients must have CNS/ leptomeningeal disease which is refractory to conventional therapies or for which no conventional therapy exists OR a recurrent brain tumors with a predilection for leptomeningeal dissemination (medulloblastoma, PNET, rhabdoid tumor).\n* Patients must have no rapidly progressing or deteriorating neurologic examination.\n* Patients must have an absolute neutrophil count (ANC) \\> 1000/ul and a platelet count \\> 50,000/ul.\n* Patients may have active malignancy outside the central nervous system.\n* Both pediatric and adult patients of any age are eligible.\n* Patients or a legal guardian will sign an informed consent form approved by the IRB and obtained by the Principal or a Co- Investigator before patient entry. Minors will provide assent.\n* Patients with stored stem cells will be treated at the escalating dose while patients with no stem cells will be treated at the 50 mCi dose. Neuroblastoma patients can be treated at the 50 mCi dose with or without stored stem cells.\n\nSubject Exclusion Criteria:\n\n* Patients with obstructive or symptomatic communicating hydrocephalus.\n* Patients with an uncontrolled life-threatening infection.\n* Patients who are pregnant: Pregnant women are excluded for fear of danger to the fetus. Therefore negative pregnancy test is required for all women of child-bearing age, and appropriate contraception is required during the study period.\n* Patients who have received cranial or spinal irradiation less than 3 weeks prior to the start of this protocol.\n* Patients who have received systemic chemotherapy (corticosteroids not included) less than 3 weeks prior to the start of this protocol.\n* Severe major organ toxicity. Specifically, renal, cardiac, hepatic, pulmonary, and gastrointestinal system toxicity should all be less than grade 2. Patients with stable neurological deficits (because of their brain tumor) are not excluded. Patients with \\<= 3 hearing loss are not excluded.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": null,
+      "maximumAge": null,
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Y-mAbs Therapeutics",
+      "leadSponsorClass": "INDUSTRY",
+      "collaborators": [
+        {
+          "name": "Memorial Sloan Kettering Cancer Center",
+          "class": "OTHER"
+        }
+      ],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ],
+      "oversightHasDmc": null,
+      "isFdaRegulatedDrug": null,
+      "isFdaRegulatedDevice": null,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D016543",
+          "term": "Central Nervous System Neoplasms"
+        },
+        {
+          "id": "D009447",
+          "term": "Neuroblastoma"
+        },
+        {
+          "id": "D012509",
+          "term": "Sarcoma"
+        },
+        {
+          "id": "D055756",
+          "term": "Meningeal Carcinomatosis"
+        },
+        {
+          "id": "D001932",
+          "term": "Brain Neoplasms"
+        },
+        {
+          "id": "D008527",
+          "term": "Medulloblastoma"
+        },
+        {
+          "id": "D012516",
+          "term": "Osteosarcoma"
+        },
+        {
+          "id": "D018241",
+          "term": "Neuroectodermal Tumors, Primitive, Peripheral"
+        },
+        {
+          "id": "D018335",
+          "term": "Rhabdoid Tumor"
+        },
+        {
+          "id": "D058405",
+          "term": "Desmoplastic Small Round Cell Tumor"
+        },
+        {
+          "id": "D012208",
+          "term": "Rhabdomyosarcoma"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "C000633765",
+          "term": "omburtamab I-131"
+        }
+      ],
+      "hasResults": false
+    },
+    {
+      "nctId": "NCT00595127",
+      "orgStudyId": "01-062",
+      "secondaryIds": [],
+      "briefTitle": "Hematopoietic Stem Cell Transplantation for Treatment of Patients With Fanconi Anemia Lacking a Genotypically Identical Donor, Using Total Body Irradiation, Cyclophosphamide and Fludarabine",
+      "officialTitle": "A Pilot Trial of Hematopoietic Stem Cell Transplantation for the Treatment of Patients With Fanconi Anemia Lacking a Genotypically Identical Donor, Using Total Body Irradiation, Cyclophosphamide and Fludarabine",
+      "acronym": null,
+      "overallStatus": "COMPLETED",
+      "statusVerifiedDate": "2016-06",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2001-06",
+      "startDateType": null,
+      "primaryCompletionDate": "2013-05",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2013-05",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2008-01-07",
+      "studyFirstPostDate": "2008-01-16",
+      "lastUpdateSubmitDate": "2016-06-29",
+      "lastUpdatePostDate": "2016-08-10",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 21,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "The purpose of this research study is to: (1) determine if the combination of low dose total body irradiation, low dose cyclophosphamide and the addition of fludarabine, and a serum to suppress the immune system can allow selected stem cells to take and grow; (2) determine if selected stem cells from the blood or marrow can take and not cause graft-versus-host disease (GvHD), and; (3) evaluate the side effects of the combination of low dose radiation and chemotherapy drugs used for these transplants.",
+      "detailedDescription": "Patients with this disease are born with it and have a fragility of the genes (chromosomes) in all the cells of the body. The fragility of the chromosomes puts patients with FA at high risk for certain cancers. Patients with FA are especially at risk of having diseases of the blood and marrow systems. These include (1) aplastic anemia, a disease where there is a failure of the bone marrow to make blood cells and (2) myelodysplastic syndrome which is represented by a clone of cells of the marrow that becomes \"malignant\" and stops making adequate numbers of blood cells (it is also called preleukemia.) The progression of the myelodysplastic syndrome will lead to (3) acute leukemia.\n\nIf you have Fanconi anemia and suffer from aplastic anemia, myelodysplastic syndrome, or leukemia standard treatment with medications or chemotherapy alone is not likely to cure these problems.\n\nAn allogeneic blood or bone marrow (hematopoietic stem cell) transplant can be done to provide you with marrow or blood stem cells from a healthy donor that can develop a normal blood forming system. An allogeneic stem cell transplant can cure the problems of the marrow and blood system. It cannot cure the chromosome fragility of the whole body. When allogeneic stem cell transplants have been done for the treatment of FA using stem cells from donors other than matched siblings, they have been associated with a high risk of rejection of the transplant and of a complication called graft-versus-host disease.\n\nIn order for the stem cells to grow and to kill leukemia cells, patients must receive chemotherapy and radiation therapy. This preparation is called cytoreduction. For patients with Fanconi anemia, the standard preparation for stem cell transplantation has been the use of total body irradiation (at a lower dose because of the high risk of side-effects) and a chemotherapy agent called cyclophosphamide (or Cytoxan) also at lower dose. While this has worked well with transplants from matched siblings, it was not enough in transplants from unrelated or cord blood donors and led to a high risk of rejection. In the last few years a medication called fludarabine was used successfully in transplants to give more immunosuppression and kill T-cells. Fludarabine allowed transplants to be done with low risks of rejection, and probably as importantly little risks of added side-effects. The addition of antithymocyte globulin to Total Body Irradiation, cyclophosphamide and fludarabine has made the chances of rejection very low.",
+      "conditions": [
+        "Fanconi Anemia"
+      ],
+      "keywords": [
+        "Fanconi",
+        "Anemia",
+        "Stem Cell",
+        "Transplant"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "description": "Cyclophosphamide (10mg/kg/day x 4days)",
+          "armGroupLabels": [
+            "1"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "Fludarabine",
+          "description": "Fludarabine (30mg/m\\^2/day x 5 days)",
+          "armGroupLabels": [
+            "1"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "RADIATION",
+          "name": "Total body irradiation (TBI)",
+          "description": "TBI (450 cGY in a single fraction)",
+          "armGroupLabels": [
+            "1"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "1",
+          "type": "EXPERIMENTAL",
+          "description": "This is an open-label single arm study of 131I-8H9, injected intravenously at 10 mCi/1.73 m\\^2 dose \\[intended specific activity of \\~20 mCi/mg protein\\] preceded by administration of 50mg/1.73m\\^2 of unlabeled 8H9.",
+          "interventionNames": [
+            "Drug: Cyclophosphamide",
+            "Drug: Fludarabine",
+            "Radiation: Total body irradiation (TBI)"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence & Quality of Engraftment & Hematopoietic Reconstitution",
+          "description": "Number of patients who engrafted",
+          "timeFrame": "8 years"
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "Inclusion Criteria:\n\nDiagnosis:\n\n* Research participants must be have a diagnosis of Fanconi anemia (confirmed by mitomycin or diepoxybutane \\[DEB\\] chromosomal breakage testing).\n\nHematologic Diagnosis and Status:\n\n* Research participants must have one of the following hematologic diagnoses:\n\n  * Severe Aplastic Anemia (SAA)/Severe Isolated Single lineage Cytopenia\n  * Myelodysplastic Syndrome(MDS)\n  * Acute leukemia.\n\nHLA-compatible Unrelated volunteer donors:\n\n* Research participants who do not have a related HLA-matched donor but have an unrelated donor who is either matched at all A, B and DRB1 loci or who is mismatched at 1/6 loci (A, B, or DRB1) as tested by DNA analysis, will be eligible for entry on this protocol.\n\nHLA-mismatched Related donors:\n\n* Research participants who do not have a related or unrelated HLA-compatible donor must have a healthy family member who is at least HLA-haplotype identical to the recipient. First degree related donors must have a normal DEB test.\n* The donor must be healthy and willing and able (1) to receive a 5 day course of G-CSF and undergo 2 daily leukaphereses, or (2) to undergo general anesthesia and bone marrow donation. In order to undergo a Tcell depletion, a donor should be able to have a volume of 15 ml/Kg of the research participant's body weight harvested safely.\n\nHLA-compatible Cord Blood Units:\n\n* Research participants who do not have a related HLA-matched donor but have an unrelated placental cord blood unit which matched at all A, B and DRB1 loci or who is mismatched at 1/6 or 2/6 loci (A, B, or DRB1) as tested by DNA analysis, will be eligible for entry on this protocol.\n* Research participants may be of either gender or any ethnic background.\n* Research participants must have a Karnofsky adult, or Lansky pediatric performance scale status \\> 70%.\n* At the time of referral for transplantation, research participants must be in good clinical condition without co-existing medical problems that would significantly increase the risk of the transplant procedure. Research participants must be free of infections at the time of transplant. Research participants must have a life expectancy that is greater than 8 weeks.\n* Research participants must have adequate physical function measured by cardiac, Hepatic, Renal, Pulmonary.\n* Research participants must be available for follow-up evaluations at 30, 60, 180 days post BMT and yearly for 5 years.\n\nExclusion Criteria:\n\n* Active CNS leukemic involvement\n* Female research participants who are pregnant or breast-feeding\n* Active viral, bacterial or fungal infection\n* Research participant seropositive for HIV-I/II; HTLV -I/II",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": null,
+      "maximumAge": null,
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "leadSponsor": "Memorial Sloan Kettering Cancer Center",
+      "leadSponsorClass": "OTHER",
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        },
+        {
+          "name": "Miltenyi Biotec, Inc.",
+          "class": "INDUSTRY"
+        }
+      ],
+      "responsibleParty": {
+        "type": "SPONSOR",
+        "investigator": null,
+        "affiliation": null
+      },
+      "locations": [
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": null,
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": null,
+      "isFdaRegulatedDevice": null,
+      "isUnapprovedDevice": null,
+      "ipdSharing": null,
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D005199",
+          "term": "Fanconi Anemia"
+        },
+        {
+          "id": "D000740",
+          "term": "Anemia"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        },
+        {
+          "id": "C024352",
+          "term": "fludarabine"
+        },
+        {
+          "id": "D014916",
+          "term": "Whole-Body Irradiation"
+        }
+      ],
+      "hasResults": true
+    },
+    {
+      "nctId": "NCT00923351",
+      "orgStudyId": "070206",
+      "secondaryIds": [
+        {
+          "id": "07-C-0206",
+          "type": null,
+          "link": null
+        }
+      ],
+      "briefTitle": "Therapy to Treat Ewing's Sarcoma, Rhabdomyosarcoma or Neuroblastoma",
+      "officialTitle": "A Pilot Study of Tumor Vaccination and R-hIL-7 Following Standard Multimodality Therapy in Patients With High Risk Pediatric Solid Tumors",
+      "acronym": null,
+      "overallStatus": "COMPLETED",
+      "statusVerifiedDate": "2018-05",
+      "lastKnownStatus": null,
+      "whyStopped": null,
+      "startDate": "2007-06-02",
+      "startDateType": "ACTUAL",
+      "primaryCompletionDate": "2012-08-30",
+      "primaryCompletionDateType": "ACTUAL",
+      "completionDate": "2018-05-15",
+      "completionDateType": "ACTUAL",
+      "studyFirstSubmitDate": "2009-06-17",
+      "studyFirstPostDate": "2009-06-18",
+      "lastUpdateSubmitDate": "2018-05-16",
+      "lastUpdatePostDate": "2018-06-15",
+      "expandedAccess": false,
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": null,
+      "primaryPurpose": "TREATMENT",
+      "masking": "NONE",
+      "maskingDescription": null,
+      "whoMasked": [],
+      "enrollmentCount": 44,
+      "enrollmentType": "ACTUAL",
+      "briefSummary": "Background:\n\n* Pediatric solid tumors (Ewing's sarcoma, rhabdomyosarcoma, and neuroblastoma) are often difficult to cure with standard treatment.\n* Immune therapy using an experimental vaccine made from proteins from the patient's tumor cells may boost the body's immune response against the tumor.\n* The effects of chemotherapy on the immune system can potentially make immunotherapy more effective if administered soon after completion of chemotherapy. The addition of recombinant human IL-7 (interleukin 7) (rhIL-7 (recombinant human interleukin 7)) may make the immunotherapy more effective.\n\nObjectives:\n\n-To determine whether immune therapy given after immune suppression can help the body fight the tumor and to determine the safety of the treatment.\n\nEligibility:\n\n-Patients with solid tumors, i.e., Ewing's sarcoma, rhabdomyosarcoma or neuroblastoma whose disease has recurred after treatment or spread beyond the original site\n\nDesign:\n\n* Patients undergo tumor biopsy (removal of a piece of tumor tissue) to collect tumor cells for making a vaccine from proteins in the patient's tumor and apheresis (removal of a quantity of white blood cells) to collect white cells for re-building the immune system after immune therapy. Apheresis is repeated three times during immunotherapy (weeks 8, 14 and 20).\n* After receiving standard chemotherapy for their tumor (and an additional course of fludarabine and cyclophosphamide to further suppress immunity if needed) patients receive immune therapy in Cohorts A and B. rhIL-7 is given 48 hours before the vaccine, as an injection under the skin in an extremity that will not be used for the vaccine in patients in Cohort B only. You will be watched closely for 6 hours after the rhIL-7 for any signs of reaction. rhIL-7 will be given before vaccine doses #1, #2, #3, and #4. The vaccine is given at study weeks 2, 4, 6, 8, 10 and 12. Each vaccine is given as a total of six separate rhIL-7 followed by injections: three intradermal (like a (tuberculosis) TB test) on one arm or leg and three subcutaneous (like those for insulin injections for diabetes). on the other arm or leg. An anesthetic cream may be used to minimize the discomfort of injections.\n* Patients' white cells are returned to them by infusion through a vein on the first day of immune therapy.\n* Imaging studies and immune studies are done at weeks 1, 8 and 20 to determine the response to treatment on the tumor and on the immune system.",
+      "detailedDescription": "Background:\n\n* Patients with recurrent or metastatic pediatric solid tumors experience low survival rates, but using current standard therapies, many patients with these diseases are rendered into a state of minimal residual disease associated with lymphopenia.\n* Lymphopenic hosts show augmented immune reactivity, which may be favorable for inducing antitumor immune responses.\n\nObjectives:\n\n* To determine whether Alpha cluster of differentiation 25 (CD25) and 8H9 depleted autologous lymphocytes plus tumor lysate/keyhole limpet hemocyanin (KLH) pulsed dendritic cell vaccines plus or minus r-hIL7 (CYT107) can induce immune responses to tumor lysate in this patient population rendered lymphopenic by cytotoxic therapy.\n* To assess the safety of administering lymphocytes depleted of cluster of differentiation 4 (CD4) plus CD25plus suppressor T cells plus or minus r-hIL (CYT107 (interleukin 7)) to lymphopenic hosts.\n\nEligibility:\n\n* Patients with metastatic or recurrent pediatric solid tumors of the following histologies: Ewing's sarcoma family of tumors, rhabdomyosarcoma or neuroblastoma, synovial cell sarcoma, desmoplastic small round cell tumor, undifferentiated sarcoma, embryonal sarcoma.\n* Patients must have sufficient accessible tumor for biopsy to generate tumor lysate.\n* Patients must meet eligibility criteria upon enrollment and upon completion of standard therapy prior to administration of immunotherapy as significant time will have elapsed between the time points.\n\nDesign:\n\n* Immunotherapy consists of one autologous lymphocyte infusion depleted of CD25plus suppressive T cells and depleted of contaminating tumor cells plus 6 sequential tumor lysate/KLH pulsed dendritic cell vaccines. No cytokine is administered on Arm A and r-hIL7 (CYT107) is administered on Arm B.\n* Patients will be evaluated for immune responses to tumor lysates using ex vivo assays and delayed type hypersensitivity (DTH).\n* The trial uses a one-stage design targeting a response rate of 50 percent. Up to 47 patients will be treated.\n* Stopping rules will take effect if excessive toxicity is observed.",
+      "conditions": [
+        "Neuroblastoma",
+        "Sarcoma",
+        "Rhabdomyosarcoma-Embryonal",
+        "Rhabdomyosarcoma- Alveolar",
+        "Neuroectodermal Tumors, Primitive, Peripheral"
+      ],
+      "keywords": [
+        "Vaccine",
+        "Immunotherapy",
+        "Cancer",
+        "Chemotherapy",
+        "Tumor Lysate/KLH Pulsed Dendritic Cell Vaccine",
+        "Neuroblastoma",
+        "Autologous Lymphocyte Infusion",
+        "Ewing's Sarcoma",
+        "Rhabdomyosarcoma"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tumor Purged/CD25 Depleted Lymphocytes",
+          "description": null,
+          "armGroupLabels": [
+            "Arm A - Participants who did not receive rhIL-7"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Tumor Purged/CD25 Depleted Lymphocytes with Tumor Lysate/KLH Pulsed Dendritic Cell Vaccine",
+          "description": "Tumor lysate/KLH pulsed dendritic cells (minimum of 1 X 10e6 cells/kg) on Day2.",
+          "armGroupLabels": [
+            "Arm B - Participants who received rhIL-7"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "DRUG",
+          "name": "rhIL-7",
+          "description": "rhIL-7 (20 mcg/kg/dose SQ) approx. 48 hours prior to vaccine) Day 0, Day 14, Day 28 and Day 42",
+          "armGroupLabels": [
+            "Arm B - Participants who received rhIL-7"
+          ],
+          "otherNames": []
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Tumor Lysate/KLH Pulsed Dendritic Cell Vaccine",
+          "description": "Tumor lysate/KLH Pulsed dendritic cell vaccine (1-5 X 10e7 cells/injection site, given in 3 sites intradermal) on Day 2, Day 16, Day 30, Day 44, Day 56, Day 70.",
+          "armGroupLabels": [
+            "Arm B - Participants who received rhIL-7"
+          ],
+          "otherNames": []
+        }
+      ],
+      "armGroups": [
+        {
+          "label": "Arm A - Participants who did not receive rhIL-7",
+          "type": "EXPERIMENTAL",
+          "description": "Six patients with Ewings sarcoma family or tumors (ESFT) participants will receive cytotoxic/lympholytic therapy with cyclophosphamide and fludarabine (if cluster of differentiation 4 (CD4) count \\> 200 cells/mcl). Participant will receive Tumor lysate/keyhole limpet hemocyanin (KLH) pulsed dendritic cell vaccine followed by Infusion of 8H9/CD25 depleted autologous lymphocyte infusion on Day 1, followed by Tumor lysate/KLH pulsed dendritic cell vaccine on week 4, 6, 8, 10, and 12.",
+          "interventionNames": [
+            "Drug: Tumor Purged/CD25 Depleted Lymphocytes"
+          ]
+        },
+        {
+          "label": "Arm B - Participants who received rhIL-7",
+          "type": "EXPERIMENTAL",
+          "description": "Eight patients with rhabdomyosarcoma, fifteen patients with Ewings sarcoma family or tumors (ESFT), two patients with desmoplastic small round cell tumor, and one patient with synovial cell sarcoma participants will receive CYT107 20 mcg/kg/dose subcutaneous (SQ) (approx. 48h prior to vaccine\\[Day 0\\]), Tumor lysate/KLH pulsed dendritic cell vaccine followed by Infuse 8H9/CD25 depleted autologous lymphocyte infusion on Day 2, followed by CYT107 20 mcg/kg/dose SQ on days 14, 28 and 42 (\u00b1 7 days), and Tumor lysate/KLH pulsed dendritic cell vaccine on Days 16, 30, 44, 56, and 70 (\u00b1 7 days).\n\nApheresis/flow cytometry/delayed type of hypersensitivity (DTH) responses for immune endpoint monitoring (skin tests) will be performed on Week 8, 14, 20 (Arm A) and on Days 42, 84 and 126 (+/- 7 days) (Arm B); and radiographic studies for clinical restaging will be performed on Week 8 and 20 (Arm A) and Days 42 and 126 (+/- 7 days) (Arm B).",
+          "interventionNames": [
+            "Biological: Tumor Purged/CD25 Depleted Lymphocytes with Tumor Lysate/KLH Pulsed Dendritic Cell Vaccine",
+            "Drug: rhIL-7",
+            "Biological: Tumor Lysate/KLH Pulsed Dendritic Cell Vaccine"
+          ]
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With a Positive Immune Response as Evidenced by the Delayed Type of Hypersensitivity (DTH) Reaction Assay",
+          "description": "A positive response to the tumor vaccine requires a positive reaction in at least one of the two assays below (immune responses to tumor lysates using ex vivo and delayed type of hypersensitivity (DTH).\n\nThe presence of a positive delayed type of hypersensitivity (DTH) reaction to the tumor lysate in a patient who did not show a positive DTH reaction prior to immunotherapy. A positive reaction is induration of at least 0.5 cm.\n\nImmunotherapy administered to patients with recurrent or metastatic pediatric solid tumors such as Ewing's sarcoma, rhabdomyosarcoma, or neuroblastoma. Each vaccine is given as 6 separate injections. Three intradermal on one arm or leg and three subcutaneous on the other arm or leg.",
+          "timeFrame": "Week 8, 14, 20 (Arm A) and on Days 42, 84 and 126 (\u00b1 7 days) (Arm B)"
+        },
+        {
+          "measure": "Toxicity",
+          "description": "Here is the number of participants with adverse events. For a detailed list of adverse events, see the adverse event module.",
+          "timeFrame": "Date treatment consent signed to date off study, approximately 49.5 months"
+        },
+        {
+          "measure": "Overall Survival",
+          "description": "Overall survival is defined as the time between the first day of treatment to the day of death.",
+          "timeFrame": "Time between the first day of treatment to the day of death or at the conclusion of 5 years of follow-up, whichever comes first, assessed up to approximately 11 years."
+        }
+      ],
+      "secondaryOutcomes": [],
+      "eligibilityCriteria": "* INCLUSION CRITERIA: for Apheresis/Tumor biopsy portion of the trial:\n\nA. Diagnosis\n\n* rhabdomyosarcoma: embryonal or alveolar.\n* Ewing's sarcoma family of tumors (ESFT), which include: classical, atypical and extraosseous ESFT, peripheral primitive neuroectodermal tumors, peripheral neuroepithelioma, primitive sarcoma of bone, and ectomesenchymoma.\n* neuroblastoma: may be diagnosed via histology or the standard clinical evidence for increased catecholamines in the urine plus tumor cells in the bone marrow.\n* undifferentiated or embryonal sarcoma.\n* desmoplastic small round cell tumor.\n* synovial cell sarcoma.\n\nB. Extent of Disease/Previous Therapy\n\n* Initial presentation: Stage IV or metastatic disease, enrolled prior to any cytoreductive therapy.\n* Recurrent Disease:\n\n  * Patient \\> 5yo must have recovered CD4 count to \\> 350 cells/mm\\^3 OR have disease free interval \\> one year from completion of cytotoxic therapy\n  * Patients \\< 5yo must have recovered CD4 count to \\> 350 cells/mm\\^3 OR have disease free interval \\> six months from completion of cytotoxic therapy\n* Multiple recurrences are allowable as long as CD4 count or disease-free intervals have been met.\n\nC. Age/Weight\n\n* greater than 18 mos. and less than or equal to 35 years at the time of initial diagnosis.\n* greater than 10 kg at the time of apheresis. Patients between 10-15 kg must be approved by the apheresis unit prior to enrollment on protocol.\n\nD. Informed Consent\n\nAll patients or their legal guardians (if the patient is less than 18 years old) must sign a document of informed consent (screening protocol) prior to performing studies to determine patient eligibility. After confirmation of patient eligibility all patients or their legal guardians must sign the protocol specific informed consent to document their understanding of the investigational nature and the risks of this study before any protocol related studies are performed (other than the studies which were performed to determine patient eligibility).\n\nE. Laboratory Parameters\n\n* renal function: creatinine clearance greater than 60 mL/min/1.73m\\^2 or normal age adjusted serum creatinine (less than or equal to 5 yrs. less than or equal to 0.8 mg/ml; 5-10 yrs. less than or equal to 1.0 mg/ml; 10-15 yrs. less than or equal to 1.2 mg/ml; greater than 15 yrs. less than or equal to 1.5 mg/ml)\n* liver function: aspartate aminotransferase (AST) and alanine aminotransferase (ALT) less than 2.5 times upper limit of normal (ULN), bilirubin less than 1.5 ULN\n* hematologic function: platelets greater than 50,000 cells/mcl, hemoglobin (Hgb) greater than 9.0 gms/dl, prothrombin time (PT) less than 1.5 ULN. Patients may receive transfusion if necessary to reach the pre-apheresis hematology parameters.\n\nF. Accessibility of Tissue to Generate Tumor Lysates\n\nPatients must have adequate tumor bulk accessible to biopsy in order to generate the tumor lysate (at least 2 cm diameter). Procedures employed to acquire biopsies for tumor lysates will be limited to percutaneous biopsies or open biopsies of readily accessible lesions. Patients should not undergo biopsies, which will later compromise the ability to render function preserving local therapy (e.g. limb salvage therapy). To prevent this, all bone biopsies should be performed in consultation with the orthopedic consultant on the case. For patients with bone marrow involvement, bone marrow aspirates may be used as a source of tumor for tumor lysates. Patients are not eligible if, in the opinion of the principal and associate investigators, tumor biopsy would entail extensive surgery such as thoracotomy or laparotomy, or if the tumor site places the patient at substantial risk from the biopsy procedure.\n\nNational Cancer Institute (NCI) Laboratory of Pathology will review all tumor specimens for diagnosis.\n\nEXCLUSION CRITERIA: for Apheresis/Tumor biopsy portion of the trial:\n\nA. Other conditions\n\n* Clinically significant unrelated systemic illness, such as serious infections, autoimmunity or organ dysfunction, which in the judgment of the Principal or Associate Investigators would compromise the patient's ability to tolerate the investigational agents or are likely to interfere with the study procedures or results.\n* Previous allogeneic stem cell or allogeneic bone marrow transplantation.\n* Conditions related to tumor, which require emergency treatment (airway compression, spinal cord compression) since enrollment would delay initiation of such therapy.\n* Women who are pregnant or lactating.\n* Corticosteroids initiated at the time of tumor diagnosis or recurrence for treatment of nerve compression or other symptoms is permitted during this phase of the trial, but will not be permitted during the immunotherapy phase, with the exception of a self limited course of steroids as described in Section 2.1.4.A.\n* Patients with a history of central nervous system (CNS) metastases from cancer are not excluded provided that the metastatic CNS disease has been effectively treated and there is no evidence of active CNS disease as evidenced by stable clinical findings and stable radiographic findings for a period of 6 weeks.\n* Patients with human immunodeficiency virus infection, hepatitis B, or hepatitis C due to confounding effects on immune system.\n\nINCLUSION CRITERIA: for Immunotherapy portion of the trial:\n\nA. Informed Consent\n\nBecause significant time will have elapsed between apheresis/tumor biopsy and the initiation of immunotherapy, all patients or their legal guardians (if the patient is less than 18 years old) must sign a second informed consent to document their understanding of the investigational nature and the risks of this study before any protocol related studies are performed (other than the studies which were performed to determine patient eligibility).\n\nB. Time and Recovery from Cytotoxic Therapy\n\nAt least 3 weeks should have elapsed since the last cycle of cytotoxic therapy or since the last dose of radiation therapy, at least 4 weeks must have elapsed since the patient has received any investigational therapy, and patients should have recovered from toxic side effects of previous therapy to a grade 1 or less, with the exception of the following:\n\n* Hematological toxicity: recovery to levels required in Section 2.1.1.E.\n* Low electrolyte levels (Such individuals should receive appropriate supplementation).\n* For patients on anticoagulant therapy or with pre-existing coagulation abnormalities, prothrombin time (PT), partial thromboplastin time (PTT) must return to baseline.\n* Liver function tests must resolve to values required in Section 2.1.1.E.\n* Grade 3 hypoalbuminemia.\n* Alopecia.\n* Sterility.\n\nC. Laboratory Parameters\n\n* renal function: creatinine clearance greater than 60 mL/min/1.73m\\^2 or normal age adjusted serum creatinine (less than or equal to 5 yrs. less than or equal to 0.8 mg/ml; 5-10 yrs. less than or equal to 1.0 mg/ml; 10-15 yrs. less than or equal to 1.2 mg/ml; greater than 15 yrs. less than or equal to 1.5 mg/ml).\n* liver function: aspartate aminotransferase (AST) and alanine aminotransferase (ALT) less than 2.5 times upper limit of normal (ULN), bilirubin less than 1.5 ULN.\n* hematologic function: absolute neutrophil count (ANC) greater than 750 cells/mcl, platelets greater than 50,000 cells/mcl.\n\nD. Birth Control\n\nSubjects of childbearing or child-fathering potential must be willing to use a medically acceptable form of birth control, which includes abstinence, while they are being treated on this study.\n\nEXCLUSION CRITERIA: for Immunotherapy Portion of the Trial:\n\nA. Other conditions\n\n* Clinically significant unrelated systemic illness, such as serious infections or organ dysfunction, which in the judgment of the Principal or Associate Investigators would compromise the patient's ability to tolerate the investigational agents or are likely to interfere with the study procedures or results.\n* Persistent or progressive cancer following the completion of the standard therapy phase of the trial will not, in and of itself, preclude receipt of immunotherapy. However, patients will not receive immunotherapy if they have an Eastern Cooperative Oncology Group (ECOG) performance status performance status of 3 or 4 or, for children less than or equal to 10 years of age, Lansky less than or equal to 50 (Appendix III). Furthermore, patients will be removed from the trial if they develop requirements for anti-neoplastic therapy (e.g. radiation therapy) for progressive disease during the trial as discussed in protocol.\n* Women who are pregnant or lactating.\n* Patients with human immunodeficiency virus infection, hepatitis B, or hepatitis C infection due to confounding effects on immune function.\n* Patients who require chronic daily oral corticosteroid or other immunosuppressive therapy. Topical or inhaled corticosteroids are permitted. Also, a time limited course of steroids does for an unrelated medical condition (e.g. allergic reaction, poison ivy) will not preclude receipt of immunotherapy provided that two weeks elapse between the last dose of systemic corticosteroids and initiation of immunotherapy.\n* Patients who are receiving other biologic therapies including cytokines or growth factors not specified by the protocol. Herbal supplements will not result in exclusion but should be noted and reviewed with the principal investigator (PI).\n* Patients with a history of CNS metastases from cancer are not excluded provided that the metastatic CNS disease has been effectively treated and there is no evidence of active CNS disease as evidenced by stable clinical findings and stable radiographic findings for a period of 6 weeks.\n* Excluded from Arm B:\n\n  * Patients with history of autoimmune disease (excluding thyroiditis on chronic thyroid replacement therapy) or active auto-immune disease, due to a risk of exacerbation of autoimmunity with r-hIL7. Patients with a history of B cell malignancy due to a risk for growth with rhIL7 therapy.\n  * Corrected QT interval (QTc) prolongation defined as a QTc greater than or equal to 470 ms or a prior history of cardiovascular disease, arrhythmias, or significant electrocardiogram (ECG) abnormalities.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "19 Months",
+      "maximumAge": "35 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "leadSponsor": "National Cancer Institute (NCI)",
+      "leadSponsorClass": "NIH",
+      "collaborators": [],
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigator": "John Glod",
+        "affiliation": "National Institutes of Health Clinical Center (CC)"
+      },
+      "locations": [
+        {
+          "facility": "National Institutes of Health Clinical Center, 9000 Rockville Pike",
+          "status": null,
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20892",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        }
+      ],
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUnapprovedDevice": null,
+      "ipdSharing": "NO",
+      "versionDate": "2026-10-20",
+      "conditionMeshTerms": [
+        {
+          "id": "D009447",
+          "term": "Neuroblastoma"
+        },
+        {
+          "id": "D012509",
+          "term": "Sarcoma"
+        },
+        {
+          "id": "D018233",
+          "term": "Rhabdomyosarcoma, Embryonal"
+        },
+        {
+          "id": "D018232",
+          "term": "Rhabdomyosarcoma, Alveolar"
+        },
+        {
+          "id": "D018241",
+          "term": "Neuroectodermal Tumors, Primitive, Peripheral"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D012512",
+          "term": "Sarcoma, Ewing"
+        },
+        {
+          "id": "D012208",
+          "term": "Rhabdomyosarcoma"
+        }
+      ],
+      "interventionMeshTerms": [
+        {
+          "id": "C000712767",
+          "term": "efineptakin alfa"
+        }
+      ],
+      "hasResults": true
+    }
+  ],
+  "trials_returned": 5,
+  "query_params": {
+    "query.intr": "8H9",
+    "countTotal": "true"
+  },
+  "pages_fetched": 1
+}
