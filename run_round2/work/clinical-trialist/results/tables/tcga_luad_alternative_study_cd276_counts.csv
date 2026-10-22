@@ -1,0 +1,5 @@
+study_id,profile,scale,n_samples_with_CD276,n_patients,status
+luad_tcga,luad_tcga_rna_seq_v2_mrna,RSEM (Firehose legacy),517,515,ok
+luad_tcga_gdc,luad_tcga_gdc_mrna_seq_tpm,TPM (GDC 2025),518,516,ok
+luad_tcga_gdc,luad_tcga_gdc_mrna_seq_fpkm,FPKM (GDC 2025),518,516,ok
+luad_tcga_pan_can_atlas_2018,luad_tcga_pan_can_atlas_2018_rna_seq_v2_mrna,RSEM (PanCancer Atlas),510,510,ok

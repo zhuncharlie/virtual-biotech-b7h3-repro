@@ -1,0 +1,30 @@
+{
+  "data_source": "Tahoe-100M metadata tables (pinned revision 2dc57900), official Hugging Face release",
+  "scope": "cancer cell lines only; metadata-level representation, NOT differential expression",
+  "gene_vocabulary_check": {
+    "gene_symbol": "CD276",
+    "present_in_gene_metadata": true,
+    "ensembl_id": "ENSG00000103855",
+    "token_id": 2859,
+    "n_genes_in_vocabulary": 62710
+  },
+  "drug_panel_scope": {
+    "n_drugs_in_drug_metadata": 379,
+    "n_drugs_with_annotated_target": 264,
+    "n_drugs_without_annotated_target": 115,
+    "n_drugs_targeting_CD276": 0,
+    "n_drugs_name_or_field_matching_any_b7h3_alias": 0,
+    "n_samples_in_sample_metadata": 1344,
+    "n_distinct_drugs_in_sample_metadata": 380
+  },
+  "n_unique_cell_lines": 102,
+  "n_lung_cell_lines": 27,
+  "n_cell_lines_matched_to_round1_depmap": 78,
+  "n_lung_lines_matched_to_round1_depmap": 22,
+  "lung_lines_with_cd276_expression": 22,
+  "limitations": [
+    "Drug target annotation is absent for 115/379 drugs; absence of a CD276 target or a B7-H3 agent name is a statement about this annotated panel, not proof no such molecule was screened.",
+    "CD276 expression values are round-1 DepMap bulk transcript levels, not Tahoe-100M measurements.",
+    "No perturbation effect on CD276 is assessed; the DE shards could not be queried."
+  ]
+}

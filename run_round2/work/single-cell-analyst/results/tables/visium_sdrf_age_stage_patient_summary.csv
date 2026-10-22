@@ -1,0 +1,6 @@
+patient,n_sections,n_tumor,n_adjacent_normal,age_min,age_max,age_span_years,constant_age_within_patient,stages,n_distinct_stages,has_invalid_M_category,valid_patient_age_recoverable
+P10,6,4,2,72,77,5,False,T3N0M0; T3N0M1; T3N0M2; T3N0M3; T3N0M4; T3N0M5,6,True,False
+P15,4,2,2,73,76,3,False,T3N0M0; T3N0M1; T3N0M2; T3N0M3,4,True,False
+P16,4,2,2,87,90,3,False,T2bN0M0,1,False,False
+P24,4,2,2,52,55,3,False,T3N0M0; T3N0M1; T3N0M2; T3N0M3,4,True,False
+P25,4,2,2,64,67,3,False,T3N0M0; T3N0M1; T3N0M2; T3N0M3,4,True,False

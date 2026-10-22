@@ -1,0 +1,21 @@
+{
+  "n_cells": 1456,
+  "n_perms": 20,
+  "elapsed_s": 28.18890070915222,
+  "n_rows": 25327,
+  "columns": [
+    "source",
+    "target",
+    "ligand_complex",
+    "receptor_complex",
+    "lr_means",
+    "cellphone_pvals",
+    "expr_prod",
+    "scaled_weight",
+    "lr_logfc",
+    "spec_weight",
+    "lrscore",
+    "specificity_rank",
+    "magnitude_rank"
+  ]
+}

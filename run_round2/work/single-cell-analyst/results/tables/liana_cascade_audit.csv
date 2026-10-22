@@ -1,0 +1,9 @@
+disease,step,n_recomputed,n_reported,is_subset_of_previous,n_high,n_low,counts_match,n_methods_finite_always_5_in_s1,pval_filter_removes_zero_rows
+SCLC,0_all_CAF_source,7615,7615,True,4050,3565,True,True,True
+SCLC,1_top10pct_specificity_rank,2387,2387,True,1312,1075,True,True,True
+SCLC,2_pval_lt_0.01,2387,2387,True,1312,1075,True,True,True
+SCLC,3_ge3_methods_finite,2387,2387,True,1312,1075,True,True,True
+LUAD,0_all_CAF_source,9094,9094,True,5011,4083,True,True,True
+LUAD,1_top10pct_specificity_rank,3931,3931,True,2190,1741,True,True,True
+LUAD,2_pval_lt_0.01,3931,3931,True,2190,1741,True,True,True
+LUAD,3_ge3_methods_finite,3931,3931,True,2190,1741,True,True,True

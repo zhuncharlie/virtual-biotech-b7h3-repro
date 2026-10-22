@@ -1,0 +1,4 @@
+disease,dataset_id,n_fib,n_fib_cells,n_high,frac_high,n_donors
+LUAD,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,44,3611,624,0.1728,44
+LUAD,576f193c-75d0-4a11-bd25-8676587e6dc2,14,3411,1052,0.3084,14
+SCLC,576f193c-75d0-4a11-bd25-8676587e6dc2,9,244,86,0.3525,9

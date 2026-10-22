@@ -1,0 +1,427 @@
+{
+  "stats": {
+    "n_claims": 15,
+    "n_evidence": 32,
+    "n_verified_evidence": 32,
+    "claims_without_verified_evidence": [],
+    "by_agent": {
+      "genomics-analyst": 2,
+      "single-cell-analyst": 7,
+      "clinical-trialist": 3,
+      "functional-genomics-analyst": 2,
+      "scientific-reviewer": 1
+    },
+    "by_confidence": {
+      "strong": 12,
+      "moderate": 3
+    }
+  },
+  "claims": [
+    {
+      "id": "C101",
+      "text": "No LUAD or SCLC GWAS credible set and no L2G locus supports CD276: 0 of 8 studies carry a credible set within \u00b1500 kb of the CD276 locus, and 0 of 67 L2G predictions derive from a LUAD or SCLC study.",
+      "agent": "genomics-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "per-study credible-set and L2G verification; all counts zero",
+          "path": "work/genomics-analyst/results/tables/cd276_round2_germline_verification.csv",
+          "sha256": "37c3a20d809efa7f8ace7ec8f65a2187de2b2209caae73d86e232af1b03d150c",
+          "produced_by": "genomics-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panel 4A germline section",
+          "path": "work/genomics-analyst/results/reports/cd276_panel4a_report.md",
+          "sha256": "aa8c083342fda2fe9f6b641302576032467c9df859d361db019e766cc0c21b3f",
+          "produced_by": "genomics-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C103",
+      "text": "ENCODE lung rE2G predicts 839 CD276-linked regulatory elements genome-wide, of which 77 lie within \u00b1500 kb of the TSS (median 241.1 kb), 29 reach the pre-declared Score \u2265 0.02 threshold, and the top element is the CD276 promoter (Score 0.973).",
+      "agent": "genomics-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "element counts by window and score threshold; top element row",
+          "path": "work/genomics-analyst/results/tables/cd276_e2g_within_window_score_distance_summary.csv",
+          "sha256": "d3bdb15f976fd2419c54268f0c6db6a644c1252b402fe4f3bddd6061bcbba769",
+          "produced_by": "genomics-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panel 4A regulatory section and threshold rationale",
+          "path": "work/genomics-analyst/results/reports/cd276_panel4a_report.md",
+          "sha256": "aa8c083342fda2fe9f6b641302576032467c9df859d361db019e766cc0c21b3f",
+          "produced_by": "genomics-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C104",
+      "text": "The rebuilt LUAD/SCLC single-cell atlas contains 413,996 cells, 80 donors and 15 cell types after the paper's QC filters and donor-stratified downsampling.",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "cell, donor and cell-type totals after QC",
+          "path": "work/single-cell-analyst/results/tables/scrna_cell_donor_audit.csv",
+          "sha256": "8c00e89f0d169bcae54a4cf75cf88f67b4bd4a76f3aa60feecc81a3a27507170",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panels 4B/4C atlas construction",
+          "path": "work/single-cell-analyst/results/reports/scrna_panels4bc_report.md",
+          "sha256": "1c9838f80e9f1fd14e9dbab020dbe2996a495b01a446f0fed0dab608691cc4e9",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C105",
+      "text": "CD276 is not significantly differentially expressed in any of 15 primary disease-vs-normal pseudobulk contrasts; the smallest adjusted p-value is 0.291 (SCLC macrophage, log2FC \u22120.95).",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "15 contrast rows with log2FC and padj",
+          "path": "work/single-cell-analyst/results/tables/scrna_cd276_de_summary.csv",
+          "sha256": "772314a406f32a7569ce75f34334aea0956498e4513350c26f770e3e8efc21d5",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panels 4B/4C differential-expression section",
+          "path": "work/single-cell-analyst/results/reports/scrna_panels4bc_report.md",
+          "sha256": "1c9838f80e9f1fd14e9dbab020dbe2996a495b01a446f0fed0dab608691cc4e9",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C107",
+      "text": "LIANA shows no interaction unique to CD276-high CAFs: most calls are shared between high and low groups, there is no formal between-group test or FDR, the detection split carries a 55\u201369% detected-gene depth gap, and the high group is myCAF-marker-enriched (1.43 vs 1.00, donor paired p = 4.8e-7).",
+      "agent": "single-cell-analyst",
+      "confidence": "moderate",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "high/low call counts and recurring ECM/proteolysis pairs",
+          "path": "work/single-cell-analyst/results/tables/liana_top_differential_pairs.csv",
+          "sha256": "0f7c48dd28d96f7f76f2a6fe124b0192d6c5382717028523a8dcbf36fd3e3d4a",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "detected-gene depth gap and myCAF marker score by group",
+          "path": "work/single-cell-analyst/results/tables/liana_caf_depth_audit.csv",
+          "sha256": "eb93ca6f59437a6fcf752bf00f37c032896b4717230c931130f553a9a8ee40ed",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panels 4D/S5A interpretation and donor support",
+          "path": "work/single-cell-analyst/results/reports/liana_panels4d_s5a_report.md",
+          "sha256": "3d347e369507c29601b2d4da6f5744da87548f2a2eccc10bbaff4379caaa09fd",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 3
+    },
+    {
+      "id": "C109",
+      "text": "The depth-robust Visium composition difference around high-CD276 tumour spots is malignant enrichment of +3.79 percentage points (12/12 sections, 5/5 donors) with donor-concordant depletion of endothelium (\u22122.03 pp), NK cells (\u22120.49 pp) and macrophages (\u22120.40 pp); T-cell fraction changes by only +0.11 pp.",
+      "agent": "single-cell-analyst",
+      "confidence": "moderate",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "per-cell-type percentage-point differences with section and donor concordance",
+          "path": "work/single-cell-analyst/results/tables/visium_neighborhood_composition_pp_difference.csv",
+          "sha256": "af0313d0279b09be83ea489fd254525dce85cab3307279cd7c29960f7b771d23",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panels 4E/S5B composition analysis",
+          "path": "work/single-cell-analyst/results/reports/visium_c2l_panels4e_s5b_report.md",
+          "sha256": "0fdf1ad83226ce52b729cb1760c692499a6f02cc0d176942e441ac063d40e187",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C110",
+      "text": "The Visium immune-hot signal occurs only in absolute abundance and is confounded: tumour high-CD276 spots have a 2.03x median-of-medians capture-depth difference (7,545.0 vs 3,708.5), and the abundance difference does not survive restriction to interior spots.",
+      "agent": "single-cell-analyst",
+      "confidence": "moderate",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "edge-vs-interior sensitivity results",
+          "path": "work/single-cell-analyst/results/tables/visium_neighborhood_edge_spot_sensitivity.csv",
+          "sha256": "3fb12392cb4bc3b08bfb05916a9d18c4afd801c642f7cdeaa8b8020a328cb9b7",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panels 4E/S5B depth and edge-effect audit",
+          "path": "work/single-cell-analyst/results/reports/visium_c2l_panels4e_s5b_report.md",
+          "sha256": "0fdf1ad83226ce52b729cb1760c692499a6f02cc0d176942e441ac063d40e187",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C111",
+      "text": "CD276 detection is highest in LUAD fibroblasts (30.84% of 3,411 cells), SCLC fibroblasts (35.3% of 244 cells) and normal lung macrophages (36.53% of 3,011 cells), so CD276 is not tumour-restricted.",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "detection percentage and mean expression per cell type",
+          "path": "work/single-cell-analyst/results/tables/scrna_cd276_expression_by_celltype.csv",
+          "sha256": "314003a192df0c0598f6303260a0863085a5e97f541ede876f26d09a964131c5",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panels 4B/4C detection analysis",
+          "path": "work/single-cell-analyst/results/reports/scrna_panels4bc_report.md",
+          "sha256": "1c9838f80e9f1fd14e9dbab020dbe2996a495b01a446f0fed0dab608691cc4e9",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C112",
+      "text": "Visium CD276 stratification is detection-based rather than expression-quantile: the low group is the CD276-zero tail, the adjacent-normal high group is degenerate (median CD276 = 0.0 in 8 of 10 sections), and the rank fallback fires in 22 of 22 sections.",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "per-section group medians and fallback flags",
+          "path": "work/single-cell-analyst/results/tables/visium_c2l_cd276_stratification_audit.csv",
+          "sha256": "5def6b43ebcff08559c4e06948f6acbc9095cd99fb7a21f952e2b6b7ca624268",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panels 4E/S5B stratification audit",
+          "path": "work/single-cell-analyst/results/reports/visium_c2l_panels4e_s5b_report.md",
+          "sha256": "0fdf1ad83226ce52b729cb1760c692499a6f02cc0d176942e441ac063d40e187",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C113",
+      "text": "In TCGA LUAD, unadjusted Q4-vs-Q1 CD276 expression is associated with worse overall survival (HR 1.80, 95% CI 1.19\u20132.71, p = 0.0051) and disease-specific survival (HR 1.86, 95% CI 1.10\u20133.13, p = 0.0206).",
+      "agent": "clinical-trialist",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "unadjusted Q4-vs-Q1 OS and DSS model rows",
+          "path": "work/clinical-trialist/results/tables/tcga_luad_cd276_cox_models.csv",
+          "sha256": "4a0d9488b28de46b3bee36b96dd092f8800de98c8ffa463a675ffeaf4b2fca5a",
+          "produced_by": "clinical-trialist"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panel 4F unadjusted models",
+          "path": "work/clinical-trialist/results/reports/tcga_luad_cd276_survival_report.md",
+          "sha256": "0a5ab264f6d922559d4a69970c6eb32f5ca980798978c3cdcf622fb9d06dc9f1",
+          "produced_by": "clinical-trialist"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C114",
+      "text": "After adjustment for age, stage and sex, the CD276 survival association in TCGA LUAD is not significant: adjusted OS HR 1.44 (p = 0.106) and adjusted DSS HR 1.39 (p = 0.249), so CD276 is not an independent prognostic factor in this cohort on this analysis.",
+      "agent": "clinical-trialist",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "adjusted OS and DSS model rows",
+          "path": "work/clinical-trialist/results/tables/tcga_luad_cd276_cox_models.csv",
+          "sha256": "4a0d9488b28de46b3bee36b96dd092f8800de98c8ffa463a675ffeaf4b2fca5a",
+          "produced_by": "clinical-trialist"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panel 4F adjusted models and PH diagnostics",
+          "path": "work/clinical-trialist/results/reports/tcga_luad_cd276_survival_report.md",
+          "sha256": "0a5ab264f6d922559d4a69970c6eb32f5ca980798978c3cdcf622fb9d06dc9f1",
+          "produced_by": "clinical-trialist"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C115",
+      "text": "The TCGA LUAD cohort has 566 patients, of whom 510 have CD276 mRNA; 251 samples enter the unadjusted Q4-vs-Q1 contrast and 246 enter the adjusted model.",
+      "agent": "clinical-trialist",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "cohort funnel: 566 enrolled, 510 with expression, 251/246 analysis sets",
+          "path": "work/clinical-trialist/results/tables/tcga_luad_cohort_construction.csv",
+          "sha256": "67341127dc88f318f1ca1c80e6a0f7ec476bc508629b826fe314420101c373bf",
+          "produced_by": "clinical-trialist"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Panel 4F cohort construction",
+          "path": "work/clinical-trialist/results/reports/tcga_luad_cd276_survival_report.md",
+          "sha256": "0a5ab264f6d922559d4a69970c6eb32f5ca980798978c3cdcf622fb9d06dc9f1",
+          "produced_by": "clinical-trialist"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C116",
+      "text": "The Tahoe-100M differential-expression track is blocked and therefore not assessable: all three perturbation calls failed with 'TAHOE_DATA_PATH not set in environment' before reading data, and no evidence of absence or non-materiality can be inferred.",
+      "agent": "functional-genomics-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "three logged attempts and exact errors",
+          "path": "work/functional-genomics-analyst/results/tables/tahoe_round2_attempt_log.csv",
+          "sha256": "61c53d864319426253e1a4ed7a34d61b4d69b9604ee545916f8bfd9b351b9173",
+          "produced_by": "functional-genomics-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Tahoe/DepMap status report",
+          "path": "work/functional-genomics-analyst/results/reports/tahoe_round2_status.md",
+          "sha256": "ecbb88a0b888f520d339f1a3d60dfac2cf453c87efed39a2a2d648ad31118967",
+          "produced_by": "functional-genomics-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C117",
+      "text": "CD276 is not essential in cancer cell lines: mean gene effect is \u22120.230 in LUAD (n = 46, 1/46 below the \u22120.5 threshold) and \u22120.204 in SCLC (n = 25, 0/25 below threshold), with round-1 DepMap artifacts re-verified 54/54.",
+      "agent": "functional-genomics-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "mean gene effect and essential fraction by histology",
+          "path": "work/functional-genomics-analyst/results/tables/round1_depmap_recomputed_group_summary.csv",
+          "sha256": "adb6eedd2e26ef2b8860c7d432b038f6b2b40ba68fe1630f8f02c666a5fcb799",
+          "produced_by": "functional-genomics-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "54/54 artifact re-verification",
+          "path": "work/functional-genomics-analyst/results/tables/round1_depmap_verification.csv",
+          "sha256": "18c0a2f30d70ebe095e73a29fe1ed35569df0a40503fae9d0e69d2cee1abb1a6",
+          "produced_by": "functional-genomics-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "DepMap section",
+          "path": "work/functional-genomics-analyst/results/reports/tahoe_round2_status.md",
+          "sha256": "ecbb88a0b888f520d339f1a3d60dfac2cf453c87efed39a2a2d648ad31118967",
+          "produced_by": "functional-genomics-analyst"
+        }
+      ],
+      "n_verified": 3
+    },
+    {
+      "id": "C118",
+      "text": "The scientific reviewer's final verdict is ACCEPT WITH DISCLOSED LIMITATIONS, with both acceptance conditions (deleting leftover history CSV stubs and recomputing four median-of-medians values) verified as resolved without re-analysis.",
+      "agent": "scientific-reviewer",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "final verdict and condition-resolution checks",
+          "path": "work/scientific-reviewer/results/reports/review_round2_rereview.md",
+          "sha256": "16c8267ec5726f6628f8eb08c24a2116e0b165bcfbed5662ba1b8c2e43b76029",
+          "produced_by": "scientific-reviewer"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "first full pass with 20 items",
+          "path": "work/scientific-reviewer/results/reports/review_round2_full.md",
+          "sha256": "062009620e73f427cea6f169caa9921d4e7d9ee985f0947f6705d4204e262861",
+          "produced_by": "scientific-reviewer"
+        }
+      ],
+      "n_verified": 2
+    }
+  ]
+}

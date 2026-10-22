@@ -1,0 +1,7 @@
+metric,value
+n_drug_rows,379
+targets_isna_true,115
+targets_empty_or_whitespace_string,0
+targets_na_or_blank,115
+targets_nonblank_text,264
+n_unique_drugs,379

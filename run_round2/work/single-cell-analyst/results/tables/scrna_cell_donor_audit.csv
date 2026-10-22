@@ -1,0 +1,51 @@
+stage,grouping,dataset_id,disease,n_cells,n_donors,n_cell_types
+raw_pull,overall,ALL,ALL,502306,80,15
+raw_pull,dataset_disease,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,411922,54,14
+raw_pull,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,46529,16,11
+raw_pull,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,normal,12315,4,10
+raw_pull,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,31540,9,10
+raw_pull,dataset,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,ALL,411922,54,14
+raw_pull,dataset,576f193c-75d0-4a11-bd25-8676587e6dc2,ALL,90384,26,11
+raw_pull,disease,ALL,lung adenocarcinoma,458451,70,15
+raw_pull,disease,ALL,normal,12315,4,10
+raw_pull,disease,ALL,small cell lung carcinoma,31540,9,10
+post_qc,overall,ALL,ALL,494982,80,15
+post_qc,dataset_disease,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,410585,54,14
+post_qc,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,42509,16,11
+post_qc,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,normal,11642,4,10
+post_qc,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,30246,9,10
+post_qc,dataset,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,ALL,410585,54,14
+post_qc,dataset,576f193c-75d0-4a11-bd25-8676587e6dc2,ALL,84397,26,11
+post_qc,disease,ALL,lung adenocarcinoma,453094,70,15
+post_qc,disease,ALL,normal,11642,4,10
+post_qc,disease,ALL,small cell lung carcinoma,30246,9,10
+post_downsample,overall,ALL,ALL,413996,80,15
+post_downsample,dataset_disease,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,330667,54,14
+post_downsample,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,42509,16,11
+post_downsample,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,normal,11642,4,10
+post_downsample,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,29178,9,10
+post_downsample,dataset,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,ALL,330667,54,14
+post_downsample,dataset,576f193c-75d0-4a11-bd25-8676587e6dc2,ALL,83329,26,11
+post_downsample,disease,ALL,lung adenocarcinoma,373176,70,15
+post_downsample,disease,ALL,normal,11642,4,10
+post_downsample,disease,ALL,small cell lung carcinoma,29178,9,10
+final_integrated,overall,ALL,ALL,413996,80,15
+final_integrated,dataset_disease,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,330667,54,14
+final_integrated,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,42509,16,11
+final_integrated,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,normal,11642,4,10
+final_integrated,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,29178,9,10
+final_integrated,dataset,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,ALL,330667,54,14
+final_integrated,dataset,576f193c-75d0-4a11-bd25-8676587e6dc2,ALL,83329,26,11
+final_integrated,disease,ALL,lung adenocarcinoma,373176,70,15
+final_integrated,disease,ALL,normal,11642,4,10
+final_integrated,disease,ALL,small cell lung carcinoma,29178,9,10
+final_plotted,overall,ALL,ALL,413996,80,15
+final_plotted,dataset_disease,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,330667,54,14
+final_plotted,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,42509,16,11
+final_plotted,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,normal,11642,4,10
+final_plotted,dataset_disease,576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,29178,9,10
+final_plotted,dataset,1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,ALL,330667,54,14
+final_plotted,dataset,576f193c-75d0-4a11-bd25-8676587e6dc2,ALL,83329,26,11
+final_plotted,disease,ALL,lung adenocarcinoma,373176,70,15
+final_plotted,disease,ALL,normal,11642,4,10
+final_plotted,disease,ALL,small cell lung carcinoma,29178,9,10

@@ -5,17 +5,25 @@ Biotech* (bioRxiv 10.64898/2026.02.23.707551), run against the original,
 **unmodified** [TheVirtualBiotech](https://github.com/harrisongzhang/TheVirtualBiotech)
 codebase at commit [`71f9da6`](BASELINE.md), with the model layer routed to
 DeepSeek instead of Anthropic. See [`BASELINE.md`](BASELINE.md) for exactly
-what was (and wasn't) changed to make that work, and
-[`conversation/conversation_log.md`](conversation/conversation_log.md) for
-the full request history — initial prompt, every clarification, and all
-follow-up instructions that shaped this run.
+what was (and wasn't) changed to make that work.
 
-**This is the system's own output.** The multi-agent run (CSO + 9
-specialists, real MCP database calls, a real scientific-reviewer pass) was
-executed end-to-end by the actual repo; nothing here was written or
-corrected by the engineering assistant that orchestrated the run.
+**Two rounds, same setup:**
+- **Round 1** (below): genetics, single-cell expression, functional
+  genomics, pathways/PPI, clinical trials, safety, target biology, modality
+  ranking — in `run_round1/`,
+  [`conversation/conversation_log.md`](conversation/conversation_log.md).
+- **Round 2** ([jump to section](#round-2-spatial-liana-and-a-full-review-cycle)):
+  adds Visium spatial transcriptomics + cell2location (panels 4E/S5B) and
+  LIANA ligand-receptor signalling (4D/S5A), plus a full scientific-review →
+  revise → re-review cycle — in `run_round2/`,
+  [`conversation/conversation_log_round2.md`](conversation/conversation_log_round2.md).
 
-## Status: **INCOMPLETE**
+**This is the system's own output.** The multi-agent run (CSO + specialists,
+real MCP database calls, a real scientific-reviewer pass) was executed
+end-to-end by the actual repo; nothing here was written or corrected by the
+engineering assistant that orchestrated the run.
+
+## Round 1 status: **INCOMPLETE**
 
 The run's own manifest records `"status": "incomplete"` (not
 `"completed"`), because several MCP tool calls failed during the CSO's final
@@ -50,40 +58,40 @@ than hidden.
 
 | Analysis | Status | Scripts | Data | Report |
 |---|---|---|---|---|
-| **Genetics** (GWAS/L2G/QTL) | ✅ Done | [`run/work/genomics-analyst/code/scripts/`](run/work/genomics-analyst/code/scripts/) | [`run/work/genomics-analyst/data/`](run/work/genomics-analyst/data/) | [`cd276_genetic_evidence.md`](run/work/genomics-analyst/results/reports/cd276_genetic_evidence.md) |
-| **Functional genomics** (DepMap CRISPR) | ✅ Done | [`cd276_depmap_analysis.py`](run/work/functional-genomics-analyst/code/scripts/cd276_depmap_analysis.py) | [`run/work/functional-genomics-analyst/data/`](run/work/functional-genomics-analyst/data/) | [`cd276_functional_genomics.md`](run/work/functional-genomics-analyst/results/reports/cd276_functional_genomics.md) |
-| **Single-cell expression** (CELLxGENE Census) | ✅ Done | [`run/work/single-cell-analyst/code/scripts/`](run/work/single-cell-analyst/code/scripts/) (01–08) | Results committed; raw h5ad/parquet excluded, see [`data_provenance.md`](data_provenance.md) | [`cd276_single_cell_atlas_report.md`](run/work/single-cell-analyst/results/reports/cd276_single_cell_atlas_report.md) |
-| **Pathway / PPI** (Reactome, GO, STRING, IntAct) | ✅ Done | [`run/work/bio-pathways-ppi-analyst/code/scripts/`](run/work/bio-pathways-ppi-analyst/code/scripts/) | [`run/work/bio-pathways-ppi-analyst/data/`](run/work/bio-pathways-ppi-analyst/data/) | [`cd276_pathway_safety.md`](run/work/bio-pathways-ppi-analyst/results/reports/cd276_pathway_safety.md) |
-| **Clinical trial landscape** (ClinicalTrials.gov) | ✅ Done | [`run/work/clinical-trialist/code/scripts/`](run/work/clinical-trialist/code/scripts/) | [`run/work/clinical-trialist/data/`](run/work/clinical-trialist/data/) | [`b7h3_clinical_landscape.md`](run/work/clinical-trialist/results/reports/b7h3_clinical_landscape.md) |
-| **Safety** (OpenFDA, constraint, tolerability) | ✅ Done | [`run/work/fda-safety-officer/code/scripts/`](run/work/fda-safety-officer/code/scripts/) | [`run/work/fda-safety-officer/data/`](run/work/fda-safety-officer/data/) | [`b7h3_safety_assessment.md`](run/work/fda-safety-officer/results/reports/b7h3_safety_assessment.md) |
-| **Target biology** (tractability, isoforms, homology) | ✅ Done | [`build_cd276_target_biology.py`](run/work/target-biologist/code/scripts/build_cd276_target_biology.py) | [`run/work/target-biologist/data/`](run/work/target-biologist/data/) | [`cd276_modality_biology.md`](run/work/target-biologist/results/reports/cd276_modality_biology.md) |
-| **Treatment modality ranking** (ADC/TCE/CAR-T/radioligand) | ✅ Done | [`run/work/medchem-pharmacologist/code/scripts/`](run/work/medchem-pharmacologist/code/scripts/) | [`run/work/medchem-pharmacologist/data/`](run/work/medchem-pharmacologist/data/) | [`b7h3_modality_recommendation.md`](run/work/medchem-pharmacologist/results/reports/b7h3_modality_recommendation.md) |
+| **Genetics** (GWAS/L2G/QTL) | ✅ Done | [`run_round1/work/genomics-analyst/code/scripts/`](run_round1/work/genomics-analyst/code/scripts/) | [`run_round1/work/genomics-analyst/data/`](run_round1/work/genomics-analyst/data/) | [`cd276_genetic_evidence.md`](run_round1/work/genomics-analyst/results/reports/cd276_genetic_evidence.md) |
+| **Functional genomics** (DepMap CRISPR) | ✅ Done | [`cd276_depmap_analysis.py`](run_round1/work/functional-genomics-analyst/code/scripts/cd276_depmap_analysis.py) | [`run_round1/work/functional-genomics-analyst/data/`](run_round1/work/functional-genomics-analyst/data/) | [`cd276_functional_genomics.md`](run_round1/work/functional-genomics-analyst/results/reports/cd276_functional_genomics.md) |
+| **Single-cell expression** (CELLxGENE Census) | ✅ Done | [`run_round1/work/single-cell-analyst/code/scripts/`](run_round1/work/single-cell-analyst/code/scripts/) (01–08) | Results committed; raw h5ad/parquet excluded, see [`data_provenance.md`](data_provenance.md) | [`cd276_single_cell_atlas_report.md`](run_round1/work/single-cell-analyst/results/reports/cd276_single_cell_atlas_report.md) |
+| **Pathway / PPI** (Reactome, GO, STRING, IntAct) | ✅ Done | [`run_round1/work/bio-pathways-ppi-analyst/code/scripts/`](run_round1/work/bio-pathways-ppi-analyst/code/scripts/) | [`run_round1/work/bio-pathways-ppi-analyst/data/`](run_round1/work/bio-pathways-ppi-analyst/data/) | [`cd276_pathway_safety.md`](run_round1/work/bio-pathways-ppi-analyst/results/reports/cd276_pathway_safety.md) |
+| **Clinical trial landscape** (ClinicalTrials.gov) | ✅ Done | [`run_round1/work/clinical-trialist/code/scripts/`](run_round1/work/clinical-trialist/code/scripts/) | [`run_round1/work/clinical-trialist/data/`](run_round1/work/clinical-trialist/data/) | [`b7h3_clinical_landscape.md`](run_round1/work/clinical-trialist/results/reports/b7h3_clinical_landscape.md) |
+| **Safety** (OpenFDA, constraint, tolerability) | ✅ Done | [`run_round1/work/fda-safety-officer/code/scripts/`](run_round1/work/fda-safety-officer/code/scripts/) | [`run_round1/work/fda-safety-officer/data/`](run_round1/work/fda-safety-officer/data/) | [`b7h3_safety_assessment.md`](run_round1/work/fda-safety-officer/results/reports/b7h3_safety_assessment.md) |
+| **Target biology** (tractability, isoforms, homology) | ✅ Done | [`build_cd276_target_biology.py`](run_round1/work/target-biologist/code/scripts/build_cd276_target_biology.py) | [`run_round1/work/target-biologist/data/`](run_round1/work/target-biologist/data/) | [`cd276_modality_biology.md`](run_round1/work/target-biologist/results/reports/cd276_modality_biology.md) |
+| **Treatment modality ranking** (ADC/TCE/CAR-T/radioligand) | ✅ Done | [`run_round1/work/medchem-pharmacologist/code/scripts/`](run_round1/work/medchem-pharmacologist/code/scripts/) | [`run_round1/work/medchem-pharmacologist/data/`](run_round1/work/medchem-pharmacologist/data/) | [`b7h3_modality_recommendation.md`](run_round1/work/medchem-pharmacologist/results/reports/b7h3_modality_recommendation.md) |
 | **Cell-cell communication** (CellPhoneDB/CellChat/LIANA) | ⬜ Not executed | — | — | — (not part of this run's plan) |
 | **Spatial transcriptomics / Visium** | ⬜ Not executed | — | — | — (explicitly out of scope for this pass, by user instruction) |
 | **Survival analysis** (lifelines/Kaplan-Meier/Cox) | ⬜ Not executed | — | — | — (not part of this run's plan) |
 
 ## Final report, figures, and review record
 
-- **Final synthesized report:** [`run/report/FINAL_REPORT.md`](run/report/FINAL_REPORT.md)
+- **Final synthesized report:** [`run_round1/report/FINAL_REPORT.md`](run_round1/report/FINAL_REPORT.md)
 - **Bottom line:** SCLC = staged conditional GO (ADC), composite 4.20;
   LUAD = deprioritized on competitive/strategic grounds (not biological),
   composite 2.90. See the report for full reasoning and citations.
-- **Audit trail / run manifest:** [`run/audit.html`](run/audit.html),
-  [`run/MANIFEST.json`](run/MANIFEST.json), [`run/README.md`](run/README.md)
+- **Audit trail / run manifest:** [`run_round1/audit.html`](run_round1/audit.html),
+  [`run_round1/MANIFEST.json`](run_round1/MANIFEST.json), [`run_round1/README.md`](run_round1/README.md)
   (the run's own auto-generated index)
-- **Claim-evidence objects (17 filed):** [`run/evidence/claims.json`](run/evidence/claims.json)
-- **Full execution trace** (2120 events): [`run/logs/trace.jsonl`](run/logs/trace.jsonl)
+- **Claim-evidence objects (17 filed):** [`run_round1/evidence/claims.json`](run_round1/evidence/claims.json)
+- **Full execution trace** (2120 events): [`run_round1/logs/trace.jsonl`](run_round1/logs/trace.jsonl)
 - **Figures** (all committed in full resolution):
-  [single-cell expression](run/work/single-cell-analyst/results/figures/),
-  [DepMap essentiality](run/work/functional-genomics-analyst/results/figures/cd276_depmap_luad_sclc_distribution.png),
-  [modality composite scores](run/work/medchem-pharmacologist/results/figures/b7h3_modality_composite_scores.png),
-  [clinical phase landscape](run/work/clinical-trialist/results/figures/b7h3_phase_landscape.png),
-  [normal-tissue expression](run/work/target-biologist/results/figures/cd276_normal_tissue_expression.png),
-  [pathway/PPI partner confidence](run/work/bio-pathways-ppi-analyst/results/figures/cd276_partner_confidence.png)
+  [single-cell expression](run_round1/work/single-cell-analyst/results/figures/),
+  [DepMap essentiality](run_round1/work/functional-genomics-analyst/results/figures/cd276_depmap_luad_sclc_distribution.png),
+  [modality composite scores](run_round1/work/medchem-pharmacologist/results/figures/b7h3_modality_composite_scores.png),
+  [clinical phase landscape](run_round1/work/clinical-trialist/results/figures/b7h3_phase_landscape.png),
+  [normal-tissue expression](run_round1/work/target-biologist/results/figures/cd276_normal_tissue_expression.png),
+  [pathway/PPI partner confidence](run_round1/work/bio-pathways-ppi-analyst/results/figures/cd276_partner_confidence.png)
 
 ### Reviewer corrections
 
-The scientific-reviewer's full report — **[`b7h3_review.md`](run/work/scientific-reviewer/results/reports/b7h3_review.md)**
+The scientific-reviewer's full report — **[`b7h3_review.md`](run_round1/work/scientific-reviewer/results/reports/b7h3_review.md)**
 — is substantially more thorough than a two-item list: it contains a
 per-stream verdict table (8 streams), 12 independently re-derived numeric
 checks, three headline rulings, and a 10-item "minimum corrections for
@@ -92,12 +100,12 @@ synthesis" list. The two corrections most visible in the final report:
 1. **Single-cell "2× tumor/normal in 3/3 donors" claim was wrong.**
    Corrected to "reached ≥2× in only 2/3 donors (ratios 3.26, 3.40, 1.09),
    not significant at n=3" — verbatim in
-   [`cd276_single_cell_atlas_report.md`](run/work/single-cell-analyst/results/reports/cd276_single_cell_atlas_report.md#L46-L59)
+   [`cd276_single_cell_atlas_report.md`](run_round1/work/single-cell-analyst/results/reports/cd276_single_cell_atlas_report.md#L46-L59)
    with the full per-donor table and a paired t-test.
 2. **LUAD "no-go" conflated absence of LUAD-specific trials with absence of
    LUAD evidence; SCLC "GO" was feasibility-only, not efficacy-proven.**
    Corrected in
-   [`b7h3_modality_recommendation.md`](run/work/medchem-pharmacologist/results/reports/b7h3_modality_recommendation.md)
+   [`b7h3_modality_recommendation.md`](run_round1/work/medchem-pharmacologist/results/reports/b7h3_modality_recommendation.md)
    (LUAD clinical-precedence score moved 2/5 → 1/5, composite 3.15 → 2.90,
    with a full revision note; SCLC reframed as "staged GO").
 
@@ -117,7 +125,7 @@ and `FINAL_REPORT.md`):
 
 `FINAL_REPORT.md`'s own closing line lists 7 tools as having failed "during
 this turn." Cross-checking against the full execution trace
-(`run/logs/trace.jsonl`) found this list is **partially inaccurate** — only 5
+(`run_round1/logs/trace.jsonl`) found this list is **partially inaccurate** — only 5
 of the 7 have any matching error event anywhere in the run:
 
 | Tool | Real failure? | Impact |
@@ -153,6 +161,50 @@ built on a failed call.
    a paired, protein-level tumor-vs-normal B7-H3 surface density and
    internalization study — no database in this stack can supply it.
 
+## Round 2: spatial, LIANA, and a full review cycle
+
+Round 2 took **five run directories** across four transient
+network/API interruptions (not data or code problems) to deliver; see
+[`conversation/conversation_log_round2.md`](conversation/conversation_log_round2.md)
+for the full narrative and [`run_round2/LINEAGE.md`](run_round2/LINEAGE.md)
+for exactly which run directory holds which content.
+
+**Final report:** [`run_round2/report/FINAL_REPORT.md`](run_round2/report/FINAL_REPORT.md) ·
+**Panel-by-paper comparison:** [`run_round2/report/panel_by_paper_comparison.md`](run_round2/report/panel_by_paper_comparison.md) ·
+**Workflow diagram:** [`run_round2/report/workflow_diagram.svg`](run_round2/report/workflow_diagram.svg) ·
+**15 claim-evidence objects:** [`run_round2/evidence/claims.json`](run_round2/evidence/claims.json)
+
+**Headline result: CD276 is a low-confidence, expression-defined target.**
+It has no LUAD/SCLC germline genetic support (0/8 credible sets, 0/67 L2G
+loci), is **not tumour-restricted** (36.5% detection in normal lung
+macrophages, 30.8% in LUAD fibroblasts), is not differentially expressed in
+any of 15 disease-vs-normal contrasts, and is not essential in cancer cell
+lines (mean CERES −0.230 LUAD, 1/46 lines below the essentiality threshold).
+The TCGA LUAD survival association reproduces only unadjusted (OS HR 1.80,
+p = 0.0051) and is not independent of stage (adjusted OS p = 0.106). The
+paper's reported "immune-hot" spatial niche is largely a capture-depth/edge
+artifact; the depth-robust signal is malignant-cell enrichment with
+endothelial, NK, and macrophage depletion. **This supports round 1's
+low-confidence stance on CD276 but revises away its SCLC-over-LUAD staging
+claim** — the only quantitative positives found in round 2 are in LUAD.
+
+**Two engineering stories worth reading even if you don't care about the
+biology:**
+1. **A real, independently-diagnosed-and-fixed bug.** cell2location's first
+   mapping run converged correctly but exported 100% NaN abundances due to
+   a pandas column-selection-vs-rename bug; no checkpoint had been saved, so
+   the fix required a full retrain. The before/after NaN fraction was
+   verified directly (not taken from any agent's self-report) at both ends:
+   100% → 0%. See the "cell2location NaN bug" section of the conversation
+   log.
+2. **A real revise-and-resubmit cycle.** The first full scientific-review
+   pass did not rubber-stamp the spatial analysis — it required the report's
+   bottom line to surface donor-concordant findings (immune-compartment
+   depletion) that had been correctly computed but omitted from the
+   narrative in favour of a less robust finding. Four specialists filed
+   itemized, evidence-checked revision responses before a re-review
+   accepted the work.
+
 ## Repository layout
 
 ```
@@ -160,9 +212,10 @@ README.md                    — this file
 BASELINE.md                  — original repo, baseline commit, exact code changes (none) made here
 data_provenance.md           — what large raw data was excluded and how to regenerate it
 conversation/
-  conversation_log.md        — initial prompt, every clarification, all follow-up instructions
+  conversation_log.md        — round 1: initial prompt, every clarification, all follow-up instructions
+  conversation_log_round2.md — round 2: the five-run-directory saga, quota crisis, NaN bug, review cycle
 engineering_validation/      — layered DeepSeek/SDK/MCP validation (A-F, E2) run before the real study
-run/                         — the actual run directory from the original repo's run_vbt.py entry point
+run_round1/                  — round 1's run directory from the original repo's run_vbt.py entry point
   config/run_b7h3_formal.py  — the only code-level intervention: a runtime monkeypatch wrapper (no repo edits)
   MANIFEST.json, README.md, audit.html, environment.yml
   inputs/                    — query.txt, plan.json
@@ -170,6 +223,13 @@ run/                         — the actual run directory from the original repo
   report/FINAL_REPORT.md     — the CSO's final synthesized answer
   logs/                      — trace.jsonl, transcript.md, cost_report.json
   work/<specialist>/         — every specialist's code/scripts, data, results/{reports,tables,figures}
+run_round2/                  — round 2, consolidated from its two final (of five) run directories
+  LINEAGE.md                 — which of the 5 run directories this content came from, and why
+  config/                    — resume instructions after each of the 4 interruptions; disk-quota cleanup manifest
+  MANIFEST.json, evidence/   — from the synthesis turn (the one with the 15 successfully-recorded claims)
+  README_main_turn.md, logs_main_turn/, work/<specialist>/ — from the turn that did the spatial analysis
+  README_synthesis_turn.md, logs_synthesis_turn/           — from the turn that wrote the final synthesis
+  report/                    — FINAL_REPORT.md, panel_by_paper_comparison.md, workflow_diagram.svg
 ```
 
 ## Credentials

@@ -1,0 +1,16 @@
+pre_registered_utc,item,value
+2026-10-21T14:55:09.021664+00:00,software,"liana 1.7.0 rank_aggregate; methods = CellPhoneDB, Connectome, log2FC, NATMI, SingleCellSignalR"
+2026-10-21T14:55:09.022323+00:00,resource_name,consensus (LIANA default)
+2026-10-21T14:55:09.022342+00:00,expr_prop,0.1 (LIANA default)
+2026-10-21T14:55:09.022351+00:00,min_cells,5 (LIANA default)
+2026-10-21T14:55:09.022360+00:00,aggregate_method,rra
+2026-10-21T14:55:09.022368+00:00,n_perms,1000
+2026-10-21T14:55:09.022376+00:00,seed,1337 (LIANA default)
+2026-10-21T14:55:09.022384+00:00,top10pct_rule,"specificity_rank <= 0.1 (LIANA consensus RRA specificity score, 0 = best; native 0-1 scale)"
+2026-10-21T14:55:09.022392+00:00,pvalue_rule,cellphone_pvals < 0.01 (CellPhoneDB permutation p-value from 1000 perms; only permutation p-value emitted by the consensus)
+2026-10-21T14:55:09.022400+00:00,min_methods_rule,"n_methods_finite_rank >= 3 out of the 5 constituent methods; note all 5 scores are finite for every retained row, so this rule is non-discriminating and a stricter per-method top-decile support count is also reported (n_methods_top10pct)"
+2026-10-21T14:55:09.022407+00:00,differential_rule,enriched in high = high side passes all three filters AND low side does not AND specificity_rank_high < specificity_rank_low; symmetric for low; both/neither otherwise
+2026-10-21T14:55:09.022415+00:00,group_definition,CAF_B7H3_high = fibroblast with CD276 raw count > 0; CAF_B7H3_low = fibroblast with CD276 raw count == 0; non-fibroblast cell types kept as separate groups
+2026-10-21T14:55:09.022423+00:00,no_threshold_matching_paper,TRUE - filter rules and B7-H3 definition were written before any LIANA result was inspected
+2026-10-21T14:55:09.022430+00:00,cell_universe_SCLC,"full disease atlas (all 29,178 SCLC cells) - benchmark confirmed feasibility"
+2026-10-21T14:55:09.022438+00:00,cell_universe_LUAD,"all 7,022 LUAD fibroblasts + fixed-seed (42) sample of max 1,500 non-fibroblast cells per cell type; documented deviation from full atlas (373,176 cells)"

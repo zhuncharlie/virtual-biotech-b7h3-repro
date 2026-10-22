@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="980" viewBox="0 0 1500 980" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#44546a"/>
+    </marker>
+    <marker id="arrow-dashed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#b06000"/>
+    </marker>
+    <style>
+      .title { font-size: 26px; font-weight: bold; fill: #1f2a44; }
+      .subtitle { font-size: 14px; fill: #555; }
+      .box-title { font-size: 14px; font-weight: bold; fill: #1f2a44; }
+      .box-text { font-size: 12px; fill: #333; }
+      .note { font-size: 12px; fill: #555; font-style: italic; }
+      .flow { stroke: #44546a; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+      .bus { stroke: #9aa7bd; stroke-width: 1.5; fill: none; }
+      .rev { stroke: #b06000; stroke-width: 2; fill: none; stroke-dasharray: 6 4; marker-end: url(#arrow-dashed); }
+      .data { fill: #eef2f8; stroke: #7f93b3; stroke-width: 1.5; }
+      .spec { fill: #e8f0fb; stroke: #3f6fb5; stroke-width: 1.5; }
+      .review { fill: #fff4e0; stroke: #c98a2b; stroke-width: 1.5; }
+      .revision { fill: #f0eafb; stroke: #7a5ab0; stroke-width: 1.5; }
+      .accept { fill: #e6f5ea; stroke: #3f8f57; stroke-width: 1.5; }
+      .synth { fill: #1f2a44; stroke: #1f2a44; stroke-width: 1.5; }
+      .synth .box-title { fill: #ffffff; }
+      .synth .box-text { fill: #dfe6f2; }
+      .blocked { fill: #fbecec; stroke: #b54848; stroke-width: 1.5; stroke-dasharray: 5 4; }
+    </style>
+  </defs>
+
+  <text x="40" y="42" class="title">B7-H3 (CD276) Round 2 — Analysis and Review Workflow</text>
+  <text x="40" y="66" class="subtitle">Data sources → specialist panels → independent scientific review → revision → re-review → synthesis. Delivery run 20261022-010102-round-2-...-76d40ca3; analysis run ...-a9b7a6f8.</text>
+
+  <!-- ================= DATA SOURCES ================= -->
+  <text x="40" y="100" class="box-title">DATA SOURCES</text>
+
+  <rect class="data" x="15" y="110" width="220" height="74" rx="8"/>
+  <text x="30" y="136" class="box-title">Open Targets genetics</text>
+  <text x="30" y="156" class="box-text">GWAS credible sets · L2G</text>
+  <text x="30" y="172" class="box-text">(LUAD / SCLC)</text>
+
+  <rect class="data" x="260" y="110" width="220" height="74" rx="8"/>
+  <text x="275" y="136" class="box-title">ENCODE rE2G lung</text>
+  <text x="275" y="156" class="box-text">ENCSR985HNP (DNase-only)</text>
+  <text x="275" y="172" class="box-text">enhancer–gene predictions</text>
+
+  <rect class="data" x="505" y="110" width="220" height="74" rx="8"/>
+  <text x="520" y="136" class="box-title">CELLxGENE Census</text>
+  <text x="520" y="156" class="box-text">full transcriptome</text>
+  <text x="520" y="172" class="box-text">LUAD · SCLC · normal</text>
+
+  <rect class="data" x="750" y="110" width="220" height="74" rx="8"/>
+  <text x="765" y="136" class="box-title">Visium spatial</text>
+  <text x="765" y="156" class="box-text">E-MTAB-13530</text>
+  <text x="765" y="172" class="box-text">22 sections · 47,448 spots</text>
+
+  <rect class="data" x="995" y="110" width="220" height="74" rx="8"/>
+  <text x="1010" y="136" class="box-title">TCGA LUAD</text>
+  <text x="1010" y="156" class="box-text">PanCancer Atlas (cBioPortal)</text>
+  <text x="1010" y="172" class="box-text">566 patients · CD276 mRNA</text>
+
+  <rect class="data" x="1240" y="110" width="220" height="74" rx="8"/>
+  <text x="1255" y="136" class="box-title">Tahoe-100M · DepMap</text>
+  <text x="1255" y="156" class="box-text">drug perturbation (blocked)</text>
+  <text x="1255" y="172" class="box-text">CRISPR essentiality</text>
+
+  <!-- bus -->
+  <line class="bus" x1="125" y1="184" x2="125" y2="210"/>
+  <line class="bus" x1="370" y1="184" x2="370" y2="210"/>
+  <line class="bus" x1="615" y1="184" x2="615" y2="210"/>
+  <line class="bus" x1="860" y1="184" x2="860" y2="210"/>
+  <line class="bus" x1="1105" y1="184" x2="1105" y2="210"/>
+  <line class="bus" x1="1350" y1="184" x2="1350" y2="210"/>
+  <line class="bus" x1="125" y1="210" x2="1350" y2="210"/>
+
+  <!-- ================= SPECIALISTS ================= -->
+  <text x="40" y="246" class="box-title">SPECIALIST PANELS</text>
+
+  <line class="flow" x1="200" y1="210" x2="200" y2="258"/>
+  <line class="flow" x1="620" y1="210" x2="620" y2="258"/>
+  <line class="flow" x1="1025" y1="210" x2="1025" y2="258"/>
+  <line class="flow" x1="1325" y1="210" x2="1325" y2="258"/>
+
+  <rect class="spec" x="40" y="258" width="300" height="110" rx="8"/>
+  <text x="55" y="284" class="box-title">genomics-analyst</text>
+  <text x="55" y="306" class="box-text">Panel 4A — genetics + regulatory</text>
+  <text x="55" y="326" class="box-text">0/8 credible sets · 0/67 L2G</text>
+  <text x="55" y="346" class="box-text">839 E2G links (annotation only)</text>
+
+  <rect class="spec" x="360" y="258" width="520" height="110" rx="8"/>
+  <text x="375" y="284" class="box-title">single-cell-analyst</text>
+  <text x="375" y="306" class="box-text">4B/4C — atlas 413,996 cells / 80 donors; CD276 0/15 DE</text>
+  <text x="375" y="326" class="box-text">4D/S5A — LIANA: ECM programme, not unique</text>
+  <text x="375" y="346" class="box-text">4E/S5B — cell2location + spatial neighbourhood</text>
+
+  <rect class="spec" x="900" y="258" width="250" height="110" rx="8"/>
+  <text x="915" y="284" class="box-title">clinical-trialist</text>
+  <text x="915" y="306" class="box-text">Panel 4F — TCGA survival</text>
+  <text x="915" y="326" class="box-text">unadjusted OS/DSS agree;</text>
+  <text x="915" y="346" class="box-text">not independent of stage</text>
+
+  <rect class="spec" x="1170" y="258" width="290" height="110" rx="8"/>
+  <text x="1185" y="284" class="box-title">functional-genomics-analyst</text>
+  <text x="1185" y="306" class="box-text">Tahoe-100M DE — BLOCKED</text>
+  <text x="1185" y="326" class="box-text">DepMap — mean CERES −0.230</text>
+  <text x="1185" y="346" class="box-text">1/46 LUAD essential</text>
+
+  <!-- ================= FIRST REVIEW ================= -->
+  <line class="flow" x1="190" y1="368" x2="600" y2="430"/>
+  <line class="flow" x1="620" y1="368" x2="690" y2="430"/>
+  <line class="flow" x1="1025" y1="368" x2="900" y2="430"/>
+  <line class="flow" x1="1315" y1="368" x2="980" y2="430"/>
+
+  <rect class="review" x="440" y="430" width="620" height="76" rx="8"/>
+  <text x="455" y="458" class="box-title">Scientific reviewer — full pass</text>
+  <text x="455" y="480" class="box-text">Checks underlying tables, scripts and figures, not just prose.</text>
+  <text x="455" y="498" class="box-text">Verdict: REVISE AND RESUBMIT (20 items; 7 new issues).</text>
+
+  <!-- ================= REVISION ================= -->
+  <line class="flow" x1="750" y1="506" x2="750" y2="548"/>
+  <rect class="revision" x="440" y="548" width="620" height="72" rx="8"/>
+  <text x="455" y="576" class="box-title">Specialist revisions (sent back to owners)</text>
+  <text x="455" y="598" class="box-text">History CSV stubs deleted · four median-of-medians values recomputed · prose/table divergences fixed</text>
+
+  <!-- ================= RE-REVIEW ================= -->
+  <line class="flow" x1="750" y1="620" x2="750" y2="656"/>
+  <rect class="accept" x="440" y="656" width="620" height="72" rx="8"/>
+  <text x="455" y="684" class="box-title">Scientific reviewer — re-review</text>
+  <text x="455" y="706" class="box-text">Verdict: ACCEPT WITH DISCLOSED LIMITATIONS (both conditions resolved)</text>
+
+  <!-- ================= SYNTHESIS ================= -->
+  <line class="flow" x1="750" y1="728" x2="750" y2="766"/>
+  <rect class="synth" x="340" y="766" width="820" height="96" rx="8"/>
+  <text x="360" y="796" class="box-title">CSO synthesis (this delivery)</text>
+  <text x="360" y="820" class="box-text">Executive summary · panel-by-paper comparison · verbatim caveats · target assessment</text>
+  <text x="360" y="840" class="box-text">claim–evidence objects (claims.json) · workflow · README update</text>
+
+  <!-- delivery -->
+  <line class="flow" x1="750" y1="862" x2="750" y2="900"/>
+  <rect class="accept" x="470" y="900" width="560" height="52" rx="8"/>
+  <text x="490" y="924" class="box-title">Final report delivered</text>
+  <text x="490" y="942" class="box-text">report/FINAL_REPORT.md · report/panel_by_paper_comparison.md</text>
+
+  <!-- ================= BLOCKED / QUARANTINE NOTE ================= -->
+  <rect class="blocked" x="40" y="560" width="340" height="168" rx="8"/>
+  <text x="55" y="586" class="box-title">Recorded, not dropped</text>
+  <text x="55" y="610" class="box-text">· Tahoe-100M DE: TAHOE_DATA_PATH not set</text>
+  <text x="55" y="630" class="box-text">  (3 logged attempts; not evidence of absence)</text>
+  <text x="55" y="650" class="box-text">· Visium first mapping: 100% NaN export</text>
+  <text x="55" y="670" class="box-text">  quarantined; config-identical re-run</text>
+  <text x="55" y="690" class="box-text">· Reference-model ELBO trace unavailable</text>
+  <text x="55" y="710" class="box-text">  (reported as unavailable, not fabricated)</text>
+
+  <!-- revision loop (dashed) between first review and re-review -->
+  <path class="rev" d="M440 468 C360 468 360 692 440 692"/>
+  <text x="250" y="588" class="note">revision loop</text>
+
+  <!-- legend -->
+  <line class="flow" x1="1140" y1="470" x2="1180" y2="470"/>
+  <text x="1188" y="474" class="box-text">data / control flow</text>
+  <line class="rev" x1="1140" y1="492" x2="1180" y2="492"/>
+  <text x="1188" y="496" class="box-text">review / revision cycle</text>
+</svg>

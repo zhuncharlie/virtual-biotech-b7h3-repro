@@ -1,0 +1,3 @@
+disease,panel,n_caf_source_interactions_all,n_after_top10pct,n_after_pval,n_after_3methods,n_unique_target_lr_pairs_compared,n_enriched_high,n_enriched_low,n_both_pass,n_neither,n_methods_score_all_finite_is_5,raw_input,caf_definition
+SCLC,4D,7706,2481,2481,2481,4076,282,81,1059,2654,True,liana_raw_sclc_sens_a.parquet,sens_a_median_positive
+LUAD,S5A,9651,4122,4122,4122,5294,590,138,1697,2869,True,liana_raw_luad_sens_a.parquet,sens_a_median_positive

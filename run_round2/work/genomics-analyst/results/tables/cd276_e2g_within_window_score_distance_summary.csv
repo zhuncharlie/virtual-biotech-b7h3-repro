@@ -1,0 +1,12 @@
+metric,value,definition
+n_elements,77,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+e2g_score_median,0.0143082886115539,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+e2g_score_min,0.0011955325491573,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+e2g_score_max,0.973455920489164,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+distance_to_CD276_TSS_bp_median,241123.0,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+distance_to_CD276_TSS_bp_min,64.5,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+distance_to_CD276_TSS_bp_max,496317.5,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+distance_to_CD276_TSS_kb_median,241.123,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+source_file,/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/b7h3_round2_20261021/data/encode_e2g/ENCFF459TXD_lung_e2g_predictions.bed.gz,read-only shared staging input
+source_file_md5,3b4198cdb65f7011e5535f1a94574496,md5 of the gzipped BED input
+source_file_size_bytes,321602896,gzipped BED size

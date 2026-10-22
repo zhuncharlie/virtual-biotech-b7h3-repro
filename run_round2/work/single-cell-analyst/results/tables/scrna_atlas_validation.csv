@@ -1,0 +1,15 @@
+check,value,pass
+n_cells,413996,True
+n_genes,61497,True
+has_counts_layer,True,True
+counts_integer_valued,True,True
+counts_nnz_equals_X_nnz,568789924==568789924,True
+X_is_lognorm_max<20,9.064,True
+obsm_X_pca,"(413996, 50)",True
+obsm_X_harmony,"(413996, 50)",True
+obsm_X_umap,"(413996, 2)",True
+obs_columns_present,True,True
+donors,80,True
+datasets,2,True
+cell_types,15,True
+no_nan_umap,True,True

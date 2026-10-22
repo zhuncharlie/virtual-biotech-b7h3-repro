@@ -1,0 +1,3 @@
+disease,panel,n_caf_source_interactions_all,n_after_top10pct,n_after_pval,n_after_3methods,n_unique_target_lr_pairs_compared,n_enriched_high,n_enriched_low,n_both_pass,n_neither,n_methods_score_all_finite_is_5
+SCLC,4D,7615,2387,2387,2387,4051,290,53,1022,2686,True
+LUAD,S5A,9094,3931,3931,3931,5053,540,91,1650,2772,True

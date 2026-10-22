@@ -1,0 +1,7 @@
+min_counts,min_genes,max_pct_mt,spots_retained,pct_retained,primary
+300,100,15.0,49401,90.4,False
+300,100,20.0,50245,91.94,False
+500,200,20.0,47448,86.82,True
+500,200,15.0,46627,85.32,False
+500,200,30.0,47783,87.43,False
+1000,300,20.0,41508,75.95,False

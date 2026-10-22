@@ -1,0 +1,32 @@
+histology,cell_type,analysis,n_disease_donors,n_normal_donors,n_disease_cells,n_normal_cells,status,reason,n_genes_tested,n_significant
+LUAD,B cell,primary_all_donors,15,4,4621,124,tested,,17196.0,169.0
+LUAD,T cell,primary_all_donors,16,4,22514,6523,tested,,19162.0,532.0
+LUAD,dendritic cell,primary_all_donors,13,4,1470,995,tested,,16857.0,273.0
+LUAD,endothelial cell,primary_all_donors,9,2,2171,63,skipped,"fewer than 3 donors in a group (disease=9, normal=2)",,
+LUAD,epithelial cell,primary_all_donors,15,4,4101,691,tested,,20116.0,57.0
+LUAD,erythrocyte,primary_all_donors,0,0,12,0,skipped,no pseudobulk with >=10 cells,,
+LUAD,fibroblast,primary_all_donors,11,1,3411,31,skipped,"fewer than 3 donors in a group (disease=11, normal=1)",,
+LUAD,macrophage,primary_all_donors,16,4,2988,3011,tested,,18821.0,659.0
+LUAD,mast cell,primary_all_donors,10,4,906,187,tested,,14865.0,6.0
+LUAD,neutrophil,primary_all_donors,2,1,106,15,skipped,"fewer than 3 donors in a group (disease=2, normal=1)",,
+LUAD,plasma cell,primary_all_donors,5,0,209,2,skipped,"fewer than 3 donors in a group (disease=5, normal=0)",,
+SCLC,B cell,primary_all_donors,4,4,200,124,tested,,12864.0,15.0
+SCLC,T cell,primary_all_donors,8,4,3767,6523,tested,,18295.0,880.0
+SCLC,dendritic cell,primary_all_donors,6,4,289,995,tested,,15342.0,165.0
+SCLC,endothelial cell,primary_all_donors,5,2,169,63,skipped,"fewer than 3 donors in a group (disease=5, normal=2)",,
+SCLC,epithelial cell,primary_all_donors,9,4,24254,691,tested,,21589.0,4885.0
+SCLC,fibroblast,primary_all_donors,4,1,244,31,skipped,"fewer than 3 donors in a group (disease=4, normal=1)",,
+SCLC,macrophage,primary_all_donors,9,4,212,3011,tested,,18056.0,1118.0
+SCLC,mast cell,primary_all_donors,1,4,29,187,skipped,"fewer than 3 donors in a group (disease=1, normal=4)",,
+SCLC,neutrophil,primary_all_donors,0,1,7,15,skipped,"fewer than 3 donors in a group (disease=0, normal=1)",,
+SCLC,plasma cell,primary_all_donors,0,0,7,2,skipped,no pseudobulk with >=10 cells,,
+LUAD,B cell,paired_3donors,3,3,819,100,tested,,14529.0,2.0
+LUAD,T cell,paired_3donors,3,3,3297,4465,tested,,17336.0,139.0
+LUAD,dendritic cell,paired_3donors,2,3,80,464,skipped,not all 3 paired donors have both conditions,,
+LUAD,endothelial cell,paired_3donors,2,2,119,57,skipped,not all 3 paired donors have both conditions,,
+LUAD,epithelial cell,paired_3donors,3,3,519,419,tested,,17873.0,122.0
+LUAD,fibroblast,paired_3donors,2,1,434,27,skipped,not all 3 paired donors have both conditions,,
+LUAD,macrophage,paired_3donors,3,3,1419,2922,tested,,18133.0,280.0
+LUAD,mast cell,paired_3donors,2,3,258,168,skipped,not all 3 paired donors have both conditions,,
+LUAD,neutrophil,paired_3donors,0,1,5,15,skipped,not all 3 paired donors have both conditions,,
+LUAD,plasma cell,paired_3donors,1,0,21,2,skipped,not all 3 paired donors have both conditions,,

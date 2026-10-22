@@ -1,0 +1,7 @@
+disease,direction,n_primary,n_sens_a,n_shared,jaccard,shared_pct_of_primary,shared_examples
+SCLC,enriched_high,290,282,183,0.4704,63.1,COL4A1->CD44 (B cell); COL4A2->CD44 (B cell); CXCL14->CXCR4 (B cell); FGF2->CD44 (B cell); LAMA4->CD44 (B cell)
+SCLC,enriched_low,53,81,35,0.3535,66.04,CXCL12->CXCR3 (B cell); HGF->CD44 (B cell); CCN2->IGF2R (CAF_B7H3_high); CXCL12->ITGA5 (CAF_B7H3_high); IL15RA->AXL (CAF_B7H3_high)
+SCLC,all_pairs_direction_agreement,4051,4076,3885,,94.31,pct of pairs called in both runs with the same call
+LUAD,enriched_high,540,590,431,0.6166,79.81,APP->CD74 (B cell); CLEC11A->ITGB1 (B cell); COL4A1->CD44 (B cell); COL4A1->CD47 (B cell); COL4A2->CD44 (B cell)
+LUAD,enriched_low,91,138,78,0.5166,85.71,LAMA2->CD44 (B cell); TNFSF13B->CD40 (B cell); BMP5->ACVR1_BMPR2 (CAF_B7H3_high); BMP5->PTPRD (CAF_B7H3_high); GDF10->BMPR2 (CAF_B7H3_high)
+LUAD,all_pairs_direction_agreement,5053,5294,5016,,93.94,pct of pairs called in both runs with the same call

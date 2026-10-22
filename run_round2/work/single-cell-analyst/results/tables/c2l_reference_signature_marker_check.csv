@@ -1,0 +1,12 @@
+cell_type,markers_tested,top_signature,n_marker_top_correct,n_markers
+T cell,CD8A,CD8A->T cell,1,1
+B cell,"CD79A,MS4A1",CD79A->plasma cell;MS4A1->B cell,1,2
+NK cell,"NKG7,GNLY,KLRD1",NKG7->NK cell;GNLY->NK cell;KLRD1->NK cell,3,3
+macrophage,"C1QA,C1QB,C1QC,MARCO",C1QA->macrophage;C1QB->macrophage;C1QC->macrophage;MARCO->macrophage,4,4
+monocyte/myeloid,"LYZ,S100A8,S100A9,FCN1",LYZ->macrophage;S100A8->monocyte/myeloid;S100A9->monocyte/myeloid;FCN1->monocyte/myeloid,3,4
+dendritic cell,"CD1C,FCER1A,CLEC9A",CD1C->dendritic cell;FCER1A->dendritic cell;CLEC9A->dendritic cell,3,3
+mast cell,"TPSAB1,CPA3,KIT",TPSAB1->mast cell;CPA3->mast cell;KIT->mast cell,3,3
+plasma cell,"MZB1,JCHAIN,IGHG1",MZB1->plasma cell;JCHAIN->plasma cell;IGHG1->plasma cell,3,3
+fibroblast,"COL1A1,COL1A2,DCN,PDGFRA",COL1A1->fibroblast;COL1A2->fibroblast;DCN->fibroblast;PDGFRA->fibroblast,4,4
+epithelial cell,"EPCAM,KRT8,KRT18",EPCAM->malignant cell;KRT8->malignant cell;KRT18->malignant cell,0,3
+endothelial cell,"PECAM1,VWF,CLDN5",PECAM1->endothelial cell;VWF->endothelial cell;CLDN5->endothelial cell,3,3

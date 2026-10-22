@@ -1,0 +1,12 @@
+cell_type,n_cells_lung adenocarcinoma,n_donors_lung adenocarcinoma,n_donors_ge10_lung adenocarcinoma,n_cells_small cell lung carcinoma,n_donors_small cell lung carcinoma,n_donors_ge10_small cell lung carcinoma,n_cells_normal,n_donors_normal,n_donors_ge10_normal,testable_LUAD_vs_normal,reason_LUAD,testable_SCLC_vs_normal,reason_SCLC
+B cell,4621,16,15,200,8,4,124,4,4,True,,True,
+T cell,22514,16,16,3767,9,8,6523,4,4,True,,True,
+dendritic cell,1470,16,13,289,9,6,995,4,4,True,,True,
+endothelial cell,2171,15,9,169,9,5,63,3,2,False,"disease donors with >= 10 cells = 9, normal donors with >= 10 cells = 2",False,"disease donors with >= 10 cells = 5, normal donors with >= 10 cells = 2"
+epithelial cell,4101,16,15,24254,9,9,691,4,4,True,,True,
+erythrocyte,12,3,0,0,0,0,0,0,0,False,"disease donors with >= 10 cells = 0, normal donors with >= 10 cells = 0",False,"disease donors with >= 10 cells = 0, normal donors with >= 10 cells = 0"
+fibroblast,3411,14,11,244,9,4,31,3,1,False,"disease donors with >= 10 cells = 11, normal donors with >= 10 cells = 1",False,"disease donors with >= 10 cells = 4, normal donors with >= 10 cells = 1"
+macrophage,2988,16,16,212,9,9,3011,4,4,True,,True,
+mast cell,906,15,10,29,6,1,187,4,4,True,,False,"disease donors with >= 10 cells = 1, normal donors with >= 10 cells = 4"
+neutrophil,106,8,2,7,1,0,15,2,1,False,"disease donors with >= 10 cells = 2, normal donors with >= 10 cells = 1",False,"disease donors with >= 10 cells = 0, normal donors with >= 10 cells = 1"
+plasma cell,209,12,5,7,2,0,2,1,0,False,"disease donors with >= 10 cells = 5, normal donors with >= 10 cells = 0",False,"disease donors with >= 10 cells = 0, normal donors with >= 10 cells = 0"

@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-10-21T14:48:58.385881+00:00",
+  "h5ad": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261021-080518-round-2-of-the-b7-h3-cd276-lung-27ef6dcf/work/single-cell-analyst/data/processed/scrna_luad_sclc_integrated.h5ad",
+  "h5ad_md5": "57c86760d9eaebce5f75cb69768e0cab",
+  "n_fibroblasts_total": 7297,
+  "definitions_written": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261021-080518-round-2-of-the-b7-h3-cd276-lung-27ef6dcf/work/single-cell-analyst/results/tables/liana_b7h3_caf_definition.csv",
+  "donor_table_written": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261021-080518-round-2-of-the-b7-h3-cd276-lung-27ef6dcf/work/single-cell-analyst/results/tables/liana_b7h3_caf_definition_by_donor.csv"
+}

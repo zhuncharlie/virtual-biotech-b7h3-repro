@@ -1,0 +1,9 @@
+disease,step,n_interactions,rule,pct_of_all_caf_source
+SCLC,0_all_CAF_source,7615,all interactions whose source is CAF_B7H3_high or CAF_B7H3_low,100.0
+SCLC,1_top10pct_specificity_rank,2387,specificity_rank <= 0.1,31.35
+SCLC,2_pval_lt_0.01,2387,"cellphone_pvals < 0.01 (CellPhoneDB, 1000 permutations)",31.35
+SCLC,3_ge3_methods_finite,2387,n_methods_finite_rank >= 3,31.35
+LUAD,0_all_CAF_source,9094,all interactions whose source is CAF_B7H3_high or CAF_B7H3_low,100.0
+LUAD,1_top10pct_specificity_rank,3931,specificity_rank <= 0.1,43.23
+LUAD,2_pval_lt_0.01,3931,"cellphone_pvals < 0.01 (CellPhoneDB, 1000 permutations)",43.23
+LUAD,3_ge3_methods_finite,3931,n_methods_finite_rank >= 3,43.23

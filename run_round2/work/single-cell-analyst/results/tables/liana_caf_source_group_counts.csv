@@ -1,0 +1,5 @@
+disease,source,n_all,n_pass_all_filters
+SCLC,CAF_B7H3_high,4050,1312
+SCLC,CAF_B7H3_low,3565,1075
+LUAD,CAF_B7H3_high,5011,2190
+LUAD,CAF_B7H3_low,4083,1741

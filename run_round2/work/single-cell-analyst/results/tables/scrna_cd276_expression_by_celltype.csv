@@ -1,0 +1,46 @@
+dataset_id,disease,cell_type,n_cells,pct_detected,mean_log_expr,mean_raw_counts
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,neutrophil,22,9.09,0.187,0.091
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,fibroblast,3611,17.28,0.175,0.218
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,macrophage,68608,16.62,0.137,0.208
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,malignant cell,11809,13.16,0.105,0.16
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,stromal/other,1533,6.39,0.078,0.07
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,epithelial cell,23879,5.39,0.057,0.059
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,dendritic cell,11890,5.32,0.051,0.061
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,endothelial cell,12780,3.51,0.049,0.042
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,mast cell,7209,2.44,0.039,0.025
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,monocyte/myeloid,23662,2.64,0.025,0.033
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,plasma cell,9904,0.87,0.006,0.009
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,T cell,117637,0.29,0.005,0.003
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,NK cell,22723,0.24,0.004,0.002
+1e6a6ef9-7ec9-4c90-bbfb-2ad3c3165fd1,lung adenocarcinoma,B cell,15400,0.14,0.002,0.001
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,fibroblast,3411,30.84,0.329,0.539
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,erythrocyte,12,8.33,0.264,0.083
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,macrophage,2988,19.08,0.16,0.295
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,epithelial cell,4101,19.43,0.152,0.28
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,endothelial cell,2171,10.27,0.111,0.157
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,mast cell,906,7.62,0.094,0.081
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,dendritic cell,1470,2.93,0.021,0.035
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,plasma cell,209,1.44,0.018,0.014
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,B cell,4621,0.37,0.006,0.004
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,T cell,22514,0.31,0.005,0.003
+576f193c-75d0-4a11-bd25-8676587e6dc2,lung adenocarcinoma,neutrophil,106,0.94,0.004,0.009
+576f193c-75d0-4a11-bd25-8676587e6dc2,normal,macrophage,3011,36.53,0.26,0.554
+576f193c-75d0-4a11-bd25-8676587e6dc2,normal,fibroblast,31,12.9,0.184,0.161
+576f193c-75d0-4a11-bd25-8676587e6dc2,normal,mast cell,187,7.49,0.105,0.091
+576f193c-75d0-4a11-bd25-8676587e6dc2,normal,epithelial cell,691,8.39,0.094,0.096
+576f193c-75d0-4a11-bd25-8676587e6dc2,normal,neutrophil,15,13.33,0.029,0.133
+576f193c-75d0-4a11-bd25-8676587e6dc2,normal,endothelial cell,63,1.59,0.024,0.016
+576f193c-75d0-4a11-bd25-8676587e6dc2,normal,dendritic cell,995,1.11,0.012,0.011
+576f193c-75d0-4a11-bd25-8676587e6dc2,normal,B cell,124,0.81,0.01,0.008
+576f193c-75d0-4a11-bd25-8676587e6dc2,normal,T cell,6523,0.28,0.006,0.003
+576f193c-75d0-4a11-bd25-8676587e6dc2,normal,plasma cell,2,0.0,0.0,0.0
+576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,fibroblast,244,35.25,0.401,0.721
+576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,endothelial cell,169,22.49,0.239,0.42
+576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,epithelial cell,24254,20.36,0.163,0.261
+576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,macrophage,212,12.26,0.106,0.151
+576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,dendritic cell,289,2.42,0.026,0.028
+576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,B cell,200,1.0,0.021,0.01
+576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,T cell,3767,0.42,0.006,0.005
+576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,mast cell,29,0.0,0.0,0.0
+576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,neutrophil,7,0.0,0.0,0.0
+576f193c-75d0-4a11-bd25-8676587e6dc2,small cell lung carcinoma,plasma cell,7,0.0,0.0,0.0

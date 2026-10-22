@@ -1,0 +1,5 @@
+endpoint,time_field,status_field,present,n_time_nonnull,n_status_nonnull,n_both_nonnull,n_events,status_labels
+OS,OS_MONTHS,OS_STATUS,True,505,514,505,182,0:LIVING=328; 1:DECEASED=186
+PFS,PFS_MONTHS,PFS_STATUS,True,505,514,505,205,0:CENSORED=306; 1:PROGRESSION=208
+DSS,DSS_MONTHS,DSS_STATUS,True,505,478,470,111,0:ALIVE OR DEAD TUMOR FREE=364; 1:DEAD WITH TUMOR=114
+DFS,DFS_MONTHS,DFS_STATUS,True,301,304,301,89,0:DiseaseFree=215; 1:Recurred/Progressed=89

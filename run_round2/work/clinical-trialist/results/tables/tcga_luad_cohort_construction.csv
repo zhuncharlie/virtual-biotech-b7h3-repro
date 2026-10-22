@@ -1,0 +1,22 @@
+step,detail,n_remaining,n_excluded,scope
+1,Samples in luad_tcga_pan_can_atlas_2018 (clinical MCP get_clinical_data),566,0,all
+2,Patients with CD276 value in luad_tcga_pan_can_atlas_2018_rna_seq_v2_mrna,510,56,all
+3,After duplicate-patient sample reduction (one primary aliquot/patient),510,0,all
+4,Expression quartile assigned (non-missing CD276),510,0,all
+5,"Covariates complete (age, sex, AJCC stage) -- adjusted-model eligible",489,21,adjusted
+6,OS: endpoint time+status present,501,9,OS
+7,OS: positive follow-up time only,497,4,OS
+8,OS: unadjusted Q4-vs-Q1 analysis set,251,246,OS_q4vq1
+9,OS: adjusted Q4-vs-Q1 analysis set (covariates complete),246,251,OS_q4vq1_adjusted
+6,PFS: endpoint time+status present,501,9,PFS
+7,PFS: positive follow-up time only,497,4,PFS
+8,PFS: unadjusted Q4-vs-Q1 analysis set,251,246,PFS_q4vq1
+9,PFS: adjusted Q4-vs-Q1 analysis set (covariates complete),246,251,PFS_q4vq1_adjusted
+6,DSS: endpoint time+status present,466,44,DSS
+7,DSS: positive follow-up time only,462,4,DSS
+8,DSS: unadjusted Q4-vs-Q1 analysis set,238,224,DSS_q4vq1
+9,DSS: adjusted Q4-vs-Q1 analysis set (covariates complete),233,229,DSS_q4vq1_adjusted
+6,DFS: endpoint time+status present,297,213,DFS
+7,DFS: positive follow-up time only,296,1,DFS
+8,DFS: unadjusted Q4-vs-Q1 analysis set,149,147,DFS_q4vq1
+9,DFS: adjusted Q4-vs-Q1 analysis set (covariates complete),144,152,DFS_q4vq1_adjusted

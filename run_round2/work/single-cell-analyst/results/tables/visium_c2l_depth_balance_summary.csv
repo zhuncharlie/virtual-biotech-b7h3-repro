@@ -1,0 +1,13 @@
+histology,metric,group,value,n_sections,n_spots,ratio_high_to_low,aggregation_definition
+tumor,median_total_counts_group,CD276_high,7545.0,12,27826,2.0345153026830256,"median over the 12 tumor sections of the per-section median_total_counts_high column (one value per section; unweighted, not pooled)"
+tumor,median_total_counts_group,CD276_low,3708.5,12,27826,,"median over the 12 tumor sections of the per-section median_total_counts_low column (one value per section; unweighted, not pooled)"
+tumor,mean_total_counts_group,CD276_high,9164.172217212397,12,27826,1.758564165039233,mean over the 12 tumor sections of the per-section mean_total_counts_high column (mean of section means; unweighted)
+tumor,mean_total_counts_group,CD276_low,5211.1673826857195,12,27826,,mean over the 12 tumor sections of the per-section mean_total_counts_low column (mean of section means; unweighted)
+tumor,all_spot_pooled_median,all_spots,4215.0,12,27826,,"median total_counts over all 27,826 tumor spots pooled across sections (spot-weighted; sections with more spots contribute proportionally)"
+tumor,all_spot_section_median_of_medians,all_spots,4471.5,12,27826,,"per-section median total_counts, then median over the 12 tumor sections (section-weighted; each section contributes one value regardless of spot count)"
+adjacent-normal,median_total_counts_group,CD276_high,2388.0,10,19622,1.146010797840432,"median over the 10 adjacent-normal sections of the per-section median_total_counts_high column (one value per section; unweighted, not pooled)"
+adjacent-normal,median_total_counts_group,CD276_low,2083.75,10,19622,,"median over the 10 adjacent-normal sections of the per-section median_total_counts_low column (one value per section; unweighted, not pooled)"
+adjacent-normal,mean_total_counts_group,CD276_high,3248.9370609781117,10,19622,1.2791399253670044,mean over the 10 adjacent-normal sections of the per-section mean_total_counts_high column (mean of section means; unweighted)
+adjacent-normal,mean_total_counts_group,CD276_low,2539.9387483319647,10,19622,,mean over the 10 adjacent-normal sections of the per-section mean_total_counts_low column (mean of section means; unweighted)
+adjacent-normal,all_spot_pooled_median,all_spots,2123.0,10,19622,,"median total_counts over all 19,622 adjacent-normal spots pooled across sections (spot-weighted; sections with more spots contribute proportionally)"
+adjacent-normal,all_spot_section_median_of_medians,all_spots,2234.25,10,19622,,"per-section median total_counts, then median over the 10 adjacent-normal sections (section-weighted; each section contributes one value regardless of spot count)"

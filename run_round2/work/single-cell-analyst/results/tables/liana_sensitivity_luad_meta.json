@@ -1,0 +1,17 @@
+{
+  "disease": "LUAD",
+  "definition": "sens_a_median_positive",
+  "n_perms": 1000,
+  "seed": 1337,
+  "n_cells_universe": 25162,
+  "n_fibroblasts": 7022,
+  "n_caf_high": 551,
+  "n_caf_low": 6471,
+  "n_donors_high": 33,
+  "n_donors_low": 58,
+  "n_interactions_raw": 38671,
+  "n_lr_pairs": 1524,
+  "liana_wall_time_min": 1.11,
+  "finished_utc": "2026-10-21T16:53:47.939344+00:00",
+  "output": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261021-113551-round-2-of-the-b7-h3-cd276-case-ef6e8b35/work/single-cell-analyst/results/tables/liana_raw_luad_sens_a.parquet"
+}

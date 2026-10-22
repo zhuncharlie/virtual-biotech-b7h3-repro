@@ -1,0 +1,103 @@
+metric,value,notes
+source_file,ENCFF459TXD_lung_e2g_predictions.bed.gz,ENCODE-rE2G DNase-only lung predictions; dataset ENCSR985HNP
+source_file_full_path,/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/b7h3_round2_20261021/data/encode_e2g/ENCFF459TXD_lung_e2g_predictions.bed.gz,read-only shared staging input
+source_file_md5,3b4198cdb65f7011e5535f1a94574496,md5 of the gzipped BED input
+total_rows_in_file,8609407,number of element-gene link records scanned
+locus_window,chr15:73184383-74184383,"CD276 TSS +/-500 kb, GRCh38"
+gene_body,chr15:73683966-73714514,CD276 GRCh38 gene span
+n_CD276_linked_elements,839,TargetGeneEnsemblID == ENSG00000103855
+n_CD276_linked_unique_elements,839,distinct element intervals
+n_locus_overlapping_elements,6570,element interval overlaps TSS +/-500 kb
+n_locus_overlapping_unique_elements,77,distinct element intervals
+n_both_gene_linked_and_locus,77,
+n_within_window_unique_elements,77,CD276-linked and within TSS +/-500 kb; the 77-element within-window set
+within_window_score_median,0.0143082886115539,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+within_window_score_min,0.0011955325491573,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+within_window_score_max,0.973455920489164,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+within_window_distance_to_TSS_bp_median,241123.0,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+within_window_distance_to_TSS_kb_median,241.123,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements"
+filter_link_table,"TargetGeneEnsemblID == ENSG00000103855 (CD276); all element-gene link records, no distance restriction",filter recorded in cd276_e2g_cd276_linked_all_839.csv
+filter_window_table,"TargetGeneEnsemblID == ENSG00000103855 (CD276) AND element interval overlaps chr15:73184383-74184383 (CD276 TSS +/-500 kb); one row per distinct element, 839-of-839 gene-linked records are unique elements",filter recorded in cd276_e2g_within_500kb_77_elements.csv
+class_taxonomy_note,promoter/genic/intergenic,This ENCODE-rE2G file has no 'enhancer' or 'intronic' class labels; distal candidate elements are labelled 'genic' or 'intergenic' and promoter elements 'promoter'.
+primary_score_threshold,0.02,Pre-declared primary threshold: above the 95th percentile of CD276-linked scores (0.0148); isolates the upper tail; sensitivity at 0.05 and 0.1 also reported. Not calibrated to any paper count.
+CD276_linked__n_class_genic,380,rows (element-gene links)
+CD276_linked__n_unique_class_genic,380,distinct element intervals
+CD276_linked__n_class_intergenic,330,rows (element-gene links)
+CD276_linked__n_unique_class_intergenic,330,distinct element intervals
+CD276_linked__n_class_promoter,129,rows (element-gene links)
+CD276_linked__n_unique_class_promoter,129,distinct element intervals
+CD276_linked__n_isSelfPromoter_TRUE,1,rows
+CD276_linked__score_min,0.00016822276149632,
+CD276_linked__score_median,0.0015674479183464,
+CD276_linked__score_mean,0.008179488315047499,
+CD276_linked__score_p90,0.008819680622401802,
+CD276_linked__score_p95,0.01484759199486616,
+CD276_linked__score_max,0.973455920489164,
+CD276_linked__n_score_ge_0.1,9,rows
+CD276_linked__n_unique_elements_score_ge_0.1,9,distinct element intervals
+CD276_linked__n_score_ge_0.05,16,rows
+CD276_linked__n_unique_elements_score_ge_0.05,16,distinct element intervals
+CD276_linked__n_score_ge_0.02,29,rows
+CD276_linked__n_unique_elements_score_ge_0.02,29,distinct element intervals
+CD276_linked__n_score_ge_0.01,78,rows
+CD276_linked__n_unique_elements_score_ge_0.01,78,distinct element intervals
+CD276_linked__n_score_ge_0.005,122,rows
+CD276_linked__n_unique_elements_score_ge_0.005,122,distinct element intervals
+CD276_linked__distanceToTSS_min_bp,64.5,
+CD276_linked__distanceToTSS_median_bp,2809151.0,
+CD276_linked__distanceToTSS_max_bp,4992421.0,
+locus_overlapping__n_class_genic,2642,rows (element-gene links)
+locus_overlapping__n_unique_class_genic,31,distinct element intervals
+locus_overlapping__n_class_intergenic,2476,rows (element-gene links)
+locus_overlapping__n_unique_class_intergenic,29,distinct element intervals
+locus_overlapping__n_class_promoter,1452,rows (element-gene links)
+locus_overlapping__n_unique_class_promoter,17,distinct element intervals
+locus_overlapping__n_isSelfPromoter_TRUE,7,rows
+locus_overlapping__score_min,1.1245792977445663e-05,
+locus_overlapping__score_median,0.000515046534208515,
+locus_overlapping__score_mean,0.00595237808636102,
+locus_overlapping__score_p90,0.004907143247214791,
+locus_overlapping__score_p95,0.01008168926552539,
+locus_overlapping__score_max,0.9927528521012404,
+locus_overlapping__n_score_ge_0.1,53,rows
+locus_overlapping__n_unique_elements_score_ge_0.1,24,distinct element intervals
+locus_overlapping__n_score_ge_0.05,110,rows
+locus_overlapping__n_unique_elements_score_ge_0.05,38,distinct element intervals
+locus_overlapping__n_score_ge_0.02,216,rows
+locus_overlapping__n_unique_elements_score_ge_0.02,49,distinct element intervals
+locus_overlapping__n_score_ge_0.01,331,rows
+locus_overlapping__n_unique_elements_score_ge_0.01,62,distinct element intervals
+locus_overlapping__n_score_ge_0.005,648,rows
+locus_overlapping__n_unique_elements_score_ge_0.005,71,distinct element intervals
+locus_overlapping__distanceToTSS_min_bp,23.0,
+locus_overlapping__distanceToTSS_median_bp,1754827.25,
+locus_overlapping__distanceToTSS_max_bp,4999195.0,
+CD276_linked__class_genic__n_score_ge_0.1,6,
+CD276_linked__class_intergenic__n_score_ge_0.1,1,
+CD276_linked__class_promoter__n_score_ge_0.1,2,
+CD276_linked__class_genic__n_score_ge_0.05,7,
+CD276_linked__class_intergenic__n_score_ge_0.05,7,
+CD276_linked__class_promoter__n_score_ge_0.05,2,
+CD276_linked__class_genic__n_score_ge_0.02,10,
+CD276_linked__class_intergenic__n_score_ge_0.02,17,
+CD276_linked__class_promoter__n_score_ge_0.02,2,
+top_linked_01,chr15:73683537-73685152|promoter|0.973456,distanceToTSS=64.5; isSelfPromoter=True
+top_linked_02,chr15:73697023-73697523|genic|0.972419,distanceToTSS=12993.0; isSelfPromoter=False
+top_linked_03,chr15:73700174-73700674|genic|0.645998,distanceToTSS=16144.0; isSelfPromoter=False
+top_linked_04,chr15:73685317-73686251|genic|0.387239,distanceToTSS=1504.0; isSelfPromoter=False
+top_linked_05,chr15:73631940-73634003|promoter|0.28278,distanceToTSS=51308.5; isSelfPromoter=False
+top_linked_06,chr15:73922244-73923494|genic|0.239982,distanceToTSS=238589.0; isSelfPromoter=False
+top_linked_07,chr15:73704402-73705228|genic|0.214872,distanceToTSS=20535.0; isSelfPromoter=False
+top_linked_08,chr15:73691281-73692012|genic|0.142407,distanceToTSS=7366.5; isSelfPromoter=False
+top_linked_09,chr15:73636323-73636903|intergenic|0.116911,distanceToTSS=47667.0; isSelfPromoter=False
+top_linked_10,chr15:73677033-73677533|intergenic|0.0887557,distanceToTSS=6997.0; isSelfPromoter=False
+top_linked_11,chr15:73800310-73801511|intergenic|0.086418,distanceToTSS=116630.5; isSelfPromoter=False
+top_linked_12,chr15:73789511-73790011|intergenic|0.0789806,distanceToTSS=105481.0; isSelfPromoter=False
+top_linked_13,chr15:73802324-73803101|intergenic|0.0733604,distanceToTSS=118432.5; isSelfPromoter=False
+top_linked_14,chr15:73924256-73925036|genic|0.0679285,distanceToTSS=240366.0; isSelfPromoter=False
+top_linked_15,chr15:73786422-73786922|intergenic|0.0633011,distanceToTSS=102392.0; isSelfPromoter=False
+top_linked_16,chr15:73804403-73805005|intergenic|0.0586927,distanceToTSS=120424.0; isSelfPromoter=False
+top_linked_17,chr15:73794199-73794966|intergenic|0.0486507,distanceToTSS=110302.5; isSelfPromoter=False
+top_linked_18,chr15:73782366-73783043|intergenic|0.0465026,distanceToTSS=98424.5; isSelfPromoter=False
+top_linked_19,chr15:73593338-73594452|genic|0.0449553,distanceToTSS=90385.0; isSelfPromoter=False
+top_linked_20,chr15:73601365-73602864|genic|0.0371374,distanceToTSS=82165.5; isSelfPromoter=False

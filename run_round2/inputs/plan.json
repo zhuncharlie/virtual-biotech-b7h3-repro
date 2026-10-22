@@ -1,0 +1,58 @@
+{
+  "goal": "Finish Round 2 B7-H3 case study from the verified resume point: complete cell2location panels 4E/S5B, spatial-neighborhood analysis, evidence-level scientific review of all panels, reviewer-driven recomputations, and final synthesis. Reuse the completed CPU cell2location outputs; do not retrain.",
+  "created": "2026-10-21T20:44:52.523559",
+  "steps": [
+    {
+      "id": "r1",
+      "agent": "single-cell-analyst",
+      "task": "Run diagnostics, 4E/S5B panel figures, k=6 spatial-neighborhood analysis, and write the visium_c2l_panels4e_s5b_report.md from the already-completed cell2location outputs (3,000/3,000 mapping epochs, 250/250 reference epochs, CPU). No retraining.",
+      "depends_on": [],
+      "expected_outputs": [
+        "work/single-cell-analyst/results/tables/visium_c2l_section_summary.csv",
+        "work/single-cell-analyst/results/tables/visium_c2l_abundance_sanity.csv",
+        "work/single-cell-analyst/results/tables/visium_neighborhood_immune_change.csv",
+        "work/single-cell-analyst/results/tables/visium_neighborhood_robustness.csv",
+        "work/single-cell-analyst/results/figures/fig4e_c2l_tumor.png",
+        "work/single-cell-analyst/results/figures/figs5b_c2l_adjacent_normal.png",
+        "work/single-cell-analyst/results/figures/fig4e_neighborhood_immune_change.png",
+        "work/single-cell-analyst/results/reports/visium_c2l_panels4e_s5b_report.md"
+      ]
+    },
+    {
+      "id": "r2",
+      "agent": "scientific-reviewer",
+      "task": "Evidence-level review of panels 4A, 4B/4C, 4D/S5A, 4E/S5B, 4F by opening underlying data, scripts and figures directly; check the CD276 LoF-constraint framing and Tahoe-100M materiality pattern, LIANA pre-registration timeline, 4E/S5B panel split, paper fit, and pipeline errors; return specific required recomputations.",
+      "depends_on": [
+        "r1"
+      ],
+      "expected_outputs": [
+        "work/scientific-reviewer/results/reports/review_round2.md"
+      ]
+    },
+    {
+      "id": "r3",
+      "agent": "single-cell-analyst",
+      "task": "Address any reviewer-required recomputations in the single-cell/spatial panels and re-file affected artifacts.",
+      "depends_on": [
+        "r2"
+      ],
+      "expected_outputs": []
+    }
+  ],
+  "valid_order": [
+    "r1",
+    "r2",
+    "r3"
+  ],
+  "parallel_groups": [
+    [
+      "r1"
+    ],
+    [
+      "r2"
+    ],
+    [
+      "r3"
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+item,value
+genes_input,61497
+genes_after_CD276_exclusion,61496
+genes_after_min_cells_filter,22627
+genes_after_HVG,2000
+n_hvg_requested,2000
+hvg_flavor,seurat_v3
+hvg_batch_key,dataset_id
+CD276_in_reference_genes,False
+n_cell_types_input,15
+n_cell_types_kept,14
+cell_types_dropped,erythrocyte(n=12)
+n_cells_reference,384806
+subsample_rule,none (all cells)

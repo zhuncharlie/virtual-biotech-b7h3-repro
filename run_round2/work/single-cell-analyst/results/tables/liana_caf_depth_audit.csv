@@ -1,0 +1,3 @@
+disease,n_fibroblasts,n_high,n_low,frac_high,median_n_genes_high,median_n_genes_low,median_total_counts_high,median_total_counts_low,median_cd276_high,median_cd276_low,frac_cd276_zero,frac_cd276_one,frac_cd276_ge2,rho_cd276_vs_n_genes,p_cd276_vs_n_genes,rho_cd276_vs_total_counts,p_cd276_vs_total_counts,n_donors,n_donors_high,rho_donor_frac_high_vs_median_n_genes,p_donor_frac_high_vs_median_n_genes
+SCLC,244,86,158,0.3525,3311.5,1959.0,9808.0,4507.0,1.5,0.0,0.6475,0.1762,0.1762,0.4515,1.1727544633586255e-13,0.4608,3.133014512692238e-14,9,7,0.6471,0.05959221388500867
+LUAD,7022,1676,5346,0.2387,2556.0,1654.0,8342.0,4358.0,1.0,0.0,0.7613,0.1602,0.0785,0.4212,4.8440551865284005e-300,0.4075,4.106995895896787e-279,58,47,0.6089,3.953696099395423e-07

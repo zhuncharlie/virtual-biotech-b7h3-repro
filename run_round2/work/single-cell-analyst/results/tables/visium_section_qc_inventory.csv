@@ -1,0 +1,23 @@
+section,patient,histology,sampling_site,n_spots_raw,n_spots_qc,pct_retained,median_counts_raw,median_genes_raw,median_pct_mt_raw,median_counts_qc,median_genes_qc,median_pct_mt_qc,n_fail_low_counts,n_fail_low_genes,n_fail_high_mito
+P10_T1,P10,tumor,tumor,2200,2168,98.55,4434.0,2192.0,1.96,4527.0,2218.0,1.95,32,1,0
+P10_T2,P10,tumor,tumor,1986,1955,98.44,4951.0,2350.5,2.07,5035.0,2406.0,2.06,31,5,0
+P10_T3,P10,tumor,tumor,2610,2574,98.62,4182.0,2047.5,2.44,4281.0,2071.0,2.43,36,6,0
+P10_T4,P10,tumor,tumor,2479,2392,96.49,2393.0,1312.0,3.15,2476.5,1351.5,3.13,87,11,0
+P15_T1,P15,tumor,tumor,2624,2541,96.84,5977.5,2544.0,8.43,6149.0,2589.0,8.29,9,2,74
+P15_T2,P15,tumor,tumor,3131,2999,95.78,4833.0,2183.0,7.57,4974.0,2239.0,7.25,11,4,121
+P16_T1,P16,tumor,tumor,2262,2223,98.28,4333.0,1959.5,3.84,4416.0,1985.0,3.79,34,17,6
+P16_T2,P16,tumor,tumor,2210,2150,97.29,4080.5,1914.5,3.01,4204.0,1956.0,2.96,60,24,0
+P24_T1,P24,tumor,tumor,3426,3248,94.8,3342.0,1507.0,1.49,3543.0,1579.5,1.51,175,74,1
+P24_T2,P24,tumor,tumor,3491,3150,90.23,2561.0,1276.0,1.29,2930.0,1400.5,1.28,340,124,1
+P25_T1,P25,tumor,tumor,1308,1151,88.0,5005.5,2333.5,9.06,6031.0,2626.0,8.77,123,52,44
+P25_T2,P25,tumor,tumor,1458,1275,87.45,5390.0,2389.5,8.41,6191.0,2675.0,7.96,146,48,47
+P10_B1,P10,adjacent-normal,normal tissue adjacent to tumor,1755,1380,78.63,989.0,654.0,2.76,1243.5,794.5,2.73,375,109,0
+P10_B2,P10,adjacent-normal,normal tissue adjacent to tumor,1842,1067,57.93,597.0,438.5,2.58,931.0,636.0,2.56,775,328,0
+P15_B1,P15,adjacent-normal,normal tissue adjacent to tumor,2844,2763,97.15,3035.5,1507.5,3.78,3163.0,1551.0,3.76,60,11,22
+P15_B2,P15,adjacent-normal,normal tissue adjacent to tumor,2824,2768,98.02,3626.5,1786.0,3.04,3691.0,1815.0,3.02,48,15,8
+P16_B1,P16,adjacent-normal,normal tissue adjacent to tumor,3123,1603,51.33,514.0,390.0,5.5,944.0,648.0,5.09,1518,590,17
+P16_B2,P16,adjacent-normal,normal tissue adjacent to tumor,3351,825,24.62,263.0,218.0,4.17,746.0,542.0,3.68,2525,1515,8
+P24_B1,P24,adjacent-normal,normal tissue adjacent to tumor,2581,2510,97.25,2751.0,1422.0,2.6,2797.5,1443.0,2.6,71,30,0
+P24_B2,P24,adjacent-normal,normal tissue adjacent to tumor,3019,2801,92.78,2030.0,1161.0,1.99,2194.0,1215.0,1.99,218,79,0
+P25_B1,P25,adjacent-normal,normal tissue adjacent to tumor,1965,1828,93.03,2158.0,1165.0,6.34,2274.5,1213.5,6.34,98,32,41
+P25_B2,P25,adjacent-normal,normal tissue adjacent to tumor,2161,2077,96.11,2325.0,1247.0,6.38,2403.0,1274.0,6.33,39,8,46

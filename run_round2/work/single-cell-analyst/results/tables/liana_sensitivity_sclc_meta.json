@@ -1,0 +1,17 @@
+{
+  "disease": "SCLC",
+  "definition": "sens_a_median_positive",
+  "n_perms": 1000,
+  "seed": 1337,
+  "n_cells_universe": 29178,
+  "n_fibroblasts": 244,
+  "n_caf_high": 43,
+  "n_caf_low": 201,
+  "n_donors_high": 5,
+  "n_donors_low": 9,
+  "n_interactions_raw": 25378,
+  "n_lr_pairs": 1681,
+  "liana_wall_time_min": 1.03,
+  "finished_utc": "2026-10-21T16:51:32.684168+00:00",
+  "output": "/mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/20261021-113551-round-2-of-the-b7-h3-cd276-case-ef6e8b35/work/single-cell-analyst/results/tables/liana_raw_sclc_sens_a.parquet"
+}

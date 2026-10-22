@@ -1,0 +1,5 @@
+disease,direction,n_calls,n_low_side_absent,n_high_side_absent,pct_low_side_absent,median_delta_specificity_rank,median_abs_log2_lr_means,q90_abs_log2_lr_means,n_nominal_sens_a_concordant,pct_sens_a_concordant
+SCLC,enriched_high,290,63,0,21.72,0.0941,0.4557,29.4051,183,63.1
+SCLC,enriched_low,53,0,0,0.0,-0.0683,0.1837,0.3563,35,66.04
+LUAD,enriched_high,540,224,0,41.48,0.0918,0.5736,29.2153,431,79.81
+LUAD,enriched_low,91,0,3,0.0,-0.0609,0.1572,0.4435,78,85.71

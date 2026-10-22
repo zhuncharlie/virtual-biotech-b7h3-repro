@@ -1,0 +1,363 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Audit · 20261022-010102-round-2-of-the-b7-h3-cd276-case-76d40ca3</title>
+<style>
+  :root{color-scheme:light dark;
+    --surface:#fcfcfb; --plane:#f9f9f7; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --rule:#c3c2b7; --border:rgba(11,11,11,.10);
+    --good:#0ca30c; --warn:#fab219; --crit:#d03b3b;}
+  @media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+    --surface:#1a1a19; --plane:#0d0d0d; --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --rule:#383835; --border:rgba(255,255,255,.10);}}
+  :root[data-theme=dark]{--surface:#1a1a19; --plane:#0d0d0d; --ink:#fff; --ink2:#c3c2b7;
+    --grid:#2c2c2a; --rule:#383835; --border:rgba(255,255,255,.10);}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--plane);color:var(--ink);
+    font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;}
+  .wrap{max-width:1080px;margin:0 auto;padding:32px 20px 72px}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em}
+  .dim{color:var(--muted)}
+  .hdr{border-bottom:1px solid var(--rule);padding-bottom:20px;margin-bottom:24px}
+  .eyebrow{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+  h1{font-size:26px;line-height:1.25;margin:8px 0 6px;font-weight:650}
+  .sub{color:var(--ink2);font-size:13px}
+  h2{font-size:19px;margin:40px 0 4px;font-weight:620}
+  h3{font-size:15px;margin:22px 0 8px;font-weight:600;display:flex;align-items:center;gap:8px}
+  .lede{color:var(--ink2);font-size:13.5px;margin:6px 0 16px;max-width:74ch}
+  section{border-top:1px solid var(--grid);margin-top:8px}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:20px 0}
+  .tile{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px}
+  .tile-l{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+  .tile-v{font-size:26px;font-weight:640;margin:2px 0 1px}
+  .tile-s{font-size:11.5px;color:var(--ink2)}
+  .note{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--muted);
+    border-radius:8px;padding:12px 16px;margin:18px 0;font-size:13.5px;color:var(--ink2)}
+  .note ul{margin:6px 0 0;padding-left:18px}
+  .warnbox{border-left-color:var(--warn)}
+  .empty{color:var(--muted);font-style:italic}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin:6px 0 16px}
+  th{text-align:left;font-weight:600;color:var(--ink2);font-size:11px;text-transform:uppercase;
+    letter-spacing:.06em;border-bottom:1px solid var(--rule);padding:6px 8px}
+  td{padding:6px 8px;border-bottom:1px solid var(--grid);vertical-align:top}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  tr.err td{background:color-mix(in srgb,var(--crit) 7%,transparent)}
+  /* Wide content scrolls inside its own box; the page body never scrolls sideways. */
+  .scroll{overflow-x:auto;max-height:520px;overflow-y:auto;border:1px solid var(--border);
+    border-radius:8px}
+  .scroll table{margin:0}
+  .scroll th{position:sticky;top:0;background:var(--surface);z-index:1}
+  .xscroll{overflow-x:auto;max-width:100%}
+  .xscroll table{min-width:560px}
+  td code{overflow-wrap:anywhere}
+  .prompt{color:var(--ink2);min-width:22ch;max-width:40ch;overflow-wrap:anywhere}
+  .agent{margin:18px 0 26px}
+  .swatch{width:10px;height:10px;border-radius:3px;background:var(--ac);flex:none;display:inline-block}
+  .swatch.sm{width:8px;height:8px;margin-right:6px;vertical-align:baseline}
+  @media (prefers-color-scheme:dark){:root:not([data-theme=light]) .swatch{background:var(--acd)}}
+  :root[data-theme=dark] .swatch{background:var(--acd)}
+  .count{margin-left:auto;font-weight:400;font-size:12px;color:var(--muted)}
+  .kind{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);
+    margin:12px 0 2px}
+  .tl{width:100%;height:auto;background:var(--surface);border:1px solid var(--border);
+    border-radius:10px;padding:6px 0;margin:8px 0 18px}
+  .tl .grid{stroke:var(--grid);stroke-width:1}
+  .tl .tick,.tl .rowlab,.tl .durlab{font:11px system-ui,sans-serif;fill:var(--muted)}
+  .tl .rowlab{fill:var(--ink2);font-size:11.5px}
+  .tl .bar{fill:var(--bar);stroke:var(--surface);stroke-width:2}
+  @media (prefers-color-scheme:dark){:root:not([data-theme=light]) .tl .bar{fill:var(--bard)}}
+  :root[data-theme=dark] .tl .bar{fill:var(--bard)}
+  .durlab.inbar{fill:var(--surface);font-weight:600}
+  .claim{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--good);
+    border-radius:8px;padding:12px 16px;margin:10px 0}
+  .claim.warn{border-left-color:var(--warn)}
+  .claim-h{display:flex;gap:10px;align-items:baseline}
+  .cid{font:600 11px ui-monospace,monospace;color:var(--muted);flex:none}
+  .ctext{font-weight:550}
+  .claim-m{font-size:12px;color:var(--muted);margin:3px 0 8px}
+  ul.ev{margin:0;padding-left:18px;font-size:13px}
+  ul.ev li{margin:3px 0}
+  .ek{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);
+    margin-right:4px}
+  .vb{font-size:10.5px;padding:1px 6px;border-radius:20px;margin-left:6px;white-space:nowrap}
+  .vb.ok,.vb.verified{color:var(--good);
+    border:1px solid color-mix(in srgb,var(--good) 45%,transparent)}
+  /* An external citation is neutral, not a fault — only `unresolved` is red. */
+  .vb.external{color:var(--muted);border:1px solid color-mix(in srgb,var(--muted) 45%,transparent)}
+  .vb.no,.vb.unresolved{color:var(--crit);
+    border:1px solid color-mix(in srgb,var(--crit) 45%,transparent)}
+  .note-inline{color:var(--ink2)}
+  .cref{color:inherit;text-decoration:none;border-bottom:1px dotted var(--muted);
+    font:600 11px ui-monospace,monospace}
+  pre{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:12px 14px;
+    overflow-x:auto;font-size:12.5px;margin:8px 0}
+  pre.cmd{font-size:13px}
+  details{margin:10px 0}
+  summary{cursor:pointer;font-size:13px;color:var(--ink2);padding:4px 0}
+  footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--grid);
+    font-size:12px;color:var(--muted)}
+</style>
+<body><div class="wrap">
+<header class="hdr">
+<div class="eyebrow">Virtual Biotech · run audit</div>
+<h1>Round 2 of the B7-H3 (CD276) case study was interrupted mid-execution by a transient API connection error, not a data or code problem. Before doing anything else, read this resume file in full: /mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/b7h3_round2_20261021/config/resume_after_interruption_4.md -- it tells you exactly what is already done and verified (reuse directly, do not redo), what was in progress when the interruption hit (verify what exists on disk, resume rather than restart), and what has not started yet. The original scope/rules file is still at /mnt/beegfs/xqinag/projects/TheVirtualBiotech/runs/b7h3_round2_20261021/config/full_requirements.md if you need to check any detail not covered in the resume file. State briefly that you have read the resume file, then continue execution: finish Wave 2 (LIANA 4D/S5A, cell2location 4E/S5B), then proceed through the spatial-neighborhood analysis, the scientific-reviewer pass (checking underlying data/scripts/figures directly, not just report prose), and final synthesis. No approval checkpoint needed this time -- proceed straight through to delivery.</h1>
+<div class="sub"><code>20261022-010102-round-2-of-the-b7-h3-cd276-case-76d40ca3</code> · 2026-10-22T01:01:02.745481 · status <strong>incomplete</strong></div>
+</header>
+<div class="tiles">
+<div class="tile"><div class="tile-l">Specialists</div><div class="tile-v">5</div><div class="tile-s"></div></div>
+<div class="tile"><div class="tile-l">Artifacts</div><div class="tile-v">24</div><div class="tile-s">304.4 KB</div></div>
+<div class="tile"><div class="tile-l">Tool calls</div><div class="tile-v">76</div><div class="tile-s">0 by specialists</div></div>
+<div class="tile"><div class="tile-l">Tool errors</div><div class="tile-v">1</div><div class="tile-s">recorded failures</div></div>
+<div class="tile"><div class="tile-l">Claims</div><div class="tile-v">15</div><div class="tile-s">evidence coverage: incomplete</div></div>
+<div class="tile"><div class="tile-l">Duration</div><div class="tile-v">8.3 min</div><div class="tile-s"></div></div>
+</div>
+<div class="note warnbox"><strong>Evidence audit incomplete.</strong> File hashes alone do not establish that the report's conclusions have recorded support.<ul>
+<li>The final report contains no claim references, so its conclusions are not linked to the recorded evidence.</li>
+<li>Research turn 1 has no valid claim references; an earlier turn&#x27;s citations do not cover its findings.</li>
+</ul></div>
+<p class="lede">Evidence coverage checks recorded pointers and report references; it does not verify scientific correctness or external citations. Use <code>verify</code> below to also check artifact hashes.</p>
+<div class="note warnbox"><strong>Misplaced files.</strong> Written into directories the run harness owns, where analysis output does not belong. They are not recorded as artifacts and nothing can cite them.<ul>
+<li><code>report/panel_by_paper_comparison.md</code></li>
+<li><code>report/workflow_diagram.svg</code></li>
+<li><code>report/README_update_proposed.md</code></li>
+</ul></div>
+<section><h2>1 · What each agent produced</h2>
+<p class="lede">Every file this run wrote, grouped by the agent that produced it and hashed at the time of writing.</p>
+<div class="agent" style="--ac:#2a78d6;--acd:#3987e5">
+<h3><span class="swatch"></span>Clinical Trialist<span class="count">3 artifacts</span></h3>
+<div class="kind">Reports</div>
+<div class="xscroll"><table><thead><tr><th>File</th><th>Size</th><th>Produced by</th><th>SHA-256</th><th>Cited by</th></tr></thead><tbody>
+<tr><td><code>work/clinical-trialist/results/reports/tcga_luad_cd276_survival_report.md</code></td><td class="num">12.9 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="0a5ab264f6d922559d4a69970c6eb32f5ca980798978c3cdcf622fb9d06dc9f1">0a5ab264f6d9…</code></td><td><a class="cref" href="#claim-C113">C113</a> <a class="cref" href="#claim-C114">C114</a> <a class="cref" href="#claim-C115">C115</a></td></tr>
+</tbody></table></div>
+<div class="kind">Tables</div>
+<div class="xscroll"><table><thead><tr><th>File</th><th>Size</th><th>Produced by</th><th>SHA-256</th><th>Cited by</th></tr></thead><tbody>
+<tr><td><code>work/clinical-trialist/results/tables/tcga_luad_cd276_cox_models.csv</code></td><td class="num">16.7 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="4a0d9488b28de46b3bee36b96dd092f8800de98c8ffa463a675ffeaf4b2fca5a">4a0d9488b28d…</code></td><td><a class="cref" href="#claim-C113">C113</a> <a class="cref" href="#claim-C114">C114</a></td></tr>
+<tr><td><code>work/clinical-trialist/results/tables/tcga_luad_cohort_construction.csv</code></td><td class="num">1.4 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="67341127dc88f318f1ca1c80e6a0f7ec476bc508629b826fe314420101c373bf">67341127dc88…</code></td><td><a class="cref" href="#claim-C115">C115</a></td></tr>
+</tbody></table></div>
+</div>
+<div class="agent" style="--ac:#eb6834;--acd:#d95926">
+<h3><span class="swatch"></span>Functional Genomics Analyst<span class="count">4 artifacts</span></h3>
+<div class="kind">Reports</div>
+<div class="xscroll"><table><thead><tr><th>File</th><th>Size</th><th>Produced by</th><th>SHA-256</th><th>Cited by</th></tr></thead><tbody>
+<tr><td><code>work/functional-genomics-analyst/results/reports/tahoe_round2_status.md</code></td><td class="num">15.5 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="ecbb88a0b888f520d339f1a3d60dfac2cf453c87efed39a2a2d648ad31118967">ecbb88a0b888…</code></td><td><a class="cref" href="#claim-C116">C116</a> <a class="cref" href="#claim-C117">C117</a></td></tr>
+</tbody></table></div>
+<div class="kind">Tables</div>
+<div class="xscroll"><table><thead><tr><th>File</th><th>Size</th><th>Produced by</th><th>SHA-256</th><th>Cited by</th></tr></thead><tbody>
+<tr><td><code>work/functional-genomics-analyst/results/tables/round1_depmap_recomputed_group_summary.csv</code></td><td class="num">855 B</td><td><code class="dim">—</code></td><td><code class="dim" title="adb6eedd2e26ef2b8860c7d432b038f6b2b40ba68fe1630f8f02c666a5fcb799">adb6eedd2e26…</code></td><td><a class="cref" href="#claim-C117">C117</a></td></tr>
+<tr><td><code>work/functional-genomics-analyst/results/tables/round1_depmap_verification.csv</code></td><td class="num">3.2 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="18c0a2f30d70ebe095e73a29fe1ed35569df0a40503fae9d0e69d2cee1abb1a6">18c0a2f30d70…</code></td><td><a class="cref" href="#claim-C117">C117</a></td></tr>
+<tr><td><code>work/functional-genomics-analyst/results/tables/tahoe_round2_attempt_log.csv</code></td><td class="num">4.9 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="61c53d864319426253e1a4ed7a34d61b4d69b9604ee545916f8bfd9b351b9173">61c53d864319…</code></td><td><a class="cref" href="#claim-C116">C116</a></td></tr>
+</tbody></table></div>
+</div>
+<div class="agent" style="--ac:#1baf7a;--acd:#199e70">
+<h3><span class="swatch"></span>Genomics Analyst<span class="count">3 artifacts</span></h3>
+<div class="kind">Reports</div>
+<div class="xscroll"><table><thead><tr><th>File</th><th>Size</th><th>Produced by</th><th>SHA-256</th><th>Cited by</th></tr></thead><tbody>
+<tr><td><code>work/genomics-analyst/results/reports/cd276_panel4a_report.md</code></td><td class="num">28.2 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="aa8c083342fda2fe9f6b641302576032467c9df859d361db019e766cc0c21b3f">aa8c083342fd…</code></td><td><a class="cref" href="#claim-C101">C101</a> <a class="cref" href="#claim-C103">C103</a></td></tr>
+</tbody></table></div>
+<div class="kind">Tables</div>
+<div class="xscroll"><table><thead><tr><th>File</th><th>Size</th><th>Produced by</th><th>SHA-256</th><th>Cited by</th></tr></thead><tbody>
+<tr><td><code>work/genomics-analyst/results/tables/cd276_e2g_within_window_score_distance_summary.csv</code></td><td class="num">2.2 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="d3bdb15f976fd2419c54268f0c6db6a644c1252b402fe4f3bddd6061bcbba769">d3bdb15f976f…</code></td><td><a class="cref" href="#claim-C103">C103</a></td></tr>
+<tr><td><code>work/genomics-analyst/results/tables/cd276_round2_germline_verification.csv</code></td><td class="num">3.9 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="37c3a20d809efa7f8ace7ec8f65a2187de2b2209caae73d86e232af1b03d150c">37c3a20d809e…</code></td><td><a class="cref" href="#claim-C101">C101</a></td></tr>
+</tbody></table></div>
+</div>
+<div class="agent" style="--ac:#eda100;--acd:#c98500">
+<h3><span class="swatch"></span>Scientific Reviewer<span class="count">2 artifacts</span></h3>
+<div class="kind">Reports</div>
+<div class="xscroll"><table><thead><tr><th>File</th><th>Size</th><th>Produced by</th><th>SHA-256</th><th>Cited by</th></tr></thead><tbody>
+<tr><td><code>work/scientific-reviewer/results/reports/review_round2_full.md</code></td><td class="num">39.3 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="062009620e73f427cea6f169caa9921d4e7d9ee985f0947f6705d4204e262861">062009620e73…</code></td><td><a class="cref" href="#claim-C118">C118</a></td></tr>
+<tr><td><code>work/scientific-reviewer/results/reports/review_round2_rereview.md</code></td><td class="num">27.9 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="16c8267ec5726f6628f8eb08c24a2116e0b165bcfbed5662ba1b8c2e43b76029">16c8267ec572…</code></td><td><a class="cref" href="#claim-C118">C118</a></td></tr>
+</tbody></table></div>
+</div>
+<div class="agent" style="--ac:#e87ba4;--acd:#d55181">
+<h3><span class="swatch"></span>Single Cell Analyst<span class="count">12 artifacts</span></h3>
+<div class="kind">Reports</div>
+<div class="xscroll"><table><thead><tr><th>File</th><th>Size</th><th>Produced by</th><th>SHA-256</th><th>Cited by</th></tr></thead><tbody>
+<tr><td><code>work/single-cell-analyst/results/reports/liana_panels4d_s5a_report.md</code></td><td class="num">37.0 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="3d347e369507c29601b2d4da6f5744da87548f2a2eccc10bbaff4379caaa09fd">3d347e369507…</code></td><td><a class="cref" href="#claim-C107">C107</a></td></tr>
+<tr><td><code>work/single-cell-analyst/results/reports/scrna_panels4bc_report.md</code></td><td class="num">11.8 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="1c9838f80e9f1fd14e9dbab020dbe2996a495b01a446f0fed0dab608691cc4e9">1c9838f80e9f…</code></td><td><a class="cref" href="#claim-C104">C104</a> <a class="cref" href="#claim-C105">C105</a> <a class="cref" href="#claim-C111">C111</a></td></tr>
+<tr><td><code>work/single-cell-analyst/results/reports/visium_c2l_panels4e_s5b_report.md</code></td><td class="num">44.8 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="0fdf1ad83226ce52b729cb1760c692499a6f02cc0d176942e441ac063d40e187">0fdf1ad83226…</code></td><td><a class="cref" href="#claim-C109">C109</a> <a class="cref" href="#claim-C110">C110</a> <a class="cref" href="#claim-C112">C112</a></td></tr>
+<tr><td><code>work/single-cell-analyst/results/reports/visium_ingest_qc_log.md</code></td><td class="num">13.4 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="1016e6bb0ab701ca413f5fb5eaa2d6ddba2393311d273f84a6ddaa42161c7b56">1016e6bb0ab7…</code></td><td><span class="dim">—</span></td></tr>
+</tbody></table></div>
+<div class="kind">Tables</div>
+<div class="xscroll"><table><thead><tr><th>File</th><th>Size</th><th>Produced by</th><th>SHA-256</th><th>Cited by</th></tr></thead><tbody>
+<tr><td><code>work/single-cell-analyst/results/tables/liana_caf_depth_audit.csv</code></td><td class="num">751 B</td><td><code class="dim">—</code></td><td><code class="dim" title="eb93ca6f59437a6fcf752bf00f37c032896b4717230c931130f553a9a8ee40ed">eb93ca6f5943…</code></td><td><a class="cref" href="#claim-C107">C107</a></td></tr>
+<tr><td><code>work/single-cell-analyst/results/tables/liana_top_differential_pairs.csv</code></td><td class="num">10.0 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="0f7c48dd28d96f7f76f2a6fe124b0192d6c5382717028523a8dcbf36fd3e3d4a">0f7c48dd28d9…</code></td><td><a class="cref" href="#claim-C107">C107</a></td></tr>
+<tr><td><code>work/single-cell-analyst/results/tables/scrna_cd276_de_summary.csv</code></td><td class="num">2.5 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="772314a406f32a7569ce75f34334aea0956498e4513350c26f770e3e8efc21d5">772314a406f3…</code></td><td><a class="cref" href="#claim-C105">C105</a></td></tr>
+<tr><td><code>work/single-cell-analyst/results/tables/scrna_cd276_expression_by_celltype.csv</code></td><td class="num">4.0 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="314003a192df0c0598f6303260a0863085a5e97f541ede876f26d09a964131c5">314003a192df…</code></td><td><a class="cref" href="#claim-C111">C111</a></td></tr>
+<tr><td><code>work/single-cell-analyst/results/tables/scrna_cell_donor_audit.csv</code></td><td class="num">3.7 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="8c00e89f0d169bcae54a4cf75cf88f67b4bd4a76f3aa60feecc81a3a27507170">8c00e89f0d16…</code></td><td><a class="cref" href="#claim-C104">C104</a></td></tr>
+<tr><td><code>work/single-cell-analyst/results/tables/visium_c2l_cd276_stratification_audit.csv</code></td><td class="num">5.0 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="5def6b43ebcff08559c4e06948f6acbc9095cd99fb7a21f952e2b6b7ca624268">5def6b43ebcf…</code></td><td><a class="cref" href="#claim-C112">C112</a></td></tr>
+<tr><td><code>work/single-cell-analyst/results/tables/visium_neighborhood_composition_pp_difference.csv</code></td><td class="num">13.0 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="af0313d0279b09be83ea489fd254525dce85cab3307279cd7c29960f7b771d23">af0313d0279b…</code></td><td><a class="cref" href="#claim-C109">C109</a></td></tr>
+<tr><td><code>work/single-cell-analyst/results/tables/visium_neighborhood_edge_spot_sensitivity.csv</code></td><td class="num">1.7 KB</td><td><code class="dim">—</code></td><td><code class="dim" title="3fb12392cb4bc3b08bfb05916a9d18c4afd801c642f7cdeaa8b8020a328cb9b7">3fb12392cb4b…</code></td><td><a class="cref" href="#claim-C110">C110</a></td></tr>
+</tbody></table></div>
+</div>
+</section>
+<section><h2>2 · Claims and their evidence</h2>
+<p class="lede">Each claim from the final synthesis, with the artifacts and tool calls behind it. <strong>Verified</strong> means the pointer was resolved against this run's manifest or trace — not that the science was checked.</p>
+<div class="claim ok" id="claim-C101">
+<div class="claim-h"><span class="cid">C101</span><span class="ctext">No LUAD or SCLC GWAS credible set and no L2G locus supports CD276: 0 of 8 studies carry a credible set within ±500 kb of the CD276 locus, and 0 of 67 L2G predictions derive from a LUAD or SCLC study.</span></div>
+<div class="claim-m">Genomics Analyst · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/genomics-analyst/results/tables/cd276_round2_germline_verification.csv</code> <span class="note-inline">— per-study credible-set and L2G verification; all counts zero</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/genomics-analyst/results/reports/cd276_panel4a_report.md</code> <span class="note-inline">— Panel 4A germline section</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C103">
+<div class="claim-h"><span class="cid">C103</span><span class="ctext">ENCODE lung rE2G predicts 839 CD276-linked regulatory elements genome-wide, of which 77 lie within ±500 kb of the TSS (median 241.1 kb), 29 reach the pre-declared Score ≥ 0.02 threshold, and the top element is the CD276 promoter (Score 0.973).</span></div>
+<div class="claim-m">Genomics Analyst · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/genomics-analyst/results/tables/cd276_e2g_within_window_score_distance_summary.csv</code> <span class="note-inline">— element counts by window and score threshold; top element row</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/genomics-analyst/results/reports/cd276_panel4a_report.md</code> <span class="note-inline">— Panel 4A regulatory section and threshold rationale</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C104">
+<div class="claim-h"><span class="cid">C104</span><span class="ctext">The rebuilt LUAD/SCLC single-cell atlas contains 413,996 cells, 80 donors and 15 cell types after the paper&#x27;s QC filters and donor-stratified downsampling.</span></div>
+<div class="claim-m">Single Cell Analyst · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/single-cell-analyst/results/tables/scrna_cell_donor_audit.csv</code> <span class="note-inline">— cell, donor and cell-type totals after QC</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/single-cell-analyst/results/reports/scrna_panels4bc_report.md</code> <span class="note-inline">— Panels 4B/4C atlas construction</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C105">
+<div class="claim-h"><span class="cid">C105</span><span class="ctext">CD276 is not significantly differentially expressed in any of 15 primary disease-vs-normal pseudobulk contrasts; the smallest adjusted p-value is 0.291 (SCLC macrophage, log2FC −0.95).</span></div>
+<div class="claim-m">Single Cell Analyst · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/single-cell-analyst/results/tables/scrna_cd276_de_summary.csv</code> <span class="note-inline">— 15 contrast rows with log2FC and padj</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/single-cell-analyst/results/reports/scrna_panels4bc_report.md</code> <span class="note-inline">— Panels 4B/4C differential-expression section</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C107">
+<div class="claim-h"><span class="cid">C107</span><span class="ctext">LIANA shows no interaction unique to CD276-high CAFs: most calls are shared between high and low groups, there is no formal between-group test or FDR, the detection split carries a 55–69% detected-gene depth gap, and the high group is myCAF-marker-enriched (1.43 vs 1.00, donor paired p = 4.8e-7).</span></div>
+<div class="claim-m">Single Cell Analyst · confidence moderate</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/single-cell-analyst/results/tables/liana_top_differential_pairs.csv</code> <span class="note-inline">— high/low call counts and recurring ECM/proteolysis pairs</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">table</span> <code>work/single-cell-analyst/results/tables/liana_caf_depth_audit.csv</code> <span class="note-inline">— detected-gene depth gap and myCAF marker score by group</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/single-cell-analyst/results/reports/liana_panels4d_s5a_report.md</code> <span class="note-inline">— Panels 4D/S5A interpretation and donor support</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C109">
+<div class="claim-h"><span class="cid">C109</span><span class="ctext">The depth-robust Visium composition difference around high-CD276 tumour spots is malignant enrichment of +3.79 percentage points (12/12 sections, 5/5 donors) with donor-concordant depletion of endothelium (−2.03 pp), NK cells (−0.49 pp) and macrophages (−0.40 pp); T-cell fraction changes by only +0.11 pp.</span></div>
+<div class="claim-m">Single Cell Analyst · confidence moderate</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/single-cell-analyst/results/tables/visium_neighborhood_composition_pp_difference.csv</code> <span class="note-inline">— per-cell-type percentage-point differences with section and donor concordance</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/single-cell-analyst/results/reports/visium_c2l_panels4e_s5b_report.md</code> <span class="note-inline">— Panels 4E/S5B composition analysis</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C110">
+<div class="claim-h"><span class="cid">C110</span><span class="ctext">The Visium immune-hot signal occurs only in absolute abundance and is confounded: tumour high-CD276 spots have a 2.03x median-of-medians capture-depth difference (7,545.0 vs 3,708.5), and the abundance difference does not survive restriction to interior spots.</span></div>
+<div class="claim-m">Single Cell Analyst · confidence moderate</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/single-cell-analyst/results/tables/visium_neighborhood_edge_spot_sensitivity.csv</code> <span class="note-inline">— edge-vs-interior sensitivity results</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/single-cell-analyst/results/reports/visium_c2l_panels4e_s5b_report.md</code> <span class="note-inline">— Panels 4E/S5B depth and edge-effect audit</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C111">
+<div class="claim-h"><span class="cid">C111</span><span class="ctext">CD276 detection is highest in LUAD fibroblasts (30.84% of 3,411 cells), SCLC fibroblasts (35.3% of 244 cells) and normal lung macrophages (36.53% of 3,011 cells), so CD276 is not tumour-restricted.</span></div>
+<div class="claim-m">Single Cell Analyst · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/single-cell-analyst/results/tables/scrna_cd276_expression_by_celltype.csv</code> <span class="note-inline">— detection percentage and mean expression per cell type</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/single-cell-analyst/results/reports/scrna_panels4bc_report.md</code> <span class="note-inline">— Panels 4B/4C detection analysis</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C112">
+<div class="claim-h"><span class="cid">C112</span><span class="ctext">Visium CD276 stratification is detection-based rather than expression-quantile: the low group is the CD276-zero tail, the adjacent-normal high group is degenerate (median CD276 = 0.0 in 8 of 10 sections), and the rank fallback fires in 22 of 22 sections.</span></div>
+<div class="claim-m">Single Cell Analyst · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/single-cell-analyst/results/tables/visium_c2l_cd276_stratification_audit.csv</code> <span class="note-inline">— per-section group medians and fallback flags</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/single-cell-analyst/results/reports/visium_c2l_panels4e_s5b_report.md</code> <span class="note-inline">— Panels 4E/S5B stratification audit</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C113">
+<div class="claim-h"><span class="cid">C113</span><span class="ctext">In TCGA LUAD, unadjusted Q4-vs-Q1 CD276 expression is associated with worse overall survival (HR 1.80, 95% CI 1.19–2.71, p = 0.0051) and disease-specific survival (HR 1.86, 95% CI 1.10–3.13, p = 0.0206).</span></div>
+<div class="claim-m">Clinical Trialist · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/clinical-trialist/results/tables/tcga_luad_cd276_cox_models.csv</code> <span class="note-inline">— unadjusted Q4-vs-Q1 OS and DSS model rows</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/clinical-trialist/results/reports/tcga_luad_cd276_survival_report.md</code> <span class="note-inline">— Panel 4F unadjusted models</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C114">
+<div class="claim-h"><span class="cid">C114</span><span class="ctext">After adjustment for age, stage and sex, the CD276 survival association in TCGA LUAD is not significant: adjusted OS HR 1.44 (p = 0.106) and adjusted DSS HR 1.39 (p = 0.249), so CD276 is not an independent prognostic factor in this cohort on this analysis.</span></div>
+<div class="claim-m">Clinical Trialist · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/clinical-trialist/results/tables/tcga_luad_cd276_cox_models.csv</code> <span class="note-inline">— adjusted OS and DSS model rows</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/clinical-trialist/results/reports/tcga_luad_cd276_survival_report.md</code> <span class="note-inline">— Panel 4F adjusted models and PH diagnostics</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C115">
+<div class="claim-h"><span class="cid">C115</span><span class="ctext">The TCGA LUAD cohort has 566 patients, of whom 510 have CD276 mRNA; 251 samples enter the unadjusted Q4-vs-Q1 contrast and 246 enter the adjusted model.</span></div>
+<div class="claim-m">Clinical Trialist · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/clinical-trialist/results/tables/tcga_luad_cohort_construction.csv</code> <span class="note-inline">— cohort funnel: 566 enrolled, 510 with expression, 251/246 analysis sets</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/clinical-trialist/results/reports/tcga_luad_cd276_survival_report.md</code> <span class="note-inline">— Panel 4F cohort construction</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C116">
+<div class="claim-h"><span class="cid">C116</span><span class="ctext">The Tahoe-100M differential-expression track is blocked and therefore not assessable: all three perturbation calls failed with &#x27;TAHOE_DATA_PATH not set in environment&#x27; before reading data, and no evidence of absence or non-materiality can be inferred.</span></div>
+<div class="claim-m">Functional Genomics Analyst · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/functional-genomics-analyst/results/tables/tahoe_round2_attempt_log.csv</code> <span class="note-inline">— three logged attempts and exact errors</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/functional-genomics-analyst/results/reports/tahoe_round2_status.md</code> <span class="note-inline">— Tahoe/DepMap status report</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C117">
+<div class="claim-h"><span class="cid">C117</span><span class="ctext">CD276 is not essential in cancer cell lines: mean gene effect is −0.230 in LUAD (n = 46, 1/46 below the −0.5 threshold) and −0.204 in SCLC (n = 25, 0/25 below threshold), with round-1 DepMap artifacts re-verified 54/54.</span></div>
+<div class="claim-m">Functional Genomics Analyst · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">table</span> <code>work/functional-genomics-analyst/results/tables/round1_depmap_recomputed_group_summary.csv</code> <span class="note-inline">— mean gene effect and essential fraction by histology</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">table</span> <code>work/functional-genomics-analyst/results/tables/round1_depmap_verification.csv</code> <span class="note-inline">— 54/54 artifact re-verification</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/functional-genomics-analyst/results/reports/tahoe_round2_status.md</code> <span class="note-inline">— DepMap section</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+<div class="claim ok" id="claim-C118">
+<div class="claim-h"><span class="cid">C118</span><span class="ctext">The scientific reviewer&#x27;s final verdict is ACCEPT WITH DISCLOSED LIMITATIONS, with both acceptance conditions (deleting leftover history CSV stubs and recomputing four median-of-medians values) verified as resolved without re-analysis.</span></div>
+<div class="claim-m">Scientific Reviewer · confidence strong</div>
+<ul class="ev">
+<li><span class="ek">artifact</span> <code>work/scientific-reviewer/results/reports/review_round2_rereview.md</code> <span class="note-inline">— final verdict and condition-resolution checks</span> <span class="vb verified">✓ verified</span></li>
+<li><span class="ek">artifact</span> <code>work/scientific-reviewer/results/reports/review_round2_full.md</code> <span class="note-inline">— first full pass with 20 items</span> <span class="vb verified">✓ verified</span></li>
+</ul></div>
+</section>
+<section><h2>3 · Full provenance</h2>
+<p class="lede">Every tool call in the run, attributed to the agent that made it. Reconstructed from the execution trace, not from any agent's self-report.</p>
+<div class="scroll"><table class="tools"><thead><tr><th>Time</th><th>Agent</th><th>Tool</th><th>ms</th><th>Wrote</th></tr></thead><tbody><tr><td class="num">01:01:33</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">59.6</td><td><code class="dim"></code></td></tr><tr><td class="num">01:01:39</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">4161.3</td><td><code class="dim"></code></td></tr><tr><td class="num">01:01:43</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1007.2</td><td><code class="dim"></code></td></tr><tr><td class="num">01:01:48</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1150.5</td><td><code class="dim"></code></td></tr><tr><td class="num">01:01:50</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1079.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:01:54</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1156.6</td><td><code class="dim"></code></td></tr><tr><td class="num">01:01:56</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">623.5</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:01</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Skill</code></td><td class="num">82.3</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:01</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">12.3</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:07</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">5512.3</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:12</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1134.9</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:18</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">836.2</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:18</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">45.9</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:22</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">660.1</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:23</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">20.6</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:26</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">1135.6</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:26</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">17.4</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:35</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1013.4</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:36</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1182.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:42</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">998.1</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:43</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1093.3</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:48</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1051.9</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:57</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">994.9</td><td><code class="dim"></code></td></tr><tr><td class="num">01:02:58</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Skill</code></td><td class="num">52.1</td><td><code class="dim"></code></td></tr><tr><td class="num">01:03:49</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">—</td><td><code class="dim"></code></td></tr><tr><td class="num">01:03:49</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">—</td><td><code class="dim"></code></td></tr><tr><td class="num">01:03:53</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">976.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:03:53</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">9.3</td><td><code class="dim"></code></td></tr><tr><td class="num">01:03:57</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">881.1</td><td><code class="dim"></code></td></tr><tr><td class="num">01:03:58</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">897.6</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:02</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">10.7</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:03</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">990.7</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:07</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">958.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:08</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1062.5</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:13</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>TodoWrite</code></td><td class="num">9.7</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:14</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">17.2</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:17</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">10.5</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:17</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">10.0</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:20</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">962.7</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:21</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">936.2</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:25</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">12.5</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:26</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">10.3</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:30</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">9.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:30</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">15.4</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:34</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1028.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:37</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">24.4</td><td><code class="dim"></code></td></tr><tr><td class="num">01:04:42</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1052.0</td><td><code class="dim"></code></td></tr><tr><td class="num">01:05:28</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">15.2</td><td><code class="dim"></code></td></tr><tr><td class="num">01:05:48</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Write</code></td><td class="num">—</td><td><code class="dim">FINAL_REPORT.md</code></td></tr><tr><td class="num">01:05:54</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>mcp__provenance__list_artifacts</code></td><td class="num">88.6</td><td><code class="dim"></code></td></tr><tr class="err"><td class="num">01:05:54</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>mcp__provenance__list_artifacts</code> <span class='vb no'>error</span></td><td class="num">213.1</td><td><code class="dim"></code></td></tr><tr><td class="num">01:06:01</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1087.4</td><td><code class="dim"></code></td></tr><tr><td class="num">01:06:08</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>TodoWrite</code></td><td class="num">14.0</td><td><code class="dim"></code></td></tr><tr><td class="num">01:06:08</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1034.5</td><td><code class="dim"></code></td></tr><tr><td class="num">01:06:17</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1471.0</td><td><code class="dim"></code></td></tr><tr><td class="num">01:06:23</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">16.7</td><td><code class="dim"></code></td></tr><tr><td class="num">01:06:24</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">10.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:06:24</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">9.7</td><td><code class="dim"></code></td></tr><tr><td class="num">01:06:47</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Write</code></td><td class="num">41.2</td><td><code class="dim">FINAL_REPORT.md</code></td></tr><tr><td class="num">01:07:03</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Write</code></td><td class="num">16.6</td><td><code class="dim">panel_by_paper_comparison.md</code></td></tr><tr><td class="num">01:07:24</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Write</code></td><td class="num">18.1</td><td><code class="dim">workflow_diagram.svg</code></td></tr><tr><td class="num">01:08:01</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>mcp__provenance__list_artifacts</code></td><td class="num">83.6</td><td><code class="dim"></code></td></tr><tr><td class="num">01:08:01</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1034.7</td><td><code class="dim"></code></td></tr><tr><td class="num">01:08:05</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Read</code></td><td class="num">11.0</td><td><code class="dim"></code></td></tr><tr><td class="num">01:08:09</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Edit</code></td><td class="num">31.0</td><td><code class="dim">FINAL_REPORT.md</code></td></tr><tr><td class="num">01:08:14</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Edit</code></td><td class="num">19.7</td><td><code class="dim">FINAL_REPORT.md</code></td></tr><tr><td class="num">01:08:20</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Grep</code></td><td class="num">321.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:08:34</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>mcp__provenance__record_claims</code></td><td class="num">146.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:08:39</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Edit</code></td><td class="num">28.0</td><td><code class="dim">FINAL_REPORT.md</code></td></tr><tr><td class="num">01:08:39</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1023.7</td><td><code class="dim"></code></td></tr><tr><td class="num">01:08:45</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>TodoWrite</code></td><td class="num">5.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:08:51</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Edit</code></td><td class="num">—</td><td><code class="dim">README.md</code></td></tr><tr><td class="num">01:08:59</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Write</code></td><td class="num">30.2</td><td><code class="dim">README_update_proposed.md</code></td></tr><tr><td class="num">01:09:03</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">1099.8</td><td><code class="dim"></code></td></tr><tr><td class="num">01:09:09</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>Bash</code></td><td class="num">976.9</td><td><code class="dim"></code></td></tr><tr><td class="num">01:09:14</td><td><span class="swatch sm" style="--ac:#898781;--acd:#898781"></span><code>_cso</code></td><td><code>TodoWrite</code></td><td class="num">5.0</td><td><code class="dim"></code></td></tr></tbody></table></div>
+</section>
+<section><h2>4 · Reproducing this run</h2>
+<pre class="cmd">./run.sh verify 20261022-010102-round-2-of-the-b7-h3-cd276-case-76d40ca3   <span class="dim"># check file hashes and evidence coverage</span>
+./run.sh verify 20261022-010102-round-2-of-the-b7-h3-cd276-case-76d40ca3 --rerun   <span class="dim"># also re-execute analysis scripts</span>
+./run.sh replay 20261022-010102-round-2-of-the-b7-h3-cd276-case-76d40ca3   <span class="dim"># re-run the same turns into a new run dir</span></pre>
+<p class="lede"><code>verify</code> checks recorded files, claims and report references. With <code>--rerun</code>, it also re-executes analysis scripts under <code>work/*/code/</code> and compares the reproduced outputs. <code>replay</code> re-runs the agents against the same pinned models and prompts; because LLM sampling is stochastic the result is comparable, not bit-identical. We state the difference rather than implying end-to-end determinism.</p>
+<details><summary>Pinned configuration</summary><pre>{
+  &quot;session_id&quot;: &quot;40c1ab95-dacb-426c-abd9-4bb60906c5c8&quot;,
+  &quot;cso_model&quot;: &quot;claude-sonnet-4-5-20250929&quot;,
+  &quot;specialist_model&quot;: &quot;claude-sonnet-4-5-20250929&quot;,
+  &quot;specialist_model_label&quot;: &quot;claude-sonnet-4-5-20250929&quot;,
+  &quot;effort&quot;: &quot;xhigh&quot;,
+  &quot;max_turns&quot;: 100,
+  &quot;python&quot;: &quot;3.11.17&quot;,
+  &quot;host&quot;: &quot;n1&quot;,
+  &quot;started&quot;: &quot;2026-10-22T01:01:02.677279&quot;,
+  &quot;interface&quot;: &quot;web_or_batch&quot;,
+  &quot;audit_required&quot;: true,
+  &quot;claude_agent_sdk&quot;: &quot;0.1.69&quot;,
+  &quot;git_commit&quot;: &quot;71f9da68c95c5ee0ef4c1d9b8f45f10693de022d&quot;,
+  &quot;prompt_sha256&quot;: {
+    &quot;chief_of_staff/system_prompt.md&quot;: &quot;8bcdef74c90cc045&quot;,
+    &quot;cso/system_prompt.md&quot;: &quot;ce111aaf81408dc1&quot;,
+    &quot;modality_selection/system_prompts/medchem_pharmacologist_short.md&quot;: &quot;73c865ec6f1c745d&quot;,
+    &quot;modality_selection/system_prompts/target_biologist_short.md&quot;: &quot;e2be1776d719164f&quot;,
+    &quot;safety/system_prompts/bio_pathways_ppi_analyst_short.md&quot;: &quot;f00ec50864bc9caf&quot;,
+    &quot;safety/system_prompts/clinical_trialist_short.md&quot;: &quot;c0403869a6bd312a&quot;,
+    &quot;safety/system_prompts/fda_safety_officer_short.md&quot;: &quot;415e8d0d20f96b6d&quot;,
+    &quot;scientific_reviewer/system_prompt.md&quot;: &quot;0858303b50d034ed&quot;,
+    &quot;target_id/system_prompts/functional_genomics_analyst_short.md&quot;: &quot;a8ddac7f120e5e01&quot;,
+    &quot;target_id/system_prompts/genomics_analyst_short.md&quot;: &quot;ddc34ab89d5f1f84&quot;,
+    &quot;target_id/system_prompts/single_cell_analyst_short.md&quot;: &quot;5485dce25d3ebf3e&quot;,
+    &quot;trial_matching/system_prompt.md&quot;: &quot;6b9620e4d034229a&quot;
+  },
+  &quot;mcp_servers&quot;: [
+    &quot;association&quot;,
+    &quot;clinicaltrials&quot;,
+    &quot;disease&quot;,
+    &quot;drug&quot;,
+    &quot;expression&quot;,
+    &quot;functional_genomics&quot;,
+    &quot;genetics&quot;,
+    &quot;interaction&quot;,
+    &quot;pathway&quot;,
+    &quot;provenance&quot;,
+    &quot;single_cell&quot;,
+    &quot;target&quot;
+  ],
+  &quot;research_turns&quot;: [
+    1
+  ],
+  &quot;total_cost_usd&quot;: 4.333052,
+  &quot;num_turns&quot;: 1,
+  &quot;interrupted_turns&quot;: [],
+  &quot;data_source_errors&quot;: []
+}</pre></details>
+</section>
+<footer>Generated 2026-10-22 01:09:22 · src/utils/run_report.py · self-contained, no external assets</footer>
+</div></body>

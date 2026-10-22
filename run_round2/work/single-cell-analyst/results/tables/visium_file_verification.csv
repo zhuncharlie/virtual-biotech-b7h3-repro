@@ -1,0 +1,23 @@
+section,patient,age,sex,disease,stage,sampling_site,h5_exists,h5_size_bytes,tar_exists,tar_size_bytes,h5_ok,h5_error,n_spots_raw,n_genes,n_nonzero,feature_type_counts,tar_ok,tar_error,extract_ok,extract_attempts
+P10_T1,P10,72,female,lung adenocarcinoma,T3N0M0,tumor,True,8676888,True,9758720,True,,2200,36601,5966694,"{""Gene Expression"": 36601}",True,,True,1
+P10_T2,P10,73,female,lung adenocarcinoma,T3N0M1,tumor,True,8117672,True,9400320,True,,1986,36601,5586398,"{""Gene Expression"": 36601}",True,,True,1
+P10_T3,P10,74,female,lung adenocarcinoma,T3N0M2,tumor,True,9578928,True,10342400,True,,2610,36601,6578157,"{""Gene Expression"": 36601}",True,,True,1
+P10_T4,P10,75,female,lung adenocarcinoma,T3N0M3,tumor,True,6578612,True,10076160,True,,2479,36601,4365531,"{""Gene Expression"": 36601}",True,,True,1
+P15_T1,P15,73,female,lung adenocarcinoma,T3N0M0,tumor,True,9842464,True,11632640,True,,2624,36601,6810978,"{""Gene Expression"": 36601}",True,,True,1
+P15_T2,P15,74,female,lung adenocarcinoma,T3N0M1,tumor,True,10374093,True,11847680,True,,3131,36601,7156010,"{""Gene Expression"": 36601}",True,,True,1
+P16_T1,P16,87,female,lung adenocarcinoma,T2bN0M0,tumor,True,7234026,True,10444800,True,,2262,36601,4853080,"{""Gene Expression"": 36601}",True,,True,1
+P16_T2,P16,88,female,lung adenocarcinoma,T2bN0M0,tumor,True,6963283,True,10332160,True,,2210,36601,4667795,"{""Gene Expression"": 36601}",True,,True,1
+P24_T1,P24,52,female,lung adenocarcinoma,T3N0M0,tumor,True,8822571,True,11479040,True,,3426,36601,5943760,"{""Gene Expression"": 36601}",True,,True,1
+P24_T2,P24,53,female,lung adenocarcinoma,T3N0M1,tumor,True,7814548,True,11509760,True,,3491,36601,5198591,"{""Gene Expression"": 36601}",True,,True,1
+P25_T1,P25,64,male,lung adenocarcinoma,T3N0M0,tumor,True,5076655,True,8058880,True,,1308,36601,3385532,"{""Gene Expression"": 36601}",True,,True,1
+P25_T2,P25,65,male,lung adenocarcinoma,T3N0M1,tumor,True,5348029,True,8222720,True,,1458,36601,3576297,"{""Gene Expression"": 36601}",True,,True,1
+P10_B1,P10,76,female,lung adenocarcinoma,T3N0M4,normal tissue adjacent to tumor,True,2343131,True,8468480,True,,1755,36601,1330803,"{""Gene Expression"": 36601}",True,,True,1
+P10_B2,P10,77,female,lung adenocarcinoma,T3N0M5,normal tissue adjacent to tumor,True,1860239,True,8478720,True,,1842,36601,991454,"{""Gene Expression"": 36601}",True,,True,1
+P15_B1,P15,75,female,lung adenocarcinoma,T3N0M2,normal tissue adjacent to tumor,True,7641917,True,10588160,True,,2844,36601,5084896,"{""Gene Expression"": 36601}",True,,True,1
+P15_B2,P15,76,female,lung adenocarcinoma,T3N0M3,normal tissue adjacent to tumor,True,8361904,True,10577920,True,,2824,36601,5642743,"{""Gene Expression"": 36601}",True,,True,1
+P16_B1,P16,89,female,lung adenocarcinoma,T2bN0M0,normal tissue adjacent to tumor,True,2710937,True,10526720,True,,3123,36601,1546054,"{""Gene Expression"": 36601}",True,,True,1
+P16_B2,P16,90,female,lung adenocarcinoma,T2bN0M0,normal tissue adjacent to tumor,True,1916547,True,10096640,True,,3351,36601,992294,"{""Gene Expression"": 36601}",True,,True,1
+P24_B1,P24,54,female,lung adenocarcinoma,T3N0M2,normal tissue adjacent to tumor,True,5809466,True,9461760,True,,2581,36601,3775339,"{""Gene Expression"": 36601}",True,,True,1
+P24_B2,P24,55,female,lung adenocarcinoma,T3N0M3,normal tissue adjacent to tumor,True,5671119,True,9902080,True,,3019,36601,3652577,"{""Gene Expression"": 36601}",True,,True,1
+P25_B1,P25,66,male,lung adenocarcinoma,T3N0M2,normal tissue adjacent to tumor,True,3895065,True,8796160,True,,1965,36601,2416602,"{""Gene Expression"": 36601}",True,,True,1
+P25_B2,P25,67,male,lung adenocarcinoma,T3N0M3,normal tissue adjacent to tumor,True,4568849,True,8898560,True,,2161,36601,2885214,"{""Gene Expression"": 36601}",True,,True,1

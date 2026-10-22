@@ -1,0 +1,3 @@
+disease,panel,n_unique_pairs,shared,high_only,low_only,neither_row,shared_plus_high_only,reconciled_sum
+SCLC,4D,4051,3564,486,1,0,4050,4051
+LUAD,S5A,5053,4041,970,42,0,5011,5053

@@ -61,3 +61,27 @@ loop, C/D: SDK multi-agent delegation + review loopback, E: real local MCP
 server called directly, E2: real local MCP server called by a DeepSeek-routed
 agent, F: model-routing audit). All passed before the B7-H3 run below was
 attempted.
+
+## Round 2 addendum
+
+Same baseline, same zero-diffs-to-source claim — round 2 added no new code
+modifications to the original repository. What it did add, all at the
+orchestration/filesystem level, never touching the repo's source:
+
+- **Resume instructions as plain-text prompts** (`run_round2/config/
+  resume_after_interruption_*.md`), re-fed to the same unmodified
+  `run_vbt.py:_run_turns()` entry point after each of the four transient
+  interruptions, telling the next turn exactly what was already done and
+  verified versus what still needed to happen. No code change — just a
+  different prompt per resume.
+- **An isolated conda environment** (`vbt_c2l`, hardlink-cloned from the
+  repo's own `vbt` env) was created outside the repo to test a CUDA-enabled
+  PyTorch build, specifically so the environment the live specialists were
+  importing from (`vbt`) would never be modified mid-run. It was deleted
+  once CPU-only cell2location proved fast enough (~2 hours) to make the GPU
+  path unnecessary; `vbt` itself was independently verified unmodified
+  throughout.
+- **A disk-quota cleanup**, performed outside any run directory, deleting
+  verified-duplicate large files left behind by earlier interrupted resumes
+  (each of which had copied the previous run's full `work/` tree forward).
+  Full record: `run_round2/config/CLEANUP_MANIFEST.md`.

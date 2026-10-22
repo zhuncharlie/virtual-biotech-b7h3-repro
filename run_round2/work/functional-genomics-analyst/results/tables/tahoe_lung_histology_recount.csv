@@ -1,0 +1,5 @@
+scope,histology_group,n_lines
+matched_round1_depmap,LUAD,11
+matched_round1_depmap,Other NSCLC,9
+matched_round1_depmap,Other lung (SMARCA4-dUT),1
+matched_round1_depmap,SCLC,1
