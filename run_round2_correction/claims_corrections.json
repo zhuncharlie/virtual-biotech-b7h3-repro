@@ -1,0 +1,311 @@
+{
+  "stats": {
+    "n_claims": 10,
+    "n_evidence": 24,
+    "n_verified_evidence": 24,
+    "claims_without_verified_evidence": [],
+    "by_agent": {
+      "genomics-analyst": 1,
+      "single-cell-analyst": 6,
+      "scientific-reviewer": 2,
+      "cso": 1
+    },
+    "by_confidence": {
+      "strong": 10
+    }
+  },
+  "claims": [
+    {
+      "id": "C130",
+      "text": "The paper's Figure 4A body-text value 'loss-of-function observed-to-expected ratio of 0.67' is reproduced by the round-1 gnomAD pLoF O/E of 0.6666399836540222 (observed 34, expected 51.00199890136719, 95% CI 0.506-0.888, p 4.29e-8); this is a gene-level population-genetic constraint metric, not a disease association. Supersedes and extends the round-2 panel-4A claims by adding the constraint stream the round-2 delivery omitted.",
+      "agent": "genomics-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "single data row gene=CD276: lof_oe 0.6666399836540222, obs_lof 34, exp_lof 51.00199890136719, oe_lower_95ci 0.5059999823570251, oe_upper_95ci 0.8880000114440918, p_value 4.2877999817392265e-08",
+          "path": "work/genomics-analyst/results/tables/cd276_panel4a_constraint_crossreference.csv",
+          "sha256": "e1df46a992abc98a2a7e93b6d660d435769c336fb182e977e4b0cbf08a5b30ef",
+          "produced_by": "genomics-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Sections 1 and 5: constraint is gene-level, not disease association; only the germline stream tests disease association and is negative",
+          "path": "work/genomics-analyst/results/reports/cd276_panel4a_constraint_crossreference.md",
+          "sha256": "5d3e931193f18f80f6def1681e10c5d645cc55b26b7bc9c7e60dd90942022db0",
+          "produced_by": "genomics-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C131",
+      "text": "Under the paper-specified adjusted mixed-effects model (adapted: rank-fallback grouping and section rather than sample random effect), 8 of 9 immune types are significantly depleted in B7-H3-high tumour spots, including all four compartments the paper names: T cell beta -0.0164 (q 5.4e-6), macrophage -0.0252 (q 5.0e-6), monocyte/myeloid -0.0073 (q 7.6e-4) and dendritic cell -0.0106 (q 0.0167), supporting the paper's immune-excluded claim. Supersedes the round-2 panel-4E 'immune-hot' claim.",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "rows analysis=primary_tumour_nb_owncov_sectionRE with cell_type T cell, Macrophage, Monocyte/myeloid, Dendritic cell: negative beta, q_bh 5.404973e-06 / 5.041e-06 / 7.560247e-04 / 0.01670369; all n_spots=13886, n_sections=12, n_patients=5",
+          "path": "work/single-cell-analyst/results/tables/visium_correction_mixed_effects_4e.csv",
+          "sha256": "c80ee720ff0a30c5e0017e4923852589f0d42011ab5f055f26e1d950cb52aefa",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Sections 4-5: 8/9 significant, all eight negative; neutrophil null q 0.988",
+          "path": "work/single-cell-analyst/results/reports/visium_correction_mixed_effects_4e_report.md",
+          "sha256": "492bc5a76aa69885d3eacc21657fd0834302963b93757bd82f72b2d3768387d3",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C132",
+      "text": "The unadjusted absolute-abundance comparison disagrees with the paper (T cells +15.37%, dendritic cells +28.77% rather than depleted) because it is confounded by a ~2.03x capture-depth difference between CD276-high and CD276-low groups, while the depth-robust composition analysis is mixed. Supersedes and extends the round-2 panel-4E claim by separating confounded unadjusted evidence from the adjusted result.",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "columns unadjusted_pct_change and pct_change_vs_low_mean: T cell +15.368 vs -3.222; dendritic cell +28.767 vs -3.440; macrophage -7.58 vs -12.00",
+          "path": "work/single-cell-analyst/results/tables/visium_correction_mixed_effects_4e.csv",
+          "sha256": "c80ee720ff0a30c5e0017e4923852589f0d42011ab5f055f26e1d950cb52aefa",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "median_depth_high vs median_depth_low for the 12 tumour sections; median of the 12 high medians 7545.0 vs low 3708.5, ratio 2.0345",
+          "path": "work/single-cell-analyst/results/tables/visium_correction_mixed_effects_4e_group_construction.csv",
+          "sha256": "20f562fa72255599285b2661e68b58f42c4d7e767984a054d21dde6c74f57de9",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Sections 5-6: depth confound and mixed composition analysis",
+          "path": "work/single-cell-analyst/results/reports/visium_correction_mixed_effects_4e_report.md",
+          "sha256": "492bc5a76aa69885d3eacc21657fd0834302963b93757bd82f72b2d3768387d3",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 3
+    },
+    {
+      "id": "C133",
+      "text": "The 4E adjusted result carries disclosed limitations: the section random-effect variance is at the boundary (0) for 7 of 9 immune types (only T cell 0.00492/ICC 0.114 and mast cell 0.00283/ICC 0.095 are non-zero), the rank-fallback grouping is a positive-vs-zero contrast (low group 0% CD276-positive in all 12 tumour sections), and Wald p-values are anticonservative under spatial autocorrelation. Extends the round-2 panel-4E claim with limitations the round-2 delivery did not disclose.",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "columns re_variance (re0) and icc_total: re0=0 for B, NK, macrophage, monocyte, DC, neutrophil, plasma; T cell 0.0049195 / icc 0.11423; mast cell 0.0028262 / icc 0.09456",
+          "path": "work/single-cell-analyst/results/tables/visium_correction_mixed_effects_4e.csv",
+          "sha256": "c80ee720ff0a30c5e0017e4923852589f0d42011ab5f055f26e1d950cb52aefa",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "column pct_positive_low = 0 for all 12 tumour sections; pct_positive_high 52.34-100",
+          "path": "work/single-cell-analyst/results/tables/visium_correction_mixed_effects_4e_group_construction.csv",
+          "sha256": "20f562fa72255599285b2661e68b58f42c4d7e767984a054d21dde6c74f57de9",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Limitations 12-14 and section 4 note on the rank-fallback positive-vs-zero grouping",
+          "path": "work/single-cell-analyst/results/reports/visium_correction_mixed_effects_4e_report.md",
+          "sha256": "492bc5a76aa69885d3eacc21657fd0834302963b93757bd82f72b2d3768387d3",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 3
+    },
+    {
+      "id": "C134",
+      "text": "CD276 is not significant in any of the 15 tested non-fibroblast disease-vs-normal contrasts (11 primary: 6 LUAD + 5 SCLC cell types; 4 paired-donor LUAD sensitivity contrasts); all p/padj values exceed 0.05 and the minimum non-null padj is 0.291. The paper's fibroblast-specific claim is untestable (31 normal cells across 3 donors, only 1 donor with >=10 cells) rather than refuted. Supersedes the round-2 panel-4B/4C claim that treated these nulls as bearing on the fibroblast claim.",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "15 rows = 11 analysis=primary_all_donors + 4 analysis=paired_3donors; significant_at_padj0.05_absLFC0.5 False in all; minimum non-null padj 0.291346 (SCLC macrophage, log2FoldChange -0.95286); three blank padj rows have p 0.490/0.253/0.544",
+          "path": "work/single-cell-analyst/results/tables/scrna_cd276_de_summary.csv",
+          "sha256": "772314a406f32a7569ce75f34334aea0956498e4513350c26f770e3e8efc21d5",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "fibroblast row: normal compartment 31 cells across 3 donors, 1 donor >=10 cells, testable=False",
+          "path": "work/single-cell-analyst/results/tables/scrna_de_testability_by_celltype.csv",
+          "sha256": "88a636c5733779b7cc87ceb1f4c72c62a6c2157faaad7605393bde4d8b15d848",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Sections 1-2: the fibroblast contrast was never tested; the 15 nulls are a broader negative, not a refutation",
+          "path": "work/single-cell-analyst/results/reports/scrna_fibroblast_census_check.md",
+          "sha256": "8b91e5ee579b2f9ea1fd5ec5d348276894ae13cc3df60d143b723616f2a08677",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 3
+    },
+    {
+      "id": "C135",
+      "text": "No safe additional matched normal-lung fibroblast donor exists: the matched study has 28/5/4 cells across 3 donors (one donor >=10), and the only multi-donor alternative (104 cells / 17 donors / 4 with >=10) is a normal-only atlas on a different platform with no tumour arm. No additional data were pulled. Extends the round-2 panel-4C claim with the census check.",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Sections 2-4: queries, per-donor counts, and the decision not to pull",
+          "path": "work/single-cell-analyst/results/reports/scrna_fibroblast_census_check.md",
+          "sha256": "8b91e5ee579b2f9ea1fd5ec5d348276894ae13cc3df60d143b723616f2a08677",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "table",
+          "verified": true,
+          "note": "rows 2-4 (576f193c: RU675 28, RU682 5, RU685 4) and rows 5-8 (350237e0: 25/18/17/14, normal-only, 10x 5' vs 10x 3' v2)",
+          "path": "work/single-cell-analyst/results/tables/scrna_fibroblast_census_donor_counts.csv",
+          "sha256": "fd98f9096b2a9dccb6c2111251b22f3b7ed33b2d79001424786c105dd254b8d8",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C136",
+      "text": "Independent review returned ACCEPT WITH DISCLOSED LIMITATIONS with no blocking scientific error, and after the editorial fixes a targeted re-confirmation found findings F7, F8, F9, F11, F12 and F17 all resolved with no new defects and no re-analysis, making the corrected package citable as final.",
+      "agent": "scientific-reviewer",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "Verdict line 9 and section 5: no blocking error; p-value fixes and caveat edits required",
+          "path": "work/scientific-reviewer/results/reports/review_correction_pass.md",
+          "sha256": "a87c2b10714a96cdefe2639331d37a4bb8c80c1cf5c382d176f3ecab9fa99d52",
+          "produced_by": "scientific-reviewer"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "verdicts table: F7, F8, F9, F11, F12, F17 all RESOLVED; no new defects; corrected package citable as final",
+          "path": "work/scientific-reviewer/results/reports/review_reconfirmation_corrections.md",
+          "sha256": "beb51f69a43202914bf32452710be39145cbb2c5bf3f19bc3d7751fec7673847",
+          "produced_by": "scientific-reviewer"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C137",
+      "text": "The reused 2.05-radius neighbourhood graph returns up to 8 neighbours rather than the labelled 6 (4 at distance 1.414 and 4 at 2.0; 68.1% of spots have 8), so the earlier 'six-neighbour-only' sensitivity is a partial-ring subset, while the complete-ring sensitivity is consistent with the primary adjusted model.",
+      "agent": "single-cell-analyst",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "line 6: neighbour-count distribution 0:130, 1:274, 2:512, 3:914, 4:1667, 5:2635, 6:3000, 7:6013, 8:32303 (68.1% with 8)",
+          "path": "work/single-cell-analyst/results/reports/visium_correction_mixed_effects_4e_fit_log.txt",
+          "sha256": "0a588c018cd28061c097419b2596e187abc3b622dedc293b53af8b326f74f4e3",
+          "produced_by": "single-cell-analyst"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "lattice caveat section",
+          "path": "work/single-cell-analyst/results/reports/visium_correction_mixed_effects_4e_report.md",
+          "sha256": "492bc5a76aa69885d3eacc21657fd0834302963b93757bd82f72b2d3768387d3",
+          "produced_by": "single-cell-analyst"
+        }
+      ],
+      "n_verified": 2
+    },
+    {
+      "id": "C138",
+      "text": "The round-2 delivery (run 76d40ca3) asserted an 'immune-hot' niche contrary to the paper's immune-excluded claim, omitted the gnomAD constraint stream from panel 4A, and described the 15 non-fibroblast null contrasts as if they tested the paper's fibroblast claim; these are the errors corrected and recorded here.",
+      "agent": "scientific-reviewer",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "lines 18, 74, 82, 119: immune-hot characterization",
+          "path": "report/archive/round2_delivery/panel_by_paper_comparison.md",
+          "sha256": "836abbef629686022a7bbde4e76110787b8f87ace933c45aa7750a66b45a1162",
+          "produced_by": "_cso"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "lines 39, 49: immune-hot characterization",
+          "path": "report/archive/round2_delivery/FINAL_REPORT.md",
+          "sha256": "6cbd7bf45a4cc7257eadbfc63a862ec1299629fb78e2fe188f849193ff10f068",
+          "produced_by": "_cso"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "section 2 'Round-2 baseline comparison' and section 4: documents the erroneous round-2 statements",
+          "path": "work/scientific-reviewer/results/reports/review_correction_pass.md",
+          "sha256": "a87c2b10714a96cdefe2639331d37a4bb8c80c1cf5c382d176f3ecab9fa99d52",
+          "produced_by": "scientific-reviewer"
+        }
+      ],
+      "n_verified": 3
+    },
+    {
+      "id": "C139",
+      "text": "Panels 4D/S5A (LIANA), 4F (TCGA survival) and the Tahoe-100M/DepMap context are carried forward unchanged from the round-2 delivery; this correction pass did not re-analyse them.",
+      "agent": "cso",
+      "confidence": "strong",
+      "turn": null,
+      "evidence": [
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "sections on panels 4D/S5A, 4F and Tahoe/DepMap, copied verbatim from run 76d40ca3 and carried into the final comparison unchanged",
+          "path": "report/archive/round2_delivery/panel_by_paper_comparison.md",
+          "sha256": "836abbef629686022a7bbde4e76110787b8f87ace933c45aa7750a66b45a1162",
+          "produced_by": "_cso"
+        },
+        {
+          "kind": "artifact",
+          "verified": true,
+          "note": "same panels in the archived round-2 final report",
+          "path": "report/archive/round2_delivery/FINAL_REPORT.md",
+          "sha256": "6cbd7bf45a4cc7257eadbfc63a862ec1299629fb78e2fe188f849193ff10f068",
+          "produced_by": "_cso"
+        }
+      ],
+      "n_verified": 2
+    }
+  ]
+}

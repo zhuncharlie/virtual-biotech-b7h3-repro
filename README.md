@@ -174,11 +174,16 @@ for exactly which run directory holds which content.
 **Workflow diagram:** [`run_round2/report/workflow_diagram.svg`](run_round2/report/workflow_diagram.svg) ·
 **15 claim-evidence objects:** [`run_round2/evidence/claims.json`](run_round2/evidence/claims.json)
 
-**3-page visual summary:** [`report_B7H3_round2.pdf`](report_B7H3_round2.pdf) —
-workflow comparison (paper's one-shot pipeline vs. our review-revise-reaccept
-loop), key result figures against the paper's claims, and an engineering note
-on DeepSeek vs. Claude as the agent driver (cost, model-routing audit,
-reliability caveats).
+**Full report (PDF):** [`report_B7H3_round2.pdf`](report_B7H3_round2.pdf) —
+motivation and scope, the workflow comparison (paper's one-shot pipeline vs.
+our review-revise-reaccept loop), each result figure with a biology-grounded
+analysis against the paper's verified claims, a panel-by-panel verdict table,
+a discussion of what the ~60%-supported outcome means for the architecture
+vs. the model backend, contributions/limitations, a DeepSeek-vs-Claude
+engineering note (corrected cost accounting, model-routing audit, reliability
+caveats), and closing thoughts on AI-assisted drug discovery (the
+human-expert-review requirement, where this points next). Incorporates the
+Figure 4E correction below as already-reviewed, final content.
 
 ### ⚠️ Post-review correction (2026-10-22) — Figure 4E direction was backwards
 
@@ -193,30 +198,39 @@ pipeline reruns) also added an existing-but-unused round-1 gene-constraint
 number to panel 4A, and clarified that panel 4C's fibroblast-specific DE
 claim was never actually testable in this reproduction (not refuted).
 
-**This correction has not yet been through this project's own
-scientific-reviewer pass** — it is specialist self-reported and
-self-verified only. Read
-[`run_round2_correction/FINAL_REPORT.md`](run_round2_correction/FINAL_REPORT.md)
-(Chinese; a readable PDF is at
-[`report_B7H3_round2_correction_zh.pdf`](report_B7H3_round2_correction_zh.pdf))
-before trusting the Figure 4E/S5B framing anywhere above — in short: under
-the paper's own adjustment model (reused on existing per-spot data), our
-reproduction now **agrees** with the paper's immune-excluded claim for all
-four named cell types, reversing the round-2 delivery's "disagree, depth
-artifact" verdict.
+**Update 2026-10-22, later the same day:** this correction has since been
+through this project's own scientific-reviewer pass — verdict **ACCEPT WITH
+DISCLOSED LIMITATIONS** (no blocking scientific error; three transcribed
+p-values in a secondary sensitivity table were corrected by direct
+substitution, no re-fitting, no change to any conclusion). See
+[`run_round2_correction/report/ERRATA_figure4_corrections.md`](run_round2_correction/report/ERRATA_figure4_corrections.md)
+for the full account and
+[`run_round2_correction/report/panel_by_paper_comparison.md`](run_round2_correction/report/panel_by_paper_comparison.md)
+for the final, reviewed comparison (a Chinese-language summary PDF is at
+[`report_B7H3_round2_correction_zh.pdf`](report_B7H3_round2_correction_zh.pdf)).
+In short: under the paper's own adjustment model (reused on existing
+per-spot data, no new Visium pull or cell2location re-run), this
+reproduction **agrees** with the paper's immune-excluded claim for all four
+named cell types, reversing the round-2 delivery's "disagree, depth
+artifact" verdict. The main English report, [`report_B7H3_round2.pdf`](report_B7H3_round2.pdf),
+has been rebuilt to reflect this reviewed, final state throughout.
 
 **Headline result: CD276 is a low-confidence, expression-defined target.**
 It has no LUAD/SCLC germline genetic support (0/8 credible sets, 0/67 L2G
 loci), is **not tumour-restricted** (36.5% detection in normal lung
-macrophages, 30.8% in LUAD fibroblasts), is not differentially expressed in
-any of 15 disease-vs-normal contrasts, and is not essential in cancer cell
+macrophages, 30.8% in LUAD fibroblasts), and is not differentially expressed
+in any of the 15 testable disease-vs-normal contrasts (the paper's specific
+fibroblast-expression claim was never actually testable here — 31 normal
+cells across 3 donors — not refuted). CD276 is not essential in cancer cell
 lines (mean CERES −0.230 LUAD, 1/46 lines below the essentiality threshold).
 The TCGA LUAD survival association reproduces only unadjusted (OS HR 1.80,
 p = 0.0051) and is not independent of stage (adjusted OS p = 0.106). The
-paper's reported "immune-hot" spatial niche is largely a capture-depth/edge
-artifact; the depth-robust signal is malignant-cell enrichment with
-endothelial, NK, and macrophage depletion. **This supports round 1's
-low-confidence stance on CD276 but revises away its SCLC-over-LUAD staging
+paper's immune-excluded spatial niche claim **is supported** under the
+paper's own adjusted statistical model (8/9 immune types significantly
+depleted, all four the paper names by name); a naive unadjusted comparison
+runs the opposite direction and is a capture-depth artifact. **This
+supports round 1's low-confidence stance on CD276 but revises away its
+SCLC-over-LUAD staging
 claim** — the only quantitative positives found in round 2 are in LUAD.
 
 **Two engineering stories worth reading even if you don't care about the
