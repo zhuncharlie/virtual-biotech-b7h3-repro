@@ -174,6 +174,12 @@ for exactly which run directory holds which content.
 **Workflow diagram:** [`run_round2/report/workflow_diagram.svg`](run_round2/report/workflow_diagram.svg) ·
 **15 claim-evidence objects:** [`run_round2/evidence/claims.json`](run_round2/evidence/claims.json)
 
+**3-page visual summary:** [`report_B7H3_round2.pdf`](report_B7H3_round2.pdf) —
+workflow comparison (paper's one-shot pipeline vs. our review-revise-reaccept
+loop), key result figures against the paper's claims, and an engineering note
+on DeepSeek vs. Claude as the agent driver (cost, model-routing audit,
+reliability caveats).
+
 **Headline result: CD276 is a low-confidence, expression-defined target.**
 It has no LUAD/SCLC germline genetic support (0/8 credible sets, 0/67 L2G
 loci), is **not tumour-restricted** (36.5% detection in normal lung
