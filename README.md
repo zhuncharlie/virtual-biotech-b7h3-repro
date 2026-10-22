@@ -180,6 +180,31 @@ loop), key result figures against the paper's claims, and an engineering note
 on DeepSeek vs. Claude as the agent driver (cost, model-routing audit,
 reliability caveats).
 
+### ⚠️ Post-review correction (2026-10-22) — Figure 4E direction was backwards
+
+An external check against the paper's own primary-source text found that the
+round-2 documents above (including the 3-page PDF) mischaracterize the
+paper's Figure 4E claim as an **"immune-hot"** niche. The paper's actual
+caption and body text say **"immune-excluded"** (depletion of neighbouring
+T cells, macrophages, monocytes and dendritic cells near high-CD276 spots) —
+the opposite direction, consistently wrong across every round-2 deliverable.
+A targeted correction pass (reusing existing data, no new data pulls or
+pipeline reruns) also added an existing-but-unused round-1 gene-constraint
+number to panel 4A, and clarified that panel 4C's fibroblast-specific DE
+claim was never actually testable in this reproduction (not refuted).
+
+**This correction has not yet been through this project's own
+scientific-reviewer pass** — it is specialist self-reported and
+self-verified only. Read
+[`run_round2_correction/FINAL_REPORT.md`](run_round2_correction/FINAL_REPORT.md)
+(Chinese; a readable PDF is at
+[`report_B7H3_round2_correction_zh.pdf`](report_B7H3_round2_correction_zh.pdf))
+before trusting the Figure 4E/S5B framing anywhere above — in short: under
+the paper's own adjustment model (reused on existing per-spot data), our
+reproduction now **agrees** with the paper's immune-excluded claim for all
+four named cell types, reversing the round-2 delivery's "disagree, depth
+artifact" verdict.
+
 **Headline result: CD276 is a low-confidence, expression-defined target.**
 It has no LUAD/SCLC germline genetic support (0/8 credible sets, 0/67 L2G
 loci), is **not tumour-restricted** (36.5% detection in normal lung

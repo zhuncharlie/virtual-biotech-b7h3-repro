@@ -1,0 +1,21 @@
+dataset_id,study_role,donor_id,n_normal_lung_fibroblasts,meets_ge10,assay
+576f193c-75d0-4a11-bd25-8676587e6dc2,matched multi-histology study,RU675,28,True,10x 3' v2
+576f193c-75d0-4a11-bd25-8676587e6dc2,matched multi-histology study,RU682,5,False,10x 3' v2
+576f193c-75d0-4a11-bd25-8676587e6dc2,matched multi-histology study,RU685,4,False,10x 3' v2
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR15332,25,True,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR14815,18,True,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR14944,17,True,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR15383,14,True,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR14732,5,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR15503,5,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR15246,4,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR14806,3,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR15111,2,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR14794,2,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR15404,2,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR14776,2,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR14706,1,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR14969,1,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR14774,1,False,10x 5' transcription profiling
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR15280,1,False,10x 5' v1
+350237e0-9f48-4cbd-9140-3b44495549f3,normal-only atlas (unmatched),HDBR15168,1,False,10x 5' v1
